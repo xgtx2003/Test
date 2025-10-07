@@ -1,0 +1,396 @@
+[
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "1-",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "1.1.2."
+      ],
+      [
+        "regulation",
+        "MAIN",
+        "1.1.4."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "2-",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "2.1",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "2.2",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "2.3",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "2.4",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "3-",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "2."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "3.1",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "2.4."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "3.2",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "2.6."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "3.3",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "3.4",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "1.1.2."
+      ],
+      [
+        "regulation",
+        "MAIN",
+        "1.1.4."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "3.5",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "2.3."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "3.6",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "2.2."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "4-",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "4.1",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "5.3.1.4."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "4.2",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "4.3",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "5.3.3.2."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5-",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "5."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5.1",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5.2",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "8.2.3.1.1."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5.2.1",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5.2.2",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5.3",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "8.2.1.2.10.3."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5.3.1",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5.3.2",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5.4",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "8.2.1.2.10.3."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5.4.1",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "5.4.2",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "6-",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7-",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "8.1."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.1",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.2",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "8.2.1.2.10.3."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.2.1",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "5.3.1.5.1."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.2.2",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "5.3.1.5.2."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.2.3",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "5.3.1.5.2."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.2.4",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.2.5",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "5.3.1.4.1."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.2.6",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.3",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "8.2.1.2.10.4."
+      ]
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.3.1",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.3.2",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.3.3",
+    "choices": []
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "7.3.4",
+    "choices": [
+      [
+        "regulation",
+        "MAIN",
+        "8.2.3.1.3."
+      ]
+    ]
+  }
+]

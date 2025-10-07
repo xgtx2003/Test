@@ -1,0 +1,5269 @@
+[
+  {
+    "gso_chapter": {
+      "chapter_id": "1-",
+      "parameters": [],
+      "topic_keywords": [
+        "SCOPE"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.99997973,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9777564,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "application",
+            "scope"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9737945,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9428234,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.10.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.10.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "test types",
+            "procedures"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8625833,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Special provisions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "1-"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "2-",
+      "parameters": [],
+      "topic_keywords": [
+        "COMPLEMENTARY REFERENCES"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9952632,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9658996,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.96544635,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.7.5."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.7.5.",
+          "parameters": [],
+          "topic_keywords": [
+            "table",
+            "Annex 2"
+          ],
+          "context_keywords": [
+            "item 17"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.95735765,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "General"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.7666432,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Special provisions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "2-"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "2.1",
+      "parameters": [],
+      "topic_keywords": [
+        "Motor Vehicles - Conformity Certificates"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.99566853,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.6.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.6.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity",
+            "OBD tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9869292,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle type approval"
+          ],
+          "context_keywords": [
+            "certificate of conformity",
+            "Contracting Parties"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.97931457,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.11."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.11.",
+          "parameters": [],
+          "topic_keywords": [
+            "test results",
+            "vehicle identification"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.96826136,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.19."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.19.",
+          "parameters": [],
+          "topic_keywords": [
+            "Approval of a vehicle"
+          ],
+          "context_keywords": [
+            "vehicle type",
+            "limitation"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.93991333,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "4."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.",
+          "parameters": [],
+          "topic_keywords": [
+            "APPROVAL",
+            "vehicle type approval"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "2.1"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "2.2",
+      "parameters": [],
+      "topic_keywords": [
+        "Motor Vehicles - Conformity Certificates for Vehicles Manufactured in Multi - Stages"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9727791,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle type approval"
+          ],
+          "context_keywords": [
+            "certificate of conformity",
+            "Contracting Parties"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8879841,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.19."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.19.",
+          "parameters": [],
+          "topic_keywords": [
+            "Approval of a vehicle"
+          ],
+          "context_keywords": [
+            "vehicle type",
+            "limitation"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8862236,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "4."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.",
+          "parameters": [],
+          "topic_keywords": [
+            "APPROVAL",
+            "vehicle type approval"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8726732,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity of production",
+            "in-service vehicles"
+          ],
+          "context_keywords": [
+            "emission control devices",
+            "normal useful life"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.858244,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.6."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.6.",
+          "parameters": [],
+          "topic_keywords": [
+            "testing requirements",
+            "effectiveness demonstration"
+          ],
+          "context_keywords": [
+            "components",
+            "vehicles"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "2.2"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "2.3",
+      "parameters": [],
+      "topic_keywords": [
+        "Motor Vehicles - Methods of Testing for Pollutants Emitted from Diesel Engined Vehicles - Part 1: Determination of Exhaust Gaseous Pollutants"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9320833,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Gaseous pollutants"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "oxides of nitrogen",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8949732,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "4.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle check",
+            "emission tests"
+          ],
+          "context_keywords": [
+            "pre-conditioned vehicles"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8709269,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "3."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.",
+          "parameters": [],
+          "topic_keywords": [
+            "DIAGNOSIS AND MAINTENANCE"
+          ],
+          "context_keywords": [
+            "vehicles",
+            "testing",
+            "exhaust emissions"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.5821941,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.1.3.2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.1.3.2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "device design",
+            "gaseous pollutants",
+            "leaded petrol"
+          ],
+          "context_keywords": [
+            "adverse effects"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.45528945,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.12."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.12.",
+          "parameters": [],
+          "topic_keywords": [
+            "Pollution control devices"
+          ],
+          "context_keywords": [
+            "vehicle components",
+            "emissions control"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "2.3"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "2.4",
+      "parameters": [],
+      "topic_keywords": [
+        "Motor Vehicles - Methods of Testing for Pollutants Emitted from Diesel Engined Vehicles - Part 2: Determination of Smoke"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.90481883,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.11."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.11.",
+          "parameters": [],
+          "topic_keywords": [
+            "test results",
+            "vehicle identification"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9005298,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "4.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle check",
+            "emission tests"
+          ],
+          "context_keywords": [
+            "pre-conditioned vehicles"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.69966495,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "3."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.",
+          "parameters": [],
+          "topic_keywords": [
+            "DIAGNOSIS AND MAINTENANCE"
+          ],
+          "context_keywords": [
+            "vehicles",
+            "testing",
+            "exhaust emissions"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.6885731,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.6."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.6.",
+          "parameters": [],
+          "topic_keywords": [
+            "testing requirements",
+            "effectiveness demonstration"
+          ],
+          "context_keywords": [
+            "components",
+            "vehicles"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.595669,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "4."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.",
+          "parameters": [],
+          "topic_keywords": [
+            "IN-SERVICE TESTING",
+            "emission tests"
+          ],
+          "context_keywords": [
+            "pre-conditioned vehicles"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "2.4"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "3-",
+      "parameters": [],
+      "topic_keywords": [
+        "DEFINITIONS"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.99477994,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.",
+          "parameters": [],
+          "topic_keywords": [
+            "DEFINITIONS"
+          ],
+          "context_keywords": [
+            "Regulation"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9908744,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.96021223,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9078038,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "General"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.7633074,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "application",
+            "scope"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "3-"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "3.1",
+      "parameters": [],
+      "topic_keywords": [
+        "Gaseous pollutants"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.99824536,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Gaseous pollutants"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "oxides of nitrogen",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9364014,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.1.3.2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.1.3.2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "device design",
+            "gaseous pollutants",
+            "leaded petrol"
+          ],
+          "context_keywords": [
+            "adverse effects"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.92944044,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "4.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "pollutant measurement",
+            "test statistic"
+          ],
+          "context_keywords": [
+            "limit value"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8548847,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.9."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.9.",
+          "parameters": [],
+          "topic_keywords": [
+            "impact assessment",
+            "emissions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.7314424,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.4.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.4.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "gaseous fuels",
+            "emission limits"
+          ],
+          "context_keywords": [
+            "petrol-engined vehicles"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "3.1"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "3.2",
+      "parameters": [],
+      "topic_keywords": [
+        "Exhaust gases"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.97997653,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.5.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.5.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9592307,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.9."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.9.",
+          "parameters": [],
+          "topic_keywords": [
+            "impact assessment",
+            "emissions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9503189,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "outlying emitter conditions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.93991333,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "proportional sample",
+            "bags",
+            "carbon monoxide",
+            "hydrocarbons",
+            "nitrogen oxide",
+            "particulate pollutants"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9078038,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "test procedure",
+            "Annex 4"
+          ],
+          "context_keywords": [
+            "collection",
+            "analysis",
+            "gases",
+            "particulates"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "3.2"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "3.3",
+      "parameters": [],
+      "topic_keywords": [
+        "Smoke"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.7052778,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.5223697,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.39852345,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "application",
+            "scope"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.34334174,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Special provisions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.20024471,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "General"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "3.3"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "3.4",
+      "parameters": [],
+      "topic_keywords": [
+        "Light duty vehicles"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.98975134,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle type description"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.97090924,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "model name"
+          ],
+          "context_keywords": [
+            "vehicles"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8987666,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.19."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.19.",
+          "parameters": [],
+          "topic_keywords": [
+            "Approval of a vehicle"
+          ],
+          "context_keywords": [
+            "vehicle type",
+            "limitation"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8850366,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.11."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.11.",
+          "parameters": [],
+          "topic_keywords": [
+            "test results",
+            "vehicle identification"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8115267,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "Vehicle type"
+          ],
+          "context_keywords": [
+            "power-driven vehicles"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "3.4"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "3.5",
+      "parameters": [],
+      "topic_keywords": [
+        "Maximum weight"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.97419035,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "Maximum mass"
+          ],
+          "context_keywords": [
+            "technically permissible",
+            "vehicle manufacturer"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.96405166,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.89533985,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.10.6."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.10.6.",
+          "parameters": [],
+          "topic_keywords": [
+            "sample size",
+            "sampling plan"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.85269034,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "3.2.3.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.2.3.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "sample passed",
+            "maximum sample size",
+            "excess emission"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8517063,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "3.2.4.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.2.4.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "sample passed",
+            "maximum sample size",
+            "excess emission"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "3.5"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "3.6",
+      "parameters": [],
+      "topic_keywords": [
+        "Kerb weight"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.882022,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8500957,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.5510604,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Special provisions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.50858223,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "General"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.48578268,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "5."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.",
+          "parameters": [],
+          "topic_keywords": [
+            "EVALUATION OF RESULTS",
+            "test results"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "3.6"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "4-",
+      "parameters": [],
+      "topic_keywords": [
+        "REQUIREMENTS"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.99723166,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "3."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.",
+          "parameters": [],
+          "topic_keywords": [
+            "APPLICATION FOR APPROVAL"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.99568534,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.99482024,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9780517,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "application",
+            "scope"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.97779876,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.",
+          "parameters": [],
+          "topic_keywords": [
+            "remedial measures requirements",
+            "identification"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "4-"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "4.1",
+      "parameters": [],
+      "topic_keywords": [
+        "gaseous pollutants",
+        "mass limits",
+        "Carbon Monoxide",
+        "Hydrocarbons",
+        "oxides of Nitrogen"
+      ],
+      "context_keywords": [
+        "testing",
+        "vehicle",
+        "reference weight"
+      ],
+      "table_headers": [
+        "Reference weight (kg)",
+        "CO Type Acceptance (g/test)",
+        "CO test (g/test)",
+        "HC+NOx Type Acceptance (g/test)",
+        "HC+NOx test (g/test)"
+      ]
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9716717,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Gaseous pollutants"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "oxides of nitrogen",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.88523525,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "7.1.1.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "7.1.1.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "approval extension",
+            "reference mass",
+            "pollutants limits"
+          ],
+          "context_keywords": [
+            "category N1",
+            "category M"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.88100195,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "limit values",
+            "gaseous emissions",
+            "particulate emissions"
+          ],
+          "context_keywords": [
+            "deterioration factors",
+            "periodically regenerating systems"
+          ],
+          "table_headers": [
+            "Category",
+            "Class",
+            "Reference mass (RW) (kg)",
+            "Mass of carbon monoxide (CO) L1 (g/km)",
+            "Mass of hydrocarbons (HC) L2 (g/km)",
+            "Mass of oxides of nitrogen (NOx) L3 (g/km)",
+            "Combined mass of hydrocarbons and oxides of nitrogen (HC + NOx) L2 + L3 (g/km)",
+            "Mass of particulates (PM) L4 (g/km)"
+          ]
+        }
+      },
+      {
+        "score": 0.7424217,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1.2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "New type approvals",
+            "emission limits"
+          ],
+          "context_keywords": [
+            "Type I test",
+            "Row A",
+            "Row B",
+            "vehicles",
+            "category M",
+            "category N1"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.7169128,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "proportional sample",
+            "bags",
+            "carbon monoxide",
+            "hydrocarbons",
+            "nitrogen oxide",
+            "particulate pollutants"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "4.1"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "4.2",
+      "parameters": [],
+      "topic_keywords": [
+        "light absorption coefficient",
+        "exhaust gases",
+        "smoke",
+        "free acceleration",
+        "steady speeds"
+      ],
+      "context_keywords": [
+        "testing",
+        "vehicle",
+        "engine",
+        "exhaust driven supercharger"
+      ],
+      "table_headers": [
+        "Nominal flow (litres/second)",
+        "Absorption coefficient (m-1)"
+      ]
+    },
+    "ece_candidates": [
+      {
+        "score": 0.69966495,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.5.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.5.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.68794453,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "proportional sample",
+            "bags",
+            "carbon monoxide",
+            "hydrocarbons",
+            "nitrogen oxide",
+            "particulate pollutants"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.45750028,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "3."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.",
+          "parameters": [],
+          "topic_keywords": [
+            "DIAGNOSIS AND MAINTENANCE"
+          ],
+          "context_keywords": [
+            "vehicles",
+            "testing",
+            "exhaust emissions"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.4028619,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Exhaust emissions",
+            "durability",
+            "anti-pollution devices",
+            "OBD systems",
+            "hybrid electric vehicles",
+            "compression-ignition engines"
+          ],
+          "context_keywords": [
+            "categories M1",
+            "categories N1",
+            "four wheels"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.38439205,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "information document"
+          ],
+          "context_keywords": [
+            "exhaust emissions",
+            "evaporative emissions",
+            "durability",
+            "OBD system",
+            "Annex 1",
+            "Annex 2"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "4.2"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "4.3",
+      "parameters": [],
+      "topic_keywords": [
+        "crankcase emission"
+      ],
+      "context_keywords": [
+        "vehicle",
+        "atmosphere"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9497627,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "crankcase ventilation system",
+            "emission prevention"
+          ],
+          "context_keywords": [
+            "atmosphere"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.92775697,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "Type III test",
+            "crankcase gases"
+          ],
+          "context_keywords": [
+            "emissions verification"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.90632194,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "approval mark",
+            "conformity"
+          ],
+          "context_keywords": [
+            "emission of pollutants",
+            "crankcase",
+            "evaporative emissions"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.85919183,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "4.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle check",
+            "emission tests"
+          ],
+          "context_keywords": [
+            "pre-conditioned vehicles"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.7713272,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.8."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.8.",
+          "parameters": [],
+          "topic_keywords": [
+            "Engine crankcase"
+          ],
+          "context_keywords": [
+            "engine",
+            "oil sump"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "4.3"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5-",
+      "parameters": [],
+      "topic_keywords": [
+        "TESTING"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9953904,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "Description of tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.99293363,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.10.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.10.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "test types",
+            "procedures"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9853279,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "production line testing",
+            "running-in"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9837225,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.5.3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.5.3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "two tests",
+            "conditions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.98105836,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.5."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.5.",
+          "parameters": [],
+          "topic_keywords": [
+            "end-of-production-line testing",
+            "sampling"
+          ],
+          "context_keywords": [
+            "routine testing"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5-"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5.1",
+      "parameters": [],
+      "topic_keywords": [
+        "technical data supply"
+      ],
+      "context_keywords": [
+        "manufacturer",
+        "testing authorities"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9650533,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "manufacturer information"
+          ],
+          "context_keywords": [
+            "name",
+            "address"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.90681833,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "3.1.1.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.1.1.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "manufacturer declaration"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8191712,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.8."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.8.",
+          "parameters": [],
+          "topic_keywords": [
+            "information period"
+          ],
+          "context_keywords": [
+            "manufacturer information"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.74539834,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.7."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.7.",
+          "parameters": [],
+          "topic_keywords": [
+            "component supply system"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.7442848,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "4.7."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.7.",
+          "parameters": [],
+          "topic_keywords": [
+            "approval mark placement",
+            "vehicle data plate"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5.1"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5.2",
+      "parameters": [],
+      "topic_keywords": [
+        "Sampling"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.99760324,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.10.6."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.10.6.",
+          "parameters": [],
+          "topic_keywords": [
+            "sample size",
+            "sampling plan"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9763105,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.97543687,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.5."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.5.",
+          "parameters": [],
+          "topic_keywords": [
+            "end-of-production-line testing",
+            "sampling"
+          ],
+          "context_keywords": [
+            "routine testing"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.96891505,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "4.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "sampling procedure",
+            "batch testing"
+          ],
+          "context_keywords": [
+            "producer's risk",
+            "consumer's risk"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9272316,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5.2"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5.2.1",
+      "parameters": [],
+      "topic_keywords": [
+        "Type test",
+        "sampling"
+      ],
+      "context_keywords": [
+        "vehicle",
+        "engine",
+        "new type"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.98871195,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.11."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.11.",
+          "parameters": [],
+          "topic_keywords": [
+            "test results",
+            "vehicle identification"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.988085,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle type description"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.98235554,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "Test procedure",
+            "type approval"
+          ],
+          "context_keywords": [
+            "vehicles",
+            "engine types"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9747731,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "New type approvals"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.91505283,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "model name"
+          ],
+          "context_keywords": [
+            "vehicles"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5.2.1"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5.2.2",
+      "parameters": [],
+      "topic_keywords": [
+        "Acceptance test",
+        "sampling"
+      ],
+      "context_keywords": [
+        "vehicles",
+        "same type",
+        "consignment"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9791557,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.19."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.19.",
+          "parameters": [],
+          "topic_keywords": [
+            "Approval of a vehicle"
+          ],
+          "context_keywords": [
+            "vehicle type",
+            "limitation"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.95861524,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "4."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.",
+          "parameters": [],
+          "topic_keywords": [
+            "APPROVAL",
+            "vehicle type approval"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.95846003,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "Test procedure",
+            "type approval"
+          ],
+          "context_keywords": [
+            "vehicles",
+            "engine types"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.92892635,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle type approval"
+          ],
+          "context_keywords": [
+            "certificate of conformity",
+            "Contracting Parties"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.6445608,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "4.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "acceptance rejection sampling",
+            "decision numbers"
+          ],
+          "context_keywords": [
+            "cumulative sample size"
+          ],
+          "table_headers": [
+            "Cumulative sample size (n)",
+            "Pass decision number",
+            "Fail decision number"
+          ]
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5.2.2"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5.3",
+      "parameters": [],
+      "topic_keywords": [
+        "Methods of Testing",
+        "testing standards"
+      ],
+      "context_keywords": [
+        "Gulf Standards"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.98771137,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.10.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.10.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "test types",
+            "procedures"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9633687,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "Description of tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.93183565,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.16.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.16.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "test procedures"
+          ],
+          "context_keywords": [
+            "Type I test",
+            "Type VI test"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8891444,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "type approval extensions",
+            "testing"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8414352,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "5."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.",
+          "parameters": [],
+          "topic_keywords": [
+            "EVALUATION OF RESULTS",
+            "test results"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5.3"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5.3.1",
+      "parameters": [],
+      "topic_keywords": [
+        "Determination of Exhaust Gaseous Pollutants"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9759923,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Gaseous pollutants"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "oxides of nitrogen",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9411153,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "proportional sample",
+            "bags",
+            "carbon monoxide",
+            "hydrocarbons",
+            "nitrogen oxide",
+            "particulate pollutants"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.91715443,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.5.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.5.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.91565824,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "3."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.",
+          "parameters": [],
+          "topic_keywords": [
+            "PROCEDURE WITH OUTLYING EMITTERS"
+          ],
+          "context_keywords": [
+            "sample",
+            "regulated pollutants",
+            "measured"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.76524264,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.1.3.2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.1.3.2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "device design",
+            "gaseous pollutants",
+            "leaded petrol"
+          ],
+          "context_keywords": [
+            "adverse effects"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5.3.1"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5.3.2",
+      "parameters": [],
+      "topic_keywords": [
+        "Determination of Smoke"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.8112278,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "outlying emitter conditions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.6438893,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.56511873,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.9."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.9.",
+          "parameters": [],
+          "topic_keywords": [
+            "impact assessment",
+            "emissions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.48733792,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Type IV test",
+            "evaporative emissions"
+          ],
+          "context_keywords": [
+            "determination"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.4570761,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "General"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5.3.2"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5.4",
+      "parameters": [],
+      "topic_keywords": [
+        "Tests",
+        "test execution"
+      ],
+      "context_keywords": [
+        "sample vehicle"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.96472245,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.6."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.6.",
+          "parameters": [],
+          "topic_keywords": [
+            "testing requirements",
+            "effectiveness demonstration"
+          ],
+          "context_keywords": [
+            "components",
+            "vehicles"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.96425414,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.11."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.11.",
+          "parameters": [],
+          "topic_keywords": [
+            "test results",
+            "vehicle identification"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9634375,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "Description of tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9622497,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.10.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.10.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "test types",
+            "procedures"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.83999664,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 1",
+          "5."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.",
+          "parameters": [],
+          "topic_keywords": [
+            "decision rule",
+            "test statistic",
+            "pass decision",
+            "fail decision"
+          ],
+          "context_keywords": [
+            "sample size",
+            "additional vehicle"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5.4"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5.4.1",
+      "parameters": [],
+      "topic_keywords": [
+        "Determination of exhaust gaseous pollutants"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9621787,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Gaseous pollutants"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "oxides of nitrogen",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9474783,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "proportional sample",
+            "bags",
+            "carbon monoxide",
+            "hydrocarbons",
+            "nitrogen oxide",
+            "particulate pollutants"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9433476,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "3."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.",
+          "parameters": [],
+          "topic_keywords": [
+            "PROCEDURE WITH OUTLYING EMITTERS"
+          ],
+          "context_keywords": [
+            "sample",
+            "regulated pollutants",
+            "measured"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9181873,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.5.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.5.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8112278,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.9."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.9.",
+          "parameters": [],
+          "topic_keywords": [
+            "impact assessment",
+            "emissions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5.4.1"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "5.4.2",
+      "parameters": [],
+      "topic_keywords": [
+        "Determination of smoke"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.8470844,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "outlying emitter conditions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.6873153,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.6252093,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.9."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.9.",
+          "parameters": [],
+          "topic_keywords": [
+            "impact assessment",
+            "emissions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.5628975,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Type IV test",
+            "evaporative emissions"
+          ],
+          "context_keywords": [
+            "determination"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.4800216,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "General"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "5.4.2"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "6-",
+      "parameters": [],
+      "topic_keywords": [
+        "INSTRUCTION BOOKLET"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.98050606,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9737945,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "General"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9689738,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.72632855,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "manufacturer information"
+          ],
+          "context_keywords": [
+            "name",
+            "address"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.6461254,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "5.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "evaluation procedure"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "6-"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7-",
+      "parameters": [],
+      "topic_keywords": [
+        "technical conformity criteria"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9975274,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.6.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.6.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity",
+            "OBD tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.99010193,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.6.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.6.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity decision",
+            "OBD tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.96879715,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity of production",
+            "COP"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9647889,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "in-service conformity",
+            "vehicle selection",
+            "testing procedures"
+          ],
+          "context_keywords": [
+            "criteria",
+            "paragraph 8.2.7"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9351099,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 1",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "production conformity",
+            "Type I test",
+            "standard deviation"
+          ],
+          "context_keywords": [
+            "manufacturer",
+            "satisfactory"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7-"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.1",
+      "parameters": [],
+      "topic_keywords": [
+        "conformity criteria"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.99900347,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.6.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.6.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity",
+            "OBD tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9975751,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.6.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.6.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity decision",
+            "OBD tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.99338466,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.98571813,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "in-service conformity",
+            "vehicle selection",
+            "testing procedures"
+          ],
+          "context_keywords": [
+            "criteria",
+            "paragraph 8.2.7"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9749169,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.1"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.2",
+      "parameters": [],
+      "topic_keywords": [
+        "type test",
+        "vehicle conformity"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9992706,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.6.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.6.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity",
+            "OBD tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9957021,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.11."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.11.",
+          "parameters": [],
+          "topic_keywords": [
+            "test results",
+            "vehicle identification"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.99444515,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "Test procedure",
+            "type approval"
+          ],
+          "context_keywords": [
+            "vehicles",
+            "engine types"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.98549646,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle type approval"
+          ],
+          "context_keywords": [
+            "certificate of conformity",
+            "Contracting Parties"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.97539,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "4."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.",
+          "parameters": [],
+          "topic_keywords": [
+            "APPROVAL",
+            "vehicle type approval"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.2"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.2.1",
+      "parameters": [],
+      "topic_keywords": [
+        "type test compliance",
+        "emission mass ratio"
+      ],
+      "context_keywords": [
+        "carbon monoxide",
+        "hydrocarbons",
+        "oxides of nitrogen"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.93558234,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Gaseous pollutants"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "oxides of nitrogen",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.92827886,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "two tests",
+            "conditions"
+          ],
+          "context_keywords": [
+            "pollutants",
+            "combined emission"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.92206234,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.7."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.7.",
+          "parameters": [],
+          "topic_keywords": [
+            "Emission data",
+            "roadworthiness testing"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8769509,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "Type II test",
+            "carbon monoxide emission",
+            "idling speed"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.85427785,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "limit values",
+            "gaseous emissions",
+            "particulate emissions"
+          ],
+          "context_keywords": [
+            "deterioration factors",
+            "periodically regenerating systems"
+          ],
+          "table_headers": [
+            "Category",
+            "Class",
+            "Reference mass (RW) (kg)",
+            "Mass of carbon monoxide (CO) L1 (g/km)",
+            "Mass of hydrocarbons (HC) L2 (g/km)",
+            "Mass of oxides of nitrogen (NOx) L3 (g/km)",
+            "Combined mass of hydrocarbons and oxides of nitrogen (HC + NOx) L2 + L3 (g/km)",
+            "Mass of particulates (PM) L4 (g/km)"
+          ]
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.2.1"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.2.2",
+      "parameters": [],
+      "topic_keywords": [
+        "test repetition",
+        "emission mass ratio"
+      ],
+      "context_keywords": [
+        "initial test",
+        "carbon monoxide",
+        "hydrocarbons",
+        "oxides of nitrogen"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.8830344,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "two tests",
+            "conditions"
+          ],
+          "context_keywords": [
+            "pollutants",
+            "combined emission"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8583628,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "Type II test",
+            "carbon monoxide emission",
+            "idling speed"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8510886,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.5.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.5.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8031738,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Gaseous pollutants"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "oxides of nitrogen",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.73659015,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "limit values",
+            "gaseous emissions",
+            "particulate emissions"
+          ],
+          "context_keywords": [
+            "deterioration factors",
+            "periodically regenerating systems"
+          ],
+          "table_headers": [
+            "Category",
+            "Class",
+            "Reference mass (RW) (kg)",
+            "Mass of carbon monoxide (CO) L1 (g/km)",
+            "Mass of hydrocarbons (HC) L2 (g/km)",
+            "Mass of oxides of nitrogen (NOx) L3 (g/km)",
+            "Combined mass of hydrocarbons and oxides of nitrogen (HC + NOx) L2 + L3 (g/km)",
+            "Mass of particulates (PM) L4 (g/km)"
+          ]
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.2.2"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.2.3",
+      "parameters": [],
+      "topic_keywords": [
+        "compliance criteria",
+        "second test",
+        "emission mass sum"
+      ],
+      "context_keywords": [
+        "carbon monoxide",
+        "hydrocarbons",
+        "oxides of nitrogen"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.97962874,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "two tests",
+            "conditions"
+          ],
+          "context_keywords": [
+            "pollutants",
+            "combined emission"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.92523,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.7."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.7.",
+          "parameters": [],
+          "topic_keywords": [
+            "Emission data",
+            "roadworthiness testing"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.92262185,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "Type II test",
+            "carbon monoxide emission",
+            "idling speed"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.86396646,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Gaseous pollutants"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "oxides of nitrogen",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8369547,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "limit values",
+            "gaseous emissions",
+            "particulate emissions"
+          ],
+          "context_keywords": [
+            "deterioration factors",
+            "periodically regenerating systems"
+          ],
+          "table_headers": [
+            "Category",
+            "Class",
+            "Reference mass (RW) (kg)",
+            "Mass of carbon monoxide (CO) L1 (g/km)",
+            "Mass of hydrocarbons (HC) L2 (g/km)",
+            "Mass of oxides of nitrogen (NOx) L3 (g/km)",
+            "Combined mass of hydrocarbons and oxides of nitrogen (HC + NOx) L2 + L3 (g/km)",
+            "Mass of particulates (PM) L4 (g/km)"
+          ]
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.2.3"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.2.4",
+      "parameters": [],
+      "topic_keywords": [
+        "third test",
+        "test repetition criteria"
+      ],
+      "context_keywords": [
+        "sum of masses",
+        "allowable limit"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9234544,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "test results",
+            "limits"
+          ],
+          "context_keywords": [
+            "three times",
+            "deterioration factors"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.82768893,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "7.1.2.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "7.1.2.3.",
+          "parameters": [
+            {
+              "item": "E",
+              "constraint": ">",
+              "value": "8",
+              "unit": "%",
+              "source_text": "E > 8 per cent"
+            },
+            {
+              "item": "E",
+              "constraint": "<=",
+              "value": "13",
+              "unit": "%",
+              "source_text": "E r 13 per cent"
+            }
+          ],
+          "topic_keywords": [
+            "gear ratios",
+            "test repetition"
+          ],
+          "context_keywords": [
+            "laboratory",
+            "technical service"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8119744,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.4.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.4.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "test results",
+            "exceedance",
+            "arithmetical mean"
+          ],
+          "context_keywords": [
+            "10 per cent",
+            "prescribed limit"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.7631309,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.5.1.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.5.1.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "conditioning",
+            "test procedures"
+          ],
+          "context_keywords": [
+            "uniform manner",
+            "reproducible"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.61895317,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.5.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.5.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "number of tests",
+            "reduction"
+          ],
+          "context_keywords": [
+            "conditions"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.2.4"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.2.5",
+      "parameters": [],
+      "topic_keywords": [
+        "arithmetic mean",
+        "compliance criteria",
+        "three tests"
+      ],
+      "context_keywords": [
+        "carbon monoxide",
+        "hydrocarbons",
+        "oxides of nitrogen"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.87997437,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Gaseous pollutants"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "oxides of nitrogen",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.84117436,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 1",
+          "3."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity verification",
+            "production standard deviation"
+          ],
+          "context_keywords": [
+            "pollutants",
+            "limit value",
+            "measurements",
+            "sample number"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.77696157,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.5.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.5.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.6225741,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "limit values",
+            "gaseous emissions",
+            "particulate emissions"
+          ],
+          "context_keywords": [
+            "deterioration factors",
+            "periodically regenerating systems"
+          ],
+          "table_headers": [
+            "Category",
+            "Class",
+            "Reference mass (RW) (kg)",
+            "Mass of carbon monoxide (CO) L1 (g/km)",
+            "Mass of hydrocarbons (HC) L2 (g/km)",
+            "Mass of oxides of nitrogen (NOx) L3 (g/km)",
+            "Combined mass of hydrocarbons and oxides of nitrogen (HC + NOx) L2 + L3 (g/km)",
+            "Mass of particulates (PM) L4 (g/km)"
+          ]
+        }
+      },
+      {
+        "score": 0.5776145,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "exhaust gases",
+            "dilution",
+            "sampling",
+            "analysis"
+          ],
+          "context_keywords": [
+            "proportional sample",
+            "bags",
+            "carbon monoxide",
+            "hydrocarbons",
+            "nitrogen oxide",
+            "particulate pollutants"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.2.5"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.2.6",
+      "parameters": [],
+      "topic_keywords": [
+        "non-compliance",
+        "emission mass ratio"
+      ],
+      "context_keywords": [
+        "carbon monoxide",
+        "hydrocarbons",
+        "oxides of nitrogen"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9579909,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.9."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.9.",
+          "parameters": [],
+          "topic_keywords": [
+            "impact assessment",
+            "emissions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9545628,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "Gaseous pollutants"
+          ],
+          "context_keywords": [
+            "carbon monoxide",
+            "oxides of nitrogen",
+            "hydrocarbons"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.86431044,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.1.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.1.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "limit values",
+            "gaseous emissions",
+            "particulate emissions"
+          ],
+          "context_keywords": [
+            "deterioration factors",
+            "periodically regenerating systems"
+          ],
+          "table_headers": [
+            "Category",
+            "Class",
+            "Reference mass (RW) (kg)",
+            "Mass of carbon monoxide (CO) L1 (g/km)",
+            "Mass of hydrocarbons (HC) L2 (g/km)",
+            "Mass of oxides of nitrogen (NOx) L3 (g/km)",
+            "Combined mass of hydrocarbons and oxides of nitrogen (HC + NOx) L2 + L3 (g/km)",
+            "Mass of particulates (PM) L4 (g/km)"
+          ]
+        }
+      },
+      {
+        "score": 0.8576489,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.3.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.3.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "Type II test",
+            "carbon monoxide emission",
+            "idling speed"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8197491,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "4.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "non-conforming vehicles",
+            "test statistic"
+          ],
+          "context_keywords": [
+            "sample size"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.2.6"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.3",
+      "parameters": [],
+      "topic_keywords": [
+        "acceptance tests",
+        "vehicle conformity"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9985896,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.6.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.6.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity",
+            "OBD tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.99823856,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "2.19."
+        ],
+        "comparison_data": {
+          "chapter_id": "2.19.",
+          "parameters": [],
+          "topic_keywords": [
+            "Approval of a vehicle"
+          ],
+          "context_keywords": [
+            "vehicle type",
+            "limitation"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.99491996,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "4."
+        ],
+        "comparison_data": {
+          "chapter_id": "4.",
+          "parameters": [],
+          "topic_keywords": [
+            "APPROVAL",
+            "vehicle type approval"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.99174845,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.6.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.6.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity decision",
+            "OBD tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.99014014,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "Test procedure",
+            "type approval"
+          ],
+          "context_keywords": [
+            "vehicles",
+            "engine types"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.3"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.3.1",
+      "parameters": [],
+      "topic_keywords": [
+        "certificate acceptance",
+        "test exemption"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.94994867,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "3."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.",
+          "parameters": [],
+          "topic_keywords": [
+            "APPLICATION FOR APPROVAL"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.92944044,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.10.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.10.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "test types",
+            "procedures"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.799129,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "5.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "evaluation procedure"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.76171577,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.7.3.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.7.3.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "test results exclusion",
+            "sulphur level"
+          ],
+          "context_keywords": [
+            "fuel quality",
+            "approval certificate"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.75868946,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.3."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.3.",
+          "parameters": [],
+          "topic_keywords": [
+            "type approval extensions",
+            "testing"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.3.1"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.3.2",
+      "parameters": [],
+      "topic_keywords": [
+        "test requirement",
+        "sample vehicle"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9954791,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle type description"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9861514,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.6."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.6.",
+          "parameters": [],
+          "topic_keywords": [
+            "testing requirements",
+            "effectiveness demonstration"
+          ],
+          "context_keywords": [
+            "components",
+            "vehicles"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9717254,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.11."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.11.",
+          "parameters": [],
+          "topic_keywords": [
+            "test results",
+            "vehicle identification"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.95806944,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "Test procedure",
+            "type approval"
+          ],
+          "context_keywords": [
+            "vehicles",
+            "engine types"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.89947516,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "3.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "vehicle selection"
+          ],
+          "context_keywords": [
+            "minimum sample size",
+            "maximum sample size",
+            "random",
+            "emissions measurement"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.3.2"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.3.3",
+      "parameters": [],
+      "topic_keywords": [
+        "free acceleration test",
+        "absorption coefficient",
+        "compliance"
+      ],
+      "context_keywords": [
+        "full load steady speed"
+      ],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.8891444,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.6.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.6.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity",
+            "OBD tests"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.5550735,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "Test procedure",
+            "type approval"
+          ],
+          "context_keywords": [
+            "vehicles",
+            "engine types"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.41253018,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.6."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.6.",
+          "parameters": [],
+          "topic_keywords": [
+            "testing requirements",
+            "effectiveness demonstration"
+          ],
+          "context_keywords": [
+            "components",
+            "vehicles"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.3431216,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "7.1.2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "7.1.2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "transmission ratios",
+            "engine speed",
+            "vehicle speed"
+          ],
+          "context_keywords": [
+            "V1",
+            "V2"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.32949957,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 1",
+          "5."
+        ],
+        "comparison_data": {
+          "chapter_id": "5.",
+          "parameters": [],
+          "topic_keywords": [
+            "decision rule",
+            "test statistic",
+            "pass decision",
+            "fail decision"
+          ],
+          "context_keywords": [
+            "sample size",
+            "additional vehicle"
+          ],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.3.3"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "7.3.4",
+      "parameters": [],
+      "topic_keywords": [
+        "statistical conformity",
+        "sample size",
+        "emission mass"
+      ],
+      "context_keywords": [
+        "arithmetical mean",
+        "standard deviation"
+      ],
+      "table_headers": [
+        "n",
+        "k"
+      ]
+    },
+    "ece_candidates": [
+      {
+        "score": 0.94197524,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 1",
+          "3."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.",
+          "parameters": [],
+          "topic_keywords": [
+            "conformity verification",
+            "production standard deviation"
+          ],
+          "context_keywords": [
+            "pollutants",
+            "limit value",
+            "measurements",
+            "sample number"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9329437,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.9."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.9.",
+          "parameters": [],
+          "topic_keywords": [
+            "impact assessment",
+            "emissions"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.92107415,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 2",
+          "3."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.",
+          "parameters": [
+            {
+              "item": "minimum sample size",
+              "constraint": "=",
+              "value": "3",
+              "unit": null,
+              "source_text": "m0 = 3"
+            },
+            {
+              "item": "maximum sample size",
+              "constraint": "=",
+              "value": "32",
+              "unit": null,
+              "source_text": "m = 32"
+            }
+          ],
+          "topic_keywords": [
+            "conformity verification",
+            "production standard deviation"
+          ],
+          "context_keywords": [
+            "pollutants",
+            "log normally distributed",
+            "natural logarithms",
+            "sample sizes"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9152046,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "3.2.4.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.2.4.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "sample passed",
+            "maximum sample size",
+            "excess emission"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9152046,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 4",
+          "3.2.3.4."
+        ],
+        "comparison_data": {
+          "chapter_id": "3.2.3.4.",
+          "parameters": [],
+          "topic_keywords": [
+            "sample passed",
+            "maximum sample size",
+            "excess emission"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "MAIN",
+      "chapter_id": "7.3.4"
+    }
+  },
+  {
+    "gso_chapter": {
+      "chapter_id": "ALL",
+      "parameters": [],
+      "topic_keywords": [
+        "Essential technical data"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    },
+    "ece_candidates": [
+      {
+        "score": 0.9841546,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.10."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.10.",
+          "parameters": [],
+          "topic_keywords": [
+            "additional information"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.97838473,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "8.2.1.2.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "8.2.1.2.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "manufacturer information"
+          ],
+          "context_keywords": [
+            "name",
+            "address"
+          ],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9780517,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "1."
+        ],
+        "comparison_data": {
+          "chapter_id": "1.",
+          "parameters": [],
+          "topic_keywords": [
+            "SCOPE"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.9049869,
+        "chapter_path": [
+          "regulation",
+          "APPENDIX 3",
+          "6.5.2."
+        ],
+        "comparison_data": {
+          "chapter_id": "6.5.2.",
+          "parameters": [],
+          "topic_keywords": [
+            "modifications description",
+            "technical studies"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      },
+      {
+        "score": 0.8746137,
+        "chapter_path": [
+          "regulation",
+          "MAIN",
+          "11.1."
+        ],
+        "comparison_data": {
+          "chapter_id": "11.1.",
+          "parameters": [],
+          "topic_keywords": [
+            "General"
+          ],
+          "context_keywords": [],
+          "table_headers": []
+        }
+      }
+    ],
+    "match_info": {
+      "file": "regulation",
+      "section": "APPENDIX (A)",
+      "chapter_id": "ALL"
+    }
+  }
+]

@@ -1,0 +1,6489 @@
+[
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "A.",
+    "candidates": [
+      {
+        "score": 0.14184696674346925,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7092348337173462
+        }
+      },
+      {
+        "score": 0.072446814,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.24148938
+        }
+      },
+      {
+        "score": 0.036349455,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.18.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.12116485
+        }
+      },
+      {
+        "score": 0.018562796399999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "8.2._The holder of the approval shall in particula"
+        ],
+        "similarities": {
+          "topic_keywords": 0.061875988
+        }
+      },
+      {
+        "score": 0.0182590338,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.060863446
+        }
+      },
+      {
+        "score": 0.0182590338,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.060863446
+        }
+      },
+      {
+        "score": 0.0180591144,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12.5._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.060197048
+        }
+      },
+      {
+        "score": 0.017992932,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12._Transitional provisions"
+        ],
+        "similarities": {
+          "topic_keywords": 0.05997644
+        }
+      },
+      {
+        "score": 0.016685283,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12.1_General"
+        ],
+        "similarities": {
+          "topic_keywords": 0.05561761
+        }
+      },
+      {
+        "score": 0.016654534199999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.055515114
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "A.1.",
+    "candidates": [
+      {
+        "score": 0.15031400918960572,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7515700459480286
+        }
+      },
+      {
+        "score": 0.0330838122,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.24._\"Normal condition of use of a vehicle\" means"
+        ],
+        "similarities": {
+          "topic_keywords": 0.110279374
+        }
+      },
+      {
+        "score": 0.008894253,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.23._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.02964751
+        }
+      },
+      {
+        "score": 0.005334117,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5._General specifications"
+        ],
+        "similarities": {
+          "topic_keywords": 0.01778039
+        }
+      },
+      {
+        "score": 0.00357450675,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.18.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0119150225
+        }
+      },
+      {
+        "score": 0.0028347244499999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4.4.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0094490815
+        }
+      },
+      {
+        "score": 0.00263373255,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0087791085
+        }
+      },
+      {
+        "score": 0.0023999263499999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.24.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0079997545
+        }
+      },
+      {
+        "score": 0.0021698292,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2._Definitions"
+        ],
+        "similarities": {
+          "topic_keywords": 0.007232764
+        }
+      },
+      {
+        "score": 0.00164716899,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.27.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0054905633
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "A.1.1.",
+    "candidates": [
+      {
+        "score": 0.44541196718960574,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7515700459480286,
+          "topic_keywords": 0.98365986
+        }
+      },
+      {
+        "score": 0.23354428499999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.8._Tell-tale"
+        ],
+        "similarities": {
+          "topic_keywords": 0.77848095
+        }
+      },
+      {
+        "score": 0.21267551999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7089184
+        }
+      },
+      {
+        "score": 0.16250447999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.22._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.5416816
+        }
+      },
+      {
+        "score": 0.144203022,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.48067674
+        }
+      },
+      {
+        "score": 0.047569455000000004,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.14._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.15856485
+        }
+      },
+      {
+        "score": 0.026409936000000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.8._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.08803312
+        }
+      },
+      {
+        "score": 0.025347825,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.15._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.08449275
+        }
+      },
+      {
+        "score": 0.024193983,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.7.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.08064661
+        }
+      },
+      {
+        "score": 0.021909717,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.28.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.07303239
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "A.1.2.",
+    "candidates": [
+      {
+        "score": 0.44932057118960567,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7515700459480286,
+          "topic_keywords": 0.99668854
+        }
+      },
+      {
+        "score": 0.147667881,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.49222627
+        }
+      },
+      {
+        "score": 0.119381511,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.39793837
+        }
+      },
+      {
+        "score": 0.115230972,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.38410324
+        }
+      },
+      {
+        "score": 0.08844711000000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.22._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.2948237
+        }
+      },
+      {
+        "score": 0.069849918,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.24.4._Position"
+        ],
+        "similarities": {
+          "topic_keywords": 0.23283306
+        }
+      },
+      {
+        "score": 0.042598134,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1._Light source"
+        ],
+        "similarities": {
+          "topic_keywords": 0.14199378
+        }
+      },
+      {
+        "score": 0.042598134,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.14199378
+        }
+      },
+      {
+        "score": 0.0337215252,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.7.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.112405084
+        }
+      },
+      {
+        "score": 0.0251221218,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.14._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.083740406
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "B.",
+    "candidates": [
+      {
+        "score": 0.261638922,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "1._Scope"
+        ],
+        "similarities": {
+          "topic_keywords": 0.87212974
+        }
+      },
+      {
+        "score": 0.1690134,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.13.4.1._In width:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.563378
+        }
+      },
+      {
+        "score": 0.1690134,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.18.4.1._In width: no individual specifications."
+        ],
+        "similarities": {
+          "topic_keywords": 0.563378
+        }
+      },
+      {
+        "score": 0.1690134,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.563378
+        }
+      },
+      {
+        "score": 0.1690134,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.563378
+        }
+      },
+      {
+        "score": 0.1690134,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.17.4.1._In width: no special requirement."
+        ],
+        "similarities": {
+          "topic_keywords": 0.563378
+        }
+      },
+      {
+        "score": 0.14294021129608156,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7147010564804077
+        }
+      },
+      {
+        "score": 0.049354938,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.15.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.16451646
+        }
+      },
+      {
+        "score": 0.049354938,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.16451646
+        }
+      },
+      {
+        "score": 0.049354938,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.16.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.16451646
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.",
+    "candidates": [
+      {
+        "score": 0.14817060232162477,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7408530116081238
+        }
+      },
+      {
+        "score": 0.013107317999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.04369106
+        }
+      },
+      {
+        "score": 0.0074678402999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.024892801
+        }
+      },
+      {
+        "score": 0.0045392183999999995,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.015130728
+        }
+      },
+      {
+        "score": 0.0021447306,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.5.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.007149102
+        }
+      },
+      {
+        "score": 0.0021447306,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.5.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.007149102
+        }
+      },
+      {
+        "score": 0.0015122108999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12.1.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.005040703
+        }
+      },
+      {
+        "score": 0.001206873,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "8._Conformity of production"
+        ],
+        "similarities": {
+          "topic_keywords": 0.00402291
+        }
+      },
+      {
+        "score": 0.00083051565,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.22._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0027683855
+        }
+      },
+      {
+        "score": 0.00082728672,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3._Application for approval"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0027576224
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.1.",
+    "candidates": [
+      {
+        "score": 0.150954008102417,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.754770040512085
+        }
+      },
+      {
+        "score": 0.013504658999999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.04501553
+        }
+      },
+      {
+        "score": 0.0064475298,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.021491766
+        }
+      },
+      {
+        "score": 0.0047536079999999994,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.01584536
+        }
+      },
+      {
+        "score": 0.0038761421999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12.1.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.012920474
+        }
+      },
+      {
+        "score": 0.0021364285199999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3._Application for approval"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0071214284
+        }
+      },
+      {
+        "score": 0.0011121759,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.003707253
+        }
+      },
+      {
+        "score": 0.00108650568,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6._Individual specifications"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0036216856
+        }
+      },
+      {
+        "score": 0.00083375721,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4.6._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0027791907
+        }
+      },
+      {
+        "score": 0.0006915375299999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5._General specifications"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0023051251
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.1.1.",
+    "candidates": [
+      {
+        "score": 0.150954008102417,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.754770040512085
+        }
+      },
+      {
+        "score": 0.12691225199999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.42304084
+        }
+      },
+      {
+        "score": 0.044673447,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4._Approval"
+        ],
+        "similarities": {
+          "topic_keywords": 0.14891149
+        }
+      },
+      {
+        "score": 0.039788054999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.13262685
+        }
+      },
+      {
+        "score": 0.025758738,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "8.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.08586246
+        }
+      },
+      {
+        "score": 0.0223097115,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.22._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.074365705
+        }
+      },
+      {
+        "score": 0.0092726871,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.030908957
+        }
+      },
+      {
+        "score": 0.008710692899999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.029035643
+        }
+      },
+      {
+        "score": 0.004235367899999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.014117893
+        }
+      },
+      {
+        "score": 0.0022556152799999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.23._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0075187176
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.1.2.",
+    "candidates": [
+      {
+        "score": 0.351033248102417,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.754770040512085,
+          "topic_keywords": 0.6669308
+        }
+      },
+      {
+        "score": 0.26454558,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.8818186
+        }
+      },
+      {
+        "score": 0.13507154999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.6.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.4502385
+        }
+      },
+      {
+        "score": 0.10227717,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.3409239
+        }
+      },
+      {
+        "score": 0.100246425,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.7._Electrical connections"
+        ],
+        "similarities": {
+          "topic_keywords": 0.33415475
+        }
+      },
+      {
+        "score": 0.09701835,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.28.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.9701835
+        }
+      },
+      {
+        "score": 0.068867785,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9.3.5._"
+        ],
+        "similarities": {
+          "context_keywords": 0.68867785
+        }
+      },
+      {
+        "score": 0.051019150000000006,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.24.1._Presence"
+        ],
+        "similarities": {
+          "context_keywords": 0.5101915
+        }
+      },
+      {
+        "score": 0.051019150000000006,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.1._Presence"
+        ],
+        "similarities": {
+          "context_keywords": 0.5101915
+        }
+      },
+      {
+        "score": 0.051019150000000006,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.1._Presence"
+        ],
+        "similarities": {
+          "context_keywords": 0.5101915
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.1.3.",
+    "candidates": [
+      {
+        "score": 0.150954008102417,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.754770040512085
+        }
+      },
+      {
+        "score": 0.03480909200000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.9.3.1.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.34809092
+        }
+      },
+      {
+        "score": 0.03443332,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.7.4._"
+        ],
+        "similarities": {
+          "context_keywords": 0.3443332
+        }
+      },
+      {
+        "score": 0.034192041,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "9.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.11397347
+        }
+      },
+      {
+        "score": 0.023792988,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.9._Other requirements"
+        ],
+        "similarities": {
+          "context_keywords": 0.23792988
+        }
+      },
+      {
+        "score": 0.020625381,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.1._Presence"
+        ],
+        "similarities": {
+          "context_keywords": 0.20625381
+        }
+      },
+      {
+        "score": 0.017828465999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.9.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.05942822
+        }
+      },
+      {
+        "score": 0.0170270685,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.056756895
+        }
+      },
+      {
+        "score": 0.01664043,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.7.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.1664043
+        }
+      },
+      {
+        "score": 0.0110516109,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.11.1._This condition does not apply:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.036838703
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.2.",
+    "candidates": [
+      {
+        "score": 0.14589354991912842,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7294677495956421
+        }
+      },
+      {
+        "score": 0.128165235,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.42721745
+        }
+      },
+      {
+        "score": 0.119188554,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.39729518
+        }
+      },
+      {
+        "score": 0.072178836,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4._Approval"
+        ],
+        "similarities": {
+          "topic_keywords": 0.24059612
+        }
+      },
+      {
+        "score": 0.048873612000000004,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12.1.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.16291204
+        }
+      },
+      {
+        "score": 0.0238916202,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.079638734
+        }
+      },
+      {
+        "score": 0.013913461799999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "8.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.046378206
+        }
+      },
+      {
+        "score": 0.009795414,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "8.2.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.03265138
+        }
+      },
+      {
+        "score": 0.0089959524,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.029986508
+        }
+      },
+      {
+        "score": 0.0079518378,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.24.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.026506126
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.1.",
+    "candidates": [
+      {
+        "score": 0.27699486,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2._Definitions"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9233162
+        }
+      },
+      {
+        "score": 0.14330127239227294,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7165063619613647
+        }
+      },
+      {
+        "score": 0.081230808,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.27076936
+        }
+      },
+      {
+        "score": 0.058448094,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.14.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.19482698
+        }
+      },
+      {
+        "score": 0.058448094,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.15.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.19482698
+        }
+      },
+      {
+        "score": 0.058402145999999995,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.19467382
+        }
+      },
+      {
+        "score": 0.058264482,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.19421494
+        }
+      },
+      {
+        "score": 0.058264482,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.19421494
+        }
+      },
+      {
+        "score": 0.058264482,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.16.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.19421494
+        }
+      },
+      {
+        "score": 0.027172341,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.13.4.1._In width:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.09057447
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.1.1.",
+    "candidates": [
+      {
+        "score": 0.15794391,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2._Definitions"
+        ],
+        "similarities": {
+          "topic_keywords": 0.5264797
+        }
+      },
+      {
+        "score": 0.15306767225265505,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7653383612632751
+        }
+      },
+      {
+        "score": 0.052788744,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.11._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.17596248
+        }
+      },
+      {
+        "score": 0.049961939999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.12._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.1665398
+        }
+      },
+      {
+        "score": 0.0049209096,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.21.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.016403032
+        }
+      },
+      {
+        "score": 0.0047353685999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.14.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.015784562
+        }
+      },
+      {
+        "score": 0.0047353685999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.15.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.015784562
+        }
+      },
+      {
+        "score": 0.004699094399999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.4.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.015663648
+        }
+      },
+      {
+        "score": 0.004699094399999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.16.4.3._In length: at the front of the vehicle."
+        ],
+        "similarities": {
+          "topic_keywords": 0.015663648
+        }
+      },
+      {
+        "score": 0.004699094399999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.17.4.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.015663648
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.",
+    "candidates": [
+      {
+        "score": 0.3583630621308289,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7894687056541443,
+          "topic_keywords": 0.66823107
+        }
+      },
+      {
+        "score": 0.283919655,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.94639885
+        }
+      },
+      {
+        "score": 0.20416806899999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.68056023
+        }
+      },
+      {
+        "score": 0.13237548,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.12.1.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.4412516
+        }
+      },
+      {
+        "score": 0.10764069,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.3588023
+        }
+      },
+      {
+        "score": 0.091088568,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.7.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.30362856
+        }
+      },
+      {
+        "score": 0.088996275,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.6.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.29665425
+        }
+      },
+      {
+        "score": 0.042705323999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.1.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.14235108
+        }
+      },
+      {
+        "score": 0.034728195,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.11576065
+        }
+      },
+      {
+        "score": 0.0247647912,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.082549304
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.1.",
+    "candidates": [
+      {
+        "score": 0.29992162499999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.29._Colour of the light emitted from a device"
+        ],
+        "similarities": {
+          "topic_keywords": 0.99973875
+        }
+      },
+      {
+        "score": 0.28406763,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.15._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9468921
+        }
+      },
+      {
+        "score": 0.28331471999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.8._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9443824
+        }
+      },
+      {
+        "score": 0.24725371499999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.31._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.82417905
+        }
+      },
+      {
+        "score": 0.16190423999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.32._Day-time Colour of the fluorescent a device"
+        ],
+        "similarities": {
+          "topic_keywords": 0.5396808
+        }
+      },
+      {
+        "score": 0.15885977599999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.10._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.4934696,
+          "context_keywords": 0.10818896
+        }
+      },
+      {
+        "score": 0.153487765789032,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7674388289451599
+        }
+      },
+      {
+        "score": 0.102046896,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1._Light source"
+        ],
+        "similarities": {
+          "topic_keywords": 0.34015632
+        }
+      },
+      {
+        "score": 0.102046896,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.34015632
+        }
+      },
+      {
+        "score": 0.09399441,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1.6._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.3133147
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.2.",
+    "candidates": [
+      {
+        "score": 0.22696124999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.28.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7565375
+        }
+      },
+      {
+        "score": 0.18995501999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1._Light source"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6331834
+        }
+      },
+      {
+        "score": 0.18995501999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6331834
+        }
+      },
+      {
+        "score": 0.174854172,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.29._Colour of the light emitted from a device"
+        ],
+        "similarities": {
+          "topic_keywords": 0.58284724
+        }
+      },
+      {
+        "score": 0.1690134,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.16.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.563378
+        }
+      },
+      {
+        "score": 0.160210632,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.8._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.53403544
+        }
+      },
+      {
+        "score": 0.1551558017730713,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7757790088653564
+        }
+      },
+      {
+        "score": 0.12965495999999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.9._\"Illuminating surface\" (see Annex 3)."
+        ],
+        "similarities": {
+          "topic_keywords": 0.4321832
+        }
+      },
+      {
+        "score": 0.11735200800000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.26._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.39117336
+        }
+      },
+      {
+        "score": 0.09295751999999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.9.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.3098584
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.2.1.",
+    "candidates": [
+      {
+        "score": 0.15871697664260864,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7935848832130432
+        }
+      },
+      {
+        "score": 0.136750326,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.6.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.45583442
+        }
+      },
+      {
+        "score": 0.030106394150000004,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.10._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0017752605,
+          "context_keywords": 0.29573816
+        }
+      },
+      {
+        "score": 0.028427789999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.8.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.2842779
+        }
+      },
+      {
+        "score": 0.024508502,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.4.1._In width and height:"
+        ],
+        "similarities": {
+          "context_keywords": 0.24508502
+        }
+      },
+      {
+        "score": 0.019360435000000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.9.3.1.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.19360435
+        }
+      },
+      {
+        "score": 0.017610413000000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.11.1.2._"
+        ],
+        "similarities": {
+          "context_keywords": 0.17610413
+        }
+      },
+      {
+        "score": 0.016871995,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.5._Geometric visibility"
+        ],
+        "similarities": {
+          "context_keywords": 0.16871995
+        }
+      },
+      {
+        "score": 0.011696560000000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.10._"
+        ],
+        "similarities": {
+          "context_keywords": 0.1169656
+        }
+      },
+      {
+        "score": 0.011010105899999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12.1.5._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.036700353
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.2.2.",
+    "candidates": [
+      {
+        "score": 0.2840153292245,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.9.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9466954,
+          "context_keywords": 6.7092245e-05
+        }
+      },
+      {
+        "score": 0.15477792024612427,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7738896012306213
+        }
+      },
+      {
+        "score": 0.114434046,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9.1._"
+        ],
+        "similarities": {
+          "parameters": 0.13811268,
+          "topic_keywords": 0.2893717
+        }
+      },
+      {
+        "score": 0.035619318000000004,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.5._Visibility"
+        ],
+        "similarities": {
+          "parameters": 0.17809659
+        }
+      },
+      {
+        "score": 0.028043696000000003,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9.3.1.2._"
+        ],
+        "similarities": {
+          "parameters": 0.14021848
+        }
+      },
+      {
+        "score": 0.020604884000000004,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9.3.5._"
+        ],
+        "similarities": {
+          "parameters": 0.10302442
+        }
+      },
+      {
+        "score": 0.018665094599999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.26._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.062216982
+        }
+      },
+      {
+        "score": 0.0111560325,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.6.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.037186775
+        }
+      },
+      {
+        "score": 0.0109894092,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.4.1.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.036631364
+        }
+      },
+      {
+        "score": 0.0057523172,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.25.7.1._"
+        ],
+        "similarities": {
+          "parameters": 0.028761586
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.3.",
+    "candidates": [
+      {
+        "score": 0.14920436143875124,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7460218071937561
+        }
+      },
+      {
+        "score": 0.018871271999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.8._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.06290424
+        }
+      },
+      {
+        "score": 0.0113250822,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1._Light source"
+        ],
+        "similarities": {
+          "topic_keywords": 0.037750274
+        }
+      },
+      {
+        "score": 0.0112825905,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.037608635
+        }
+      },
+      {
+        "score": 0.0039668466,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.28.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.013222822
+        }
+      },
+      {
+        "score": 0.0033216479999999995,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.13._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.01107216
+        }
+      },
+      {
+        "score": 0.0030391236,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.28.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.010130412
+        }
+      },
+      {
+        "score": 0.00267483825,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.6.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0089161275
+        }
+      },
+      {
+        "score": 0.0022820016,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.26._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.007606672
+        }
+      },
+      {
+        "score": 0.0020313628799999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0067712096
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.3.1.",
+    "candidates": [
+      {
+        "score": 0.35159737586859335,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.28.4._"
+        ],
+        "similarities": {
+          "parameters": 0.7572562,
+          "topic_keywords": 0.36647636
+        }
+      },
+      {
+        "score": 0.32603600081136364,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.5._Geometric visibility"
+        ],
+        "similarities": {
+          "parameters": 0.7465088,
+          "context_keywords": 0.8964329
+        }
+      },
+      {
+        "score": 0.29077408,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.5.1._Horizontal angle: 45° inwards and 80° out"
+        ],
+        "similarities": {
+          "parameters": 0.39484245,
+          "topic_keywords": 0.4286519,
+          "context_keywords": 0.8321002
+        }
+      },
+      {
+        "score": 0.21012478099999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.5.1._Horizontal angle: 45° inwards and 80° ou"
+        ],
+        "similarities": {
+          "topic_keywords": 0.42960885,
+          "context_keywords": 0.81242126
+        }
+      },
+      {
+        "score": 0.18175719,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.6.1._Vertical orientation:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6058573
+        }
+      },
+      {
+        "score": 0.162013401,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.8._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.54004467
+        }
+      },
+      {
+        "score": 0.15089755058288576,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7544877529144287
+        }
+      },
+      {
+        "score": 0.111400414,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.5._Geometric visibility"
+        ],
+        "similarities": {
+          "parameters": 0.55700207
+        }
+      },
+      {
+        "score": 0.109528392,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.03615194,
+          "context_keywords": 0.9868281
+        }
+      },
+      {
+        "score": 0.09762738900000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.00462753,
+          "context_keywords": 0.9623913
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.3.2.",
+    "candidates": [
+      {
+        "score": 0.17877123,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.6.3._Horizontal orientation:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.5959041
+        }
+      },
+      {
+        "score": 0.15085952281951906,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7542976140975952
+        }
+      },
+      {
+        "score": 0.14199674399999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.8._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.47332248
+        }
+      },
+      {
+        "score": 0.096329963,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.5._Geometric visibility"
+        ],
+        "similarities": {
+          "context_keywords": 0.96329963
+        }
+      },
+      {
+        "score": 0.086522406,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.11._"
+        ],
+        "similarities": {
+          "context_keywords": 0.86522406
+        }
+      },
+      {
+        "score": 0.07499884799999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.24999616
+        }
+      },
+      {
+        "score": 0.07474352538,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0035518846,
+          "context_keywords": 0.7367796
+        }
+      },
+      {
+        "score": 0.07367796,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.13.5._Geometric visibility"
+        ],
+        "similarities": {
+          "context_keywords": 0.7367796
+        }
+      },
+      {
+        "score": 0.05914054199999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1._Light source"
+        ],
+        "similarities": {
+          "topic_keywords": 0.19713514
+        }
+      },
+      {
+        "score": 0.05914054199999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.19713514
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.",
+    "candidates": [
+      {
+        "score": 0.3005661264048157,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.9._Other requirements"
+        ],
+        "similarities": {
+          "scope": 0.8051138520240784,
+          "topic_keywords": 0.46514452
+        }
+      },
+      {
+        "score": 0.24888903,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.9.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.8296301
+        }
+      },
+      {
+        "score": 0.2454033,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9.3.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.818011
+        }
+      },
+      {
+        "score": 0.243726378,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9.3.3.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.81242126
+        }
+      },
+      {
+        "score": 0.243502791,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.81167597
+        }
+      },
+      {
+        "score": 0.22679922,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7559974
+        }
+      },
+      {
+        "score": 0.19942739999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.664758
+        }
+      },
+      {
+        "score": 0.188214201,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.62738067
+        }
+      },
+      {
+        "score": 0.18063603,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6021201
+        }
+      },
+      {
+        "score": 0.1683915,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.561305
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.1.",
+    "candidates": [
+      {
+        "score": 0.15645440816879275,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.9._Other requirements"
+        ],
+        "similarities": {
+          "scope": 0.7822720408439636
+        }
+      },
+      {
+        "score": 0.095851994,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.5._Visibility"
+        ],
+        "similarities": {
+          "parameters": 0.47925997
+        }
+      },
+      {
+        "score": 0.07610281799999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.9.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.25367606
+        }
+      },
+      {
+        "score": 0.072446814,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.9._\"Illuminating surface\" (see Annex 3)."
+        ],
+        "similarities": {
+          "topic_keywords": 0.24148938
+        }
+      },
+      {
+        "score": 0.048277278,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.2.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.16092426
+        }
+      },
+      {
+        "score": 0.045837996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.9.3.1.2._"
+        ],
+        "similarities": {
+          "parameters": 0.22918998
+        }
+      },
+      {
+        "score": 0.0261290475,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.8._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.087096825
+        }
+      },
+      {
+        "score": 0.021014687999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.6.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.07004896
+        }
+      },
+      {
+        "score": 0.0148215729,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.9.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.049405243
+        }
+      },
+      {
+        "score": 0.008760387,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.27._\"Objective luminous flux\" means:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.02920129
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.2.",
+    "candidates": [
+      {
+        "score": 0.16106534004211426,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.7.3._"
+        ],
+        "similarities": {
+          "scope": 0.8053267002105713
+        }
+      },
+      {
+        "score": 0.055386134999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.17.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.18462045
+        }
+      },
+      {
+        "score": 0.054422454,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.2._Number"
+        ],
+        "similarities": {
+          "topic_keywords": 0.18140818
+        }
+      },
+      {
+        "score": 0.036788474999999994,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.4.3.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.12262825
+        }
+      },
+      {
+        "score": 0.036224856,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.12074952
+        }
+      },
+      {
+        "score": 0.033079540000000004,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.2._"
+        ],
+        "similarities": {
+          "context_keywords": 0.3307954
+        }
+      },
+      {
+        "score": 0.024455928,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.5._Visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.08151976
+        }
+      },
+      {
+        "score": 0.024237461999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.4.2.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.08079154
+        }
+      },
+      {
+        "score": 0.023934605999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.1.2.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.07978202
+        }
+      },
+      {
+        "score": 0.02384871,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.4.2._Length"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0794957
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.3.",
+    "candidates": [
+      {
+        "score": 0.15160129070281983,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.9._Other requirements"
+        ],
+        "similarities": {
+          "scope": 0.7580064535140991
+        }
+      },
+      {
+        "score": 0.09399956816100001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.23._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.00062389387,
+          "context_keywords": 0.938124
+        }
+      },
+      {
+        "score": 0.08326453,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.2.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.8326453
+        }
+      },
+      {
+        "score": 0.03454364,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.3454364
+        }
+      },
+      {
+        "score": 0.017133833,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.14.5._"
+        ],
+        "similarities": {
+          "context_keywords": 0.17133833
+        }
+      },
+      {
+        "score": 0.016000336,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.14.2._"
+        ],
+        "similarities": {
+          "context_keywords": 0.16000336
+        }
+      },
+      {
+        "score": 0.01187934,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.12.1.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.1187934
+        }
+      },
+      {
+        "score": 0.0115960725,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.115960725
+        }
+      },
+      {
+        "score": 0.0032961240000000005,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.15.2._"
+        ],
+        "similarities": {
+          "context_keywords": 0.03296124
+        }
+      },
+      {
+        "score": 0.0028761586,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.18._"
+        ],
+        "similarities": {
+          "context_keywords": 0.028761586
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.4.",
+    "candidates": [
+      {
+        "score": 0.1532185813202012,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7658782005310059,
+          "topic_keywords": 0.00014313738
+        }
+      },
+      {
+        "score": 0.067490816,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.25.1_"
+        ],
+        "similarities": {
+          "context_keywords": 0.67490816
+        }
+      },
+      {
+        "score": 0.0223097115,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.8._Tell-tale"
+        ],
+        "similarities": {
+          "topic_keywords": 0.074365705
+        }
+      },
+      {
+        "score": 0.018767918999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.18._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.06255973
+        }
+      },
+      {
+        "score": 0.0118787744,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.18.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.009936418,
+          "context_keywords": 0.08897849
+        }
+      },
+      {
+        "score": 0.0106432512,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23._Emergency stop signal"
+        ],
+        "similarities": {
+          "topic_keywords": 0.035477504
+        }
+      },
+      {
+        "score": 0.010302442000000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.6._Orientation"
+        ],
+        "similarities": {
+          "context_keywords": 0.10302442
+        }
+      },
+      {
+        "score": 0.008882029,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.17.6._Orientation"
+        ],
+        "similarities": {
+          "context_keywords": 0.08882029
+        }
+      },
+      {
+        "score": 0.008787644,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.4._Position"
+        ],
+        "similarities": {
+          "context_keywords": 0.08787644
+        }
+      },
+      {
+        "score": 0.007850098,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.2.7.5._"
+        ],
+        "similarities": {
+          "context_keywords": 0.07850098
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.5.",
+    "candidates": [
+      {
+        "score": 0.15700572729110718,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.9._Other requirements"
+        ],
+        "similarities": {
+          "scope": 0.7850286364555359
+        }
+      },
+      {
+        "score": 0.016623838499999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "8._Conformity of production"
+        ],
+        "similarities": {
+          "topic_keywords": 0.055412795
+        }
+      },
+      {
+        "score": 0.014174913599999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "8.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.047249712
+        }
+      },
+      {
+        "score": 0.0029125431,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.009708477
+        }
+      },
+      {
+        "score": 0.0027804042,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5._General specifications"
+        ],
+        "similarities": {
+          "topic_keywords": 0.009268014
+        }
+      },
+      {
+        "score": 0.0027696645,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.009232215
+        }
+      },
+      {
+        "score": 0.0016092170099999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "12.1.5._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0053640567
+        }
+      },
+      {
+        "score": 0.0009555182399999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6._Individual specifications"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0031850608
+        }
+      },
+      {
+        "score": 0.00090835056,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.6.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0030278352
+        }
+      },
+      {
+        "score": 0.0008770628999999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.9.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.002923543
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.5.1.",
+    "candidates": [
+      {
+        "score": 0.15246539115905763,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.9._Other requirements"
+        ],
+        "similarities": {
+          "scope": 0.7623269557952881
+        }
+      },
+      {
+        "score": 0.11240289,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.23._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.3746763
+        }
+      },
+      {
+        "score": 0.0869622,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.289874
+        }
+      },
+      {
+        "score": 0.061828194,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.12.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.20609398
+        }
+      },
+      {
+        "score": 0.009343149,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.22._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.03114383
+        }
+      },
+      {
+        "score": 0.0065593668,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.021864556
+        }
+      },
+      {
+        "score": 0.0049020381,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.016340127
+        }
+      },
+      {
+        "score": 0.0044527248,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.5.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.014842416
+        }
+      },
+      {
+        "score": 0.0044527248,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.5.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.014842416
+        }
+      },
+      {
+        "score": 0.0039975441,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.11.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.013325147
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.5.2.",
+    "candidates": [
+      {
+        "score": 0.15251950025558472,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.1.2._"
+        ],
+        "similarities": {
+          "scope": 0.7625975012779236
+        }
+      },
+      {
+        "score": 0.032683512,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.9.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.10894504
+        }
+      },
+      {
+        "score": 0.0249875775,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.083291925
+        }
+      },
+      {
+        "score": 0.022918998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.4.3._In length: at the rear of the vehicle."
+        ],
+        "similarities": {
+          "context_keywords": 0.22918998
+        }
+      },
+      {
+        "score": 0.022850065000000003,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.14.4.3._In length: at the rear of the vehicle."
+        ],
+        "similarities": {
+          "context_keywords": 0.22850065
+        }
+      },
+      {
+        "score": 0.022850065000000003,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.15.4.3._In length: at the rear of the vehicle."
+        ],
+        "similarities": {
+          "context_keywords": 0.22850065
+        }
+      },
+      {
+        "score": 0.022850065000000003,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.4.3._In length: The rear of the vehicle."
+        ],
+        "similarities": {
+          "context_keywords": 0.22850065
+        }
+      },
+      {
+        "score": 0.0227985642,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3._Application for approval"
+        ],
+        "similarities": {
+          "topic_keywords": 0.075995214
+        }
+      },
+      {
+        "score": 0.015239837999999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.6.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.05079946
+        }
+      },
+      {
+        "score": 0.010356715,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.15.5._Geometric visibility"
+        ],
+        "similarities": {
+          "context_keywords": 0.10356715
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.3.",
+    "candidates": [
+      {
+        "score": 0.258879072,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.9.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.86293024
+        }
+      },
+      {
+        "score": 0.254879148,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1._Light source"
+        ],
+        "similarities": {
+          "topic_keywords": 0.84959716
+        }
+      },
+      {
+        "score": 0.254879148,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.84959716
+        }
+      },
+      {
+        "score": 0.24345801,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.8115267
+        }
+      },
+      {
+        "score": 0.22840833,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.28.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7613611
+        }
+      },
+      {
+        "score": 0.21551905200000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.15._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.71839684
+        }
+      },
+      {
+        "score": 0.205532205,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.9._\"Illuminating surface\" (see Annex 3)."
+        ],
+        "similarities": {
+          "topic_keywords": 0.68510735
+        }
+      },
+      {
+        "score": 0.20394501,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.28.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6798167
+        }
+      },
+      {
+        "score": 0.194138862,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.16._Number of lamps"
+        ],
+        "similarities": {
+          "topic_keywords": 0.64712954
+        }
+      },
+      {
+        "score": 0.17778230999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.5926077
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.3.1.",
+    "candidates": [
+      {
+        "score": 0.17825017343,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.28.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.5929023,
+          "context_keywords": 0.0037948343
+        }
+      },
+      {
+        "score": 0.1478672504425049,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7393362522125244
+        }
+      },
+      {
+        "score": 0.130446375,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1._Light source"
+        ],
+        "similarities": {
+          "topic_keywords": 0.43482125
+        }
+      },
+      {
+        "score": 0.130212432,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.43404144
+        }
+      },
+      {
+        "score": 0.093648084,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.15._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.31216028
+        }
+      },
+      {
+        "score": 0.05295888,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.6.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.1765296
+        }
+      },
+      {
+        "score": 0.05000262,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.8._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.1666754
+        }
+      },
+      {
+        "score": 0.039490083,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.6.1.2.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.39490083
+        }
+      },
+      {
+        "score": 0.0192196302,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.064065434
+        }
+      },
+      {
+        "score": 0.017967445000000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.5._Geometric visibility"
+        ],
+        "similarities": {
+          "context_keywords": 0.17967445
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.3.2.",
+    "candidates": [
+      {
+        "score": 0.289376772,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.15._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.96458924
+        }
+      },
+      {
+        "score": 0.24674235,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.29._Colour of the light emitted from a device"
+        ],
+        "similarities": {
+          "topic_keywords": 0.8224745
+        }
+      },
+      {
+        "score": 0.1357205867767334,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.678602933883667
+        }
+      },
+      {
+        "score": 0.11996106599999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.10._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.39987022
+        }
+      },
+      {
+        "score": 0.05631828,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.5.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.1877276
+        }
+      },
+      {
+        "score": 0.049799493,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.16599831
+        }
+      },
+      {
+        "score": 0.043935924,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.9.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.14645308
+        }
+      },
+      {
+        "score": 0.0227985642,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.32._Day-time Colour of the fluorescent a device"
+        ],
+        "similarities": {
+          "topic_keywords": 0.075995214
+        }
+      },
+      {
+        "score": 0.0169332081,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.5.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.056444027
+        }
+      },
+      {
+        "score": 0.013058442,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.31._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.04352814
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.3.2.1.",
+    "candidates": [
+      {
+        "score": 0.26962998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.29._Colour of the light emitted from a device"
+        ],
+        "similarities": {
+          "topic_keywords": 0.8987666
+        }
+      },
+      {
+        "score": 0.19303242,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.32.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6434414
+        }
+      },
+      {
+        "score": 0.19303242,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.29.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6434414
+        }
+      },
+      {
+        "score": 0.19303242,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.30.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6434414
+        }
+      },
+      {
+        "score": 0.192998778,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.31.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.64332926
+        }
+      },
+      {
+        "score": 0.16284080999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.15._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.5428027
+        }
+      },
+      {
+        "score": 0.14610075,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.4870025
+        }
+      },
+      {
+        "score": 0.14523849487304688,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.1.3.1._"
+        ],
+        "similarities": {
+          "scope": 0.7261924743652344
+        }
+      },
+      {
+        "score": 0.121581666,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.10.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.40527222
+        }
+      },
+      {
+        "score": 0.11455019373559999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.10._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.38179564,
+          "context_keywords": 0.000115017356
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.3.2.2.",
+    "candidates": [
+      {
+        "score": 0.24044101199999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1._Light source"
+        ],
+        "similarities": {
+          "topic_keywords": 0.80147004
+        }
+      },
+      {
+        "score": 0.24030105,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.8010035
+        }
+      },
+      {
+        "score": 0.21219108,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.29._Colour of the light emitted from a device"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7073036
+        }
+      },
+      {
+        "score": 0.13816868066787721,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.690843403339386
+        }
+      },
+      {
+        "score": 0.13105867799999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.15._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.43686226
+        }
+      },
+      {
+        "score": 0.105493488,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.6.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.35164496
+        }
+      },
+      {
+        "score": 0.076491738,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.9.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.25497246
+        }
+      },
+      {
+        "score": 0.061876143,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.23._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.20625381
+        }
+      },
+      {
+        "score": 0.061350216,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.20450072
+        }
+      },
+      {
+        "score": 0.056766378,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.22._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.18922126
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.",
+    "candidates": [
+      {
+        "score": 0.233088471,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5._General specifications"
+        ],
+        "similarities": {
+          "topic_keywords": 0.77696157
+        }
+      },
+      {
+        "score": 0.23273241,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6._Individual specifications"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7757747
+        }
+      },
+      {
+        "score": 0.15789374113082888,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7894687056541443
+        }
+      },
+      {
+        "score": 0.046217268,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.15405756
+        }
+      },
+      {
+        "score": 0.035332476,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.11777492
+        }
+      },
+      {
+        "score": 0.035210895,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.14.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.11736965
+        }
+      },
+      {
+        "score": 0.035210895,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.15.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.11736965
+        }
+      },
+      {
+        "score": 0.035210895,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.11736965
+        }
+      },
+      {
+        "score": 0.035210895,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.11736965
+        }
+      },
+      {
+        "score": 0.035210895,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.16.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.11736965
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.1.",
+    "candidates": [
+      {
+        "score": 0.283376169,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.1._Presence"
+        ],
+        "similarities": {
+          "topic_keywords": 0.94458723
+        }
+      },
+      {
+        "score": 0.26241954464385986,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.1._Presence"
+        ],
+        "similarities": {
+          "scope": 0.7867990732192993,
+          "topic_keywords": 0.3501991
+        }
+      },
+      {
+        "score": 0.19232562,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.1._Presence"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6410854
+        }
+      },
+      {
+        "score": 0.19192081800000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.1._Presence"
+        ],
+        "similarities": {
+          "topic_keywords": 0.63973606
+        }
+      },
+      {
+        "score": 0.16021974,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.1._Presence"
+        ],
+        "similarities": {
+          "topic_keywords": 0.5340658
+        }
+      },
+      {
+        "score": 0.128452089,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.1._Presence"
+        ],
+        "similarities": {
+          "topic_keywords": 0.42817363
+        }
+      },
+      {
+        "score": 0.10422792,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.1._Presence"
+        ],
+        "similarities": {
+          "topic_keywords": 0.3474264
+        }
+      },
+      {
+        "score": 0.10201402799999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.18.1._Presence"
+        ],
+        "similarities": {
+          "topic_keywords": 0.34004676
+        }
+      },
+      {
+        "score": 0.09781704,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.1._Presence"
+        ],
+        "similarities": {
+          "topic_keywords": 0.3260568
+        }
+      },
+      {
+        "score": 0.094025928,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.1._Presence"
+        ],
+        "similarities": {
+          "topic_keywords": 0.31341976
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.2.",
+    "candidates": [
+      {
+        "score": 0.2301501,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.2._Number"
+        ],
+        "similarities": {
+          "topic_keywords": 0.767167
+        }
+      },
+      {
+        "score": 0.15354562997817994,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7677281498908997
+        }
+      },
+      {
+        "score": 0.086300325,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.2.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.28766775
+        }
+      },
+      {
+        "score": 0.056452422,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.2.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.18817474
+        }
+      },
+      {
+        "score": 0.041051673000000004,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.2._Number"
+        ],
+        "similarities": {
+          "topic_keywords": 0.13683891
+        }
+      },
+      {
+        "score": 0.027075969000000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.2._Number"
+        ],
+        "similarities": {
+          "topic_keywords": 0.09025323
+        }
+      },
+      {
+        "score": 0.020711379,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.16.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.06903793
+        }
+      },
+      {
+        "score": 0.0206361852,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.16._Number of lamps"
+        ],
+        "similarities": {
+          "topic_keywords": 0.068787284
+        }
+      },
+      {
+        "score": 0.01088649,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.4.3._In length: no individual specification."
+        ],
+        "similarities": {
+          "topic_keywords": 0.0362883
+        }
+      },
+      {
+        "score": 0.01088649,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.4.3._In length: The rear of the vehicle."
+        ],
+        "similarities": {
+          "topic_keywords": 0.0362883
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.3.",
+    "candidates": [
+      {
+        "score": 0.200176818,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "4.8._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.66725606
+        }
+      },
+      {
+        "score": 0.1836531117857788,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.3._Arrangement"
+        ],
+        "similarities": {
+          "scope": 0.790160059928894,
+          "topic_keywords": 0.085403666
+        }
+      },
+      {
+        "score": 0.181109475,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.60369825
+        }
+      },
+      {
+        "score": 0.17075826,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.5691942
+        }
+      },
+      {
+        "score": 0.123280065,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.2.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.41093355
+        }
+      },
+      {
+        "score": 0.12248303099999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.5.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.40827677
+        }
+      },
+      {
+        "score": 0.12131695799999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.2.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.40438986
+        }
+      },
+      {
+        "score": 0.08588069999999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.286269
+        }
+      },
+      {
+        "score": 0.07494393,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.2498131
+        }
+      },
+      {
+        "score": 0.06953641499999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.3._Arrangement"
+        ],
+        "similarities": {
+          "topic_keywords": 0.23178805
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.4.",
+    "candidates": [
+      {
+        "score": 0.18995501999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.14.4.3._In length: at the rear of the vehicle."
+        ],
+        "similarities": {
+          "topic_keywords": 0.6331834
+        }
+      },
+      {
+        "score": 0.18995501999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.18.4.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6331834
+        }
+      },
+      {
+        "score": 0.18995501999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.16.4.3._In length: at the front of the vehicle."
+        ],
+        "similarities": {
+          "topic_keywords": 0.6331834
+        }
+      },
+      {
+        "score": 0.18995501999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.17.4.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6331834
+        }
+      },
+      {
+        "score": 0.18988697999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.15.4.3._In length: at the rear of the vehicle."
+        ],
+        "similarities": {
+          "topic_keywords": 0.6329566
+        }
+      },
+      {
+        "score": 0.18988697999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.4.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6329566
+        }
+      },
+      {
+        "score": 0.18988697999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.4.3._In length: no individual specification."
+        ],
+        "similarities": {
+          "topic_keywords": 0.6329566
+        }
+      },
+      {
+        "score": 0.18988697999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.4.3._In length: The rear of the vehicle."
+        ],
+        "similarities": {
+          "topic_keywords": 0.6329566
+        }
+      },
+      {
+        "score": 0.18988697999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.4.3._In length: at the rear of the vehicle."
+        ],
+        "similarities": {
+          "topic_keywords": 0.6329566
+        }
+      },
+      {
+        "score": 0.18988697999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.4.3._In length: no special requirement."
+        ],
+        "similarities": {
+          "topic_keywords": 0.6329566
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.4.1.",
+    "candidates": [
+      {
+        "score": 0.38038188100000003,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.13.4.1._In width:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.96232057,
+          "context_keywords": 0.9168571
+        }
+      },
+      {
+        "score": 0.37331661,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.8.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9551521,
+          "context_keywords": 0.8677098
+        }
+      },
+      {
+        "score": 0.372540852,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.95814794,
+          "context_keywords": 0.8509647
+        }
+      },
+      {
+        "score": 0.368724846,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.15.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.95822614,
+          "context_keywords": 0.81257004
+        }
+      },
+      {
+        "score": 0.365656186,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.96232057,
+          "context_keywords": 0.76960015
+        }
+      },
+      {
+        "score": 0.36206324199999995,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.95822614,
+          "context_keywords": 0.745954
+        }
+      },
+      {
+        "score": 0.36180327199999995,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.14.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.95822614,
+          "context_keywords": 0.7433543
+        }
+      },
+      {
+        "score": 0.360323362,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.16.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.95822614,
+          "context_keywords": 0.7285552
+        }
+      },
+      {
+        "score": 0.35679970699999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9382373,
+          "context_keywords": 0.75328517
+        }
+      },
+      {
+        "score": 0.34832143699999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.95822614,
+          "context_keywords": 0.60853595
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.4.2.",
+    "candidates": [
+      {
+        "score": 0.209313582,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.13.4.2._In height:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.69771194
+        }
+      },
+      {
+        "score": 0.209313582,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.4.2._In height:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.69771194
+        }
+      },
+      {
+        "score": 0.19551814464912684,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.7.4.2.2._For S3 or S4 categories devices:"
+        ],
+        "similarities": {
+          "parameters": 0.6781138
+        }
+      },
+      {
+        "score": 0.16519421522491456,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.4.2._In height: No individual specifications."
+        ],
+        "similarities": {
+          "scope": 0.7803045511245728,
+          "topic_keywords": 0.03044435
+        }
+      },
+      {
+        "score": 0.13568819999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.4.3._Height"
+        ],
+        "similarities": {
+          "topic_keywords": 0.452294
+        }
+      },
+      {
+        "score": 0.09527049400000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.4.1._"
+        ],
+        "similarities": {
+          "parameters": 0.2168396,
+          "topic_keywords": 0.17300858
+        }
+      },
+      {
+        "score": 0.0617105,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.4.1._"
+        ],
+        "similarities": {
+          "parameters": 0.04903963,
+          "topic_keywords": 0.17300858
+        }
+      },
+      {
+        "score": 0.06144559199999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.20481864
+        }
+      },
+      {
+        "score": 0.0544569474,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.4.1._"
+        ],
+        "similarities": {
+          "parameters": 0.012771867,
+          "topic_keywords": 0.17300858
+        }
+      },
+      {
+        "score": 0.051944505,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.14.4.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.17314835
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.5.",
+    "candidates": [
+      {
+        "score": 0.44101595882781985,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.5._Geometric visibility"
+        ],
+        "similarities": {
+          "scope": 0.7934068441390991,
+          "topic_keywords": 0.9411153
+        }
+      },
+      {
+        "score": 0.299953188,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.28._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.99984396
+        }
+      },
+      {
+        "score": 0.29671662,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9890554
+        }
+      },
+      {
+        "score": 0.29297403,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9765801
+        }
+      },
+      {
+        "score": 0.291818208,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.97272736
+        }
+      },
+      {
+        "score": 0.29065685999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.5.1._Horizontal angle: 45° inwards and 80° ou"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9688562
+        }
+      },
+      {
+        "score": 0.290639145,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.5.1._Horizontal angle: 45° inwards and 80° out"
+        ],
+        "similarities": {
+          "topic_keywords": 0.96879715
+        }
+      },
+      {
+        "score": 0.29062143,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9687381
+        }
+      },
+      {
+        "score": 0.2899041,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.16.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.966347
+        }
+      },
+      {
+        "score": 0.28739727,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9579909
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.5.1.",
+    "candidates": [
+      {
+        "score": 0.298015398,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.11._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.99338466
+        }
+      },
+      {
+        "score": 0.29418533999999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9806178
+        }
+      },
+      {
+        "score": 0.15138754844665528,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.5._Geometric visibility"
+        ],
+        "similarities": {
+          "scope": 0.7569377422332764
+        }
+      },
+      {
+        "score": 0.09612371680000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.6.1._To the side:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.014009566,
+          "context_keywords": 0.91920847
+        }
+      },
+      {
+        "score": 0.08812066,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.8812066
+        }
+      },
+      {
+        "score": 0.08590736,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.5.2._"
+        ],
+        "similarities": {
+          "context_keywords": 0.8590736
+        }
+      },
+      {
+        "score": 0.08576103,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.2858701
+        }
+      },
+      {
+        "score": 0.08460696300000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.5.1.2._"
+        ],
+        "similarities": {
+          "context_keywords": 0.84606963
+        }
+      },
+      {
+        "score": 0.07676898,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.14._"
+        ],
+        "similarities": {
+          "context_keywords": 0.7676898
+        }
+      },
+      {
+        "score": 0.07280721,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.5.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.7280721
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.5.1.1.",
+    "candidates": [
+      {
+        "score": 0.4630399286511274,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.28.4._"
+        ],
+        "similarities": {
+          "parameters": 0.9546474,
+          "topic_keywords": 0.15869519
+        }
+      },
+      {
+        "score": 0.34625723599999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.5.1._Horizontal angle: 45° inwards and 80° out"
+        ],
+        "similarities": {
+          "parameters": 0.23475733,
+          "topic_keywords": 0.9976859
+        }
+      },
+      {
+        "score": 0.29930576999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.5.1._Horizontal angle: 45° inwards and 80° ou"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9976859
+        }
+      },
+      {
+        "score": 0.29325,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.13._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9775
+        }
+      },
+      {
+        "score": 0.25336117799999996,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.84453726
+        }
+      },
+      {
+        "score": 0.24430448999999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.8143483
+        }
+      },
+      {
+        "score": 0.243233622,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.28._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.81077874
+        }
+      },
+      {
+        "score": 0.238075875,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.17.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.79358625
+        }
+      },
+      {
+        "score": 0.19124468999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6374823
+        }
+      },
+      {
+        "score": 0.163721895,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.6.1._Vertical orientation:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.54573965
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.5.1.2.",
+    "candidates": [
+      {
+        "score": 0.300800148,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.5.1._Horizontal angle: 45° inwards and 80° out"
+        ],
+        "similarities": {
+          "parameters": 0.01822929,
+          "topic_keywords": 0.9905143
+        }
+      },
+      {
+        "score": 0.29716527,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.5.1._Horizontal angle: 45° inwards and 80° ou"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9905509
+        }
+      },
+      {
+        "score": 0.29005542,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.13._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9668514
+        }
+      },
+      {
+        "score": 0.23874505199999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.79581684
+        }
+      },
+      {
+        "score": 0.23191351799999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.17.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.77304506
+        }
+      },
+      {
+        "score": 0.22543973999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.5._Geometric visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7514658
+        }
+      },
+      {
+        "score": 0.20903527800000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.28._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.69678426
+        }
+      },
+      {
+        "score": 0.1931381208339844,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.28.5._"
+        ],
+        "similarities": {
+          "scope": 0.7685966491699219,
+          "topic_keywords": 0.13139597
+        }
+      },
+      {
+        "score": 0.178647762,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.6.3._Horizontal orientation:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.59549254
+        }
+      },
+      {
+        "score": 0.14402019,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.5._Geometric Visibility"
+        ],
+        "similarities": {
+          "topic_keywords": 0.4800673
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.6.",
+    "candidates": [
+      {
+        "score": 0.29093562,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.14.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9697854
+        }
+      },
+      {
+        "score": 0.29091843,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.15.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9697281
+        }
+      },
+      {
+        "score": 0.28534266,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.17.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9511422
+        }
+      },
+      {
+        "score": 0.27209496,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9069832
+        }
+      },
+      {
+        "score": 0.27031601099999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.90105337
+        }
+      },
+      {
+        "score": 0.26871159,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.9.5._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.8957053
+        }
+      },
+      {
+        "score": 0.23903018999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7967673
+        }
+      },
+      {
+        "score": 0.22883330999999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.6.2._To the rear and to the front:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7627777
+        }
+      },
+      {
+        "score": 0.18261310499999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.25.6._Orientation"
+        ],
+        "similarities": {
+          "topic_keywords": 0.60871035
+        }
+      },
+      {
+        "score": 0.1654219067847229,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.6._Orientation"
+        ],
+        "similarities": {
+          "scope": 0.7893412709236145,
+          "topic_keywords": 0.025178842
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.7.",
+    "candidates": [
+      {
+        "score": 0.15539098702922366,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.1.2._"
+        ],
+        "similarities": {
+          "scope": 0.7505896091461182,
+          "topic_keywords": 0.017576884
+        }
+      },
+      {
+        "score": 0.09709644,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.23.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.9709644
+        }
+      },
+      {
+        "score": 0.09668514,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.7.4._"
+        ],
+        "similarities": {
+          "context_keywords": 0.9668514
+        }
+      },
+      {
+        "score": 0.09616780000000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.12.1.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.961678
+        }
+      },
+      {
+        "score": 0.09084556,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.13.2._Number"
+        ],
+        "similarities": {
+          "context_keywords": 0.9084556
+        }
+      },
+      {
+        "score": 0.08962514,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.11.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.8962514
+        }
+      },
+      {
+        "score": 0.0692538,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.3._Arrangement"
+        ],
+        "similarities": {
+          "context_keywords": 0.692538
+        }
+      },
+      {
+        "score": 0.06541219000000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.17.7._Other requirements"
+        ],
+        "similarities": {
+          "context_keywords": 0.6541219
+        }
+      },
+      {
+        "score": 0.06308381399999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.14.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.21027938
+        }
+      },
+      {
+        "score": 0.05587483600000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.13.8._Tell-tale"
+        ],
+        "similarities": {
+          "context_keywords": 0.55874836
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.8.",
+    "candidates": [
+      {
+        "score": 0.1851181209183777,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.1.2._"
+        ],
+        "similarities": {
+          "scope": 0.7581486105918884,
+          "topic_keywords": 0.111627996
+        }
+      },
+      {
+        "score": 0.092769678,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.14.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.30923226
+        }
+      },
+      {
+        "score": 0.057511084999999997,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "7._"
+        ],
+        "similarities": {
+          "context_keywords": 0.57511085
+        }
+      },
+      {
+        "score": 0.042685908,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.12.1.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.42685908
+        }
+      },
+      {
+        "score": 0.03971198200000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.7.4._"
+        ],
+        "similarities": {
+          "context_keywords": 0.39711982
+        }
+      },
+      {
+        "score": 0.029788620000000002,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.28.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0992954
+        }
+      },
+      {
+        "score": 0.02952299,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.2952299
+        }
+      },
+      {
+        "score": 0.029011738199999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.1.1._Prohibited: on vehicles of categories M1"
+        ],
+        "similarities": {
+          "topic_keywords": 0.096705794
+        }
+      },
+      {
+        "score": 0.02024432,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.18._"
+        ],
+        "similarities": {
+          "context_keywords": 0.2024432
+        }
+      },
+      {
+        "score": 0.019682622,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.16.7._Other requirements"
+        ],
+        "similarities": {
+          "context_keywords": 0.19682622
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.9.",
+    "candidates": [
+      {
+        "score": 0.273306459,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.1.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.91102153
+        }
+      },
+      {
+        "score": 0.14756704568862916,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.7.1.3.1._"
+        ],
+        "similarities": {
+          "scope": 0.7378352284431458
+        }
+      },
+      {
+        "score": 0.09709644,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.23.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.9709644
+        }
+      },
+      {
+        "score": 0.09667888000000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.7.4._"
+        ],
+        "similarities": {
+          "context_keywords": 0.9667888
+        }
+      },
+      {
+        "score": 0.09613890600000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.12.1.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.96138906
+        }
+      },
+      {
+        "score": 0.09084556,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.13.2._Number"
+        ],
+        "similarities": {
+          "context_keywords": 0.9084556
+        }
+      },
+      {
+        "score": 0.08962514,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.11.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.8962514
+        }
+      },
+      {
+        "score": 0.0692642,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.3._Arrangement"
+        ],
+        "similarities": {
+          "context_keywords": 0.692642
+        }
+      },
+      {
+        "score": 0.06544287995800001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.17.7._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.00010229986,
+          "context_keywords": 0.6541219
+        }
+      },
+      {
+        "score": 0.05587483600000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.13.8._Tell-tale"
+        ],
+        "similarities": {
+          "context_keywords": 0.55874836
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.10.",
+    "candidates": [
+      {
+        "score": 0.23642828999999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.20.7.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7880943
+        }
+      },
+      {
+        "score": 0.15685598850250246,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7842799425125122
+        }
+      },
+      {
+        "score": 0.08768172883,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.7.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.29047745,
+          "context_keywords": 0.0053849383
+        }
+      },
+      {
+        "score": 0.047179869,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.7.3._Either of the following applies:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.15726623
+        }
+      },
+      {
+        "score": 0.026931987,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.7.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.08977329
+        }
+      },
+      {
+        "score": 0.024400254,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.28.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.24400254
+        }
+      },
+      {
+        "score": 0.021594487199999998,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.7._Electrical connections"
+        ],
+        "similarities": {
+          "topic_keywords": 0.071981624
+        }
+      },
+      {
+        "score": 0.018967113,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.1.2.5._"
+        ],
+        "similarities": {
+          "context_keywords": 0.18967113
+        }
+      },
+      {
+        "score": 0.0165308039,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.7.3.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.05399884,
+          "context_keywords": 0.003311519
+        }
+      },
+      {
+        "score": 0.013913461799999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.14.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.046378206
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.11.",
+    "candidates": [
+      {
+        "score": 0.29454168,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.8.4._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9818056
+        }
+      },
+      {
+        "score": 0.282204258,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.2.8.1._Tell-tale optional"
+        ],
+        "similarities": {
+          "topic_keywords": 0.94068086
+        }
+      },
+      {
+        "score": 0.17955211512030028,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.8._Tell-tale"
+        ],
+        "similarities": {
+          "scope": 0.7854026556015015,
+          "topic_keywords": 0.07490528
+        }
+      },
+      {
+        "score": 0.127108938,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.13._Tell-tale"
+        ],
+        "similarities": {
+          "topic_keywords": 0.42369646
+        }
+      },
+      {
+        "score": 0.12281936099999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.8._Tell-tale:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.40939787
+        }
+      },
+      {
+        "score": 0.056050731,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.18._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.18683577
+        }
+      },
+      {
+        "score": 0.042100877999999994,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.8.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.14033626
+        }
+      },
+      {
+        "score": 0.024676185,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.1.3._Optional:"
+        ],
+        "similarities": {
+          "topic_keywords": 0.08225395
+        }
+      },
+      {
+        "score": 0.0147392358,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.8._Tell-tale"
+        ],
+        "similarities": {
+          "topic_keywords": 0.049130786
+        }
+      },
+      {
+        "score": 0.013707609,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.2.8.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.04569203
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.12.",
+    "candidates": [
+      {
+        "score": 0.16208534240722658,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.9._Other requirements"
+        ],
+        "similarities": {
+          "scope": 0.8104267120361328
+        }
+      },
+      {
+        "score": 0.062154089999999995,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.19.4.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.6215409
+        }
+      },
+      {
+        "score": 0.05411057500000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.11.4.3._In length: at the rear of the vehicle."
+        ],
+        "similarities": {
+          "context_keywords": 0.54110575
+        }
+      },
+      {
+        "score": 0.05396808,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.15.4.3._In length: at the rear of the vehicle."
+        ],
+        "similarities": {
+          "context_keywords": 0.5396808
+        }
+      },
+      {
+        "score": 0.05396808,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.4.3._In length: The rear of the vehicle."
+        ],
+        "similarities": {
+          "context_keywords": 0.5396808
+        }
+      },
+      {
+        "score": 0.05396808,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.14.4.3._In length: at the rear of the vehicle."
+        ],
+        "similarities": {
+          "context_keywords": 0.5396808
+        }
+      },
+      {
+        "score": 0.02216875,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.13.6._Orientation"
+        ],
+        "similarities": {
+          "context_keywords": 0.2216875
+        }
+      },
+      {
+        "score": 0.02211824,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.6._Orientation"
+        ],
+        "similarities": {
+          "context_keywords": 0.2211824
+        }
+      },
+      {
+        "score": 0.019269122,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.1.4.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.19269122
+        }
+      },
+      {
+        "score": 0.019269122,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.2.4.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.19269122
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.5.",
+    "candidates": [
+      {
+        "score": 0.299699862,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.25._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.99899954
+        }
+      },
+      {
+        "score": 0.19093983,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.9.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.6364661
+        }
+      },
+      {
+        "score": 0.15558672,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.5186224
+        }
+      },
+      {
+        "score": 0.14878768920898439,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7439384460449219
+        }
+      },
+      {
+        "score": 0.07953561599999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.22.4.1.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.26511872
+        }
+      },
+      {
+        "score": 0.012230780399999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.9.5.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.040769268
+        }
+      },
+      {
+        "score": 0.012207885,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.5.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.04069295
+        }
+      },
+      {
+        "score": 0.0051728334,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.9.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.017242778
+        }
+      },
+      {
+        "score": 0.00418671285,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.0139557095
+        }
+      },
+      {
+        "score": 0.0025732458,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.1.2.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.008577486
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.5.1.",
+    "candidates": [
+      {
+        "score": 0.29027835,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9675945
+        }
+      },
+      {
+        "score": 0.26402325,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.25._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.8800775
+        }
+      },
+      {
+        "score": 0.22400805,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.6.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7466935
+        }
+      },
+      {
+        "score": 0.14878768920898439,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7439384460449219
+        }
+      },
+      {
+        "score": 0.09006972,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.9.1._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.3002324
+        }
+      },
+      {
+        "score": 0.09000037300000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.3._"
+        ],
+        "similarities": {
+          "context_keywords": 0.90000373
+        }
+      },
+      {
+        "score": 0.08585077799999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.5._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.28616926
+        }
+      },
+      {
+        "score": 0.08541562600000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.12.1.1._"
+        ],
+        "similarities": {
+          "context_keywords": 0.85415626
+        }
+      },
+      {
+        "score": 0.083615357,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "7._"
+        ],
+        "similarities": {
+          "context_keywords": 0.83615357
+        }
+      },
+      {
+        "score": 0.044414159999999994,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3._Application for approval"
+        ],
+        "similarities": {
+          "topic_keywords": 0.1480472
+        }
+      }
+    ]
+  },
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.5.2.",
+    "candidates": [
+      {
+        "score": 0.4428719292089844,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.12._"
+        ],
+        "similarities": {
+          "scope": 0.7439384460449219,
+          "topic_keywords": 0.9802808
+        }
+      },
+      {
+        "score": 0.27816948,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.9272316
+        }
+      },
+      {
+        "score": 0.269736402,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "2.7.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.89912134
+        }
+      },
+      {
+        "score": 0.22941477,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "5.12.1.2._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.7647159
+        }
+      },
+      {
+        "score": 0.170740305,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.12.7._Electrical connections"
+        ],
+        "similarities": {
+          "topic_keywords": 0.56913435
+        }
+      },
+      {
+        "score": 0.1566561,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.26.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.522187
+        }
+      },
+      {
+        "score": 0.12174057599999999,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "3.2.6.7._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.40580192
+        }
+      },
+      {
+        "score": 0.10861994400000001,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.10.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.36206648
+        }
+      },
+      {
+        "score": 0.096853842,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.21.7.3._"
+        ],
+        "similarities": {
+          "topic_keywords": 0.32284614
+        }
+      },
+      {
+        "score": 0.059233335,
+        "chapter": [
+          "regulation",
+          "MAIN",
+          "6.23.9._Other requirements"
+        ],
+        "similarities": {
+          "topic_keywords": 0.19744445
+        }
+      }
+    ]
+  }
+]

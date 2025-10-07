@@ -1,0 +1,655 @@
+[
+  {
+    "file": "regulation",
+    "sections": [
+      {
+        "section": "MAIN",
+        "context": "  STANDARDIZATION ORGANIZATION FOR G.C.C (GSO)\nGSO 1040/2000\nMOTOR VEHICLES -\nALLOW ABLE LIMITS OF POLLUTANTS EMITTED TO\nTHE ATMOSPHERE FROM LIGHT DUTY DIESEL\nENGINED VEHICLES\nICS: 13.040\nMOTOR VEHICLES -\nALLOW ABLE LIMITS OF POLLUTANTS EMITTED TO\nTHE ATMOSPHERE FROM LIGHT DUTY DIESEL\nENGINED VEHICLES\nDate of GSO Board of Directors' Approval 11- 6- 1421 (9-9-2000)\nISSUING STATUS STANDARD\nMOTOR VEHICLES -\nALLOWABLE LIMITS OF POLLUTANTS EMITTED TO\nTHE ATMOSPHERE FROM LIGHT DUTY DIESEL\nENGINED VEHICLESThis standard is concerned with the allowable limits  of gaseous pollutants and\nsmoke emitted to the atmosphere from new light duty vehicles with maximum\nweight equal to or less than 3500 kg powered by diesel engines.",
+        "chapters": [
+          {
+            "chapter_id": "1-",
+            "chapter_title": "SCOPE AND FIELD OF APPLICATION",
+            "raw_text": "This standard is concerned with the allowable limits  of gaseous pollutants and\nsmoke emitted to the atmosphere from new light duty vehicles with maximum\nweight equal to or less than 3500 kg powered by diesel engines.",
+            "children": [],
+            "full_path": "1- SCOPE AND FIELD OF APPLICATION"
+          },
+          {
+            "chapter_id": "2-",
+            "chapter_title": "COMPLEMENTARY REFERENCES",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "2.1",
+                "chapter_title": "GSO 48/1984 \"Motor Vehicles - Conformity Certificates\".",
+                "raw_text": "",
+                "children": [],
+                "full_path": "2- COMPLEMENTARY REFERENCES/2.1 GSO 48/1984 \"Motor Vehicles - Conformity Certificates\"."
+              },
+              {
+                "chapter_id": "2.2",
+                "chapter_title": "GSO 153/1993 \"Motor Vehicles - Conformity Certificates for Vehicles",
+                "raw_text": "Manufactured in Multi - Stages\".",
+                "children": [],
+                "full_path": "2- COMPLEMENTARY REFERENCES/2.2 GSO 153/1993 \"Motor Vehicles - Conformity Certificates for Vehicles"
+              },
+              {
+                "chapter_id": "2.3",
+                "chapter_title": "GSO 1041/2000 Motor Vehicles - Methods of Testing for Pollutants Emitted from",
+                "raw_text": "Diesel Engined Vehicles - Part 1:  Determination of Exhaust Gaseous Pollutants\".",
+                "children": [],
+                "full_path": "2- COMPLEMENTARY REFERENCES/2.3 GSO 1041/2000 Motor Vehicles - Methods of Testing for Pollutants Emitted from"
+              },
+              {
+                "chapter_id": "2.4",
+                "chapter_title": "GSO 1042/2000 Motor Vehicles - Methods of Testing for Pollutants Emitted from",
+                "raw_text": "Diesel Engined Vehicles - Part 2: Determination of Smoke\".",
+                "children": [],
+                "full_path": "2- COMPLEMENTARY REFERENCES/2.4 GSO 1042/2000 Motor Vehicles - Methods of Testing for Pollutants Emitted from"
+              }
+            ],
+            "full_path": "2- COMPLEMENTARY REFERENCES"
+          },
+          {
+            "chapter_id": "3-",
+            "chapter_title": "DEFINITIONS",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "3.1",
+                "chapter_title": "Gaseous pollutants: Substances airborne to atmosphere, which arise during the",
+                "raw_text": "running of the vehicle, due to exhaust gases.  They include carbon monoxide,\nhydrocarbons and oxides of nitrogen.",
+                "children": [],
+                "full_path": "3- DEFINITIONS/3.1 Gaseous pollutants: Substances airborne to atmosphere, which arise during the"
+              },
+              {
+                "chapter_id": "3.2",
+                "chapter_title": "Exhaust gases: Gases produced  by  combustion  of  the fuel, emitted to the",
+                "raw_text": "atmosphere at any point downstream of the exhaust ports of the engine.",
+                "children": [],
+                "full_path": "3- DEFINITIONS/3.2 Exhaust gases: Gases produced  by  combustion  of  the fuel, emitted to the"
+              },
+              {
+                "chapter_id": "3.3",
+                "chapter_title": "Smoke: Particulate matter  in  the exhaust emissions which obscures the",
+                "raw_text": "transmission of light.",
+                "children": [],
+                "full_path": "3- DEFINITIONS/3.3 Smoke: Particulate matter  in  the exhaust emissions which obscures the"
+              },
+              {
+                "chapter_id": "3.4",
+                "chapter_title": "Light duty vehicles: Any motor vehicle having a maximum weight equal to or less",
+                "raw_text": "than 3500 kg.",
+                "children": [],
+                "full_path": "3- DEFINITIONS/3.4 Light duty vehicles: Any motor vehicle having a maximum weight equal to or less"
+              },
+              {
+                "chapter_id": "3.5",
+                "chapter_title": "Maximum weight:  The kerb weight together with the maximum load declared by",
+                "raw_text": "the manufacturer.",
+                "children": [],
+                "full_path": "3- DEFINITIONS/3.5 Maximum weight:  The kerb weight together with the maximum load declared by"
+              },
+              {
+                "chapter_id": "3.6",
+                "chapter_title": "Kerb weight: The  weight  of the vehicle with standard equipment, maximum",
+                "raw_text": "capacity of engine fuel, oil and coolant, the spare wheel, tools and, (if so\nequipped), the air conditioning system.",
+                "children": [],
+                "full_path": "3- DEFINITIONS/3.6 Kerb weight: The  weight  of the vehicle with standard equipment, maximum"
+              },
+              {
+                "chapter_id": "3.7",
+                "chapter_title": "Reference weight of vehicle (rw): The kerb weight+ 100 kg.",
+                "raw_text": "",
+                "children": [],
+                "full_path": "3- DEFINITIONS/3.7 Reference weight of vehicle (rw): The kerb weight+ 100 kg."
+              }
+            ],
+            "full_path": "3- DEFINITIONS"
+          },
+          {
+            "chapter_id": "4-",
+            "chapter_title": "REQUIREMENTS",
+            "raw_text": "The fallowing shall be met:",
+            "children": [
+              {
+                "chapter_id": "4.1",
+                "chapter_title": "The mass of gaseous pollutants in the exhaust gases shall not exceed the amounts",
+                "raw_text": "given in Table (1) when testing the vehicle in accordance with Gulf Standard No.\n1041/2000 \"Motor Vehicles - Methods  of Testing for Pollutants Emitted from\nDiesel Engined Vehicles - Part 1:  Determination of Exhaust Gaseous Pollutants\".\nTABLE (1)\nMaximum Masses of Gaseous Pollutants and Reference Weight of Vehicle\nReference weight Mass of Carbon Combined mass of\nof vehicle (rw) Monoxide (CO) Hydrocarbons (HC)\n(kg) (g/test) oxides of Nitrogen\n(Nox) (g/test)\nType Acceptance Type Acceptance\ntest test test test\nrw < 1020 58 70 19 23.8\n1020 <  rw < 1250 67 80 20.5 25.6\n1250 <  rw < 1470 76 91 22 27.5\n1470 <  rw < 1700 84 101 23.5 29.4\n1700 <  rw < 1930 93 112 25 31.3\n1930 <  rw < 2150 101 121 26.5 33.1\n2150 <  rw < 3500 110 132 28 35",
+                "children": [],
+                "full_path": "4- REQUIREMENTS/4.1 The mass of gaseous pollutants in the exhaust gases shall not exceed the amounts"
+              },
+              {
+                "chapter_id": "4.2",
+                "chapter_title": "The  light absorption coefficient  of  the exhaust gases shall not exceed the",
+                "raw_text": "respective limits for k specified in Table (2) when testing the vehicle/engine, in\naccordance with Gulf Standard No. GSO 1042/2000 \"Motor Vehicles - Methods of\nTesting for Pollutants Emitted from Diesel Engined Vehicles - Part 2:\nDetermination of Smoke\". In case of engines equipped with an exhaust driven\nsupercharger, the absorption coefficient measured under free acceleration shall not\nexceed the respective limit for k, specified in Table (2), plus 0.5 m-1,  for the\nnominal flow value  corresponding to the maximum absorption coefficient\nmeasured during the test at steady speeds.\nTABLE (2)\nExhaust Gas Flow and Absorption Coefficient\nNominal flow (g) Absorption coefficient (k)\nlitres/second m-1\n<  42 2.26\n45 2.19\n50 2.08\n55 1.985\n60 1.90\n65 1.84\n70 1.775\n75 1.72\n80 1.665\n85 1.62\n90 1.575\n95 1.535\n100 1.495\n105 1.465\n110 1.425\n115 1.395\n120 1.37\n125 1.345\n130 1.32\n135 l.30\n140 1.27\n145 1.25\n150 1.225\nTABLE (2) ( continued)\nNominal flow (g) Absorption coefficient (k)\nlitres/second - 1 m\n155 1.205\n160 1.19\n165 1.17\n170 1.155\n175 1.14\n180 1.125\n185 1.1 l\n190 1.095\n195 1.08\n>200 1.065\nNOTES:\n(1) If the value of the nominal flow is between the values given in the Table (2),  the limit value\napplicable shall be obtained by inte,polation.\n(2) m·1 denotes: Absorption coefficient measured per meter length.",
+                "children": [],
+                "full_path": "4- REQUIREMENTS/4.2 The  light absorption coefficient  of  the exhaust gases shall not exceed the"
+              },
+              {
+                "chapter_id": "4.3",
+                "chapter_title": "There shall be no emission from the crankcase of the vehicle to the atmosphere.",
+                "raw_text": "",
+                "children": [],
+                "full_path": "4- REQUIREMENTS/4.3 There shall be no emission from the crankcase of the vehicle to the atmosphere."
+              }
+            ],
+            "full_path": "4- REQUIREMENTS"
+          },
+          {
+            "chapter_id": "5-",
+            "chapter_title": "TESTING",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "5.1",
+                "chapter_title": "The manufacturer shall supply  the testing authorities with all technical data",
+                "raw_text": "required for carrying out the tests as specified in appendix (A).",
+                "children": [],
+                "full_path": "5- TESTING/5.1 The manufacturer shall supply  the testing authorities with all technical data"
+              },
+              {
+                "chapter_id": "5.2",
+                "chapter_title": "Sampling",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "5.2.1",
+                    "chapter_title": "Type test:",
+                    "raw_text": "One vehicle or engine of the new type or kind shall be taken.",
+                    "children": [],
+                    "full_path": "5- TESTING/5.2 Sampling/5.2.1 Type test:"
+                  },
+                  {
+                    "chapter_id": "5.2.2",
+                    "chapter_title": "Acceptance test",
+                    "raw_text": "One or more vehicles of the same type or kind, as provided for in item (7.3), shall\nbe taken from the consignment.",
+                    "children": [],
+                    "full_path": "5- TESTING/5.2 Sampling/5.2.2 Acceptance test"
+                  }
+                ],
+                "full_path": "5- TESTING/5.2 Sampling"
+              },
+              {
+                "chapter_id": "5.3",
+                "chapter_title": "Methods of Testing",
+                "raw_text": "Testing shall be carried out in accordance with the following Gulf Standards:",
+                "children": [
+                  {
+                    "chapter_id": "5.3.1",
+                    "chapter_title": "GSO 1041/2000 \"Motor Vehicles - Methods  of Testing for Pollutants Emitted",
+                    "raw_text": "from Diesel Engined Vehicles - Part  1: Determination  of Exhaust  Gaseous\nPollutants\".",
+                    "children": [],
+                    "full_path": "5- TESTING/5.3 Methods of Testing/5.3.1 GSO 1041/2000 \"Motor Vehicles - Methods  of Testing for Pollutants Emitted"
+                  },
+                  {
+                    "chapter_id": "5.3.2",
+                    "chapter_title": "GSO 1042/2000 \"Motor Vehicles - Methods  of Testing for Pollutants Emitted",
+                    "raw_text": "from Diesel Engined Vehicles - Part 2: Determination of Smoke\".",
+                    "children": [],
+                    "full_path": "5- TESTING/5.3 Methods of Testing/5.3.2 GSO 1042/2000 \"Motor Vehicles - Methods  of Testing for Pollutants Emitted"
+                  }
+                ],
+                "full_path": "5- TESTING/5.3 Methods of Testing"
+              },
+              {
+                "chapter_id": "5.4",
+                "chapter_title": "Tests",
+                "raw_text": "The  following tests shall  be carried out on the sample vehicle withdrawn  1n\naccordance with (5.2).\n5.4.l Determination of exhaust gaseous pollutants.",
+                "children": [
+                  {
+                    "chapter_id": "5.4.2",
+                    "chapter_title": "Determination of smoke.",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "5- TESTING/5.4 Tests/5.4.2 Determination of smoke."
+                  }
+                ],
+                "full_path": "5- TESTING/5.4 Tests"
+              }
+            ],
+            "full_path": "5- TESTING"
+          },
+          {
+            "chapter_id": "6-",
+            "chapter_title": "INSTRUCTION BOOKLET",
+            "raw_text": "The manufacturer shall supply with each vehicle, a booklet, in English, or Arabic\nor both, including instructions for the maintenance of the vehicle in relation to the\ncontrol of emissions, within the limits specified in this standard.",
+            "children": [],
+            "full_path": "6- INSTRUCTION BOOKLET"
+          },
+          {
+            "chapter_id": "7-",
+            "chapter_title": "CRITERIA OF TECHNICAL CONFORMITY",
+            "raw_text": "\n7.1 The criteria of technical conformity shall be in accordance with the requirements\nspecified  in  Gulf Standard No. GSO 48/1984 \"Motor Vehicles - Conformity\nCertificates\".",
+            "children": [
+              {
+                "chapter_id": "7.2",
+                "chapter_title": "Vehicle subjected to type test",
+                "raw_text": "\n7.2.l The vehicle shall be considered complying with the requirement specified in item\n4.1of this standard, if the measured mass of carbon monoxide and the combined\nmass of hydrocarbon and oxides of nitrogen, are less than or  equal to 0.70 of the\nallowahle limits mentioned in Tahle (1 ).",
+                "children": [
+                  {
+                    "chapter_id": "7.2.2",
+                    "chapter_title": "The test shall  be repeated  if in the initial test, the measured masses of both the",
+                    "raw_text": "carbon monoxide and the combined value of hydrocarbons and oxides of nitrogen\nare less than or equal to 0.85 of their allowable limits and one of these values is\ngreater than 0.70 of its allowable limit.",
+                    "children": [],
+                    "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.2 Vehicle subjected to type test/7.2.2 The test shall  be repeated  if in the initial test, the measured masses of both the"
+                  },
+                  {
+                    "chapter_id": "7.2.3",
+                    "chapter_title": "The vehicle shall be considered complying with the requirement mentioned in item",
+                    "raw_text": "\n4.1of this standard if the measured masses of both the carbon monoxide and the\ncombined value hydrocarbons and oxides of nitrogen in the second test, is less\nthan its allowable limit and if the sum of the masses of both the carbon monoxide\nand the combined value of hydrocarbons and oxides of nitrogen in the two tests is\nless than 1.70 of the allowable limit.",
+                    "children": [],
+                    "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.2 Vehicle subjected to type test/7.2.3 The vehicle shall be considered complying with the requirement mentioned in item"
+                  },
+                  {
+                    "chapter_id": "7.2.4",
+                    "chapter_title": "The test shall be carried out a third time  if the sum of the masses  of both the",
+                    "raw_text": "carbon monoxide and the combined value of hydrocarbons and oxides of nitrogen\nin the two previous test is greater than 1.70 of the allowable limit or the measured\nmass of both the carbon monoxide and the combined value of hydrocarbons and\noxides of nitrogen in either of those tests, is equal to or greater than the allowable\nli1nit and not more than 1.1 tilnes the allowable li1nit.",
+                    "children": [],
+                    "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.2 Vehicle subjected to type test/7.2.4 The test shall be carried out a third time  if the sum of the masses  of both the"
+                  },
+                  {
+                    "chapter_id": "7.2.5",
+                    "chapter_title": "The vehicle shall be considered complying with the requirement mentioned in item",
+                    "raw_text": "\n4.1of this standard,  if the arithmetic means  of the masses  of both the carbon\nmonoxide and the combined value of hydrocarbons and oxides of nitrogen in the\nthree tests is less than or equal to allowable limit and not more than one of the\nmasses for each pollutant ( carbon monoxide and the combined mass  of\nhydrocarbons and oxides  of nitrogen) in the three tests exceeds 1.1 times the\nallo able limit",
+                    "children": [],
+                    "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.2 Vehicle subjected to type test/7.2.5 The vehicle shall be considered complying with the requirement mentioned in item"
+                  },
+                  {
+                    "chapter_id": "7.2.6",
+                    "chapter_title": "The vehicle shall be considered non-complying with the requirement mentioned in",
+                    "raw_text": "item 4.1  if more than one of the measured masses of both the carbon monoxide\nand the combined value of hydrocarbons and oxides of nitrogen in the three tests\nexceed 1.1 times the allowable limit for the pollutant.",
+                    "children": [],
+                    "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.2 Vehicle subjected to type test/7.2.6 The vehicle shall be considered non-complying with the requirement mentioned in"
+                  }
+                ],
+                "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.2 Vehicle subjected to type test"
+              },
+              {
+                "chapter_id": "7.3",
+                "chapter_title": "Vehicles subjected to acceptance tests",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "7.3.1",
+                    "chapter_title": "The consignment shall be accepted without carrying out the tests mentioned in",
+                    "raw_text": "item 5.4 in the case  of  acceptance  of  the certificate accompanying the\nconsignment.",
+                    "children": [],
+                    "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.3 Vehicles subjected to acceptance tests/7.3.1 The consignment shall be accepted without carrying out the tests mentioned in"
+                  },
+                  {
+                    "chapter_id": "7.3.2",
+                    "chapter_title": "If the certificate is not accepted or whenever otherwise deemed necessary, tests",
+                    "raw_text": "mentioned in item 5.4 shall be carried out on the sample vehicle taken as in item\n5.2.",
+                    "children": [],
+                    "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.3 Vehicles subjected to acceptance tests/7.3.2 If the certificate is not accepted or whenever otherwise deemed necessary, tests"
+                  },
+                  {
+                    "chapter_id": "7.3.3",
+                    "chapter_title": "The  vehicle taken is subjected  to  the test under free acceleration and  if the",
+                    "raw_text": "absorption coefficient determined does not exceed by more than 0.5 m- 1  to the\nlimits specified in Table (2), then the vehicle shall be considered complying with\nthe requirement specified in item 4.2 of this standard.  If exceed the vehicle is\nsubjected  to  the test at full load steady speed.  The vehicle shall  be considered\ncomplying with the requirement specified  in item 4.2 of this standard,  if the\nabsorption coefficient determined is less than or equal to the limits specified in\nTable (3).",
+                    "children": [],
+                    "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.3 Vehicles subjected to acceptance tests/7.3.3 The  vehicle taken is subjected  to  the test under free acceleration and  if the"
+                  },
+                  {
+                    "chapter_id": "7.3.4",
+                    "chapter_title": "Should the first sample fail the test the manufacturer may ask for measurement to",
+                    "raw_text": "be performed on a sample of vehicles taken from the consignment and including\nthe vehicle originally taken.  The manufacturer shall determine the size (n) of the\nsample. Vehicles other than the vehicle originally taken shall be subjected to a test\nspecified in (5.3.1).  The arithmetical mean m  of the results obtained with the\nsample shall then be determined for both the carbon monoxide and the combined\nvalue of hydrocarbons and oxides of nitrogen.  The consignment shall then be\ndeemed to conform if the following condition is met:\nm + k.S <L\nWhere:\nL is the limit value laid down  in Table  (1)  for the e1nissions  of carbon\nmonoxide and the combined emissions  of hydrocarbons and oxides  of\nnitrogen.\nS is the value obtained from the following equation:\ns2 =  L cm - ~)2\nn - 1\nm is any one of the individual results obtained with the sample n, and\nk is a statistical factor depending on (n) and given in the Table (3).\nn 2 3\nk 0.973 0.613\nn 11 12\nk 0.265 0.253\nIf n > 20\nTABLE (3)\nSample Size and Statistical Factor\n4\n0.489\n13\n0.242\nk =\n5\n0.421\n14\n0.233\n0.860\n✓ n\n6 7 8\n0.376 0.342 0.317\n15 16 17\n0.224 0.216 0.210\n9 10\n0.296 0.279\n18 19\n0.203 0.198",
+                    "children": [],
+                    "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.3 Vehicles subjected to acceptance tests/7.3.4 Should the first sample fail the test the manufacturer may ask for measurement to"
+                  }
+                ],
+                "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY/7.3 Vehicles subjected to acceptance tests"
+              }
+            ],
+            "full_path": "7- CRITERIA OF TECHNICAL CONFORMITY"
+          }
+        ]
+      },
+      {
+        "section": "APPENDIX (A)",
+        "context": "Essential Technical Data of the Engine/ vehicle.",
+        "chapters": [
+          {
+            "chapter_id": "1",
+            "chapter_title": "Engine",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "1.1",
+                "chapter_title": "Make",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.1 Make"
+              },
+              {
+                "chapter_id": "1.2",
+                "chapter_title": "Type",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.2 Type"
+              },
+              {
+                "chapter_id": "1.3",
+                "chapter_title": "Cycle: four-stroke/two stroke",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.3 Cycle: four-stroke/two stroke"
+              },
+              {
+                "chapter_id": "1.4",
+                "chapter_title": "Cylinders:",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "1.4.1",
+                    "chapter_title": "Number and layout of cylinders",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "1 Engine/1.4 Cylinders:/1.4.1 Number and layout of cylinders"
+                  },
+                  {
+                    "chapter_id": "1.4.2",
+                    "chapter_title": "Bore (mm)",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "1 Engine/1.4 Cylinders:/1.4.2 Bore (mm)"
+                  },
+                  {
+                    "chapter_id": "1.4.3",
+                    "chapter_title": "Capacity",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "1 Engine/1.4 Cylinders:/1.4.3 Capacity"
+                  }
+                ],
+                "full_path": "1 Engine/1.4 Cylinders:"
+              },
+              {
+                "chapter_id": "1.5",
+                "chapter_title": "Stroke (mm)",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.5 Stroke (mm)"
+              },
+              {
+                "chapter_id": "1.6",
+                "chapter_title": "Compression ratio",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.6 Compression ratio"
+              },
+              {
+                "chapter_id": "1.7",
+                "chapter_title": "Idle Speed (rpm)",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.7 Idle Speed (rpm)"
+              },
+              {
+                "chapter_id": "1.8",
+                "chapter_title": "Maximum no load speed (rpm)",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.8 Maximum no load speed (rpm)"
+              },
+              {
+                "chapter_id": "1.9",
+                "chapter_title": "Maximum Power Engine Speed (k\\.v/rpm)",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.9 Maximum Power Engine Speed (k\\.v/rpm)"
+              },
+              {
+                "chapter_id": "1.10",
+                "chapter_title": "Maximum Torque (Nm/rpm)",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.10 Maximum Torque (Nm/rpm)"
+              },
+              {
+                "chapter_id": "1.11",
+                "chapter_title": "System of Cooling: Air cooling/Liquid cooling",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.11 System of Cooling: Air cooling/Liquid cooling"
+              },
+              {
+                "chapter_id": "1.12",
+                "chapter_title": "Electronic Ignition:  Yes/No",
+                "raw_text": "",
+                "children": [],
+                "full_path": "1 Engine/1.12 Electronic Ignition:  Yes/No"
+              },
+              {
+                "chapter_id": "1.13",
+                "chapter_title": "Crankcase Ventilation System",
+                "raw_text": "Supercharger: with/without\nI .14 Air cleaner.",
+                "children": [],
+                "full_path": "1 Engine/1.13 Crankcase Ventilation System"
+              }
+            ],
+            "full_path": "1 Engine"
+          },
+          {
+            "chapter_id": "2.",
+            "chapter_title": "Description of additional anti-smoke device.",
+            "raw_text": "",
+            "children": [],
+            "full_path": "2. Description of additional anti-smoke device."
+          },
+          {
+            "chapter_id": "3.",
+            "chapter_title": "Description of air intake system.",
+            "raw_text": "",
+            "children": [],
+            "full_path": "3. Description of air intake system."
+          },
+          {
+            "chapter_id": "4.",
+            "chapter_title": "Description of fuel feed.",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "4.1",
+                "chapter_title": "Feed pump: pressure.",
+                "raw_text": "",
+                "children": [],
+                "full_path": "4. Description of fuel feed./4.1 Feed pump: pressure."
+              },
+              {
+                "chapter_id": "4.2",
+                "chapter_title": "Injection pump",
+                "raw_text": "4.2.l Make",
+                "children": [
+                  {
+                    "chapter_id": "4.2.2",
+                    "chapter_title": "Type",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "4. Description of fuel feed./4.2 Injection pump/4.2.2 Type"
+                  },
+                  {
+                    "chapter_id": "4.2.3",
+                    "chapter_title": "Delivery",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "4. Description of fuel feed./4.2 Injection pump/4.2.3 Delivery"
+                  }
+                ],
+                "full_path": "4. Description of fuel feed./4.2 Injection pump"
+              },
+              {
+                "chapter_id": "4.3",
+                "chapter_title": "Injection nozzle",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "4.3.1",
+                    "chapter_title": "Make",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "4. Description of fuel feed./4.3 Injection nozzle/4.3.1 Make"
+                  },
+                  {
+                    "chapter_id": "4.3.2",
+                    "chapter_title": "Type",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "4. Description of fuel feed./4.3 Injection nozzle/4.3.2 Type"
+                  }
+                ],
+                "full_path": "4. Description of fuel feed./4.3 Injection nozzle"
+              },
+              {
+                "chapter_id": "4.4",
+                "chapter_title": "Governor",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "4.4.1",
+                    "chapter_title": "Make",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "4. Description of fuel feed./4.4 Governor/4.4.1 Make"
+                  },
+                  {
+                    "chapter_id": "4.4.2",
+                    "chapter_title": "Type",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "4. Description of fuel feed./4.4 Governor/4.4.2 Type"
+                  },
+                  {
+                    "chapter_id": "4.4.3",
+                    "chapter_title": "Speed at which cut-off starts under full load (rpm)",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "4. Description of fuel feed./4.4 Governor/4.4.3 Speed at which cut-off starts under full load (rpm)"
+                  }
+                ],
+                "full_path": "4. Description of fuel feed./4.4 Governor"
+              },
+              {
+                "chapter_id": "4.5",
+                "chapter_title": "Cold Start System",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "4.5.1",
+                    "chapter_title": "Make",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "4. Description of fuel feed./4.5 Cold Start System/4.5.1 Make"
+                  },
+                  {
+                    "chapter_id": "4.5.2",
+                    "chapter_title": "Type",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "4. Description of fuel feed./4.5 Cold Start System/4.5.2 Type"
+                  }
+                ],
+                "full_path": "4. Description of fuel feed./4.5 Cold Start System"
+              }
+            ],
+            "full_path": "4. Description of fuel feed."
+          },
+          {
+            "chapter_id": "5.",
+            "chapter_title": "Valve timing",
+            "raw_text": "",
+            "children": [],
+            "full_path": "5. Valve timing"
+          },
+          {
+            "chapter_id": "6.",
+            "chapter_title": "Additional information on test conditions",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "6.1",
+                "chapter_title": "Lubricant used",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "6.1.1",
+                    "chapter_title": "Make",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "6. Additional information on test conditions/6.1 Lubricant used/6.1.1 Make"
+                  },
+                  {
+                    "chapter_id": "6.1.2",
+                    "chapter_title": "Type",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "6. Additional information on test conditions/6.1 Lubricant used/6.1.2 Type"
+                  },
+                  {
+                    "chapter_id": "6.1.3",
+                    "chapter_title": "Viscosity",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "6. Additional information on test conditions/6.1 Lubricant used/6.1.3 Viscosity"
+                  }
+                ],
+                "full_path": "6. Additional information on test conditions/6.1 Lubricant used"
+              },
+              {
+                "chapter_id": "6.2",
+                "chapter_title": "Accelerating (0-100 km/h)",
+                "raw_text": "",
+                "children": [],
+                "full_path": "6. Additional information on test conditions/6.2 Accelerating (0-100 km/h)"
+              },
+              {
+                "chapter_id": "6.3",
+                "chapter_title": "Maximum designed speed of vehicle:",
+                "raw_text": "",
+                "children": [],
+                "full_path": "6. Additional information on test conditions/6.3 Maximum designed speed of vehicle:"
+              },
+              {
+                "chapter_id": "6.4",
+                "chapter_title": "Fuel consumption",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "6.4.1",
+                    "chapter_title": "90 km/h (1}100 km):",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "6. Additional information on test conditions/6.4 Fuel consumption/6.4.1 90 km/h (1}100 km):"
+                  },
+                  {
+                    "chapter_id": "6.4.2",
+                    "chapter_title": "120 km/h (L/100 km):",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "6. Additional information on test conditions/6.4 Fuel consumption/6.4.2 120 km/h (L/100 km):"
+                  }
+                ],
+                "full_path": "6. Additional information on test conditions/6.4 Fuel consumption"
+              },
+              {
+                "chapter_id": "6.5",
+                "chapter_title": "Transmission:",
+                "raw_text": "",
+                "children": [],
+                "full_path": "6. Additional information on test conditions/6.5 Transmission:"
+              },
+              {
+                "chapter_id": "6.6",
+                "chapter_title": "Steering (Type):",
+                "raw_text": "",
+                "children": [],
+                "full_path": "6. Additional information on test conditions/6.6 Steering (Type):"
+              }
+            ],
+            "full_path": "6. Additional information on test conditions"
+          }
+        ]
+      }
+    ]
+  }
+]

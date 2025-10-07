@@ -1,0 +1,2691 @@
+[
+  {
+    "file": "regulation",
+    "sections": [
+      {
+        "section": "MAIN",
+        "context": "  中华人民共和国国家标准\nGB45672—2025车载事故紧急呼叫系统\nOn-boardaccidentemergencycallsystem2025-04-25发布 2027-07-01实施国家市场监督管理总局\n国家标准化管理委员会\n发布\n目  次 前言 Ⅲ …………………………………………………………………………………………………………\n1 范围 1 ……………………………………………………………………………………………………… \n2 规范性引用文件 1 ………………………………………………………………………………………… \n3 术语和定义 1 ……………………………………………………………………………………………… \n4 技术要求 2 ………………………………………………………………………………………………… \n5 说明书 4 …………………………………………………………………………………………………… \n6 同一型式判定 4 …………………………………………………………………………………………… \n7 标准的实施 5 ……………………………………………………………………………………………… 附录A (规范性) 最小数据集(MSD) 6 ……………………………………………………………………附录B (规范性) 自动触发试验方法 8 ……………………………………………………………………附录C (规范性) 功能试验要求 14 …………………………………………………………………………附录D (规范性) 自检试验方法 15 …………………………………………………………………………附录E (规范性) 耐冲击性试验方法 16 ……………………………………………………………………附录F (规范性) 试验条件与失效判定准则 18 ……………………………………………………………GB45672—2025前  言本文件按照GB/T1.1—2020《标准化工作导则 第1部分:标准化文件的结构和起草规则》的规定起草。\n请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。\n本文件由中华人民共和国工业和信息化部提出并归口。\nGB45672—2025车载事故紧急呼叫系统",
+        "chapters": [
+          {
+            "chapter_id": "1",
+            "chapter_title": "范围",
+            "raw_text": "本文件规定了车载事故紧急呼叫系统的技术要求、同一型式判定要求,描述了相应的试验方法。\n本文件适用于M1 类及N1 类车辆的车载事故紧急呼叫系统。",
+            "children": [],
+            "full_path": "1 范围",
+            "parameters": [],
+            "topic_keywords": [
+              "范围",
+              "车载事故紧急呼叫系统"
+            ],
+            "context_keywords": [
+              "M1类车辆",
+              "N1类车辆"
+            ],
+            "refs": [],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "2",
+            "chapter_title": "规范性引用文件",
+            "raw_text": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中,注日期的引用文件,仅该日期对应的版本适用于本文件;不注日期的引用文件,其最新版本(包括所有的修改单)适用于本文件。\nGB11551—2014 汽车正面碰撞的乘员保护 GB/T15089 机动车辆及挂车分类 GB16735 道路车辆 车辆识别代号(VIN) GB20071—2025 汽车侧面碰撞的乘员保护 GB20072—2024 乘用车后碰撞安全要求 GB/T20913—2007 乘用车正面偏置碰撞的乘员保护 GB34660—2017 道路车辆 电磁兼容性要求和试验方法 GB39732—2020 汽车事件数据记录系统 GB/T43187—2023 车载无线通信终端 GB/T45086.1—2024 车载定位系统技术要求及试验方法 第1部分:卫星定位 GB/T45314—2025 道路车辆免提通话和语音交互性能要求及试验方法",
+            "children": [],
+            "full_path": "2 规范性引用文件",
+            "parameters": [],
+            "topic_keywords": [
+              "规范性引用文件"
+            ],
+            "context_keywords": [],
+            "refs": [
+              {
+                "ref_type": "external",
+                "doc_id": "GB11551—2014",
+                "target_id": "GB11551—2014",
+                "anchor_text": "汽车正面碰撞的乘员保护"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB/T15089",
+                "target_id": "GB/T15089",
+                "anchor_text": "机动车辆及挂车分类"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB16735",
+                "target_id": "GB16735",
+                "anchor_text": "道路车辆 车辆识别代号(VIN)"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB20071—2025",
+                "target_id": "GB20071—2025",
+                "anchor_text": "汽车侧面碰撞的乘员保护"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB20072—2024",
+                "target_id": "GB20072—2024",
+                "anchor_text": "乘用车后碰撞安全要求"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB/T20913—2007",
+                "target_id": "GB/T20913—2007",
+                "anchor_text": "乘用车正面偏置碰撞的乘员保护"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB34660—2017",
+                "target_id": "GB34660—2017",
+                "anchor_text": "道路车辆 电磁兼容性要求和试验方法"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB39732—2020",
+                "target_id": "GB39732—2020",
+                "anchor_text": "汽车事件数据记录系统"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB/T43187—2023",
+                "target_id": "GB/T43187—2023",
+                "anchor_text": "车载无线通信终端"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB/T45086.1—2024",
+                "target_id": "GB/T45086.1—2024",
+                "anchor_text": "车载定位系统技术要求及试验方法 第1部分:卫星定位"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB/T45314—2025",
+                "target_id": "GB/T45314—2025",
+                "anchor_text": "道路车辆免提通话和语音交互性能要求及试验方法"
+              }
+            ],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "3",
+            "chapter_title": "术语和定义",
+            "raw_text": "下列术语和定义适用于本文件。",
+            "children": [
+              {
+                "chapter_id": "3.1",
+                "chapter_title": "车载事故紧急呼叫系统 on-boardaccidentemergencycallsystem;AECS",
+                "raw_text": "通过车辆内部策略在发生事故时自动激活,或由车内人员进行手动触发后,将车辆的位置及车辆相关状态信息同步发送给紧急呼叫服务平台并建立语音通话的系统。",
+                "children": [],
+                "full_path": "3 术语和定义/3.1 车载事故紧急呼叫系统 on-boardaccidentemergencycallsystem;AECS",
+                "parameters": [],
+                "topic_keywords": [
+                  "车载事故紧急呼叫系统"
+                ],
+                "context_keywords": [
+                  "自动激活",
+                  "手动触发",
+                  "位置信息",
+                  "状态信息",
+                  "紧急呼叫服务平台",
+                  "语音通话"
+                ],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "3.2",
+                "chapter_title": "车载无线通信终端 on-boardwirelesscommunicationterminal",
+                "raw_text": "安装在车辆上,能够通过蜂窝移动通信等技术建立连接并进行信息交互的电子设备。\n注:车载无线通信终端通常由发射机、接收机、天线、控制器和线缆等部件构成。\n[来源:GB/T43187—2023,3.1]",
+                "children": [],
+                "full_path": "3 术语和定义/3.2 车载无线通信终端 on-boardwirelesscommunicationterminal",
+                "parameters": [],
+                "topic_keywords": [
+                  "车载无线通信终端"
+                ],
+                "context_keywords": [
+                  "蜂窝移动通信",
+                  "发射机",
+                  "接收机",
+                  "天线",
+                  "控制器",
+                  "线缆"
+                ],
+                "refs": [
+                  {
+                    "ref_type": "external",
+                    "doc_id": "GB/T43187—2023",
+                    "target_id": "3.1",
+                    "anchor_text": "车载无线通信终端定义"
+                  }
+                ],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "3.3",
+                "chapter_title": "紧急呼叫服务平台 emergencycallserviceplatform",
+                "raw_text": "响应或传递车辆发出的紧急呼叫信息的服务性平台。\nGB45672—2025",
+                "children": [],
+                "full_path": "3 术语和定义/3.3 紧急呼叫服务平台 emergencycallserviceplatform",
+                "parameters": [],
+                "topic_keywords": [
+                  "紧急呼叫服务平台"
+                ],
+                "context_keywords": [
+                  "响应",
+                  "传递",
+                  "紧急呼叫信息"
+                ],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "3.4",
+                "chapter_title": "电源 powersupply",
+                "raw_text": "向AECS供电的部件。",
+                "children": [],
+                "full_path": "3 术语和定义/3.4 电源 powersupply",
+                "parameters": [],
+                "topic_keywords": [
+                  "电源"
+                ],
+                "context_keywords": [
+                  "供电",
+                  "AECS"
+                ],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "3.5",
+                "chapter_title": "备用电源 back-uppowersupply",
+                "raw_text": "电源故障时,向AECS供电的部件。",
+                "children": [],
+                "full_path": "3 术语和定义/3.5 备用电源 back-uppowersupply",
+                "parameters": [],
+                "topic_keywords": [
+                  "备用电源"
+                ],
+                "context_keywords": [
+                  "电源故障",
+                  "供电"
+                ],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "3.6",
+                "chapter_title": "车载卫星定位系统 on-boardsatellitepositioningsystem",
+                "raw_text": "安装在车辆上,利用人造地球卫星发射的无线电信号进行定位、测速和授时的系统。\n[来源:GB/T45086.1—2024,3.1]",
+                "children": [],
+                "full_path": "3 术语和定义/3.6 车载卫星定位系统 on-boardsatellitepositioningsystem",
+                "parameters": [],
+                "topic_keywords": [
+                  "车载卫星定位系统"
+                ],
+                "context_keywords": [
+                  "人造地球卫星",
+                  "无线电信号",
+                  "定位",
+                  "测速",
+                  "授时"
+                ],
+                "refs": [
+                  {
+                    "ref_type": "external",
+                    "doc_id": "GB/T45086.1—2024",
+                    "target_id": "3.1",
+                    "anchor_text": "车载卫星定位系统定义"
+                  }
+                ],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "3.7",
+                "chapter_title": "控制模块 controlmodule",
+                "raw_text": "AECS中用以确认实现其所有模块组合功能的模块。",
+                "children": [],
+                "full_path": "3 术语和定义/3.7 控制模块 controlmodule",
+                "parameters": [],
+                "topic_keywords": [
+                  "控制模块"
+                ],
+                "context_keywords": [
+                  "AECS",
+                  "模块组合功能"
+                ],
+                "refs": [],
+                "table_headers": []
+              }
+            ],
+            "full_path": "3 术语和定义",
+            "parameters": [],
+            "topic_keywords": [
+              "术语和定义"
+            ],
+            "context_keywords": [],
+            "refs": [],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "4",
+            "chapter_title": "技术要求",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "4.1",
+                "chapter_title": "一般要求",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "4.1.1",
+                    "chapter_title": "",
+                    "raw_text": "M1 类及N1 类车辆应装备AECS。AECS通常由控制模块、车载无线通信终端、车载卫星定位 系统、警示信号装置、信息信号装置、电源及备用电源(若有)等部件构成。",
+                    "children": [],
+                    "full_path": "4 技术要求/4.1 一般要求/4.1.1 ",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "AECS装备",
+                      "车辆类别",
+                      "部件构成"
+                    ],
+                    "context_keywords": [],
+                    "refs": [],
+                    "table_headers": []
+                  },
+                  {
+                    "chapter_id": "4.1.2",
+                    "chapter_title": "",
+                    "raw_text": "AECS应与车辆电子电气网络连接,且车辆点火(启动)开关处于“ON”(运行)状态或点火(启 动)开关处于“ON”(运行)和“启动”之间时,应实现下列功能:\n———接收和/或产生自动和手动触发信号;\n———发送数据集,且至少满足附录A 的要求;\n———提供警示信号及信息信号;\n———与紧急呼叫服务平台建立双向语音通话。",
+                    "children": [],
+                    "full_path": "4 技术要求/4.1 一般要求/4.1.2 ",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "AECS功能",
+                      "网络连接",
+                      "触发信号",
+                      "数据集发送",
+                      "语音通话"
+                    ],
+                    "context_keywords": [],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "附录A",
+                        "anchor_text": "最小数据集要求"
+                      }
+                    ],
+                    "table_headers": []
+                  },
+                  {
+                    "chapter_id": "4.1.3",
+                    "chapter_title": "",
+                    "raw_text": "AECS在接收和/或产生触发信号后,与紧急呼叫服务平台尝试建立连接时,应满足: ———在非易失性存储器中保存最小数据集(MSD),通过可信的数字身份认证将MSD 发送至紧急呼叫服务平台,并与紧急呼叫服务平台建立双向语音通话连接;\n———若MSD 发送失败,则以不超过2min的时间间隔尝试再次发送MSD,直至发送成功或尝试时间不低于60min;\n———若语音通话连接建立失败,则以不超过2min的时间间隔尝试再次建立语音通话连接,直至连接成功或尝试时间不低于60min。",
+                    "children": [],
+                    "full_path": "4 技术要求/4.1 一般要求/4.1.3 ",
+                    "parameters": [
+                      {
+                        "item": "时间间隔",
+                        "constraint": "<=",
+                        "value": "2",
+                        "unit": "min",
+                        "source_text": "以不超过2min的时间间隔"
+                      },
+                      {
+                        "item": "尝试时间",
+                        "constraint": ">=",
+                        "value": "60",
+                        "unit": "min",
+                        "source_text": "尝试时间不低于60min"
+                      }
+                    ],
+                    "topic_keywords": [
+                      "AECS连接建立",
+                      "MSD发送",
+                      "语音通话连接"
+                    ],
+                    "context_keywords": [],
+                    "refs": [],
+                    "table_headers": []
+                  },
+                  {
+                    "chapter_id": "4.1.4",
+                    "chapter_title": "",
+                    "raw_text": "语音通话连接建立后,语音通话连接只准许由紧急呼叫服务平台挂断,不准许由AECS主动挂 断。若因异常情况造成语音通话连接中断,AECS应再次尝试与紧急呼叫服务平台建立语音通话连接。",
+                    "children": [],
+                    "full_path": "4 技术要求/4.1 一般要求/4.1.4 ",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "语音通话挂断",
+                      "连接中断处理"
+                    ],
+                    "context_keywords": [],
+                    "refs": [],
+                    "table_headers": []
+                  },
+                  {
+                    "chapter_id": "4.1.5",
+                    "chapter_title": "",
+                    "raw_text": "AECS的备用电源(若有)应具备充电功能。AECS的电源及备用电源(若有)应支持AECS首先 自主进行不低于5min的语音通话模式,其后进入不低于60min的待机模式,最后再进入不低于5min的语音通话模式。",
+                    "children": [],
+                    "full_path": "4 技术要求/4.1 一般要求/4.1.5 ",
+                    "parameters": [
+                      {
+                        "item": "语音通话模式时间",
+                        "constraint": ">=",
+                        "value": "5",
+                        "unit": "min",
+                        "source_text": "不低于5min的语音通话模式"
+                      },
+                      {
+                        "item": "待机模式时间",
+                        "constraint": ">=",
+                        "value": "60",
+                        "unit": "min",
+                        "source_text": "不低于60min的待机模式"
+                      }
+                    ],
+                    "topic_keywords": [
+                      "备用电源",
+                      "充电功能",
+                      "电源支持",
+                      "语音通话模式",
+                      "待机模式"
+                    ],
+                    "context_keywords": [],
+                    "refs": [],
+                    "table_headers": []
+                  },
+                  {
+                    "chapter_id": "4.1.6",
+                    "chapter_title": "",
+                    "raw_text": "除维修等特殊场景外,AECS不应通过人机界面(HMI)方式关闭。 ",
+                    "children": [],
+                    "full_path": "4 技术要求/4.1 一般要求/4.1.6 ",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "AECS关闭",
+                      "HMI方式"
+                    ],
+                    "context_keywords": [],
+                    "refs": [],
+                    "table_headers": []
+                  }
+                ],
+                "full_path": "4 技术要求/4.1 一般要求",
+                "parameters": [],
+                "topic_keywords": [
+                  "一般要求"
+                ],
+                "context_keywords": [],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "4.2",
+                "chapter_title": "位置信息要求",
+                "raw_text": "AECS使用的车载卫星定位系统应支持GB/T45086.1—2024规定的北斗优先或北斗单模模式,并满足GB/T45086.1—2024第5章除5.5外的相应模式要求。\nGB45672—2025",
+                "children": [],
+                "full_path": "4 技术要求/4.2 位置信息要求",
+                "parameters": [],
+                "topic_keywords": [
+                  "位置信息",
+                  "车载卫星定位系统",
+                  "北斗模式"
+                ],
+                "context_keywords": [],
+                "refs": [
+                  {
+                    "ref_type": "external",
+                    "doc_id": "GB/T45086.1—2024",
+                    "target_id": "5",
+                    "anchor_text": "北斗优先或北斗单模模式要求"
+                  }
+                ],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "4.3",
+                "chapter_title": "网络连接要求",
+                "raw_text": "AECS使用的车载无线通信终端应满足GB/T43187—2023第5章的要求。",
+                "children": [],
+                "full_path": "4 技术要求/4.3 网络连接要求",
+                "parameters": [],
+                "topic_keywords": [
+                  "网络连接",
+                  "车载无线通信终端"
+                ],
+                "context_keywords": [],
+                "refs": [
+                  {
+                    "ref_type": "external",
+                    "doc_id": "GB/T43187—2023",
+                    "target_id": "5",
+                    "anchor_text": "车载无线通信终端要求"
+                  }
+                ],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "4.4",
+                "chapter_title": "触发要求",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "4.4.1",
+                    "chapter_title": "自动触发",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "4.4.1.1",
+                        "chapter_title": "",
+                        "raw_text": "按附录B进行试验后,AECS应被自动触发,且发送的MSD 中触发类型应为自动触发,其中: ———M1 类车辆应能自动检测车辆的正面碰撞、侧面碰撞、后面碰撞,其AECS的触发条件应不高于车辆不可逆约束装置的展开阈值或等效阈值;\n———最大设计总质量不大于2500kg的N1 类车辆(不含多用途货车)应能自动检测车辆的正面碰撞、侧面碰撞,其AECS的触发条件应不高于车辆不可逆约束装置的展开阈值或等效阈值;\n———最大设计总质量大于2500kg的N1 类车辆(不含多用途货车)应能自动检测车辆的侧面碰撞,其AECS的触发条件应不高于车辆不可逆约束装置的展开阈值或等效阈值;\n———多用途货车应能自动检测车辆的正面碰撞、侧面碰撞,其AECS的触发条件应不高于车辆不可逆约束装置的展开阈值或等效阈值。",
+                        "children": [],
+                        "full_path": "4 技术要求/4.4 触发要求/4.4.1 自动触发/4.4.1.1 ",
+                        "parameters": [],
+                        "topic_keywords": [
+                          "自动触发条件",
+                          "车辆类型",
+                          "碰撞检测"
+                        ],
+                        "context_keywords": [
+                          "正面碰撞",
+                          "侧面碰撞",
+                          "后面碰撞",
+                          "不可逆约束装置"
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "附录B",
+                            "anchor_text": "自动触发试验方法"
+                          }
+                        ],
+                        "table_headers": []
+                      },
+                      {
+                        "chapter_id": "4.4.1.2",
+                        "chapter_title": "",
+                        "raw_text": "若车辆安装的AECS能够自动检测翻滚事故,则在按B.2.4进行试验后,AECS应被自动触 发,且发送的MSD 中触发类型应为自动触发。",
+                        "children": [],
+                        "full_path": "4 技术要求/4.4 触发要求/4.4.1 自动触发/4.4.1.2 ",
+                        "parameters": [],
+                        "topic_keywords": [
+                          "翻滚事故检测",
+                          "自动触发"
+                        ],
+                        "context_keywords": [],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "B.2.4",
+                            "anchor_text": "翻滚试验方法"
+                          }
+                        ],
+                        "table_headers": []
+                      }
+                    ],
+                    "full_path": "4 技术要求/4.4 触发要求/4.4.1 自动触发",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "自动触发"
+                    ],
+                    "context_keywords": [],
+                    "refs": [],
+                    "table_headers": []
+                  },
+                  {
+                    "chapter_id": "4.4.2",
+                    "chapter_title": "手动触发",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "4.4.2.1",
+                        "chapter_title": "",
+                        "raw_text": "车辆应具有手动触发AECS的物理按键,进行手动触发后,其发送的MSD 中触发类型应为手 动触发。",
+                        "children": [],
+                        "full_path": "4 技术要求/4.4 触发要求/4.4.2 手动触发/4.4.2.1 ",
+                        "parameters": [],
+                        "topic_keywords": [
+                          "手动触发",
+                          "物理按键"
+                        ],
+                        "context_keywords": [],
+                        "refs": [],
+                        "table_headers": []
+                      },
+                      {
+                        "chapter_id": "4.4.2.2",
+                        "chapter_title": "",
+                        "raw_text": "AECS的物理按键应布置在不解开安全带条件下,前排驾驶员和前排乘员都能触及到的区域。 ",
+                        "children": [],
+                        "full_path": "4 技术要求/4.4 触发要求/4.4.2 手动触发/4.4.2.2 ",
+                        "parameters": [],
+                        "topic_keywords": [
+                          "物理按键布置",
+                          "触及区域"
+                        ],
+                        "context_keywords": [
+                          "安全带",
+                          "前排驾驶员",
+                          "前排乘员"
+                        ],
+                        "refs": [],
+                        "table_headers": []
+                      },
+                      {
+                        "chapter_id": "4.4.2.3",
+                        "chapter_title": "",
+                        "raw_text": "AECS的物理按键应具备防止误触功能。 示例:增加不借助工具单手轻松打开的保护盖、配置延迟触发的倒计时机制或长按触发机制等。",
+                        "children": [],
+                        "full_path": "4 技术要求/4.4 触发要求/4.4.2 手动触发/4.4.2.3 ",
+                        "parameters": [],
+                        "topic_keywords": [
+                          "防止误触",
+                          "物理按键"
+                        ],
+                        "context_keywords": [
+                          "保护盖",
+                          "延迟触发",
+                          "长按触发"
+                        ],
+                        "refs": [],
+                        "table_headers": []
+                      }
+                    ],
+                    "full_path": "4 技术要求/4.4 触发要求/4.4.2 手动触发",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "手动触发"
+                    ],
+                    "context_keywords": [],
+                    "refs": [],
+                    "table_headers": []
+                  }
+                ],
+                "full_path": "4 技术要求/4.4 触发要求",
+                "parameters": [],
+                "topic_keywords": [
+                  "触发要求"
+                ],
+                "context_keywords": [],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "4.5",
+                "chapter_title": "信息和功能要求",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "4.5.1",
+                    "chapter_title": "",
+                    "raw_text": "AECS物理按键上或其附近位置应具有标明AECS图形符号的永久性标识,AECS图形符号应 选取以下两种方式之一:\n———如图1所示,其中“电话图示”方向准许调整;\n———如图2所示,仅保留“SOS”符号。\n图1 AECS的图形符号-1 图2 AECS的图形符号-2 GB45672—2025",
+                    "children": [],
+                    "full_path": "4 技术要求/4.5 信息和功能要求/4.5.1 ",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "AECS图形符号",
+                      "永久性标识"
+                    ],
+                    "context_keywords": [
+                      "电话图示",
+                      "SOS符号"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "图1",
+                        "anchor_text": "AECS图形符号-1"
+                      },
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "图2",
+                        "anchor_text": "AECS图形符号-2"
+                      }
+                    ],
+                    "table_headers": []
+                  },
+                  {
+                    "chapter_id": "4.5.2",
+                    "chapter_title": "",
+                    "raw_text": "在进行以下试验时,AECS的系统功能性应符合附录C的要求: ———手动触发AECS;\n———GB11551—2014的正面碰撞试验或GB/T20913—2007(最大设计总质量大于2500kg的N1类车辆不适用)的正面偏置碰撞试验;\n———GB20071—2025的侧面碰撞试验;\n———GB20072—2024(N1 类车辆不适用)的后面碰撞试验。",
+                    "children": [],
+                    "full_path": "4 技术要求/4.5 信息和功能要求/4.5.2 ",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "系统功能性",
+                      "试验要求"
+                    ],
+                    "context_keywords": [
+                      "手动触发",
+                      "正面碰撞",
+                      "侧面碰撞",
+                      "后面碰撞"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "附录C",
+                        "anchor_text": "功能试验要求"
+                      },
+                      {
+                        "ref_type": "external",
+                        "doc_id": "GB11551—2014",
+                        "target_id": "正面碰撞试验",
+                        "anchor_text": "正面碰撞试验"
+                      },
+                      {
+                        "ref_type": "external",
+                        "doc_id": "GB/T20913—2007",
+                        "target_id": "正面偏置碰撞试验",
+                        "anchor_text": "正面偏置碰撞试验"
+                      },
+                      {
+                        "ref_type": "external",
+                        "doc_id": "GB20071—2025",
+                        "target_id": "侧面碰撞试验",
+                        "anchor_text": "侧面碰撞试验"
+                      },
+                      {
+                        "ref_type": "external",
+                        "doc_id": "GB20072—2024",
+                        "target_id": "后面碰撞试验",
+                        "anchor_text": "后面碰撞试验"
+                      }
+                    ],
+                    "table_headers": []
+                  },
+                  {
+                    "chapter_id": "4.5.3",
+                    "chapter_title": "",
+                    "raw_text": "AECS应具有自检功能,并在失效期间进行视觉提示。在按附录D 中D.2进行试验时,应满足: a) 在完成D.2中b)试验后,AECS的警示信号装置进行视觉提示;\nb) 在完成D.2中c)试验后,AECS的警示信号装置不熄灭;\nc) 在完成D.2中d)试验后,AECS的警示信号装置熄灭或在点亮后很快熄灭。",
+                    "children": [],
+                    "full_path": "4 技术要求/4.5 信息和功能要求/4.5.3 ",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "自检功能",
+                      "视觉提示",
+                      "警示信号"
+                    ],
+                    "context_keywords": [],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "附录D",
+                        "anchor_text": "自检试验方法"
+                      },
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "D.2",
+                        "anchor_text": "自检试验步骤"
+                      }
+                    ],
+                    "table_headers": []
+                  }
+                ],
+                "full_path": "4 技术要求/4.5 信息和功能要求",
+                "parameters": [],
+                "topic_keywords": [
+                  "信息和功能要求"
+                ],
+                "context_keywords": [],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "4.6",
+                "chapter_title": "免提通话性能要求",
+                "raw_text": "AECS的窄带通话质量和/或宽带通话质量应满足GB/T45314—2025第5章的要求。",
+                "children": [],
+                "full_path": "4 技术要求/4.6 免提通话性能要求",
+                "parameters": [],
+                "topic_keywords": [
+                  "免提通话性能",
+                  "窄带通话质量",
+                  "宽带通话质量"
+                ],
+                "context_keywords": [],
+                "refs": [
+                  {
+                    "ref_type": "external",
+                    "doc_id": "GB/T45314—2025",
+                    "target_id": "5",
+                    "anchor_text": "通话质量要求"
+                  }
+                ],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "4.7",
+                "chapter_title": "耐冲击性能要求",
+                "raw_text": "AECS应具备耐冲击性。在按附录E 进行试验后,AECS 应保持供电稳定性、可操作性和功能性,能通过手动触发发送MSD。",
+                "children": [],
+                "full_path": "4 技术要求/4.7 耐冲击性能要求",
+                "parameters": [],
+                "topic_keywords": [
+                  "耐冲击性",
+                  "供电稳定性",
+                  "可操作性",
+                  "功能性"
+                ],
+                "context_keywords": [],
+                "refs": [
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "附录E",
+                    "anchor_text": "耐冲击性试验方法"
+                  }
+                ],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "4.8",
+                "chapter_title": "电磁兼容性能要求",
+                "raw_text": "AECS应满足GB34660—2017规定的车辆对电磁辐射的抗扰性能要求。在按GB34660—2017进行车辆对电磁辐射的抗扰试验过程中,AECS的抗扰试验条件和失效判定准则应符合附录F的要求。",
+                "children": [],
+                "full_path": "4 技术要求/4.8 电磁兼容性能要求",
+                "parameters": [],
+                "topic_keywords": [
+                  "电磁兼容性能",
+                  "抗扰性能"
+                ],
+                "context_keywords": [
+                  "电磁辐射"
+                ],
+                "refs": [
+                  {
+                    "ref_type": "external",
+                    "doc_id": "GB34660—2017",
+                    "target_id": "车辆对电磁辐射的抗扰试验",
+                    "anchor_text": "抗扰性能要求"
+                  },
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "附录F",
+                    "anchor_text": "试验条件与失效判定准则"
+                  }
+                ],
+                "table_headers": []
+              }
+            ],
+            "full_path": "4 技术要求",
+            "parameters": [],
+            "topic_keywords": [
+              "技术要求"
+            ],
+            "context_keywords": [],
+            "refs": [],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "5",
+            "chapter_title": "说明书",
+            "raw_text": "AECS相关内容在车辆的《机动车产品使用说明书》中描述,应包括但不限于:\n———AECS自动触发类型及触发条件;\n———AECS手动触发方式和防止误触发的说明;\n———AECS所记录并发出的数据项及用途说明;\n———AECS警示信号及信息信号的说明及相关处理方式。",
+            "children": [],
+            "full_path": "5 说明书",
+            "parameters": [],
+            "topic_keywords": [
+              "说明书",
+              "AECS内容描述"
+            ],
+            "context_keywords": [
+              "自动触发",
+              "手动触发",
+              "数据项",
+              "警示信号"
+            ],
+            "refs": [],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "6",
+            "chapter_title": "同一型式判定",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "6.1",
+                "chapter_title": "",
+                "raw_text": "对于AECS自动触发要求,若符合下列规定,则视为同一型式: a) 车辆整备质量变化小于8%(相对于基础车型,下同);\nb) 车辆外廓尺寸不变,车辆离地间隙相同或增大;\nc) 乘员舱侧壁结构、尺寸、轮廓和材料不变;\nd) 驱动电机或发动机布置方式(横向或纵向)和位置相同(前置、中置或后置);\ne) AECS(其控制模块)、产生自动触发信号的模块(例如:气囊电子控制单元等)型号、生产企业及软件版本号不变,或其软件版本号的变更不影响AECS自动触发要求;\nf) AECS触发阈值不变。\n若采用滑台方式进行试验,则仅以e)、f)进行同一型式判定。",
+                "children": [],
+                "full_path": "6 同一型式判定/6.1 ",
+                "parameters": [
+                  {
+                    "item": "车辆整备质量变化",
+                    "constraint": "<",
+                    "value": "8",
+                    "unit": "%",
+                    "source_text": "车辆整备质量变化小于8%"
+                  }
+                ],
+                "topic_keywords": [
+                  "自动触发要求",
+                  "同一型式判定"
+                ],
+                "context_keywords": [
+                  "车辆整备质量",
+                  "车辆外廓尺寸",
+                  "离地间隙",
+                  "乘员舱侧壁结构",
+                  "驱动电机布置",
+                  "AECS控制模块"
+                ],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "6.2",
+                "chapter_title": "",
+                "raw_text": "对于AECS的信息和功能要求,若符合下列规定,则视为同一型式: a) AECS(至少包括控制模块、车载卫星定位系统、车载无线通信终端)的型号、生产企业及软件GB45672—2025版本号不变,或其软件版本号的变更不影响AECS信息和功能要求;\nb) AECS的电子架构和布置位置不变;\nc) 备用电源(若有)的生产企业、容量不变或增加(若备用电源容量减少,则应按4.1.5 补充试验);\nd) AECS的警示信号装置、信息信号装置的型号及生产企业不变;\ne) AECS自动触发条件[即6.1中a)~f)]不变。",
+                "children": [],
+                "full_path": "6 同一型式判定/6.2 ",
+                "parameters": [],
+                "topic_keywords": [
+                  "信息和功能要求",
+                  "同一型式判定"
+                ],
+                "context_keywords": [
+                  "控制模块",
+                  "车载卫星定位系统",
+                  "车载无线通信终端",
+                  "备用电源",
+                  "警示信号装置"
+                ],
+                "refs": [
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "4.1.5",
+                    "anchor_text": "补充试验"
+                  }
+                ],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "6.3",
+                "chapter_title": "",
+                "raw_text": "对于AECS的免提通话性能要求,若符合下列规定,则视为同一型式: a) 车辆的乘员舱尺寸、轮廓不变;\nb) 麦克风的型号、生产企业、布置位置不变;\nc) 扬声器的型号、生产企业、布置位置不变;\nd) 用于AECS的车载无线通信终端的型号、生产企业及软件版本号不变,或其软件版本号的变更不影响AECS免提通话性能要求。",
+                "children": [],
+                "full_path": "6 同一型式判定/6.3 ",
+                "parameters": [],
+                "topic_keywords": [
+                  "免提通话性能要求",
+                  "同一型式判定"
+                ],
+                "context_keywords": [
+                  "乘员舱尺寸",
+                  "麦克风",
+                  "扬声器",
+                  "车载无线通信终端"
+                ],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "6.4",
+                "chapter_title": "",
+                "raw_text": "对于AECS的耐冲击性能要求,若符合下列规定,则视为同一型式: a) AECS(至少包括控制模块、车载卫星定位系统、车载无线通信终端)的型号及生产企业不变;\nb) E.1涉及的电源或备用电源的型号及生产企业不变。",
+                "children": [],
+                "full_path": "6 同一型式判定/6.4 ",
+                "parameters": [],
+                "topic_keywords": [
+                  "耐冲击性能要求",
+                  "同一型式判定"
+                ],
+                "context_keywords": [
+                  "控制模块",
+                  "车载卫星定位系统",
+                  "车载无线通信终端",
+                  "电源",
+                  "备用电源"
+                ],
+                "refs": [
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "E.1",
+                    "anchor_text": "电源或备用电源"
+                  }
+                ],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "6.5",
+                "chapter_title": "",
+                "raw_text": "对于AECS的电磁兼容性能要求,若AECS(至少包括控制模块、车载卫星定位系统、车载无线通 信终端)的型号、生产企业、电子架构和布置不变,则视为同一型式。",
+                "children": [],
+                "full_path": "6 同一型式判定/6.5 ",
+                "parameters": [],
+                "topic_keywords": [
+                  "电磁兼容性能要求",
+                  "同一型式判定"
+                ],
+                "context_keywords": [
+                  "控制模块",
+                  "车载卫星定位系统",
+                  "车载无线通信终端",
+                  "电子架构"
+                ],
+                "refs": [],
+                "table_headers": []
+              }
+            ],
+            "full_path": "6 同一型式判定",
+            "parameters": [],
+            "topic_keywords": [
+              "同一型式判定"
+            ],
+            "context_keywords": [],
+            "refs": [],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "7",
+            "chapter_title": "标准的实施",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "7.1",
+                "chapter_title": "",
+                "raw_text": "对于新申请型式批准的M1 类车辆,自本文件实施之日起开始执行。 ",
+                "children": [],
+                "full_path": "7 标准的实施/7.1 ",
+                "parameters": [],
+                "topic_keywords": [
+                  "新申请",
+                  "M1类车辆",
+                  "实施日期"
+                ],
+                "context_keywords": [
+                  "型式批准"
+                ],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "7.2",
+                "chapter_title": "",
+                "raw_text": "对于已获得型式批准的M1 类车辆,自本文件实施之日起第13个月开始执行。 ",
+                "children": [],
+                "full_path": "7 标准的实施/7.2 ",
+                "parameters": [],
+                "topic_keywords": [
+                  "已获得型式批准",
+                  "M1类车辆",
+                  "实施日期"
+                ],
+                "context_keywords": [
+                  "第13个月"
+                ],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "7.3",
+                "chapter_title": "",
+                "raw_text": "对于新申请型式批准的N1 类车辆,自本文件实施之日起第7个月开始执行。 ",
+                "children": [],
+                "full_path": "7 标准的实施/7.3 ",
+                "parameters": [],
+                "topic_keywords": [
+                  "新申请",
+                  "N1类车辆",
+                  "实施日期"
+                ],
+                "context_keywords": [
+                  "第7个月"
+                ],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "7.4",
+                "chapter_title": "",
+                "raw_text": "对于已获得型式批准的N1 类车辆,自本文件实施之日起第19个月开始执行。 GB45672—2025",
+                "children": [],
+                "full_path": "7 标准的实施/7.4 ",
+                "parameters": [],
+                "topic_keywords": [
+                  "已获得型式批准",
+                  "N1类车辆",
+                  "实施日期"
+                ],
+                "context_keywords": [
+                  "第19个月"
+                ],
+                "refs": [],
+                "table_headers": []
+              }
+            ],
+            "full_path": "7 标准的实施",
+            "parameters": [],
+            "topic_keywords": [
+              "标准的实施"
+            ],
+            "context_keywords": [],
+            "refs": [],
+            "table_headers": []
+          }
+        ]
+      },
+      {
+        "section": "附录A",
+        "context": "附录A 附 录 A (规范性) 最小数据集(MSD)",
+        "chapters": [
+          {
+            "chapter_id": "A.1",
+            "chapter_title": "数据说明",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "A.1.1",
+                "chapter_title": "数据类型",
+                "raw_text": "协议中传输的数据类型见表A.1。\n表A.1 数据类型\n数据类型 描述及要求 BYTE 无符号单字节整型(8位) WORD 无符号双字节整型(16位) SHORT 有符号双字节整型(16位) DWORD 无符号四字节整型(32位) LONG 有符号四字节整型(32位) BYTE[n] n 个无符号单字节整型的数组 LONG[n] n 个有符号四字节整型的数组",
+                "children": [],
+                "full_path": "A.1 数据说明/A.1.1 数据类型",
+                "parameters": [],
+                "topic_keywords": [
+                  "数据类型"
+                ],
+                "context_keywords": [
+                  "协议传输",
+                  "数据描述"
+                ],
+                "refs": [
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "表A.1",
+                    "anchor_text": "数据类型"
+                  }
+                ],
+                "table_headers": [
+                  "数据类型",
+                  "描述及要求"
+                ]
+              },
+              {
+                "chapter_id": "A.1.2",
+                "chapter_title": "传输规则",
+                "raw_text": "协议应采用大端模式的网络字节序来传递数据。",
+                "children": [],
+                "full_path": "A.1 数据说明/A.1.2 传输规则",
+                "parameters": [],
+                "topic_keywords": [
+                  "传输规则"
+                ],
+                "context_keywords": [
+                  "大端模式",
+                  "网络字节序"
+                ],
+                "refs": [],
+                "table_headers": []
+              }
+            ],
+            "full_path": "A.1 数据说明",
+            "parameters": [],
+            "topic_keywords": [
+              "数据说明"
+            ],
+            "context_keywords": [],
+            "refs": [],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "A.2",
+            "chapter_title": "最小数据集(MSD)内容",
+            "raw_text": "AECS发送至紧急呼叫服务平台的MSD 数据格式应符合表A.2的规定。MSD 以外的数据项应排\n列在MSD 之后。\n表A.2 最小数据集\n字段 数据类型长度/字节\n字节\n序列号\n说明\n版本信息 BYTE 1 0 数据范围[1,255];本文件对应的版本信息号应为1标识符 BYTE 1 1数据范围[1,255];AECS每次触发后都从1开始计数,同一次触发内,在每次应用层MSD 接收新的发送请求后,计数增加1触发类型 BYTE 1 2 1为自动触发;0为手动触发测试呼叫 BYTE 1 3 1为测试呼叫;0为真实呼叫车辆类型 BYTE 1 4数据范围[1,255];填写符合GB/T15089定义的车辆类型,M1类车辆填写1;N1 类车辆填写4GB45672—2025表A.2 最小数据集(续)\n字段 数据类型长度/字节\n字节\n序列号\n说明\n车辆识别代号\n(VIN)BYTE\n[17] 17 5~21 符合GB16735规定的17位字符车辆动力类型 BYTE 1 22数据范围[0,255];燃料种类可分为:\n0———其他;1———汽油;2———柴油;3———电;4———混合油;\n5———天然气;6———液化石油气;7———甲醇;8———乙醇;9———太阳能;10———氢;11———生物燃料;12———二甲醚;13———汽油混合动力;14———柴油混合动力;15———气体燃料混合动力;\n16~254———保留;255———无效值触发时间 DWORD 4 23~26数据范围[0,2 32 -1];初始时间为1970 年1 月1 日,单位为秒,分辨率为1。\n使用协调世界时(UTC)表示,0为无效值事故位置经度 LONG 4 27~30AECS触发时,车辆的经度信息。东经为正西经为负。\n数据范围[-2 31,2 31-1],单位为毫角秒,分辨率为1。\n2147483647为无效值\n事故位置纬度 LONG 4 31~34AECS触发时,车辆的纬度信息。北纬为正南纬为负。\n数据范围[-2 31,2 31-1],单位为毫角秒,分辨率为1。\n2147483647为无效值\n事故发生前9个\n点位经纬度\nLONG\n[18] 72 35~106采集频率为1Hz,记录AECS触发前最后移动的9个点位经纬度。\n数据格式参考事故位置经度、事故位置纬度。记录方式见表A.3\n车辆纵向\n速度变化量\nBYTE 1 107车辆纵向速度变化量(Δv)的最大值,单位为千米每小时(km/h),分辨率为1;计算方法按照GB39732—2020车辆横向\n速度变化量\nBYTE 1 108车辆横向速度变化量(Δv)的最大值,单位为千米每小时(km/h),分辨率为1;计算方法按照GB39732—2020实际乘员数量 BYTE 1 109数据范围[0,255],填写车内实际成员数量,无法获取车内全部成员数量时,填写255翻滚事故 BYTE 1 110 1为发生翻滚事故;0为未发生翻滚事故;255为无效值表A.3 数据发生前9个点位经纬度数据结构\nLONG0\n字节序列号35~380 1 2 3经度1\nLONG1\n39~424 5 6 7纬度1\nLONG2\n43~468 9 10 11经度2\nLONG3\n47~5012 13 14 15纬度2\n……LONG16\n99~10264 65 66 67经度9\nLONG17\n103~10668 69 70 71纬度9\n注:经纬度1为时间上与“事故位置经纬度”最近的点,经纬度9为时间上与“事故位置经纬度”最远的点。\nGB45672—2025",
+            "children": [],
+            "full_path": "A.2 最小数据集(MSD)内容",
+            "parameters": [
+              {
+                "item": "版本信息",
+                "constraint": "range_closed",
+                "value": [
+                  "1",
+                  "255"
+                ],
+                "unit": null,
+                "source_text": "数据范围[1,255]"
+              },
+              {
+                "item": "标识符",
+                "constraint": "range_closed",
+                "value": [
+                  "1",
+                  "255"
+                ],
+                "unit": null,
+                "source_text": "数据范围[1,255]"
+              },
+              {
+                "item": "触发类型",
+                "constraint": "enum",
+                "value": [
+                  "0",
+                  "1"
+                ],
+                "unit": null,
+                "source_text": "1为自动触发;0为手动触发"
+              },
+              {
+                "item": "测试呼叫",
+                "constraint": "enum",
+                "value": [
+                  "0",
+                  "1"
+                ],
+                "unit": null,
+                "source_text": "1为测试呼叫;0为真实呼叫"
+              },
+              {
+                "item": "车辆类型",
+                "constraint": "range_closed",
+                "value": [
+                  "1",
+                  "255"
+                ],
+                "unit": null,
+                "source_text": "数据范围[1,255]"
+              },
+              {
+                "item": "车辆动力类型",
+                "constraint": "enum",
+                "value": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "255"
+                ],
+                "unit": null,
+                "source_text": "数据范围[0,255];燃料种类可分为:0—其他;1—汽油;2—柴油;3—电;4—混合油;5—天然气;6—液化石油气;7—甲醇;8—乙醇;9—太阳能;10—氢;11—生物燃料;12—二甲醚;13—汽油混合动力;14—柴油混合动力;15—气体燃料混合动力;16~254—保留;255—无效值"
+              },
+              {
+                "item": "触发时间",
+                "constraint": "range_closed",
+                "value": [
+                  "0",
+                  "4294967295"
+                ],
+                "unit": "秒",
+                "source_text": "数据范围[0,2^32-1];初始时间为1970年1月1日,单位为秒,分辨率为1。"
+              },
+              {
+                "item": "事故位置经度",
+                "constraint": "range_closed",
+                "value": [
+                  "-2147483648",
+                  "2147483647"
+                ],
+                "unit": "毫角秒",
+                "source_text": "数据范围[-2^31,2^31-1],单位为毫角秒,分辨率为1。2147483647为无效值"
+              },
+              {
+                "item": "事故位置纬度",
+                "constraint": "range_closed",
+                "value": [
+                  "-2147483648",
+                  "2147483647"
+                ],
+                "unit": "毫角秒",
+                "source_text": "数据范围[-2^31,2^31-1],单位为毫角秒,分辨率为1。2147483647为无效值"
+              },
+              {
+                "item": "实际乘员数量",
+                "constraint": "range_closed",
+                "value": [
+                  "0",
+                  "255"
+                ],
+                "unit": null,
+                "source_text": "数据范围[0,255]"
+              },
+              {
+                "item": "翻滚事故",
+                "constraint": "enum",
+                "value": [
+                  "0",
+                  "1",
+                  "255"
+                ],
+                "unit": null,
+                "source_text": "1为发生翻滚事故;0为未发生翻滚事故;255为无效值"
+              }
+            ],
+            "topic_keywords": [
+              "最小数据集",
+              "MSD",
+              "数据格式"
+            ],
+            "context_keywords": [
+              "紧急呼叫服务平台",
+              "数据传输",
+              "AECS"
+            ],
+            "refs": [
+              {
+                "ref_type": "internal",
+                "doc_id": null,
+                "target_id": "表A.2",
+                "anchor_text": "最小数据集数据格式"
+              },
+              {
+                "ref_type": "internal",
+                "doc_id": null,
+                "target_id": "表A.3",
+                "anchor_text": "数据发生前9个点位经纬度数据结构"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB/T15089",
+                "target_id": null,
+                "anchor_text": "车辆类型定义"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB16735",
+                "target_id": null,
+                "anchor_text": "车辆识别代号规定"
+              },
+              {
+                "ref_type": "external",
+                "doc_id": "GB39732—2020",
+                "target_id": null,
+                "anchor_text": "速度变化量计算方法"
+              }
+            ],
+            "table_headers": [
+              "字段",
+              "数据类型",
+              "长度/字节",
+              "字节序列号",
+              "说明"
+            ]
+          }
+        ]
+      },
+      {
+        "section": "附录B",
+        "context": "附录B 附 录 B (规范性)自动触发试验方法",
+        "chapters": [
+          {
+            "chapter_id": "B.1",
+            "chapter_title": "试验条件",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "B.1.1",
+                "chapter_title": "",
+                "raw_text": "按B.2.1.1、B.2.2.1、B.2.3.1、B.2.4.1进行试验时,应将AECS相关部件按照原车状态安装在白车 身或工装上,所有部件的安装方向应与原车相同,且包括但不限于以下部件:\na) 控制模块;\nb) 车载无线通信终端(可不含麦克风和扬声器);\nc) 电源或备用电源,且应充电至制造商建议的电压;\nd) 连接器;\ne) 车载卫星定位系统;\nf) 产生自动触发信号的模块(若有)。\n制造商准许选择提供与AECS连接的测试箱,用来模拟真实车辆状态下AECS的外围信号和负载。测试箱满足以下条件:\n———测试箱应具备总线信号模拟功能,将真实的车辆信号模拟发送给AECS,但AECS的供电和触发信号不应由测试箱提供;\n———测试箱应具备必要的与 AECS 连接的外围传感器、负载及硬线连接部件等附件,保证AECS能够正常工作;\n———对于在车辆运行中工作的或在一定运算逻辑下触发工作的装置,应将其状态预设为开启。",
+                "children": [],
+                "full_path": "B.1 试验条件/B.1.1 ",
+                "parameters": [],
+                "topic_keywords": [
+                  "试验条件",
+                  "AECS部件安装"
+                ],
+                "context_keywords": [
+                  "白车身",
+                  "工装",
+                  "控制模块",
+                  "车载无线通信终端",
+                  "电源",
+                  "备用电源"
+                ],
+                "refs": [
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "B.2.1.1",
+                    "anchor_text": "进行试验"
+                  },
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "B.2.2.1",
+                    "anchor_text": "进行试验"
+                  },
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "B.2.3.1",
+                    "anchor_text": "进行试验"
+                  },
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "B.2.4.1",
+                    "anchor_text": "进行试验"
+                  }
+                ],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "B.1.2",
+                "chapter_title": "",
+                "raw_text": "按B.2.1.2、B.2.2.2、B.2.3.2、B.2.4.2进行试验时,应包括正常安装的所有装备,并应处于能够正 常运行的状态。在对AECS的自动触发试验结果不产生影响的前提下,准许用等质量代替物代替某些零部件。",
+                "children": [],
+                "full_path": "B.1 试验条件/B.1.2 ",
+                "parameters": [],
+                "topic_keywords": [
+                  "试验条件",
+                  "装备安装"
+                ],
+                "context_keywords": [
+                  "正常安装",
+                  "等质量代替物"
+                ],
+                "refs": [
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "B.2.1.2",
+                    "anchor_text": "进行试验"
+                  },
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "B.2.2.2",
+                    "anchor_text": "进行试验"
+                  },
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "B.2.3.2",
+                    "anchor_text": "进行试验"
+                  },
+                  {
+                    "ref_type": "internal",
+                    "doc_id": null,
+                    "target_id": "B.2.4.2",
+                    "anchor_text": "进行试验"
+                  }
+                ],
+                "table_headers": []
+              }
+            ],
+            "full_path": "B.1 试验条件",
+            "parameters": [],
+            "topic_keywords": [
+              "试验条件"
+            ],
+            "context_keywords": [],
+            "refs": [],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "B.2",
+            "chapter_title": "试验项目",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "B.2.1",
+                "chapter_title": "正面碰撞",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "B.2.1.1",
+                    "chapter_title": "滑台正面碰撞试验",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "B.2.1.1.1",
+                        "chapter_title": "",
+                        "raw_text": "将白车身或工装固定在碰撞试验滑台上,安装方向模拟正面碰撞。 ",
+                        "children": [],
+                        "full_path": "B.2 试验项目/B.2.1 正面碰撞/B.2.1.1 滑台正面碰撞试验/B.2.1.1.1 ",
+                        "parameters": [],
+                        "topic_keywords": [
+                          "安装方向",
+                          "正面碰撞"
+                        ],
+                        "context_keywords": [
+                          "白车身",
+                          "工装",
+                          "碰撞试验滑台"
+                        ],
+                        "refs": [],
+                        "table_headers": []
+                      },
+                      {
+                        "chapter_id": "B.2.1.1.2",
+                        "chapter_title": "",
+                        "raw_text": "滑台按照以下加速度波形之一进行碰撞试验。 a) 使用制造商指定的加速度波形进行试验,指定的加速度波形应为在B.2.1.2中描述的实车碰撞试验条件中,车身非变形区域采集的加速度-时间曲线,并经过滤波等级CFC60 滤波或100Hz低通滤波。实际试验结果波形的积分速度变化量Δvs( t)应在任意时刻,不超过指定波形的积分速度变化量[Δvt( t)±1]km/h的范围。\nb) 按图B.1 的标准加速度通道范围和表B.1 的参数进行加速或减速,其速度变化量Δv 为\n(25±1)km/h。\nGB45672—2025图B.1 正面碰撞自动触发加速度通道表B.1 正面碰撞自动触发加速度参数\n点\n时间t\nms\n加速度下限(×g) 点 时间tms\n加速度上限(×g) A 15 0 E 0 3 B 45 10 F 40 17 C 60 10 G 63 17 D 85 0 H 105 0",
+                        "children": [],
+                        "full_path": "B.2 试验项目/B.2.1 正面碰撞/B.2.1.1 滑台正面碰撞试验/B.2.1.1.2 ",
+                        "parameters": [
+                          {
+                            "item": "速度变化量Δv",
+                            "constraint": "=",
+                            "value": "25",
+                            "unit": "km/h",
+                            "source_text": "其速度变化量Δv为(25±1)km/h"
+                          }
+                        ],
+                        "topic_keywords": [
+                          "滑台碰撞试验",
+                          "加速度波形"
+                        ],
+                        "context_keywords": [
+                          "CFC60滤波",
+                          "100Hz低通滤波",
+                          "积分速度变化量"
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "B.2.1.2",
+                            "anchor_text": "实车碰撞试验条件"
+                          },
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "图B.1",
+                            "anchor_text": "标准加速度通道范围"
+                          },
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "表B.1",
+                            "anchor_text": "参数"
+                          }
+                        ],
+                        "table_headers": [
+                          "点",
+                          "时间t(ms)",
+                          "加速度下限(×g)",
+                          "加速度上限(×g)"
+                        ]
+                      }
+                    ],
+                    "full_path": "B.2 试验项目/B.2.1 正面碰撞/B.2.1.1 滑台正面碰撞试验",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "滑台正面碰撞试验"
+                    ],
+                    "context_keywords": [],
+                    "refs": [],
+                    "table_headers": [],
+                    "experiments": [
+                      {
+                        "chapter_id": "B.2.1.1",
+                        "test_name": "滑台正面碰撞试验(方案A)",
+                        "conditions": [
+                          "将白车身或工装固定在碰撞试验滑台上，安装方向模拟正面碰撞。",
+                          "使用制造商指定的加速度波形进行试验。",
+                          "指定的加速度波形应为在B.2.1.2中描述的实车碰撞试验条件中，车身非变形区域采集的加速度-时间曲线。",
+                          "波形经过滤波等级CFC60滤波或100Hz低通滤波。"
+                        ],
+                        "criteria": [
+                          "实际试验结果波形的积分速度变化量Δvs(t)在任意时刻不超过指定波形的积分速度变化量[Δvt(t)±1] km/h。"
+                        ],
+                        "equipment": [
+                          {
+                            "name": "碰撞试验滑台",
+                            "specification": "可模拟正面碰撞；支持自定义加速度波形输入"
+                          }
+                        ],
+                        "parameters": [
+                          {
+                            "item": "滤波等级",
+                            "constraint": "enum",
+                            "value": [
+                              "CFC60",
+                              "100Hz低通"
+                            ],
+                            "unit": null,
+                            "source_text": "并经过滤波等级CFC60滤波或100Hz低通滤波"
+                          },
+                          {
+                            "item": "积分速度变化量Δvs(t)",
+                            "constraint": "range_closed",
+                            "value": [
+                              "Δvt(t)-1",
+                              "Δvt(t)+1"
+                            ],
+                            "unit": "km/h",
+                            "source_text": "实际试验结果波形的积分速度变化量Δvs(t)应在任意时刻,不超过指定波形的积分速度变化量[Δvt(t)±1]km/h的范围"
+                          }
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "B.2.1.2",
+                            "anchor_text": "实车碰撞试验条件"
+                          }
+                        ]
+                      },
+                      {
+                        "chapter_id": "B.2.1.1",
+                        "test_name": "滑台正面碰撞试验(方案B)",
+                        "conditions": [
+                          "将白车身或工装固定在碰撞试验滑台上，安装方向模拟正面碰撞。",
+                          "按图B.1的标准加速度通道范围和表B.1的参数进行加速或减速。"
+                        ],
+                        "criteria": [
+                          "速度变化量Δv应为25±1 km/h。"
+                        ],
+                        "equipment": [
+                          {
+                            "name": "碰撞试验滑台",
+                            "specification": "满足图B.1、表B.1加速度曲线参数"
+                          }
+                        ],
+                        "parameters": [
+                          {
+                            "item": "速度变化量Δv",
+                            "constraint": "range_closed",
+                            "value": [
+                              "24",
+                              "26"
+                            ],
+                            "unit": "km/h",
+                            "source_text": "速度变化量Δv为(25±1)km/h"
+                          }
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "图B.1",
+                            "anchor_text": "标准加速度通道"
+                          },
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "表B.1",
+                            "anchor_text": "标准加速度参数"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "chapter_id": "B.2.1.2",
+                    "chapter_title": "实车正面碰撞试验",
+                    "raw_text": "按GB11551—2014的规定进行试验,除以下试验条件不同:\n———试验速度由制造商指定,且应满足4.4.1的要求并应不超过(30±1)km/h;\n———试验中准许不安装碰撞假人,但应进行相应配重。",
+                    "children": [],
+                    "full_path": "B.2 试验项目/B.2.1 正面碰撞/B.2.1.2 实车正面碰撞试验",
+                    "parameters": [
+                      {
+                        "item": "试验速度",
+                        "constraint": "<=",
+                        "value": "31",
+                        "unit": "km/h",
+                        "source_text": "应不超过(30±1)km/h"
+                      }
+                    ],
+                    "topic_keywords": [
+                      "实车正面碰撞试验"
+                    ],
+                    "context_keywords": [
+                      "试验速度",
+                      "碰撞假人",
+                      "配重"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "external",
+                        "doc_id": "GB11551—2014",
+                        "target_id": null,
+                        "anchor_text": "规定进行试验"
+                      },
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "4.4.1",
+                        "anchor_text": "要求"
+                      }
+                    ],
+                    "table_headers": [],
+                    "experiments": [
+                      {
+                        "chapter_id": "B.2.1.2",
+                        "test_name": "实车正面碰撞试验",
+                        "conditions": [
+                          "按GB11551—2014的规定进行试验。",
+                          "试验速度由制造商指定，且应满足4.4.1的要求。",
+                          "试验速度不超过(30±1) km/h。",
+                          "试验中准许不安装碰撞假人，但应进行相应配重。"
+                        ],
+                        "criteria": [
+                          "符合GB11551—2014的试验要求。"
+                        ],
+                        "equipment": [
+                          {
+                            "name": "实车碰撞试验设备",
+                            "specification": "符合GB11551—2014要求"
+                          }
+                        ],
+                        "parameters": [
+                          {
+                            "item": "试验速度上限",
+                            "constraint": "<=",
+                            "value": "31",
+                            "unit": "km/h",
+                            "source_text": "应不超过(30±1)km/h"
+                          }
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "external",
+                            "doc_id": "GB11551—2014",
+                            "target_id": null,
+                            "anchor_text": "汽车正面碰撞的乘员保护"
+                          },
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "4.4.1",
+                            "anchor_text": "技术要求"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "chapter_id": "B.2.1.3",
+                    "chapter_title": "结果",
+                    "raw_text": "按B.2.1.1或B.2.1.2进行试验后,检查接收到的MSD 中的触发类型。",
+                    "children": [],
+                    "full_path": "B.2 试验项目/B.2.1 正面碰撞/B.2.1.3 结果",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "结果",
+                      "触发类型"
+                    ],
+                    "context_keywords": [
+                      "MSD"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "B.2.1.1",
+                        "anchor_text": "进行试验"
+                      },
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "B.2.1.2",
+                        "anchor_text": "进行试验"
+                      }
+                    ],
+                    "table_headers": []
+                  }
+                ],
+                "full_path": "B.2 试验项目/B.2.1 正面碰撞",
+                "parameters": [],
+                "topic_keywords": [
+                  "正面碰撞"
+                ],
+                "context_keywords": [],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "B.2.2",
+                "chapter_title": "侧面碰撞",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "B.2.2.1",
+                    "chapter_title": "滑台侧面碰撞试验",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "B.2.2.1.1",
+                        "chapter_title": "",
+                        "raw_text": "将白车身或工装固定在碰撞试验滑台上,安装方向模拟侧面碰撞,试验应在驾驶员侧进 行,若车辆车身结构或保护系统不对称,并且差异对侧面碰撞性能产生影响,则按照最不利原则,在对侧面碰撞性能最不利的一侧进行试验。",
+                        "children": [],
+                        "full_path": "B.2 试验项目/B.2.2 侧面碰撞/B.2.2.1 滑台侧面碰撞试验/B.2.2.1.1 ",
+                        "parameters": [],
+                        "topic_keywords": [
+                          "安装方向",
+                          "侧面碰撞"
+                        ],
+                        "context_keywords": [
+                          "白车身",
+                          "工装",
+                          "碰撞试验滑台",
+                          "驾驶员侧"
+                        ],
+                        "refs": [],
+                        "table_headers": []
+                      },
+                      {
+                        "chapter_id": "B.2.2.1.2",
+                        "chapter_title": "",
+                        "raw_text": "滑台按照以下加速度波形之一进行碰撞试验。 a) 使用制造商指定的加速度波形进行试验,指定的加速度波形应为在B.2.2.2中描述的实车碰撞GB45672—2025试验条件中,在车身非变形区域采集的加速度-时间曲线,并经过CFC60滤波或100Hz低通滤波。实际试验结果波形的积分速度变化量Δvs( t)应在任意时刻,不超过指定波形的积分速度变化量[Δvt( t)±1]km/h的范围。\nb) 按图B.2的标准加速度通道范围和表B.2的参数进行加速或减速,其速度变化量Δv 为(15±\n1)km/h。\n图B.2 侧面碰撞自动触发加速度通道表B.2 侧面碰撞自动触发加速度参数\n点\n时间t\nms\n加速度下限(×g) 点 时间tms\n加速度上限(×g) A 5 0 E 0 2 B 22 6 F 20 10 C 50 6 G 51 10 D 65 0 H 76 0",
+                        "children": [],
+                        "full_path": "B.2 试验项目/B.2.2 侧面碰撞/B.2.2.1 滑台侧面碰撞试验/B.2.2.1.2 ",
+                        "parameters": [
+                          {
+                            "item": "速度变化量Δv",
+                            "constraint": "=",
+                            "value": "15",
+                            "unit": "km/h",
+                            "source_text": "其速度变化量Δv为(15±1)km/h"
+                          }
+                        ],
+                        "topic_keywords": [
+                          "滑台碰撞试验",
+                          "加速度波形"
+                        ],
+                        "context_keywords": [
+                          "CFC60滤波",
+                          "100Hz低通滤波",
+                          "积分速度变化量"
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "B.2.2.2",
+                            "anchor_text": "实车碰撞试验条件"
+                          },
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "图B.2",
+                            "anchor_text": "标准加速度通道范围"
+                          },
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "表B.2",
+                            "anchor_text": "参数"
+                          }
+                        ],
+                        "table_headers": [
+                          "点",
+                          "时间t(ms)",
+                          "加速度下限(×g)",
+                          "加速度上限(×g)"
+                        ]
+                      }
+                    ],
+                    "full_path": "B.2 试验项目/B.2.2 侧面碰撞/B.2.2.1 滑台侧面碰撞试验",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "滑台侧面碰撞试验"
+                    ],
+                    "context_keywords": [],
+                    "refs": [],
+                    "table_headers": [],
+                    "experiments": [
+                      {
+                        "chapter_id": "B.2.2.1",
+                        "test_name": "滑台侧面碰撞试验(方案A)",
+                        "conditions": [
+                          "将白车身或工装固定在碰撞试验滑台上，安装方向模拟侧面碰撞。",
+                          "试验应在驾驶员侧进行，若车辆车身结构或保护系统不对称且对侧面碰撞性能产生影响，则按照最不利原则在对侧面碰撞性能最不利的一侧进行试验。",
+                          "使用制造商指定的加速度波形进行试验。",
+                          "指定的加速度波形应为在B.2.2.2中描述的实车碰撞试验条件中，车身非变形区域采集的加速度-时间曲线。",
+                          "波形经过CFC60滤波或100Hz低通滤波。"
+                        ],
+                        "criteria": [
+                          "实际试验结果波形的积分速度变化量Δvs(t)在任意时刻不超过指定波形的积分速度变化量[Δvt(t)±1] km/h。"
+                        ],
+                        "equipment": [
+                          {
+                            "name": "碰撞试验滑台",
+                            "specification": "可模拟侧面碰撞；支持自定义加速度波形输入"
+                          }
+                        ],
+                        "parameters": [
+                          {
+                            "item": "滤波等级",
+                            "constraint": "enum",
+                            "value": [
+                              "CFC60",
+                              "100Hz低通"
+                            ],
+                            "unit": null,
+                            "source_text": "并经过CFC60滤波或100Hz低通滤波"
+                          },
+                          {
+                            "item": "积分速度变化量Δvs(t)",
+                            "constraint": "range_closed",
+                            "value": [
+                              "Δvt(t)-1",
+                              "Δvt(t)+1"
+                            ],
+                            "unit": "km/h",
+                            "source_text": "实际试验结果波形的积分速度变化量Δvs(t)应在任意时刻,不超过指定波形的积分速度变化量[Δvt(t)±1]km/h的范围"
+                          }
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "B.2.2.2",
+                            "anchor_text": "实车碰撞试验条件"
+                          }
+                        ]
+                      },
+                      {
+                        "chapter_id": "B.2.2.1",
+                        "test_name": "滑台侧面碰撞试验(方案B)",
+                        "conditions": [
+                          "将白车身或工装固定在碰撞试验滑台上，安装方向模拟侧面碰撞。",
+                          "试验应在驾驶员侧进行，若车辆车身结构或保护系统不对称且对侧面碰撞性能产生影响，则按照最不利原则在对侧面碰撞性能最不利的一侧进行试验。",
+                          "按图B.2的标准加速度通道范围和表B.2的参数进行加速或减速。"
+                        ],
+                        "criteria": [
+                          "速度变化量Δv应为15±1 km/h。"
+                        ],
+                        "equipment": [
+                          {
+                            "name": "碰撞试验滑台",
+                            "specification": "满足图B.2、表B.2加速度曲线参数"
+                          }
+                        ],
+                        "parameters": [
+                          {
+                            "item": "速度变化量Δv",
+                            "constraint": "range_closed",
+                            "value": [
+                              "14",
+                              "16"
+                            ],
+                            "unit": "km/h",
+                            "source_text": "速度变化量Δv为(15±1)km/h"
+                          }
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "图B.2",
+                            "anchor_text": "标准加速度通道"
+                          },
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "表B.2",
+                            "anchor_text": "标准加速度参数"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "chapter_id": "B.2.2.2",
+                    "chapter_title": "实车侧面碰撞试验",
+                    "raw_text": "按GB20071—2025的规定进行试验,除以下试验条件不同:\n———试验速度由制造商指定,且应满足4.4.1的要求并应不超过(30±1)km/h;\n———试验中可不安装碰撞假人,但应进行相应配重;\n———试验应在驾驶员侧进行,若车辆车身结构不对称,并且该差异对侧面碰撞性能产生影响,则按照最不利原则,在对侧面碰撞性能最不利的一侧进行试验。",
+                    "children": [],
+                    "full_path": "B.2 试验项目/B.2.2 侧面碰撞/B.2.2.2 实车侧面碰撞试验",
+                    "parameters": [
+                      {
+                        "item": "试验速度",
+                        "constraint": "<=",
+                        "value": "31",
+                        "unit": "km/h",
+                        "source_text": "应不超过(30±1)km/h"
+                      }
+                    ],
+                    "topic_keywords": [
+                      "实车侧面碰撞试验"
+                    ],
+                    "context_keywords": [
+                      "试验速度",
+                      "碰撞假人",
+                      "配重",
+                      "驾驶员侧"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "external",
+                        "doc_id": "GB20071—2025",
+                        "target_id": null,
+                        "anchor_text": "规定进行试验"
+                      }
+                    ],
+                    "table_headers": [],
+                    "experiments": [
+                      {
+                        "chapter_id": "B.2.2.2",
+                        "test_name": "实车侧面碰撞试验",
+                        "conditions": [
+                          "按GB20071—2025的规定进行试验。",
+                          "试验速度由制造商指定，且应满足4.4.1的要求。",
+                          "试验速度不超过(30±1) km/h。",
+                          "试验中可不安装碰撞假人，但应进行相应配重。",
+                          "试验应在驾驶员侧进行，若车辆车身结构不对称且对侧面碰撞性能产生影响，则按照最不利原则在对侧面碰撞性能最不利的一侧进行试验。"
+                        ],
+                        "criteria": [
+                          "符合GB20071—2025的试验要求。"
+                        ],
+                        "equipment": [
+                          {
+                            "name": "实车碰撞试验设备",
+                            "specification": "符合GB20071—2025要求"
+                          }
+                        ],
+                        "parameters": [
+                          {
+                            "item": "试验速度上限",
+                            "constraint": "<=",
+                            "value": "31",
+                            "unit": "km/h",
+                            "source_text": "应不超过(30±1)km/h"
+                          }
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "external",
+                            "doc_id": "GB20071—2025",
+                            "target_id": null,
+                            "anchor_text": "汽车侧面碰撞的乘员保护"
+                          },
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "4.4.1",
+                            "anchor_text": "技术要求"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "chapter_id": "B.2.2.3",
+                    "chapter_title": "结果",
+                    "raw_text": "按B.2.2.1或B.2.2.2进行试验后,检查接收到的MSD 中的触发类型。\nGB45672—2025",
+                    "children": [],
+                    "full_path": "B.2 试验项目/B.2.2 侧面碰撞/B.2.2.3 结果",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "结果",
+                      "触发类型"
+                    ],
+                    "context_keywords": [
+                      "MSD"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "B.2.2.1",
+                        "anchor_text": "进行试验"
+                      },
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "B.2.2.2",
+                        "anchor_text": "进行试验"
+                      }
+                    ],
+                    "table_headers": []
+                  }
+                ],
+                "full_path": "B.2 试验项目/B.2.2 侧面碰撞",
+                "parameters": [],
+                "topic_keywords": [
+                  "侧面碰撞"
+                ],
+                "context_keywords": [],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "B.2.3",
+                "chapter_title": "后面碰撞",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "B.2.3.1",
+                    "chapter_title": "滑台后面碰撞试验",
+                    "raw_text": "将白车身或工装固定在碰撞试验滑台上,安装方向模拟后面碰撞,其速度变化量Δv 为(27±\n1)km/h。滑台按照图B.3的标准加速度通道范围和表B.3的参数进行加速或减速。\n图B.3 后面碰撞自动触发加速度通道表B.3 后面碰撞自动触发加速度参数\n点\n时间t\nms\n加速度下限(×g) 点 时间tms\n加速度上限(×g) A 4 0 D 0 5 B 9 14 E 8 22 C 60 0 F 30 22 G 85 0",
+                    "children": [],
+                    "full_path": "B.2 试验项目/B.2.3 后面碰撞/B.2.3.1 滑台后面碰撞试验",
+                    "parameters": [
+                      {
+                        "item": "速度变化量Δv",
+                        "constraint": "=",
+                        "value": "27",
+                        "unit": "km/h",
+                        "source_text": "其速度变化量Δv为(27±1)km/h"
+                      }
+                    ],
+                    "topic_keywords": [
+                      "滑台后面碰撞试验"
+                    ],
+                    "context_keywords": [
+                      "白车身",
+                      "工装",
+                      "碰撞试验滑台"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "图B.3",
+                        "anchor_text": "标准加速度通道范围"
+                      },
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "表B.3",
+                        "anchor_text": "参数"
+                      }
+                    ],
+                    "table_headers": [
+                      "点",
+                      "时间t(ms)",
+                      "加速度下限(×g)",
+                      "加速度上限(×g)"
+                    ],
+                    "experiments": [
+                      {
+                        "chapter_id": "B.2.3.1",
+                        "test_name": "滑台后面碰撞试验",
+                        "conditions": [
+                          "将白车身或工装固定在碰撞试验滑台上，安装方向模拟后面碰撞。"
+                        ],
+                        "criteria": [
+                          "速度变化量Δv应为27±1 km/h。"
+                        ],
+                        "equipment": [
+                          {
+                            "name": "碰撞试验滑台",
+                            "specification": "满足图B.3、表B.3加速度曲线参数"
+                          }
+                        ],
+                        "parameters": [
+                          {
+                            "item": "速度变化量Δv",
+                            "constraint": "range_closed",
+                            "value": [
+                              "26",
+                              "28"
+                            ],
+                            "unit": "km/h",
+                            "source_text": "速度变化量Δv为(27±1)km/h"
+                          }
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "图B.3",
+                            "anchor_text": "标准加速度通道"
+                          },
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "表B.3",
+                            "anchor_text": "标准加速度参数"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "chapter_id": "B.2.3.2",
+                    "chapter_title": "实车后面碰撞试验",
+                    "raw_text": "按GB20072—2024规定的试验方法进行试验。",
+                    "children": [],
+                    "full_path": "B.2 试验项目/B.2.3 后面碰撞/B.2.3.2 实车后面碰撞试验",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "实车后面碰撞试验"
+                    ],
+                    "context_keywords": [],
+                    "refs": [
+                      {
+                        "ref_type": "external",
+                        "doc_id": "GB20072—2024",
+                        "target_id": null,
+                        "anchor_text": "规定的试验方法"
+                      }
+                    ],
+                    "table_headers": [],
+                    "experiments": [
+                      {
+                        "chapter_id": "B.2.3.2",
+                        "test_name": "实车后面碰撞试验",
+                        "conditions": [
+                          "按GB20072—2024规定的试验方法进行试验。"
+                        ],
+                        "criteria": [
+                          "符合GB20072—2024的试验要求。"
+                        ],
+                        "equipment": [
+                          {
+                            "name": "实车碰撞试验设备",
+                            "specification": "符合GB20072—2024要求"
+                          }
+                        ],
+                        "parameters": [],
+                        "refs": [
+                          {
+                            "ref_type": "external",
+                            "doc_id": "GB20072—2024",
+                            "target_id": null,
+                            "anchor_text": "乘用车后碰撞安全要求"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "chapter_id": "B.2.3.3",
+                    "chapter_title": "结果",
+                    "raw_text": "按B.2.3.1或B.2.3.2进行试验后,检查接收到的MSD 中的触发类型。",
+                    "children": [],
+                    "full_path": "B.2 试验项目/B.2.3 后面碰撞/B.2.3.3 结果",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "结果",
+                      "触发类型"
+                    ],
+                    "context_keywords": [
+                      "MSD"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "B.2.3.1",
+                        "anchor_text": "进行试验"
+                      },
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "B.2.3.2",
+                        "anchor_text": "进行试验"
+                      }
+                    ],
+                    "table_headers": []
+                  }
+                ],
+                "full_path": "B.2 试验项目/B.2.3 后面碰撞",
+                "parameters": [],
+                "topic_keywords": [
+                  "后面碰撞"
+                ],
+                "context_keywords": [],
+                "refs": [],
+                "table_headers": []
+              },
+              {
+                "chapter_id": "B.2.4",
+                "chapter_title": "翻滚",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "B.2.4.1",
+                    "chapter_title": "模拟翻滚试验",
+                    "raw_text": "将白车身或工装固定在翻转试验台架上,试验台架初始应为水平状态。翻转试验台架按照图B.4的角速度通道范围和表B.4的参数进行模拟翻滚运动,积分角位移应为90°~95°。试验应进行向左翻\nGB45672—2025滚,若车辆车身结构或保护系统不对称,并且该差异对翻滚性能产生影响,则按照最不利原则,在对翻滚性能最不利的一侧进行试验。\n图B.4 模拟翻滚试验角速度通道表B.4 模拟翻滚试验角速度参数\n点\n时间t\ns\n角速度下限\n( °)/s 点时间t\ns\n角速度上限\n(°)/s A 0.1 0 D 0 5 B 0.5 35 E 0.5 45 C 2.5 35 F 2.5 45",
+                    "children": [],
+                    "full_path": "B.2 试验项目/B.2.4 翻滚/B.2.4.1 模拟翻滚试验",
+                    "parameters": [
+                      {
+                        "item": "积分角位移",
+                        "constraint": "range_closed",
+                        "value": [
+                          "90",
+                          "95"
+                        ],
+                        "unit": "°",
+                        "source_text": "积分角位移应为90°~95°"
+                      }
+                    ],
+                    "topic_keywords": [
+                      "模拟翻滚试验"
+                    ],
+                    "context_keywords": [
+                      "翻转试验台架",
+                      "积分角位移",
+                      "向左翻滚"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "图B.4",
+                        "anchor_text": "角速度通道范围"
+                      },
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "表B.4",
+                        "anchor_text": "参数"
+                      }
+                    ],
+                    "table_headers": [
+                      "点",
+                      "时间t(s)",
+                      "角速度下限(°/s)",
+                      "角速度上限(°/s)"
+                    ],
+                    "experiments": [
+                      {
+                        "chapter_id": "B.2.4.1",
+                        "test_name": "模拟翻滚试验",
+                        "conditions": [
+                          "将白车身或工装固定在翻转试验台架上。",
+                          "试验台架初始应为水平状态。",
+                          "试验应进行向左翻滚，若车辆车身结构或保护系统不对称且对翻滚性能产生影响，则按照最不利原则在对翻滚性能最不利的一侧进行试验。"
+                        ],
+                        "criteria": [
+                          "积分角位移应为90°~95°。"
+                        ],
+                        "equipment": [
+                          {
+                            "name": "翻转试验台架",
+                            "specification": "可模拟翻滚运动；满足图B.4、表B.4角速度曲线参数"
+                          }
+                        ],
+                        "parameters": [
+                          {
+                            "item": "积分角位移",
+                            "constraint": "range_closed",
+                            "value": [
+                              "90",
+                              "95"
+                            ],
+                            "unit": "°",
+                            "source_text": "积分角位移应为90°~95°"
+                          }
+                        ],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "图B.4",
+                            "anchor_text": "角速度通道"
+                          },
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "表B.4",
+                            "anchor_text": "角速度参数"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "chapter_id": "B.2.4.2",
+                    "chapter_title": "实车螺旋翻滚试验",
+                    "raw_text": "试验场地应可容纳跑道、翻滚台架和试验必需的技术设施。试验翻滚台架参数(坡道长度、坡道角度)、车辆前轮驶入翻滚台架瞬间的速度不做限定,由制造商指定,以使车辆能在试验中发生翻滚;翻滚台架示意图如图B.5所示。在翻滚台架前至少5m 的跑道应水平、平坦和光滑。\n牵引车辆进行加速,车辆应处于空挡状态,车门应关闭但不锁止。活动车顶或可拆式车顶(若有),应处于制造商设定位置并关闭。试验应进行向左翻滚,若车辆车身结构或保护系统不对称,并且该差异对翻滚性能产生影响,则按照最不利原则,在对翻滚性能最不利的一侧进行试验。\nGB45672—2025标引说明:\nL———坡道长度; α ———坡道角度;\nL1 ———一段坡道长度;\nL2 ———二段坡道长度;\nα1 ———一段坡道角度;\nα2 ———二段坡道角度。\n图B.5 翻滚台架示意图",
+                    "children": [],
+                    "full_path": "B.2 试验项目/B.2.4 翻滚/B.2.4.2 实车螺旋翻滚试验",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "实车螺旋翻滚试验"
+                    ],
+                    "context_keywords": [
+                      "试验场地",
+                      "跑道",
+                      "翻滚台架",
+                      "坡道长度",
+                      "坡道角度",
+                      "车辆速度"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "图B.5",
+                        "anchor_text": "翻滚台架示意图"
+                      }
+                    ],
+                    "table_headers": [],
+                    "experiments": [
+                      {
+                        "chapter_id": "B.2.4.2",
+                        "test_name": "实车螺旋翻滚试验",
+                        "conditions": [
+                          "试验场地可容纳跑道、翻滚台架和试验设施。",
+                          "在翻滚台架前至少5m的跑道应水平、平坦和光滑。",
+                          "牵引车辆进行加速，车辆处于空挡状态。",
+                          "车门关闭但不锁止。",
+                          "活动车顶或可拆式车顶应处于制造商设定位置并关闭。",
+                          "试验应进行向左翻滚，若车辆车身结构或保护系统不对称且对翻滚性能产生影响，则按照最不利原则在对翻滚性能最不利的一侧进行试验。",
+                          "试验翻滚台架参数（坡道长度、坡道角度）由制造商指定，以使车辆发生翻滚。",
+                          "车辆前轮驶入翻滚台架瞬间的速度由制造商指定。"
+                        ],
+                        "criteria": [
+                          "车辆应在试验中发生翻滚。"
+                        ],
+                        "equipment": [
+                          {
+                            "name": "翻滚台架",
+                            "specification": "符合图B.5示意图"
+                          },
+                          {
+                            "name": "牵引设备",
+                            "specification": "可加速车辆"
+                          }
+                        ],
+                        "parameters": [],
+                        "refs": [
+                          {
+                            "ref_type": "internal",
+                            "doc_id": null,
+                            "target_id": "图B.5",
+                            "anchor_text": "翻滚台架示意图"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "chapter_id": "B.2.4.3",
+                    "chapter_title": "结果",
+                    "raw_text": "按B.2.4.1或B.2.4.2进行试验后,检查接收到的MSD 中的触发类型。\nGB45672—2025",
+                    "children": [],
+                    "full_path": "B.2 试验项目/B.2.4 翻滚/B.2.4.3 结果",
+                    "parameters": [],
+                    "topic_keywords": [
+                      "结果",
+                      "触发类型"
+                    ],
+                    "context_keywords": [
+                      "MSD"
+                    ],
+                    "refs": [
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "B.2.4.1",
+                        "anchor_text": "进行试验"
+                      },
+                      {
+                        "ref_type": "internal",
+                        "doc_id": null,
+                        "target_id": "B.2.4.2",
+                        "anchor_text": "进行试验"
+                      }
+                    ],
+                    "table_headers": []
+                  }
+                ],
+                "full_path": "B.2 试验项目/B.2.4 翻滚",
+                "parameters": [],
+                "topic_keywords": [
+                  "翻滚"
+                ],
+                "context_keywords": [],
+                "refs": [],
+                "table_headers": []
+              }
+            ],
+            "full_path": "B.2 试验项目",
+            "parameters": [],
+            "topic_keywords": [
+              "试验项目"
+            ],
+            "context_keywords": [],
+            "refs": [],
+            "table_headers": []
+          }
+        ]
+      },
+      {
+        "section": "附录C",
+        "context": "附录C 附 录 C (规范性)功能试验要求",
+        "chapters": [
+          {
+            "chapter_id": "C.1",
+            "chapter_title": "",
+            "raw_text": "使用网络模拟器通过无线空口传输方式进行AECS功能试验。 ",
+            "children": [],
+            "full_path": "C.1 ",
+            "parameters": [],
+            "topic_keywords": [
+              "AECS功能试验",
+              "网络模拟器",
+              "无线空口传输"
+            ],
+            "context_keywords": [],
+            "refs": [],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "C.2",
+            "chapter_title": "",
+            "raw_text": "AECS发送的MSD 应符合附录A 的要求。 ",
+            "children": [],
+            "full_path": "C.2 ",
+            "parameters": [],
+            "topic_keywords": [
+              "MSD",
+              "附录A"
+            ],
+            "context_keywords": [],
+            "refs": [
+              {
+                "ref_type": "internal",
+                "doc_id": null,
+                "target_id": "附录A",
+                "anchor_text": "MSD要求"
+              }
+            ],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "C.3",
+            "chapter_title": "",
+            "raw_text": "使用中文普通话对车辆的双向免提语音通话进行主观试验,并满足以下要求: ———在语音通话连接建立期间,其他娱乐音频通路应静音,例如音乐、收音机等;\n———紧急呼叫服务平台模拟测试设备端应能正常接收处理车辆端发送的语音通话信号,并且语音应清晰可懂;\n———车辆端应能正常接收处理紧急呼叫服务平台模拟测试设备端发送的语音通话信号,并且语音应清晰可懂。\n示例:主观试验时的对话如下:\n问:您好,这里是救援专席,请问有什么可以帮您?\n答:救命啊,我朋友受伤很严重,他现在不动了。\n问:您好,请保持冷静,只有您朋友一个人受伤对吗?\n答:1个人,在副驾驶位置。",
+            "children": [],
+            "full_path": "C.3 ",
+            "parameters": [],
+            "topic_keywords": [
+              "主观试验",
+              "双向免提语音通话",
+              "中文普通话"
+            ],
+            "context_keywords": [
+              "娱乐音频通路",
+              "静音",
+              "语音清晰可懂"
+            ],
+            "refs": [],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "C.4",
+            "chapter_title": "",
+            "raw_text": "AECS的信息信号装置应能正确指示其处于运行状态或失败状态。 注1:运行状态一般指AECS功能已触发、正在建立连接、正在进行数据传输、数据传输已完成、正在进行语音通话等。\n注2:失败状态一般指语音通话连接建立失败或数据传输失败等。\nGB45672—2025",
+            "children": [],
+            "full_path": "C.4 ",
+            "parameters": [],
+            "topic_keywords": [
+              "信息信号装置",
+              "运行状态",
+              "失败状态"
+            ],
+            "context_keywords": [
+              "功能触发",
+              "建立连接",
+              "数据传输",
+              "语音通话"
+            ],
+            "refs": [],
+            "table_headers": []
+          }
+        ]
+      },
+      {
+        "section": "附录D",
+        "context": "附录D 附 录 D (规范性)自检试验方法",
+        "chapters": [
+          {
+            "chapter_id": "D.1",
+            "chapter_title": "失效类型",
+            "raw_text": "AECS失效类型见表D.1。\n表D.1 失效类型\n项目\n部件 类型备注\n控制模块 内部失效例如:硬件失效等车载无线通信终端\n电连接/模块通信失效例如:探测不到控制模块和车载无线通信终端的连接\n内部失效\n例如:冷启动时间内无法完成网络注册麦克风和扬声器 电连接失效车载卫星定位系统\n电连接/模块通信失效内部失效\n移动网络天线 电连接失效车载卫星定位系统天线 电连接失效产生自动触发信号的模块 电连接失效备用电源(若有) 电池失效根据制造商说明,当备用电池内阻达到电池失效状态的阻值为失效",
+            "children": [],
+            "full_path": "D.1 失效类型",
+            "parameters": [],
+            "topic_keywords": [
+              "失效类型",
+              "AECS失效",
+              "控制模块",
+              "车载无线通信终端",
+              "麦克风和扬声器",
+              "车载卫星定位系统"
+            ],
+            "context_keywords": [
+              "电连接失效",
+              "内部失效",
+              "电池失效"
+            ],
+            "refs": [
+              {
+                "ref_type": "internal",
+                "doc_id": null,
+                "target_id": "表D.1",
+                "anchor_text": "AECS失效类型"
+              }
+            ],
+            "table_headers": [
+              "部件",
+              "类型",
+              "备注"
+            ]
+          },
+          {
+            "chapter_id": "D.2",
+            "chapter_title": "试验方法",
+            "raw_text": "试验时,按表D.1逐一引入各部件失效类型,且每次试验应只模拟单一失效:\na) 模拟AECS失效,且模拟AECS失效过程中警示信号装置的电气连接不应断开;\nb) 将点火开关处于“ON”状态,观察警示信号提示状态;\nc) 将点火开关处于“OFF”(或“LOCK”)状态后,再将点火处于“ON”状态,观察警示信号提示状态;\nd) 将AECS断电并恢复至正常工作状态,将点火开关处于“ON”状态,观察警示信号提示状态。\nGB45672—2025",
+            "children": [],
+            "full_path": "D.2 试验方法",
+            "parameters": [],
+            "topic_keywords": [
+              "试验方法",
+              "自检试验",
+              "模拟失效",
+              "警示信号"
+            ],
+            "context_keywords": [
+              "点火开关",
+              "ON状态",
+              "OFF状态",
+              "LOCK状态",
+              "警示信号提示",
+              "断电恢复"
+            ],
+            "refs": [
+              {
+                "ref_type": "internal",
+                "doc_id": null,
+                "target_id": "表D.1",
+                "anchor_text": "部件失效类型"
+              }
+            ],
+            "table_headers": []
+          }
+        ]
+      },
+      {
+        "section": "附录E",
+        "context": "附录E 附 录 E (规范性)耐冲击性试验方法",
+        "chapters": [
+          {
+            "chapter_id": "E.1",
+            "chapter_title": "试验条件",
+            "raw_text": "将AECS相关部件按照原车状态安装在白车身或工装上,且包含但不限于以下部件:\na) 控制模块;\nb) 车载无线通信终端(可不含麦克风和扬声器);\nc) 电源或备用电源,且应充电至制造商建议的电压;\nd) 连接器;\ne) 车载卫星定位系统;\nf) 手动触发物理按键。\n所有部件的安装方向应与原车相同。若采用工装,试验部件的固定方式、安装强度应与原车相同。\n制造商可选择提供与AECS连接的测试箱,用来模拟真实车辆状态下AECS的外围信号和负载。\n测试箱应满足以下条件:\n———测试箱应具备总线信号模拟功能,将真实的车辆信号模拟发送给AECS,但AECS的供电和触发信号不应由测试箱提供;\n———测试箱应具备必要的与 AECS 连接的外围传感器、负载及硬线连接部件等附件,保证AECS能够正常工作;\n———对于在车辆运行中工作的或在一定运算逻辑下触发工作的装置,应将其状态预设为开启。",
+            "children": [],
+            "full_path": "E.1 试验条件",
+            "parameters": [],
+            "topic_keywords": [
+              "试验条件",
+              "AECS部件安装"
+            ],
+            "context_keywords": [
+              "白车身",
+              "工装",
+              "控制模块",
+              "车载无线通信终端",
+              "电源",
+              "测试箱"
+            ],
+            "refs": [],
+            "table_headers": []
+          },
+          {
+            "chapter_id": "E.2",
+            "chapter_title": "试验波形",
+            "raw_text": "将白车身或工装固定在碰撞试验滑台上,安装方向模拟正面碰撞。滑台按照图E.1的加速度通道范围和表E.1的参数进行加速或减速,速度变化量Δv 应为(69 ±1)km/h。根据制造商的要求,也可使\n用更高的加速度或速度变化量进行试验。如果试验中AECS被自动触发,则应在紧急呼叫服务平台模拟测试设备端挂断本次自动触发事件后,进行手动触发。\n图E.1 耐冲击试验加速度通道GB45672—2025表E.1 耐冲击试验及加速度参数\n点\n时间t\nms\n加速度下限(×g) 点 时间tms\n加速度上限(×g) A 10 0 E 0 16 B 34 65 F 25 77 C 38 65 G 47 77 D 46 0 H 60 0 GB45672—2025",
+            "children": [],
+            "full_path": "E.2 试验波形",
+            "parameters": [
+              {
+                "item": "速度变化量Δv",
+                "constraint": "=",
+                "value": "69",
+                "unit": "km/h",
+                "source_text": "速度变化量Δv 应为(69 ±1)km/h"
+              }
+            ],
+            "topic_keywords": [
+              "试验波形",
+              "加速度通道",
+              "速度变化量"
+            ],
+            "context_keywords": [
+              "碰撞试验滑台",
+              "正面碰撞",
+              "加速度",
+              "紧急呼叫服务平台"
+            ],
+            "refs": [
+              {
+                "ref_type": "internal",
+                "doc_id": null,
+                "target_id": "图E.1",
+                "anchor_text": "耐冲击试验加速度通道"
+              },
+              {
+                "ref_type": "internal",
+                "doc_id": null,
+                "target_id": "表E.1",
+                "anchor_text": "耐冲击试验及加速度参数"
+              }
+            ],
+            "table_headers": [
+              "点",
+              "时间t(ms)",
+              "加速度下限(×g)",
+              "加速度上限(×g)"
+            ]
+          }
+        ]
+      },
+      {
+        "section": "附录F",
+        "context": "附录F 附 录 F (规范性)试验条件与失效判定准则\nAECS的抗扰试验条件和失效判定准则应符合表F.1的要求。试验仅需对4G 网络的一个频段中\n一个信道进行,且制造商与检测机构应对AECS警示信号机制进行预先评估,以确定试验中车辆检测到的失效为AECS失效而非网络失效。\n表F.1 AECS抗扰试验条件和失效判定准则\n试验项目及阶段 车辆试验条件 失效判定准则电磁辐射抗扰度\n试验前及试验后\n在(50±10)km/h 的行驶工况或制动工况下,应根据车辆制造商的说明手动触发AECSAECS与紧急呼叫服务平台建立连接后,若语音通话可用,应按C.3进行通话质量的评估对通话质量进行评估后,应终止紧急呼叫。\n随后,对传输的MSD 进行评估AECS未成功与紧急呼叫服务平台建立连接\n紧急呼叫服务平台接收的语音无法清晰可懂;\n车辆端接收的语音无法清晰可懂\nMSD 不符合附录A 的要求电磁辐射\n抗扰度试验中a\n在(50±10)km/h 的行驶工况或制动工况下,应监控警示信号装置以及用于指示AECS失效的所有其他显示器\nAECS未能如预期工作,如:警示信号装置或其他车辆显示器中出现AECS失效指示\na 试验中不需要蜂窝网络或卫星导航信号。\nGB45672—2025",
+        "chapters": []
+      }
+    ]
+  }
+]

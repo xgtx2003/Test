@@ -1,0 +1,366 @@
+{"topic_keywords":["SCOPE"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["regulation applicability"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["exhaust emissions","evaporative emissions","crankcase emissions","durability","OBD systems","P.I. engines","4 wheels"],"parameters":[],"context_keywords":["normal ambient temperature","low ambient temperature","pollution control devices","motor vehicles"],"table_headers":[]}
+{"topic_keywords":["exhaust emissions","durability","OBD systems","C.I. engines","M1 vehicles","N1 vehicles","maximum mass"],"parameters":[{"item":"maximum mass","constraint":"<=","value":"3500","unit":"kg","source_text":"maximum mass not exceeding 3,500 kg"}],"context_keywords":["compression-ignition engines","4 wheels","3500 kg"],"table_headers":[]}
+{"topic_keywords":["exhaust emissions","evaporative emissions","crankcase emissions","durability","OBD systems","HEV","P.I. engines","4 wheels"],"parameters":[],"context_keywords":["normal ambient temperature","low ambient temperature","pollution control devices","hybrid electric vehicles"],"table_headers":[]}
+{"topic_keywords":["exhaust emissions","durability","OBD systems","HEV","C.I. engines","M1 vehicles","N1 vehicles","maximum mass"],"parameters":[{"item":"maximum mass","constraint":"<=","value":"3500","unit":"kg","source_text":"maximum mass not exceeding 3,500 kg"}],"context_keywords":["compression-ignition engines","4 wheels","3500 kg"],"table_headers":[]}
+{"topic_keywords":["exclusion criteria","vehicle mass","vehicle speed","engine power"],"parameters":[{"item":"maximum mass","constraint":"<","value":"400","unit":"kg","source_text":"vehicles with a maximum mass of less than 400 kg"},{"item":"maximum design speed","constraint":"<","value":"50","unit":"km/h","source_text":"vehicles having a maximum design speed of less than 50 km/h"},{"item":"unladen mass","constraint":"<=","value":"400","unit":"kg","source_text":"unladen mass is not more than 400 kg"},{"item":"unladen mass","constraint":"<=","value":"550","unit":"kg","source_text":"550 kg if they are intended for carrying goods"},{"item":"maximum engine power","constraint":"<=","value":"15","unit":"kW","source_text":"maximum engine power does not exceed 15 kW"}],"context_keywords":["maximum mass","maximum design speed","unladen mass","carrying passengers","carrying goods"],"table_headers":[]}
+{"topic_keywords":["type approval extension","M2 vehicles","N2 vehicles","reference mass"],"parameters":[{"item":"reference mass","constraint":"<=","value":"2840","unit":"kg","source_text":"reference mass not exceeding 2,840 kg"}],"context_keywords":["compression-ignition engines","paragraph 7"],"table_headers":[]}
+{"topic_keywords":["exemption","N1 vehicles","compression-ignition engines","positive-ignition engines","NG","LPG","Regulation No.49"],"parameters":[],"context_keywords":["type-approved","last series of amendments"],"table_headers":[]}
+{"topic_keywords":["exclusion","positive-ignition engines","NG","LPG","M1 vehicles","M2","M3","N2","N3","Regulation No.49"],"parameters":[{"item":"maximum mass","constraint":">","value":"3500","unit":"kg","source_text":"maximum mass exceeding 3,500 kg"}],"context_keywords":["maximum mass exceeding 3500 kg"],"table_headers":[]}
+{"topic_keywords":["DEFINITIONS"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Vehicle type"],"parameters":[],"context_keywords":["power-driven vehicles","essential respects"],"table_headers":[]}
+{"topic_keywords":["equivalent inertia"],"parameters":[],"context_keywords":["reference mass"],"table_headers":[]}
+{"topic_keywords":["engine characteristics","vehicle characteristics"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Reference mass"],"parameters":[{"item":"increase for reference mass","constraint":"=","value":"100","unit":"kg","source_text":"increased by a uniform figure of 100 kg"}],"context_keywords":["unladen mass","test","Annexes 4 and 8"],"table_headers":[]}
+{"topic_keywords":["Unladen mass"],"parameters":[],"context_keywords":["running order","driver","passengers","load","fuel tank","tools","spare wheel"],"table_headers":[]}
+{"topic_keywords":["Maximum mass"],"parameters":[],"context_keywords":["technically permissible","vehicle manufacturer","national administration"],"table_headers":[]}
+{"topic_keywords":["Gaseous pollutants"],"parameters":[],"context_keywords":["carbon monoxide","oxides of nitrogen","hydrocarbons","petrol","diesel","LPG","NG"],"table_headers":[]}
+{"topic_keywords":["Particulate pollutants"],"parameters":[],"context_keywords":["exhaust gas","diluted exhaust gas","filters","temperature 325 K"],"table_headers":[]}
+{"topic_keywords":["Exhaust emissions"],"parameters":[],"context_keywords":["positive-ignition engines","compression-ignition engines","gaseous pollutants","particulate pollutants"],"table_headers":[]}
+{"topic_keywords":["Evaporative emissions"],"parameters":[],"context_keywords":["hydrocarbon vapours","fuel system","motor vehicle"],"table_headers":[]}
+{"topic_keywords":["Tank breathing losses"],"parameters":[],"context_keywords":["hydrocarbon emissions","temperature changes","fuel tank","C1H2.33 ratio"],"table_headers":[]}
+{"topic_keywords":["Hot soak losses"],"parameters":[],"context_keywords":["hydrocarbon emissions","fuel system","stationary vehicle","driving","C1H2.20 ratio"],"table_headers":[]}
+{"topic_keywords":["Engine crankcase"],"parameters":[],"context_keywords":["spaces","engine","oil sump","ducts","gases","vapour"],"table_headers":[]}
+{"topic_keywords":["Cold start device"],"parameters":[],"context_keywords":["air/fuel mixture","engine start"],"table_headers":[]}
+{"topic_keywords":["Starting aid"],"parameters":[],"context_keywords":["engine start up","glow plug","injection timing change"],"table_headers":[]}
+{"topic_keywords":["Engine capacity"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["reciprocating piston engines","nominal engine swept volume"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["rotary piston engines","Wankel","nominal swept volume"],"parameters":[],"context_keywords":["combustion chamber","piston"],"table_headers":[]}
+{"topic_keywords":["Pollution control devices"],"parameters":[],"context_keywords":["components","vehicle","exhaust emissions","evaporative emissions"],"table_headers":[]}
+{"topic_keywords":["OBD"],"parameters":[],"context_keywords":["on-board diagnostic system","emission control","fault codes","computer memory"],"table_headers":[]}
+{"topic_keywords":["In-service test"],"parameters":[],"context_keywords":["test","evaluation","conformity"],"table_headers":[]}
+{"topic_keywords":["Properly maintained and used"],"parameters":[],"context_keywords":["test vehicle","criteria","acceptance"],"table_headers":[]}
+{"topic_keywords":["Defeat device"],"parameters":[],"context_keywords":["element of design","temperature","vehicle speed","engine rotational speed","transmission gear","manifold vacuum","emission control system"],"table_headers":[]}
+{"topic_keywords":["engine protection","damage","accident","safe operation"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["engine starting"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Type I test","Type VI test"],"parameters":[],"context_keywords":["test procedures"],"table_headers":[]}
+{"topic_keywords":["Family of vehicles"],"parameters":[],"context_keywords":["group","vehicle types","parent vehicle"],"table_headers":[]}
+{"topic_keywords":["Fuel requirement by the engine"],"parameters":[],"context_keywords":["petrol","LPG","NG","diesel fuel"],"table_headers":[]}
+{"topic_keywords":["Approval of a vehicle"],"parameters":[],"context_keywords":["limitation","vehicle type"],"table_headers":[]}
+{"topic_keywords":["Approval B"],"parameters":[],"context_keywords":["exhaust emissions","evaporative emissions","crankcase emissions","durability","pollution control devices","cold start pollutant emissions","on-board diagnostics","unleaded petrol","LPG","NG"],"table_headers":[]}
+{"topic_keywords":["Approval C"],"parameters":[],"context_keywords":["gaseous pollutants","particulate pollutants","durability","pollution control devices","on-board diagnostics","diesel fuel"],"table_headers":[]}
+{"topic_keywords":["Approval D"],"parameters":[],"context_keywords":["gaseous pollutants","crankcase emissions","durability","pollution control devices","cold start emissions","on-board diagnostics","LPG","NG"],"table_headers":[]}
+{"topic_keywords":["Periodically regenerating system"],"parameters":[{"item":"regeneration process interval","constraint":"<","value":"4000","unit":"km","source_text":"requires a periodical regeneration process in less than 4,000 km"}],"context_keywords":["anti-pollution device","catalytic converter","particulate trap","regeneration process","emission standards","Type I test","vehicle preparation cycle","continuously regenerating systems","Annex 13"],"table_headers":[]}
+{"topic_keywords":["Hybrid vehicles","HV"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Hybrid vehicle","HV"],"parameters":[],"context_keywords":["energy converters","energy storage systems","vehicle propulsion"],"table_headers":[]}
+{"topic_keywords":["Hybrid electric vehicle","HEV"],"parameters":[],"context_keywords":["mechanical propulsion","consumable fuel","electrical energy storage","battery","capacitor","flywheel","generator"],"table_headers":[]}
+{"topic_keywords":["Mono-fuel vehicle"],"parameters":[{"item":"petrol tank capacity","constraint":"<=","value":"15","unit":"litres","source_text":"the petrol tank does not contain more than 15 litres of petrol"}],"context_keywords":["LPG","NG","petrol system","emergency purposes","starting"],"table_headers":[]}
+{"topic_keywords":["Bi-fuel vehicle"],"parameters":[],"context_keywords":["petrol","LPG","NG","part-time"],"table_headers":[]}
+{"topic_keywords":["application for approval","vehicle type","emissions"],"parameters":[],"context_keywords":["exhaust emissions","crankcase emissions","evaporative emissions","durability","pollution control devices","OBD system"],"table_headers":[]}
+{"topic_keywords":["application submission","manufacturer","authorized representative"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["OBD system application","additional information"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["declaration by manufacturer","misfires"],"parameters":[],"context_keywords":["positive-ignition engines"],"table_headers":[]}
+{"topic_keywords":["misfires percentage","emissions limits"],"parameters":[],"context_keywords":["firing events","Type I test"],"table_headers":[]}
+{"topic_keywords":["misfires percentage","catalyst overheating"],"parameters":[],"context_keywords":["irreversible damage"],"table_headers":[]}
+{"topic_keywords":["OBD system description","functional operation"],"parameters":[],"context_keywords":["sensors","actuators","components"],"table_headers":[]}
+{"topic_keywords":["malfunction indicator","OBD system"],"parameters":[],"context_keywords":["fault signal","driver"],"table_headers":[]}
+{"topic_keywords":["vehicle family particulars"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["test vehicle submission","technical service"],"parameters":[],"context_keywords":["vehicle type","vehicle family"],"table_headers":[]}
+{"topic_keywords":["information document","Annex 1"],"parameters":[],"context_keywords":["exhaust emissions","evaporative emissions","durability","OBD system"],"table_headers":[]}
+{"topic_keywords":["type approvals copies","extensions"],"parameters":[],"context_keywords":["deterioration factors"],"table_headers":[]}
+{"topic_keywords":["test vehicle submission","technical service"],"parameters":[],"context_keywords":["approval tests"],"table_headers":[]}
+{"topic_keywords":["approval","vehicle type"],"parameters":[],"context_keywords":["requirements"],"table_headers":[]}
+{"topic_keywords":["approval grant","amendment"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["approval number","series of amendments"],"parameters":[],"context_keywords":["Contracting Party"],"table_headers":[]}
+{"topic_keywords":["approval communication","Parties"],"parameters":[],"context_keywords":["form","Annex 2"],"table_headers":[]}
+{"topic_keywords":["amendment information","vehicle types"],"parameters":[],"context_keywords":["new provisions"],"table_headers":[]}
+{"topic_keywords":["approval mark","international mark"],"parameters":[],"context_keywords":["circle","letter E"],"table_headers":[]}
+{"topic_keywords":["approval mark circle","country number"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["approval number format","regulation number"],"parameters":[],"context_keywords":["dash"],"table_headers":[]}
+{"topic_keywords":["approval mark character","emission limit values"],"parameters":[],"context_keywords":["Type I test","Row A","Row B"],"table_headers":[]}
+{"topic_keywords":["multiple approvals","symbol repetition"],"parameters":[],"context_keywords":["other Regulations"],"table_headers":[]}
+{"topic_keywords":["approval mark legibility","indelible"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["approval mark placement","vehicle data plate"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["approval mark examples","Annex 3"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["SPECIFICATIONS","TESTS"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["General specifications"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["design","construction","assembly"],"parameters":[],"context_keywords":["vibration","normal use"],"table_headers":[]}
+{"topic_keywords":["technical measures","emission control"],"parameters":[],"context_keywords":["exhaust gas","evaporative emissions","normal life"],"table_headers":[]}
+{"topic_keywords":["defeat device prohibition"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Inlet orifices","petrol tanks"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["inlet orifice design"],"parameters":[{"item":"external diameter","constraint":">=","value":"23.6","unit":"mm","source_text":"petrol pump delivery nozzle which has an external diameter of 23.6 mm or greater"}],"context_keywords":["petrol pump delivery nozzle","external diameter"],"table_headers":[]}
+{"topic_keywords":["conditions for exemption"],"parameters":[],"context_keywords":["leaded petrol","unleaded petrol symbol"],"table_headers":[]}
+{"topic_keywords":["device unaffected by leaded petrol"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["unleaded petrol symbol"],"parameters":[],"context_keywords":["ISO 2575:1982"],"table_headers":[]}
+{"topic_keywords":["evaporative emissions prevention","fuel spillage"],"parameters":[],"context_keywords":["missing fuel filler cap"],"table_headers":[]}
+{"topic_keywords":["automatically opening closing cap"],"parameters":[],"context_keywords":["non-removable fuel filler cap"],"table_headers":[]}
+{"topic_keywords":["design features"],"parameters":[],"context_keywords":["missing fuel filler cap"],"table_headers":[]}
+{"topic_keywords":["other provisions"],"parameters":[],"context_keywords":["tethered filler cap","chained filler cap","locking key"],"table_headers":[]}
+{"topic_keywords":["electronic system security"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["emission control computer","modification deterrence"],"parameters":[],"context_keywords":["reprogrammable computer codes","ISO DIS 15031-7","SAE J2186"],"table_headers":[]}
+{"topic_keywords":["computer-coded engine parameters"],"parameters":[],"context_keywords":["specialised tools"],"table_headers":[]}
+{"topic_keywords":["mechanical fuel-injection pumps"],"parameters":[],"context_keywords":["compression-ignition engines","tampering protection"],"table_headers":[]}
+{"topic_keywords":["exemption request"],"parameters":[],"context_keywords":["approval authority"],"table_headers":[]}
+{"topic_keywords":["programmable computer code systems"],"parameters":[],"context_keywords":["EEPROM","tamper protection"],"table_headers":[]}
+{"topic_keywords":["roadworthiness test inspection"],"parameters":[],"context_keywords":["service manual"],"table_headers":[]}
+{"topic_keywords":["Test procedure"],"parameters":[],"context_keywords":[],"table_headers":["Type-approval test","Positive-ignition engined vehicles","Compression-ignition engined vehicles","petrol fuelled vehicle","bi-fuel vehicle","mono-fuel vehicle","Extension","On-board diagnostics"]}
+{"topic_keywords":["Positive ignition engine tests"],"parameters":[],"context_keywords":["Type I","Type II","Type III","Type IV","Type V","Type VI","OBD-test"],"table_headers":[]}
+{"topic_keywords":["LPG or NG fuelled vehicles tests"],"parameters":[],"context_keywords":["mono or bi-fuel"],"table_headers":[]}
+{"topic_keywords":["Compression ignition engine tests"],"parameters":[],"context_keywords":["Type I","Type V","OBD test"],"table_headers":[]}
+{"topic_keywords":["Description of tests"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Type I test","exhaust emissions","cold start"],"parameters":[],"context_keywords":["chassis dynamometer"],"table_headers":[]}
+{"topic_keywords":["Type I test routes"],"parameters":[{"item":"maximum mass","constraint":"<=","value":"3.5","unit":"tonnes","source_text":"maximum mass not exceeding 3.5 tonnes"}],"context_keywords":["maximum mass","3.5 tonnes"],"table_headers":[]}
+{"topic_keywords":["chassis dynamometer setup"],"parameters":[],"context_keywords":["load and inertia simulation"],"table_headers":[]}
+{"topic_keywords":["test duration","parts"],"parameters":[{"item":"test duration","constraint":"=","value":"19","unit":"minutes","source_text":"test lasting a total of 19 minutes and 40 seconds"},{"item":"unsampled period","constraint":"<=","value":"20","unit":"seconds","source_text":"unsampled period of not more than 20 seconds"}],"context_keywords":["19 minutes 40 seconds","Part One","Part Two"],"table_headers":[]}
+{"topic_keywords":["LPG or NG variation test"],"parameters":[],"context_keywords":["Annex 12"],"table_headers":[]}
+{"topic_keywords":["emergency petrol system"],"parameters":[{"item":"petrol tank capacity","constraint":"<=","value":"15","unit":"litres","source_text":"petrol tank cannot contain more than 15 litres of petrol"}],"context_keywords":["15 litres petrol"],"table_headers":[]}
+{"topic_keywords":["Part One urban cycles"],"parameters":[],"context_keywords":["four elementary urban cycles","15 phases"],"table_headers":[]}
+{"topic_keywords":["Part Two extra-urban cycle"],"parameters":[],"context_keywords":["13 phases"],"table_headers":[]}
+{"topic_keywords":["exhaust gas dilution","sampling"],"parameters":[],"context_keywords":["proportional sample","bags"],"table_headers":[]}
+{"topic_keywords":["test procedure reference"],"parameters":[],"context_keywords":["Annex 4"],"table_headers":[]}
+{"topic_keywords":["emission limits","deterioration factors"],"parameters":[{"item":"Mass of carbon monoxide","constraint":"<=","value":"2.3","unit":"g/km","source_text":"Mass of carbon monoxide (CO) ... 2.3"},{"item":"Mass of hydrocarbons","constraint":"<=","value":"0.64","unit":"g/km","source_text":"Mass of hydrocarbons (HC) ... 0.64"},{"item":"Mass of oxides of nitrogen","constraint":"<=","value":"0.20","unit":"g/km","source_text":"Mass of oxides of nitrogen (NOx) ... 0.20"},{"item":"Combined mass of hydrocarbons and oxides of nitrogen","constraint":"<=","value":"0.56","unit":"g/km","source_text":"Combined mass of hydrocarbons and oxides of nitrogen (HC + NOx) ... 0.56"},{"item":"Mass of particulates","constraint":"<=","value":"0.05","unit":"g/km","source_text":"Mass of particulates (PM) ... 0.05"}],"context_keywords":["periodically regenerating systems","Annex 13"],"table_headers":["Category","Class","Reference mass (RW) (kg)","Mass of carbon monoxide (CO) L1 (g/km)","Mass of hydrocarbons (HC) L2 (g/km)","Mass of oxides of nitrogen (NOx) L3 (g/km)","Combined mass of hydrocarbons and oxides of nitrogen (HC + NOx) L2 + L3 (g/km)","Mass of particulates (PM) L4 (g/km)"]}
+{"topic_keywords":["test result tolerance"],"parameters":[{"item":"exceedance limit","constraint":"<=","value":"10","unit":"%","source_text":"exceed by not more than 10 per cent"}],"context_keywords":["10 per cent exceedance","arithmetical mean"],"table_headers":[]}
+{"topic_keywords":["gaseous fuels emission limits"],"parameters":[],"context_keywords":["petrol-engined vehicles"],"table_headers":[]}
+{"topic_keywords":["test number reduction"],"parameters":[],"context_keywords":["V1 first test","V2 second test"],"table_headers":[]}
+{"topic_keywords":["single test condition"],"parameters":[{"item":"result threshold","constraint":"<=","value":"0.70","unit":"L","source_text":"result obtained ... is less than or equal to 0.70 L"}],"context_keywords":["0.70 L"],"table_headers":[]}
+{"topic_keywords":["two tests condition"],"parameters":[{"item":"V1 threshold","constraint":"<=","value":"0.85","unit":"L","source_text":"V1 % 0.85 L"},{"item":"V1 + V2 threshold","constraint":"<=","value":"1.70","unit":"L","source_text":"V1 + V2 % 1.70 L"}],"context_keywords":["0.85 L","1.70 L"],"table_headers":[]}
+{"topic_keywords":["Type II test","carbon monoxide","idling speed"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["positive-ignition engines","maximum mass"],"parameters":[{"item":"maximum mass","constraint":">","value":"3.5","unit":"tonnes","source_text":"maximum mass exceeding 3.5 tonnes"}],"context_keywords":["3.5 tonnes"],"table_headers":[]}
+{"topic_keywords":["bi-fuel testing"],"parameters":[],"context_keywords":["petrol or LPG or NG"],"table_headers":[]}
+{"topic_keywords":["emergency petrol system exception"],"parameters":[{"item":"petrol tank capacity","constraint":"<=","value":"15","unit":"litres","source_text":"petrol tank cannot contain more than 15 litres of petrol"}],"context_keywords":["15 litres petrol"],"table_headers":[]}
+{"topic_keywords":["carbon monoxide limit"],"parameters":[{"item":"carbon monoxide content","constraint":"<=","value":"3.5","unit":"%","source_text":"carbon monoxide content ... shall not exceed 3.5 per cent"},{"item":"carbon monoxide content range","constraint":"<=","value":"4.5","unit":"%","source_text":"shall not exceed 4.5 per cent"}],"context_keywords":["Annex 5"],"table_headers":[]}
+{"topic_keywords":["Type III test","crankcase gases"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["applicability"],"parameters":[],"context_keywords":["compression-ignition engines exempt"],"table_headers":[]}
+{"topic_keywords":["petrol testing for bi-fuel"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["emergency petrol system exception"],"parameters":[{"item":"petrol tank capacity","constraint":"<=","value":"15","unit":"litres","source_text":"petrol tank cannot contain more than 15 litres of petrol"}],"context_keywords":["15 litres petrol"],"table_headers":[]}
+{"topic_keywords":["crankcase ventilation"],"parameters":[],"context_keywords":["Annex 6"],"table_headers":[]}
+{"topic_keywords":["Type IV test","evaporative emissions"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["applicability"],"parameters":[{"item":"maximum mass","constraint":">","value":"3500","unit":"kg","source_text":"maximum mass greater than 3,500kg"}],"context_keywords":["compression-ignition engines exempt","LPG or NG exempt","maximum mass greater than 3,500kg"],"table_headers":[]}
+{"topic_keywords":["petrol testing for bi-fuel"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["evaporative emissions limit"],"parameters":[{"item":"evaporative emissions","constraint":"<","value":"2","unit":"g/test","source_text":"evaporative emissions shall be less than 2 g/test"}],"context_keywords":["Annex 7"],"table_headers":[]}
+{"topic_keywords":["Type VI test","low ambient temperature","carbon monoxide","hydrocarbons"],"parameters":[],"context_keywords":["cold start"],"table_headers":[]}
+{"topic_keywords":["applicability"],"parameters":[],"context_keywords":["M1 and N1 Class I","positive-ignition engine"],"table_headers":[]}
+{"topic_keywords":["chassis dynamometer setup"],"parameters":[],"context_keywords":["load and inertia simulation"],"table_headers":[]}
+{"topic_keywords":["test composition"],"parameters":[{"item":"test duration","constraint":"=","value":"780","unit":"seconds","source_text":"test lasting a total of 780 seconds"}],"context_keywords":["four elementary urban cycles","Part One","Annex 4 Appendix 1"],"table_headers":[]}
+{"topic_keywords":["test temperature","conditioning"],"parameters":[{"item":"ambient test temperature","constraint":"=","value":"266","unit":"K","source_text":"ambient test temperature of 266 K (-7°C)"}],"context_keywords":["266 K","-7°C","Annex 8"],"table_headers":[]}
+{"topic_keywords":["exhaust gas analysis"],"parameters":[],"context_keywords":["diluted","sampled","analysed"],"table_headers":[]}
+{"topic_keywords":["emission limits"],"parameters":[{"item":"Carbon monoxide L1","constraint":"<=","value":"15","unit":"g/km","source_text":"Carbon monoxide L1(g/km) 15"},{"item":"Hydrocarbons L2","constraint":"<=","value":"1.8","unit":"g/km","source_text":"Hydrocarbons L2(g/km) 1.8"}],"context_keywords":[],"table_headers":["Test temperature","Carbon monoxide L1(g/km)","Hydrocarbons L2(g/km)"]}
+{"topic_keywords":["test result tolerance"],"parameters":[{"item":"exceedance limit","constraint":"<=","value":"10","unit":"%","source_text":"exceed the limit prescribed by not more than 10 per cent"}],"context_keywords":["10 per cent exceedance","arithmetical mean"],"table_headers":[]}
+{"topic_keywords":["increased test number"],"parameters":[{"item":"arithmetical mean threshold","constraint":"<","value":"110","unit":"%","source_text":"arithmetical mean ... is lower than 110 per cent of the limit"}],"context_keywords":["110 per cent of limit"],"table_headers":[]}
+{"topic_keywords":["test number reduction"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["single test condition"],"parameters":[{"item":"result threshold","constraint":"<=","value":"0.70","unit":"L","source_text":"result obtained ... is less than or equal to 0.70 L"}],"context_keywords":["0.70 L"],"table_headers":[]}
+{"topic_keywords":["two tests condition"],"parameters":[{"item":"V1 threshold","constraint":"<=","value":"0.85","unit":"L","source_text":"V1 £ 0.85 L"},{"item":"V1 + V2 threshold","constraint":"<=","value":"1.70","unit":"L","source_text":"V1 + V2 £ 1.70 L"}],"context_keywords":["0.85 L","1.70 L"],"table_headers":[]}
+{"topic_keywords":["Type V test","durability","anti-pollution devices"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["ageing test","80,000 kilometres"],"parameters":[{"item":"ageing distance","constraint":"=","value":"80000","unit":"kilometres","source_text":"ageing test of 80,000 kilometres"}],"context_keywords":["Annex 9"],"table_headers":[]}
+{"topic_keywords":["petrol testing for bi-fuel","deterioration factors table"],"parameters":[],"context_keywords":[],"table_headers":["Engine Category","Deterioration factors","Pollutant CO","HC","NOx","HC + NOx","Particulates"]}
+{"topic_keywords":["deterioration factors usage"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Emission data","roadworthiness testing"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["applicability"],"parameters":[],"context_keywords":["positive-ignition engine"],"table_headers":[]}
+{"topic_keywords":["normal idling speed test"],"parameters":[],"context_keywords":["Annex 5"],"table_headers":[]}
+{"topic_keywords":["engine oil temperature"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Annex 2 table completion"],"parameters":[],"context_keywords":["item 17"],"table_headers":[]}
+{"topic_keywords":["Lambda value accuracy"],"parameters":[{"item":"time period","constraint":"=","value":"24","unit":"months","source_text":"within 24 months"}],"context_keywords":["24 months"],"table_headers":[]}
+{"topic_keywords":["OBD test"],"parameters":[],"context_keywords":["Annex 11"],"table_headers":[]}
+{"topic_keywords":["vehicle type modifications"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["modification notification","administrative department"],"parameters":[],"context_keywords":["vehicle type"],"table_headers":[]}
+{"topic_keywords":["modification assessment","compliance"],"parameters":[],"context_keywords":["adverse effect"],"table_headers":[]}
+{"topic_keywords":["test report","technical service"],"parameters":[],"context_keywords":["further test"],"table_headers":[]}
+{"topic_keywords":["approval confirmation","approval refusal"],"parameters":[],"context_keywords":["alterations","Parties to the Agreement"],"table_headers":[]}
+{"topic_keywords":["extension of approval","series number"],"parameters":[],"context_keywords":["competent authority","1958 Agreement"],"table_headers":[]}
+{"topic_keywords":["EXTENSION OF APPROVAL"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Exhaust emission","extension","Type I test","Type II test","Type VI test"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Vehicle types","reference masses","equivalent inertia"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["approval extension","equivalent inertia categories"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["approval extension","reference mass","pollutant limits"],"parameters":[],"context_keywords":["category N1","category M"],"table_headers":[]}
+{"topic_keywords":["Vehicle types","overall gear ratios","transmission ratios"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["transmission ratios","engine speed","vehicle speed"],"parameters":[{"item":"engine speed","constraint":"=","value":"1000","unit":"min-1","source_text":"at an engine speed of 1,000 min-1"}],"context_keywords":["Type I test","Type VI test"],"table_headers":[]}
+{"topic_keywords":["gear ratio","E","extension grant"],"parameters":[{"item":"E","constraint":"<=","value":"8","unit":"%","source_text":"E <ṥ 8 per cent"}],"context_keywords":["Type I test","Type VI test"],"table_headers":[]}
+{"topic_keywords":["gear ratio","E","test repetition"],"parameters":[{"item":"E","constraint":">","value":"8","unit":"%","source_text":"E > 8 per cent"},{"item":"E","constraint":"<=","value":"13","unit":"%","source_text":"E r 13 per cent"}],"context_keywords":["technical service","laboratory"],"table_headers":[]}
+{"topic_keywords":["Vehicle types","reference masses","overall transmission ratios"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["approval extension","vehicle types"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["Evaporative emissions","Type IV test"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["evaporative emissions control","approval extension"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["fuel/air metering","basic principle"],"parameters":[],"context_keywords":["single point injection","carburetor"],"table_headers":[]}
+{"topic_keywords":["fuel tank","material","shape","hose length"],"parameters":[{"item":"fuel tank volume range","constraint":"range_closed","value":["-10","10"],"unit":"%","source_text":"fuel tank volume shall be within a range of $ 10 per cent"}],"context_keywords":["vapour/liquid separators","tank relief valve"],"table_headers":[]}
+{"topic_keywords":["fuel vapour storage","trap form","storage medium"],"parameters":[],"context_keywords":["air cleaner"],"table_headers":[]}
+{"topic_keywords":["carburetor bowl","fuel volume"],"parameters":[{"item":"carburetor bowl fuel volume range","constraint":"range_closed","value":["-10","10"],"unit":"ml","source_text":"carburetor bowl fuel volume shall be within a $ 10 millilitre range"}],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["purging method","stored vapour"],"parameters":[],"context_keywords":["air flow","purge volume","driving cycle"],"table_headers":[]}
+{"topic_keywords":["sealing","venting","fuel metering system"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["further notes","engine sizes","engine powers"],"parameters":[],"context_keywords":["gearboxes","body styles","wheel sizes"],"table_headers":[]}
+{"topic_keywords":["Durability","anti-pollution devices","Type V test"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["engine/pollution control system","combination","approval extension"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["engine parameters","cylinders","engine capacity","fuel system"],"parameters":[{"item":"engine capacity deviation","constraint":"range_closed","value":["-15","15"],"unit":"%","source_text":"engine capacity (r 15 per cent)"}],"context_keywords":["cooling system","combustion process"],"table_headers":[]}
+{"topic_keywords":["Pollution control system","catalytic converters","air injection","EGR"],"parameters":[{"item":"catalytic converter volume deviation","constraint":"range_closed","value":["-10","10"],"unit":"%","source_text":"volume of monolith r 10per cent"},{"item":"precious metal ratio deviation","constraint":"range_closed","value":["-15","15"],"unit":"%","source_text":"precious metal ratio (r 15 per cent)"},{"item":"temperature variation","constraint":">","value":"50","unit":"K","source_text":"temperature variation of more than 50 K"}],"context_keywords":["precious metal load","substrate","casing"],"table_headers":[]}
+{"topic_keywords":["inertia category"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["durability test","vehicle body style","gear box"],"parameters":[],"context_keywords":["wheels","tyres"],"table_headers":[]}
+{"topic_keywords":["On-board diagnostics","OBD system"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["OBD system","approval extension","vehicle-OBD family"],"parameters":[],"context_keywords":["engine emission control system","vehicle characteristics"],"table_headers":[]}
+{"topic_keywords":["CONFORMITY OF PRODUCTION","COP"],"parameters":[],"context_keywords":["vehicles","approval mark","emissions","gaseous pollutants","particulate pollutants","crankcase emissions","evaporative emissions"],"table_headers":[]}
+{"topic_keywords":["general conformity requirements"],"parameters":[],"context_keywords":["components","emission control","vehicle type approved"],"table_headers":[]}
+{"topic_keywords":["Conformity of in-service vehicles"],"parameters":[],"context_keywords":["Type I test","Type II test","Type III test","Type IV test","emission control devices","normal useful life","properly maintained and used"],"table_headers":[]}
+{"topic_keywords":["audit of in-service conformity"],"parameters":[],"context_keywords":["administrative department","manufacturer information","in-service family"],"table_headers":[]}
+{"topic_keywords":["manufacturer information for audit"],"parameters":[],"context_keywords":["name and address","authorized representative","model names","vehicle types","VIN codes","type approvals","extensions","field fixes","recalls","time period","build period","conformity checking procedure"],"table_headers":[]}
+{"topic_keywords":["manufacturer name and address"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["authorized representative details"],"parameters":[],"context_keywords":["address","telephone","fax","email"],"table_headers":[]}
+{"topic_keywords":["vehicle model names"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["list of vehicle types"],"parameters":[],"context_keywords":["in-service family group"],"table_headers":[]}
+{"topic_keywords":["VIN codes"],"parameters":[],"context_keywords":["vehicle identification number","VIN prefix"],"table_headers":[]}
+{"topic_keywords":["type approval numbers"],"parameters":[],"context_keywords":["extensions","field fixes","recalls","re-works"],"table_headers":[]}
+{"topic_keywords":["details of extensions and fixes"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["information collection period"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["vehicle build period"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["conformity checking procedure"],"parameters":[],"context_keywords":["vehicle location method","selection criteria","rejection criteria","test types","procedures","acceptance criteria","geographical areas"],"table_headers":[]}
+{"topic_keywords":["vehicle location method"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["vehicle selection and rejection criteria"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["test types and procedures"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["acceptance rejection criteria"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["geographical areas"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["sample size and sampling plan"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["OBD system indications"],"parameters":[],"context_keywords":["fault codes","mileage information"],"table_headers":[]}
+{"topic_keywords":["test results and records"],"parameters":[],"context_keywords":["vehicle identification","rejection reasons","service history","repair history","test data"],"table_headers":[]}
+{"topic_keywords":["rejection reasons"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["service history"],"parameters":[],"context_keywords":["re-works"],"table_headers":[]}
+{"topic_keywords":["repair history"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["test data"],"parameters":[],"context_keywords":["date of test","location","odometer distance","test fuel","test conditions","dynamometer settings","test results"],"table_headers":[]}
+{"topic_keywords":["sales thresholds for exemption"],"parameters":[],"context_keywords":["manufacturer","type-approval authority","geographic penetration"],"table_headers":[]}
+{"topic_keywords":["Type I test conformity check"],"parameters":[],"context_keywords":["extensions","information package","hybrid electric vehicles","OVC","NOVC"],"table_headers":[]}
+{"topic_keywords":["checking conformity for Type I test"],"parameters":[],"context_keywords":["authority selection","no adjustment","hybrid electric vehicles","condition B","OVC","NOVC"],"table_headers":[]}
+{"topic_keywords":["vehicle selection and testing"],"parameters":[],"context_keywords":["three vehicles","deterioration factors","limit values"],"table_headers":[]}
+{"topic_keywords":["periodically regenerating systems"],"parameters":[],"context_keywords":["regeneration","factors Ki","Annex 13"],"table_headers":[]}
+{"topic_keywords":["production standard deviation tests"],"parameters":[],"context_keywords":["authority satisfaction","Appendix 1","Appendix 2"],"table_headers":[]}
+{"topic_keywords":["conformity decision based on sampling"],"parameters":[],"context_keywords":["pass decision","fail decision","additional tests"],"table_headers":[]}
+{"topic_keywords":["testing on production line vehicles"],"parameters":[],"context_keywords":["running-in","manufacturer request","commercial fuel","reference fuels"],"table_headers":[]}
+{"topic_keywords":["running-in procedure"],"parameters":[],"context_keywords":["manufacturer supervision","no adjustments"],"table_headers":[]}
+{"topic_keywords":["evolution coefficient calculation"],"parameters":[],"context_keywords":["pollutant emissions","Type I test","zero km","x km"],"table_headers":[]}
+{"topic_keywords":["test fuel and additional tests"],"parameters":[],"context_keywords":["commercial fuel","reference fuels","Type III test","Type IV test","hybrid electric vehicles","Annex 14","Annex 7"],"table_headers":[]}
+{"topic_keywords":["evaporative emissions conformity"],"parameters":[],"context_keywords":["Annex 7","limit value"],"table_headers":[]}
+{"topic_keywords":["routine end-of-production-line testing"],"parameters":[],"context_keywords":["sampling vehicles","Annex 7"],"table_headers":[]}
+{"topic_keywords":["On-board diagnostics OBD verification"],"parameters":[],"context_keywords":["OBD system","performance check","Annex 11","Appendix 1"],"table_headers":[]}
+{"topic_keywords":["random vehicle selection for OBD test"],"parameters":[],"context_keywords":["quality of production","hybrid electric vehicles","Annex 14"],"table_headers":[]}
+{"topic_keywords":["conformity based on OBD test"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["additional sampling for OBD"],"parameters":[],"context_keywords":["run-in","Annex 11, Appendix 1"],"table_headers":[]}
+{"topic_keywords":["OBD test pass criteria"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["in-service conformity audit decision"],"parameters":[],"context_keywords":["administrative department","satisfactory","insufficient data","unsatisfactory","Appendix 3"],"table_headers":[]}
+{"topic_keywords":["Type I tests for in-service conformity"],"parameters":[],"context_keywords":["emission control devices","performance","statistical criteria","Appendix 4"],"table_headers":[]}
+{"topic_keywords":["vehicle selection for testing"],"parameters":[],"context_keywords":["sufficient mileage","normal conditions","manufacturer consultation","confirmatory checks"],"table_headers":[]}
+{"topic_keywords":["checks on high-emission vehicles"],"parameters":[],"context_keywords":["destructive checks","deterioration causes","leaded petrol","sulphur level"],"table_headers":[]}
+{"topic_keywords":["exclusion criteria for test results"],"parameters":[],"context_keywords":["approval certificate","category A","category B","sulphur level"],"table_headers":[]}
+{"topic_keywords":["remedial measures for non-conformity"],"parameters":[],"context_keywords":["type approval authority","manufacturer","vehicle type","defects","Appendix 2 of 1958 Agreement","Appendix 3"],"table_headers":[]}
+{"topic_keywords":["notification and plan of measures"],"parameters":[],"context_keywords":["Party to the Agreement","original type approval","manufacturer","defects","plan of measures","consultation"],"table_headers":[]}
+{"topic_keywords":["penalties","non-conformity","production"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["withdrawal of approval"],"parameters":[],"context_keywords":["tests","requirements"],"table_headers":[]}
+{"topic_keywords":["notification","withdrawal"],"parameters":[],"context_keywords":["communication form","Contracting Parties"],"table_headers":[]}
+{"topic_keywords":["production discontinuation"],"parameters":[],"context_keywords":["approval holder","authority"],"table_headers":[]}
+{"topic_keywords":["TRANSITIONAL PROVISIONS"],"parameters":[],"context_keywords":["approval","amendments","entry into force"],"table_headers":[]}
+{"topic_keywords":["General"],"parameters":[],"context_keywords":["Contracting Parties","vehicle type"],"table_headers":[]}
+{"topic_keywords":["approval","amendments"],"parameters":[],"context_keywords":["official date","entry into force"],"table_headers":[]}
+{"topic_keywords":["New type approvals"],"parameters":[],"context_keywords":["requirements","vehicle category","mass"],"table_headers":[]}
+{"topic_keywords":["Type I test","limit values"],"parameters":[],"context_keywords":["Row A","Row B","paragraph 5.3.1.4"],"table_headers":[]}
+{"topic_keywords":["Type I test","limit values"],"parameters":[],"context_keywords":["Row B","vehicle category","mass"],"table_headers":[]}
+{"topic_keywords":["Limit of validity","existing type approvals"],"parameters":[],"context_keywords":["amendments","vehicle category","mass"],"table_headers":[]}
+{"topic_keywords":["approval validity","amendments"],"parameters":[],"context_keywords":["04 series","vehicle category","mass"],"table_headers":[]}
+{"topic_keywords":["approval validity","limit values"],"parameters":[],"context_keywords":["05 series","Row A","vehicle category","mass"],"table_headers":[]}
+{"topic_keywords":["Special provisions"],"parameters":[],"context_keywords":["vehicle category","compression-ignition engines"],"table_headers":[]}
+{"topic_keywords":["vehicle classification","off-road vehicles"],"parameters":[],"context_keywords":["M1 category","N1 category","mass"],"table_headers":[]}
+{"topic_keywords":["direct-injection engines","approval validity"],"parameters":[],"context_keywords":["compression-ignition","occupants"],"table_headers":[]}
+{"topic_keywords":["type approval","conformity of production"],"parameters":[],"context_keywords":["04 series amendments","dates"],"table_headers":[]}
+{"topic_keywords":["Type VI test","positive-ignition engine"],"parameters":[],"context_keywords":["Annex 8","vehicle category","mass"],"table_headers":[]}
+{"topic_keywords":["On-board diagnostic system","OBD"],"parameters":[],"context_keywords":["vehicles","engine type"],"table_headers":[]}
+{"topic_keywords":["positive ignition engines","OBD"],"parameters":[],"context_keywords":["petrol","LPG","NG"],"table_headers":[]}
+{"topic_keywords":["OBD system","petrol vehicles"],"parameters":[],"context_keywords":["category M1","N1","Annex 11"],"table_headers":[]}
+{"topic_keywords":["OBD system","LPG","NG"],"parameters":[],"context_keywords":["category M1","N1","mass"],"table_headers":[]}
+{"topic_keywords":["compression-ignition engines","OBD"],"parameters":[],"context_keywords":["vehicle category","mass"],"table_headers":[]}
+{"topic_keywords":["OBD system","compression-ignition"],"parameters":[],"context_keywords":["category M1","occupants","mass"],"table_headers":[]}
+{"topic_keywords":["OBD system","compression-ignition"],"parameters":[],"context_keywords":["category M1","N1","mass"],"table_headers":[]}
+{"topic_keywords":["OBD system","compression-ignition"],"parameters":[],"context_keywords":["category N1","M1","mass"],"table_headers":[]}
+{"topic_keywords":["OBD provisions","compression-ignition"],"parameters":[],"context_keywords":["Annex 11 Appendix 1"],"table_headers":[]}
+{"topic_keywords":["Hybrid electric vehicles","HEV","OBD"],"parameters":[],"context_keywords":["positive-ignition","compression-ignition"],"table_headers":[]}
+{"topic_keywords":["HEV OBD","positive-ignition","compression-ignition"],"parameters":[],"context_keywords":["category M1","N1","mass"],"table_headers":[]}
+{"topic_keywords":["HEV OBD","compression-ignition"],"parameters":[],"context_keywords":["category N1","M1","mass"],"table_headers":[]}
+{"topic_keywords":["OBD system","other categories"],"parameters":[],"context_keywords":["Annex 11 Appendix 1"],"table_headers":[]}
+{"topic_keywords":["approvals","04 series amendments"],"parameters":[],"context_keywords":["export","unleaded petrol","sulphur level"],"table_headers":[]}
+{"topic_keywords":["approval exception","unleaded petrol"],"parameters":[],"context_keywords":["04 series amendments","paragraph 5.3.1.4.1","5.3.1.4.2","5.3.1.4.3"],"table_headers":[]}
+{"topic_keywords":["approval validity","European Community"],"parameters":[],"context_keywords":["04 series amendments","vehicle category","mass"],"table_headers":[]}
+{"topic_keywords":["approvals","05 series amendments"],"parameters":[],"context_keywords":["export","unleaded petrol","sulphur level"],"table_headers":[]}
+{"topic_keywords":["approval exception","category A emissions"],"parameters":[],"context_keywords":["05 series amendments","paragraph 5.3.1.4"],"table_headers":[]}
+{"topic_keywords":["approval validity","European Community"],"parameters":[],"context_keywords":["05 series amendments","category A","vehicle category","mass"],"table_headers":[]}
+{"topic_keywords":["Technical services","Administrative departments","Approval tests","Names and addresses","Communication"],"parameters":[],"context_keywords":["1958 Agreement","United Nations Secretariat","Approval procedures","Extension","Refusal","Withdrawal"],"table_headers":[]}
+{"topic_keywords":["procedure","verifying conformity","production standard deviation"],"parameters":[],"context_keywords":["Type I test","satisfactory"],"table_headers":[]}
+{"topic_keywords":["sampling procedure","conformity of production"],"parameters":[{"item":"minimum sample size","constraint":"=","value":"3","unit":null,"source_text":"minimum sample size of 3"},{"item":"producer's risk","constraint":"=","value":"0.05","unit":"percent","source_text":"producer's risk = 5 per cent"},{"item":"consumer's risk","constraint":"=","value":"0.10","unit":"percent","source_text":"consumer's risk = 10 per cent"}],"context_keywords":["lot passing test","production defective","probability"],"table_headers":[]}
+{"topic_keywords":["test statistic","standard deviations","limit"],"parameters":[],"context_keywords":["pollutants","natural logarithm","measurements"],"table_headers":[]}
+{"topic_keywords":["decision process"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["pass fail decision"],"parameters":[],"context_keywords":["test statistic","Table 1/1"],"table_headers":["Cumulative number of tested vehicles","Pass decision threshold","Fail decision threshold"]}
+{"topic_keywords":["procedure","verifying conformity","production standard deviation"],"parameters":[],"context_keywords":["Type I test","not satisfactory","not available"],"table_headers":[]}
+{"topic_keywords":["sampling procedure","conformity of production","standard deviation"],"parameters":[{"item":"minimum sample size","constraint":"=","value":"3","unit":null,"source_text":"minimum sample size of 3"},{"item":"producer's risk","constraint":"=","value":"0.05","unit":"percent","source_text":"producer's risk = 5 per cent"},{"item":"consumer's risk","constraint":"=","value":"0.10","unit":"percent","source_text":"consumer's risk = 10 per cent"}],"context_keywords":["lot passing test","production defective","probability"],"table_headers":[]}
+{"topic_keywords":["measurements transformation","log normal distribution"],"parameters":[],"context_keywords":["pollutants","natural logarithms","sample sizes"],"table_headers":[]}
+{"topic_keywords":["definitions","natural logarithms","limit value"],"parameters":[],"context_keywords":["measurements series","compute"],"table_headers":[]}
+{"topic_keywords":["decision numbers","test statistic"],"parameters":[],"context_keywords":["Table 1/2"],"table_headers":[]}
+{"topic_keywords":["remarks","recursive formulae","test statistic"],"parameters":[],"context_keywords":["sample size","pass decision threshold","fail decision threshold"],"table_headers":["Sample size(n)","Pass decision threshold(An)","Fail decision threshold(Bn)"]}
+{"topic_keywords":["introduction","in-service conformity","vehicle selection"],"parameters":[],"context_keywords":["criteria","testing procedures"],"table_headers":[]}
+{"topic_keywords":["SELECTION CRITERIA"],"parameters":[],"context_keywords":["vehicle examination","interview","owner/driver"],"table_headers":[]}
+{"topic_keywords":["vehicle type approval","certificate of conformity"],"parameters":[],"context_keywords":["1958 Agreement","Contracting Parties"],"table_headers":[]}
+{"topic_keywords":["maintenance record","properly maintained"],"parameters":[],"context_keywords":["manufacturer's recommendations"],"table_headers":[]}
+{"topic_keywords":["abuse","misuse","tampering"],"parameters":[],"context_keywords":["racing","overloading","misfuelling","OBD system","fault code","mileage information","repair"],"table_headers":[]}
+{"topic_keywords":["unauthorized major repair"],"parameters":[],"context_keywords":["engine","vehicle"],"table_headers":[]}
+{"topic_keywords":["lead content","sulphur content"],"parameters":[],"context_keywords":["fuel sample","applicable standards","misfuelling"],"table_headers":[]}
+{"topic_keywords":["safety","laboratory personnel"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["anti-pollution system components"],"parameters":[],"context_keywords":["conformity","type approval"],"table_headers":[]}
+{"topic_keywords":["diagnosis and maintenance","vehicle preparation"],"parameters":[],"context_keywords":["exhaust emissions measurement","preconditioning"],"table_headers":[]}
+{"topic_keywords":["checks","air filter","drive belts","fluid levels"],"parameters":[],"context_keywords":["integrity","maladjustments","tampering"],"table_headers":[]}
+{"topic_keywords":["OBD system check","malfunction indications"],"parameters":[],"context_keywords":["repairs","preconditioning cycle"],"table_headers":[]}
+{"topic_keywords":["ignition system check","defective components"],"parameters":[],"context_keywords":["spark plugs","cables"],"table_headers":[]}
+{"topic_keywords":["compression check","vehicle rejection"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["engine parameters","manufacturer specifications"],"parameters":[],"context_keywords":["adjusted"],"table_headers":[]}
+{"topic_keywords":["fuel replacement","emission test reference fuel"],"parameters":[],"context_keywords":["market fuel"],"table_headers":[]}
+{"topic_keywords":["periodically regenerating systems","regeneration period"],"parameters":[],"context_keywords":["vehicle equipped","manufacturer confirmation"],"table_headers":[]}
+{"topic_keywords":["regeneration driving","emissions measurement"],"parameters":[],"context_keywords":["further test","new test"],"table_headers":[]}
+{"topic_keywords":["conditioning cycle","regeneration"],"parameters":[],"context_keywords":["high speed","high load driving"],"table_headers":[]}
+{"topic_keywords":["in-service testing","emission tests"],"parameters":[],"context_keywords":["pre-conditioned vehicles"],"table_headers":[]}
+{"topic_keywords":["vehicle check","emission tests"],"parameters":[],"context_keywords":["pre-conditioned vehicles"],"table_headers":[]}
+{"topic_keywords":["OBD system check","malfunction indication"],"parameters":[],"context_keywords":["emission levels"],"table_headers":[]}
+{"topic_keywords":["OBD system check","emission limits"],"parameters":[],"context_keywords":["erroneous activation","faulty components"],"table_headers":[]}
+{"topic_keywords":["component operation","type approval certificate"],"parameters":[],"context_keywords":["tampering","abuse"],"table_headers":[]}
+{"topic_keywords":["evaluation of results"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["evaluation procedure"],"parameters":[],"context_keywords":["Appendix 4"],"table_headers":[]}
+{"topic_keywords":["deterioration factors not applied"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["periodically regenerating systems factors"],"parameters":[],"context_keywords":["factors Ki"],"table_headers":[]}
+{"topic_keywords":["plan of remedial measures"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["outlying emitter","remedial measures"],"parameters":[],"context_keywords":["excess emission","same cause"],"table_headers":[]}
+{"topic_keywords":["filing deadline","type approval authority"],"parameters":[],"context_keywords":["working days","notification"],"table_headers":[]}
+{"topic_keywords":["remedial measures scope","type approval documents"],"parameters":[],"context_keywords":["same defect"],"table_headers":[]}
+{"topic_keywords":["communications","record keeping"],"parameters":[],"context_keywords":["recall campaign","status reports"],"table_headers":[]}
+{"topic_keywords":["plan requirements","unique identifier"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["vehicle type description"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["modifications description","technical studies"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["owner notification method"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["maintenance conditions","eligibility"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["repair procedure","vehicle owners"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["information copy","vehicle owner"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["component supply","remedial action"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["repair instructions"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["impact assessment","emissions","fuel consumption"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["additional information","type approval authority"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["repair recording","recall label"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["effectiveness tests","components and vehicles"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["record keeping","vehicle recall"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["repair certificate","vehicle owner"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["statistical procedure","in-service conformity"],"parameters":[],"context_keywords":["Type I test"],"table_headers":[]}
+{"topic_keywords":["procedures","in-service conformity testing"],"parameters":[],"context_keywords":["emission-related defect","outliers","total sample"],"table_headers":[]}
+{"topic_keywords":["procedure","outlying emitters","sample"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["sample size","vehicle measurement"],"parameters":[],"context_keywords":["regulated pollutants"],"table_headers":[]}
+{"topic_keywords":["outlying emitter definition","conditions"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["outlying emitter","limit values","Row A"],"parameters":[],"context_keywords":["factor 1.2"],"table_headers":[]}
+{"topic_keywords":["outlying emitter","limit values","Row B"],"parameters":[],"context_keywords":["factor 1.5"],"table_headers":[]}
+{"topic_keywords":["intermediate zone","excess emission"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["excess emission cause","vehicle selection"],"parameters":[],"context_keywords":["random sample","determination"],"table_headers":[]}
+{"topic_keywords":["multiple vehicles","excess emission cause"],"parameters":[],"context_keywords":["administrative department","manufacturer agreement"],"table_headers":[]}
+{"topic_keywords":["sample failure","remedial measures"],"parameters":[],"context_keywords":["same cause","agreement"],"table_headers":[]}
+{"topic_keywords":["disagreement","vehicle selection"],"parameters":[],"context_keywords":["cause determination","maximum sample size"],"table_headers":[]}
+{"topic_keywords":["single vehicle","different causes"],"parameters":[],"context_keywords":["random sample","maximum sample size"],"table_headers":[]}
+{"topic_keywords":["sample pass","requirements"],"parameters":[],"context_keywords":["maximum sample size","excess emission cause"],"table_headers":[]}
+{"topic_keywords":["sample exhaustion","vehicle addition"],"parameters":[],"context_keywords":["initial sample"],"table_headers":[]}
+{"topic_keywords":["statistical procedure","increased sample"],"parameters":[],"context_keywords":["paragraph 4"],"table_headers":[]}
+{"topic_keywords":["failure zone","excess emission"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["excess emission cause","administrative department"],"parameters":[],"context_keywords":["random sample","determination"],"table_headers":[]}
+{"topic_keywords":["sample failure","remedial measures"],"parameters":[],"context_keywords":["same cause","administrative department decision"],"table_headers":[]}
+{"topic_keywords":["single vehicle","different causes"],"parameters":[],"context_keywords":["random sample","maximum sample size"],"table_headers":[]}
+{"topic_keywords":["sample pass","requirements"],"parameters":[],"context_keywords":["maximum sample size","excess emission cause"],"table_headers":[]}
+{"topic_keywords":["sample exhaustion","vehicle addition"],"parameters":[],"context_keywords":["initial sample"],"table_headers":[]}
+{"topic_keywords":["statistical procedure","increased sample"],"parameters":[],"context_keywords":["paragraph 4"],"table_headers":[]}
+{"topic_keywords":["vehicle not outlying emitter","random sample"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["procedure","without outlying emitters","sample"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["sampling procedure","producer risk","consumer risk"],"parameters":[],"context_keywords":["batch passing","defective"],"table_headers":[]}
+{"topic_keywords":["pollutants measurement","limit value"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["test statistic","non-conforming vehicles"],"parameters":[],"context_keywords":[],"table_headers":[]}
+{"topic_keywords":["decision numbers","sample size"],"parameters":[],"context_keywords":["pass decision","fail decision"],"table_headers":["Cumulative sample size (n)","Pass decision number","Fail decision number"]}

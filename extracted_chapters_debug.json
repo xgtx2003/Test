@@ -1,0 +1,1207 @@
+[
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "A.",
+    "chapter_title": "LEGISLATIVE PROVISIONS",
+    "full_path": "A. LEGISLATIVE PROVISIONS",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Legislative Provisions]",
+      "parameters": [],
+      "topic_keywords": [
+        "Legislative Provisions"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "A.1.",
+    "chapter_title": "NAME OF STANDARD",
+    "full_path": "A. LEGISLATIVE PROVISIONS/A.1. NAME OF STANDARD",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Legislative Provisions]-[Standard Name]",
+      "parameters": [],
+      "topic_keywords": [
+        "Standard Name"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "A.1.1.",
+    "chapter_title": "",
+    "full_path": "A. LEGISLATIVE PROVISIONS/A.1. NAME OF STANDARD/A.1.1. ",
+    "raw_text": "This Standard is the Vehicle Standard (Australian Design Rule 60/00 – Centre High Mounted Stop Lamp) 2006.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Legislative Provisions]-[Standard Name]",
+      "parameters": [],
+      "topic_keywords": [
+        "Standard Name Declaration",
+        "Australian Design Rule",
+        "Centre High Mounted Stop Lamp"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "A.1.2.",
+    "chapter_title": "",
+    "full_path": "A. LEGISLATIVE PROVISIONS/A.1. NAME OF STANDARD/A.1.2. ",
+    "raw_text": "This Standard may also be cited as Australian Design Rule 60/00 — Centre High Mounted Stop Lamp.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Legislative Provisions]-[Standard Name]",
+      "parameters": [],
+      "topic_keywords": [
+        "Standard Citation",
+        "Australian Design Rule",
+        "Centre High Mounted Stop Lamp"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "B.",
+    "chapter_title": "FUNCTION AND SCOPE",
+    "full_path": "B. FUNCTION AND SCOPE",
+    "raw_text": "The function of this Australian Design Rule is to specify requirements for a supplementary ‘Centre High-mounted Stop Lamp’ on the rear of the vehicle, to provide an additional indication to other road users to the rear of the vehicle that the driver of the vehicle is applying the service brakes.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Function and Scope]",
+      "parameters": [],
+      "topic_keywords": [
+        "function and scope"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.",
+    "chapter_title": "APPLICABILITY AND IMPLEMENTATION",
+    "full_path": "C. APPLICABILITY AND IMPLEMENTATION",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Applicability and Implementation]",
+      "parameters": [],
+      "topic_keywords": [
+        "applicability",
+        "implementation"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.1.",
+    "chapter_title": "Applicability Summary",
+    "full_path": "C. APPLICABILITY AND IMPLEMENTATION/C.1. Applicability Summary",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Applicability Summary]",
+      "parameters": [],
+      "topic_keywords": [
+        "applicability summary"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.1.1.",
+    "chapter_title": "",
+    "full_path": "C. APPLICABILITY AND IMPLEMENTATION/C.1. Applicability Summary/C.1.1. ",
+    "raw_text": "This ADR applies to the design and construction of vehicles as set out in the table below.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Applicability Summary]",
+      "parameters": [],
+      "topic_keywords": [
+        "applicability",
+        "vehicle design",
+        "construction"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.1.2.",
+    "chapter_title": "",
+    "full_path": "C. APPLICABILITY AND IMPLEMENTATION/C.1. Applicability Summary/C.1.2. ",
+    "raw_text": "Those vehicles must be equipped with a ‘Centre High-mounted Stop Lamp’ complying with the relevant requirements of this National Standard.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Applicability Summary]",
+      "parameters": [],
+      "topic_keywords": [
+        "stop lamp equipment",
+        "mandatory installation"
+      ],
+      "context_keywords": [
+        "vehicles"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.1.3.",
+    "chapter_title": "",
+    "full_path": "C. APPLICABILITY AND IMPLEMENTATION/C.1. Applicability Summary/C.1.3. ",
+    "raw_text": "Vehicles complying with the requirements for S3 category stop lamps in ADR 49/00, installed in accordance with the requirements for S3 category stop lamps in ADR 13/00 need not comply with this national standard.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Applicability Summary]",
+      "parameters": [],
+      "topic_keywords": [
+        "exemption",
+        "alternative compliance"
+      ],
+      "context_keywords": [
+        "S3 category",
+        "stop lamps"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "C.2.",
+    "chapter_title": "Applicability Table",
+    "full_path": "C. APPLICABILITY AND IMPLEMENTATION/C.2. Applicability Table",
+    "raw_text": "Vehicle Category ADR\nCategory\nCode * UN\nCategory\nCode * Manufactured\non or After Acceptable\nPrior Rules Moped 2 wheels LA L1 Not Applicable Moped 3 wheels LB L2 Not Applicable Motor cycle LC L3 Not Applicable Motor cycle and sidecar LD L4 Not Applicable Motor tricycle LE L5 LEM  Not Applicable enclosed vehicles LEP  1 March 1991 Nil all vehicles LEP  1 July 1992 Nil LEG  Not Applicable Passenger car MA M1 1 July 1989 Nil Forward-control passenger vehicle MB M1 1 July 1996 Nil Off-road passenger vehicle MC M1 1 July 1996 Nil Light omnibus MD M2 Not Applicable Heavy omnibus ME M3 Not Applicable Light goods vehicle NA N1 Not Applicable Medium goods vehicle NB N2 Not Applicable Heavy goods vehicle NC N3 Not Applicable Very light trailer TA O1 Not Applicable Light trailer TB O2 Not Applicable Medium trailer TC O3 Not Applicable Heavy trailer TD O4 Not Applicable",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Applicability Table]",
+      "parameters": [],
+      "topic_keywords": [
+        "applicability table",
+        "vehicle categories"
+      ],
+      "context_keywords": [],
+      "table_headers": [
+        "Vehicle Category",
+        "ADR Category Code *",
+        "UN Category Code *",
+        "Manufactured on or After",
+        "Acceptable Prior Rules"
+      ]
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.1.",
+    "chapter_title": "DEFINITIONS",
+    "full_path": "60.1. DEFINITIONS",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[定义]",
+      "parameters": [],
+      "topic_keywords": [
+        "定义"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.1.1.",
+    "chapter_title": "",
+    "full_path": "60.1. DEFINITIONS/60.1.1. ",
+    "raw_text": "Refer to Vehicle Standard (Australian Design Rule Definitions and Vehicle Categories) 2005.\nPART I PHOTOMETRIC REQUIREMENTS",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[定义]-[引用]",
+      "parameters": [],
+      "topic_keywords": [
+        "定义引用"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.",
+    "chapter_title": "SPECIFICATION",
+    "full_path": "60.2. SPECIFICATION",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification]",
+      "parameters": [],
+      "topic_keywords": [
+        "stop lamp specification",
+        "technical requirements"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.1.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.1. ",
+    "raw_text": "Colour of light emitted: Red to SAE document J578c, February, 1977 \"Color Specification for Electric Signal Lighting Devices\", or as specified in clause 60.3.2.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Light Color]",
+      "parameters": [],
+      "topic_keywords": [
+        "light color",
+        "emitted color"
+      ],
+      "context_keywords": [
+        "red"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.2.",
+    "chapter_title": "Intensity of light emitted",
+    "full_path": "60.2. SPECIFICATION/60.2.2. Intensity of light emitted",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Light Intensity]",
+      "parameters": [],
+      "topic_keywords": [
+        "light intensity",
+        "luminous intensity"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.2.1.",
+    "chapter_title": "Minimum:",
+    "full_path": "60.2. SPECIFICATION/60.2.2. Intensity of light emitted/60.2.2.1. Minimum:",
+    "raw_text": "In each direction corresponding to the points in the light distribution table of clause 60.3.1, the luminous intensity must be not less than the figure specified in the table for the direction in question.\n* The category code may also be in the format L1, LA etc.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Light Intensity] - [Minimum Intensity]",
+      "parameters": [],
+      "topic_keywords": [
+        "minimum luminous intensity",
+        "light distribution compliance"
+      ],
+      "context_keywords": [
+        "light distribution",
+        "directions"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.2.2.",
+    "chapter_title": "Maximum: 160 cd in any direction.",
+    "full_path": "60.2. SPECIFICATION/60.2.2. Intensity of light emitted/60.2.2.2. Maximum: 160 cd in any direction.",
+    "raw_text": "The luminous intensity must not exceed this maximum over an area larger than that generated by a 0.25o radius within a solid cone angle from 10L to 10R and from 10U to 5D.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Light Intensity] - [Maximum Intensity]",
+      "parameters": [
+        {
+          "item": "luminous intensity",
+          "constraint": "<=",
+          "value": "160",
+          "relative_to": null,
+          "unit": "cd"
+        }
+      ],
+      "topic_keywords": [
+        "maximum luminous intensity",
+        "intensity limits"
+      ],
+      "context_keywords": [
+        "solid cone angle",
+        "angular range"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.3.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.3. ",
+    "raw_text": "Minimum angles of light distribution referred to the reference axis ",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Light Distribution Angles]",
+      "parameters": [],
+      "topic_keywords": [
+        "light distribution angles",
+        "minimum angles"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.3.1.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.3. /60.2.3.1. ",
+    "raw_text": "Vertical: from 10o above to 5o below the horizontal. ",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Light Distribution Angles] - [Vertical Angles]",
+      "parameters": [
+        {
+          "item": "vertical angle",
+          "constraint": "range",
+          "value": "[10, -5]",
+          "relative_to": "horizontal",
+          "unit": "deg"
+        }
+      ],
+      "topic_keywords": [
+        "vertical angles",
+        "vertical light distribution"
+      ],
+      "context_keywords": [
+        "vertical",
+        "horizontal"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.3.2.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.3. /60.2.3.2. ",
+    "raw_text": "Horizontal: from 10o to the left to 10o to the right. ",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Light Distribution Angles] - [Horizontal Angles]",
+      "parameters": [
+        {
+          "item": "horizontal angle",
+          "constraint": "range",
+          "value": "[-10, 10]",
+          "relative_to": "reference axis",
+          "unit": "deg"
+        }
+      ],
+      "topic_keywords": [
+        "horizontal angles",
+        "horizontal light distribution"
+      ],
+      "context_keywords": [
+        "horizontal",
+        "left",
+        "right"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.",
+    "chapter_title": "Other Requirements",
+    "full_path": "60.2. SPECIFICATION/60.2.4. Other Requirements",
+    "raw_text": "Each lamp must:-",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Other Requirements]",
+      "parameters": [],
+      "topic_keywords": [
+        "other requirements",
+        "additional specifications"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.1.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.4. Other Requirements/60.2.4.1. ",
+    "raw_text": "have an effective projected luminous area not less than 29 square centimetres;",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Other Requirements] - [Luminous Area]",
+      "parameters": [
+        {
+          "item": "effective projected luminous area",
+          "constraint": ">=",
+          "value": "29",
+          "relative_to": null,
+          "unit": "cm²"
+        }
+      ],
+      "topic_keywords": [
+        "effective projected luminous area",
+        "luminous area"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.2.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.4. Other Requirements/60.2.4.2. ",
+    "raw_text": "not contain symbols, letters or characters other than those necessary for part number, manufacturer’s identification and/or approval number identification;",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Other Requirements] - [Markings]",
+      "parameters": [],
+      "topic_keywords": [
+        "markings",
+        "identification",
+        "symbols"
+      ],
+      "context_keywords": [
+        "part number",
+        "manufacturer identification",
+        "approval number"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.3.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.4. Other Requirements/60.2.4.3. ",
+    "raw_text": "provide access for convenient replacement of the globe without the use of special tools;",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Other Requirements] - [Globe Replacement]",
+      "parameters": [],
+      "topic_keywords": [
+        "globe replacement",
+        "access",
+        "maintenance"
+      ],
+      "context_keywords": [
+        "special tools"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.4.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.4. Other Requirements/60.2.4.4. ",
+    "raw_text": "provide a steady warning light; ",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Other Requirements] - [Light Type]",
+      "parameters": [],
+      "topic_keywords": [
+        "steady warning light",
+        "light type"
+      ],
+      "context_keywords": [
+        "steady"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.5.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.4. Other Requirements/60.2.4.5. ",
+    "raw_text": "except as provided in clauses 60.2.1 to 60.2.4.2, be designed to conform to the relevant requirements of clauses 1 to 3 of SAE document J186a, September, 1977 \"Supplemental High Mounted Stop and Rear Turn Signal Lamps\", except that:",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Other Requirements] - [SAE Conformance]",
+      "parameters": [],
+      "topic_keywords": [
+        "SAE conformance",
+        "design standards"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.5.1.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.4. Other Requirements/60.2.4.5. /60.2.4.5.1. ",
+    "raw_text": "Table 1 of that SAE document is replaced by the light distribution table of clause 60.3.1;",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Other Requirements] - [SAE Conformance] - [Table Replacement]",
+      "parameters": [],
+      "topic_keywords": [
+        "light distribution table",
+        "table replacement"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.2.4.5.2.",
+    "chapter_title": "",
+    "full_path": "60.2. SPECIFICATION/60.2.4. Other Requirements/60.2.4.5. /60.2.4.5.2. ",
+    "raw_text": "lamps designed solely for mounting inside the vehicle need not meet the requirements of paragraphs 3.1.6 Moisture Test; 3.1.7 Dust Test; and\n3.1.8 Corrosion Test of that SAE document.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Other Requirements] - [SAE Conformance] - [Exemption for Interior Lamps]",
+      "parameters": [],
+      "topic_keywords": [
+        "interior lamps",
+        "test exemptions",
+        "moisture test",
+        "dust test",
+        "corrosion test"
+      ],
+      "context_keywords": [
+        "interior mounting"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.3.",
+    "chapter_title": "LIGHT TABLES",
+    "full_path": "60.3. LIGHT TABLES",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Light Tables]",
+      "parameters": [],
+      "topic_keywords": [
+        "Light Tables"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.3.1.",
+    "chapter_title": "",
+    "full_path": "60.3. LIGHT TABLES/60.3.1. ",
+    "raw_text": "Table of Minimum Light Distribution (in candela, for degrees of angle) 10U 8  16  8 5U 16  25  25  25  16 V 16  25  25  25  16 5D 16  25  25  25  16 10L  5L  H  5R  10R",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Light Tables] - [Minimum Light Distribution]",
+      "parameters": [],
+      "topic_keywords": [
+        "Minimum Light Distribution",
+        "Light Distribution Table"
+      ],
+      "context_keywords": [
+        "candela",
+        "angular distribution"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.3.2.",
+    "chapter_title": "Colour of light trichromatic co-ordinates",
+    "full_path": "60.3. LIGHT TABLES/60.3.2. Colour of light trichromatic co-ordinates",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Light Tables] - [Colour of Light Trichromatic Coordinates]",
+      "parameters": [],
+      "topic_keywords": [
+        "Light Colour",
+        "Trichromatic Coordinates"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.3.2.1.",
+    "chapter_title": "",
+    "full_path": "60.3. LIGHT TABLES/60.3.2. Colour of light trichromatic co-ordinates/60.3.2.1. ",
+    "raw_text": "Red: limit towards yellow: y < 0.335 limit towards purple: z < 0.008",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Light Tables] - [Colour of Light Trichromatic Coordinates] - [Red Light Limits]",
+      "parameters": [
+        {
+          "item": "y",
+          "constraint": "<",
+          "value": "0.335",
+          "relative_to": null,
+          "unit": null
+        },
+        {
+          "item": "z",
+          "constraint": "<",
+          "value": "0.008",
+          "relative_to": null,
+          "unit": null
+        }
+      ],
+      "topic_keywords": [
+        "Red Light",
+        "Colour Limits",
+        "Trichromatic Coordinates"
+      ],
+      "context_keywords": [
+        "yellow limit",
+        "purple limit",
+        "y-coordinate",
+        "z-coordinate"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.3.2.2.",
+    "chapter_title": "",
+    "full_path": "60.3. LIGHT TABLES/60.3.2. Colour of light trichromatic co-ordinates/60.3.2.2. ",
+    "raw_text": "For verifying the limits above, a source of light at a colour temperature of 2856K (illuminant A of the International Commission of Illumination (CIE)), in combination with appropriate filters, may be used.\nPART II INSTALLATION",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Light Tables] - [Colour of Light Trichromatic Coordinates] - [Verification Method]",
+      "parameters": [],
+      "topic_keywords": [
+        "Colour Verification",
+        "Light Source Condition"
+      ],
+      "context_keywords": [
+        "colour temperature",
+        "CIE illuminant A",
+        "filters"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.",
+    "chapter_title": "SPECIFICATION",
+    "full_path": "60.4. SPECIFICATION",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification]",
+      "parameters": [],
+      "topic_keywords": [
+        "specification"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.1.",
+    "chapter_title": "Presence Mandatory.",
+    "full_path": "60.4. SPECIFICATION/60.4.1. Presence Mandatory.",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Presence]",
+      "parameters": [],
+      "topic_keywords": [
+        "presence",
+        "mandatory"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.2.",
+    "chapter_title": "Number One.",
+    "full_path": "60.4. SPECIFICATION/60.4.2. Number One.",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Number]",
+      "parameters": [],
+      "topic_keywords": [
+        "number",
+        "quantity"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.3.",
+    "chapter_title": "Arrangement No special requirement.",
+    "full_path": "60.4. SPECIFICATION/60.4.3. Arrangement No special requirement.",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Arrangement]",
+      "parameters": [],
+      "topic_keywords": [
+        "arrangement"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.4.",
+    "chapter_title": "Position",
+    "full_path": "60.4. SPECIFICATION/60.4.4. Position",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Position]",
+      "parameters": [],
+      "topic_keywords": [
+        "position"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.4.1.",
+    "chapter_title": "",
+    "full_path": "60.4. SPECIFICATION/60.4.4. Position/60.4.4.1. ",
+    "raw_text": "In width: on the vehicle’s median longitudinal plane. ",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Position] - [Width]",
+      "parameters": [],
+      "topic_keywords": [
+        "width",
+        "position"
+      ],
+      "context_keywords": [
+        "median longitudinal plane"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.4.2.",
+    "chapter_title": "",
+    "full_path": "60.4. SPECIFICATION/60.4.4. Position/60.4.4.2. ",
+    "raw_text": "In height: at any position including on the glazing, except that no portion of the lens must be lower than the bottom edge of the rear window by more than:\n60.4.4.2.1.152mm for convertibles;\n60.4.4.2.2.77mm for other vehicles.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Position] - [Height]",
+      "parameters": [
+        {
+          "item": "lens portion lower than rear window bottom edge (convertibles)",
+          "constraint": "<=",
+          "value": "152",
+          "relative_to": "bottom edge of rear window",
+          "unit": "mm"
+        },
+        {
+          "item": "lens portion lower than rear window bottom edge (other vehicles)",
+          "constraint": "<=",
+          "value": "77",
+          "relative_to": "bottom edge of rear window",
+          "unit": "mm"
+        }
+      ],
+      "topic_keywords": [
+        "height",
+        "position",
+        "glazing"
+      ],
+      "context_keywords": [
+        "rear window",
+        "lens",
+        "convertibles",
+        "vehicle types"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.5.",
+    "chapter_title": "Geometric visibility",
+    "full_path": "60.4. SPECIFICATION/60.4.5. Geometric visibility",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Geometric visibility]",
+      "parameters": [],
+      "topic_keywords": [
+        "geometric visibility"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.5.1.",
+    "chapter_title": "",
+    "full_path": "60.4. SPECIFICATION/60.4.5. Geometric visibility/60.4.5.1. ",
+    "raw_text": "The reference axis of the lamp when fitted to the vehicle must be parallel to the bearing plane of the vehicle on the road and lie in the median longitudinal plane of the vehicle.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Geometric visibility] - [Reference axis]",
+      "parameters": [],
+      "topic_keywords": [
+        "reference axis",
+        "alignment"
+      ],
+      "context_keywords": [
+        "bearing plane",
+        "median longitudinal plane"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.5.1.1.",
+    "chapter_title": "",
+    "full_path": "60.4. SPECIFICATION/60.4.5. Geometric visibility/60.4.5.1. /60.4.5.1.1. ",
+    "raw_text": "Vertical: from 10o above to 5o below the horizontal. ",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Geometric visibility] - [Vertical angles]",
+      "parameters": [
+        {
+          "item": "geometric visibility vertical angle",
+          "constraint": "range",
+          "value": "[-5,10]",
+          "relative_to": "horizontal",
+          "unit": "degree"
+        }
+      ],
+      "topic_keywords": [
+        "vertical angles",
+        "visibility"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.5.1.2.",
+    "chapter_title": "",
+    "full_path": "60.4. SPECIFICATION/60.4.5. Geometric visibility/60.4.5.1. /60.4.5.1.2. ",
+    "raw_text": "Horizontal:  from 10o to the left to 10o to the right. ",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Geometric visibility] - [Horizontal angles]",
+      "parameters": [
+        {
+          "item": "geometric visibility horizontal angle",
+          "constraint": "range",
+          "value": "[-10,10]",
+          "relative_to": null,
+          "unit": "degree"
+        }
+      ],
+      "topic_keywords": [
+        "horizontal angles",
+        "visibility"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.6.",
+    "chapter_title": "Orientation Rearwards.",
+    "full_path": "60.4. SPECIFICATION/60.4.6. Orientation Rearwards.",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Orientation]",
+      "parameters": [],
+      "topic_keywords": [
+        "orientation",
+        "rearwards"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.7.",
+    "chapter_title": "May not be \"grouped\" with any other lamp.",
+    "full_path": "60.4. SPECIFICATION/60.4.7. May not be \"grouped\" with any other lamp.",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Grouping restriction]",
+      "parameters": [],
+      "topic_keywords": [
+        "grouping",
+        "prohibition"
+      ],
+      "context_keywords": [
+        "other lamps"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.8.",
+    "chapter_title": "",
+    "full_path": "60.4. SPECIFICATION/60.4.8. ",
+    "raw_text": "May not be \"combined\" with any other lamp or reflective device. ",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Combination restriction]",
+      "parameters": [],
+      "topic_keywords": [
+        "combination",
+        "prohibition"
+      ],
+      "context_keywords": [
+        "other lamps",
+        "reflective devices"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.9.",
+    "chapter_title": "",
+    "full_path": "60.4. SPECIFICATION/60.4.9. ",
+    "raw_text": "May not be \"reciprocally incorporated\" with any other lamp. ",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Reciprocal incorporation restriction]",
+      "parameters": [],
+      "topic_keywords": [
+        "reciprocal incorporation",
+        "prohibition"
+      ],
+      "context_keywords": [
+        "other lamps"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.10.",
+    "chapter_title": "",
+    "full_path": "60.4. SPECIFICATION/60.4.10. ",
+    "raw_text": "Electrical Operation shall be activated upon and only upon application of the service brakes.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Electrical operation]",
+      "parameters": [],
+      "topic_keywords": [
+        "electrical operation",
+        "activation"
+      ],
+      "context_keywords": [
+        "service brakes"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.11.",
+    "chapter_title": "Tell-tale Optional.",
+    "full_path": "60.4. SPECIFICATION/60.4.11. Tell-tale Optional.",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Tell-tale]",
+      "parameters": [],
+      "topic_keywords": [
+        "tell-tale",
+        "optional"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.4.12.",
+    "chapter_title": "Other requirements",
+    "full_path": "60.4. SPECIFICATION/60.4.12. Other requirements",
+    "raw_text": "If the lamp is mounted inside the vehicle, it must be shrouded to the glass or other means must be provided to minimise reflections from the light of the lamp upon the rear window glazing that might be visible to the driver when viewed directly, or indirectly, in the rear vision mirror.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Specification] - [Other requirements]",
+      "parameters": [],
+      "topic_keywords": [
+        "mounting inside vehicle",
+        "reflection minimization"
+      ],
+      "context_keywords": [
+        "shrouded",
+        "glass",
+        "reflections",
+        "rear window glazing",
+        "driver visibility"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.5.",
+    "chapter_title": "ALTERNATIVE STANDARDS",
+    "full_path": "60.5. ALTERNATIVE STANDARDS",
+    "raw_text": "",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Alternative Standards] - [Equivalence Determination]",
+      "parameters": [],
+      "topic_keywords": [
+        "Alternative Standards",
+        "Equivalence"
+      ],
+      "context_keywords": [],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.5.1.",
+    "chapter_title": "",
+    "full_path": "60.5. ALTERNATIVE STANDARDS/60.5.1. ",
+    "raw_text": "The technical requirements of FMVSS 108 “Lamps, reflective devices, and associated equipment” or “High-mounted Stop Lamp” are deemed to be equivalent to the technical requirements of this rule.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Alternative Standards] - [Equivalence Determination]",
+      "parameters": [],
+      "topic_keywords": [
+        "Technical Requirements",
+        "Equivalence",
+        "Lighting Standards"
+      ],
+      "context_keywords": [
+        "Lamps",
+        "Reflective Devices",
+        "Associated Equipment"
+      ],
+      "table_headers": []
+    }
+  },
+  {
+    "document_id": "GSO_regulation_MAIN",
+    "file": "regulation",
+    "section": "MAIN",
+    "chapter_id": "60.5.2.",
+    "chapter_title": "",
+    "full_path": "60.5. ALTERNATIVE STANDARDS/60.5.2. ",
+    "raw_text": "The technical requirements of Category S3 stop lamps of United Nations Regulation 7/02 read with supplement 2 to the 02 series of amendments and installed in accordance with United Nations Regulation 48/01.\nCOMPILATION NOTES This compilation of Vehicle Standard (Australian Design Rule 60/00 – Centre High Mounted Stop Lamp) 2006 includes all the instruments set out in the Table of Instruments.  This vehicle standard is determined under section 12 of the Road Vehicle Standards Act 2018.\nThe Table of Amendments provides a history of clauses that have been amended, inserted or deleted.\nTable of Instruments Name of Instrument Registration Date\nCommencement\nDate\nVehicle Standard (Australian Design Rule 1/00 – Reversing lamp) 2006 (F2006L02300) 05/07/2006 05/07/2006 Vehicle Standard (Australian Design Rule) Lighting Standards Amendment Instrument 2022 (No.1) (F2023L00042) 19/01/2023 20/01/2023 Table of Amendments Clause affected How affected Amending instrument\nA.2.del Legislation Act 2003 – section 48D\nA.3.del Legislation Act 2003 – section 48C\nC.2.am Vehicle Standard (Australian Design Rule) Lighting Standards Amendment Instrument 2022 (No.1)\n60.5.2.am Vehicle Standard (Australian Design Rule) Lighting Standards Amendment Instrument 2022 (No.1) ad = added or inserted am = amended del = deleted or removed rr = removed and replaced = clause renumbered.  This takes the format of old no.   new no.",
+    "clause_data": {
+      "scope": "[Centre High-mounted Stop Lamp]-[Centre High-mounted Stop Lamp] - [Alternative Standards] - [Equivalence Determination]",
+      "parameters": [],
+      "topic_keywords": [
+        "Stop Lamps",
+        "Technical Requirements",
+        "Equivalence",
+        "Category S3"
+      ],
+      "context_keywords": [
+        "Installation",
+        "International Standards"
+      ],
+      "table_headers": []
+    }
+  }
+]

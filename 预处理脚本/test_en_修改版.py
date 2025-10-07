@@ -1,0 +1,1626 @@
+import fitz  # PyMuPDF
+import re
+import json
+import os
+from typing import List, Dict, Tuple
+from collections import defaultdict
+import re
+import pdfplumber
+
+# chapter_patterns = [
+#     re.compile(r'^(附\s*录\s*[A-Z])\s+(.+)$'),
+#     re.compile(r'^([A-Z](?:\.\d+)+)\s+(.+)$'),
+#     re.compile(r'^(\d+(?:\.\d+)*)(\s+)(.+)$'),
+# ]
+
+# chapter_patterns = [
+#     re.compile(r'^(APPENDIX\s+[A-Z0-9]+)$', re.I),          # APPENDIX A / APPENDIX 1
+#     re.compile(r'^([A-Z](?:\.\d+)+)\s+(.+)$'),
+#     re.compile(r'^(\d+(?:\.\d+)*\.?)\s+(.+)$'),                     # 1.1. Title
+# ]
+
+# 旧的章节模式（已注释）
+# chapter_patterns = [
+#     re.compile(r'^(附\s*录\s*[A-Z0-9])$'), # 附 录 B
+#     re.compile(r'^((APPENDIX|ANNEX|ATTACHMENT)\s+(?:[A-Z0-9]+|\([A-Z0-9]+\)))$', re.I),  # ANNEX A / ANNEX 1
+#     re.compile(r'^([A-Z]\.)\s+(.+)$'),                                # A. Title (单独字母章节)
+#     re.compile(r'^([A-Z](?:\.\d+)+\.?)\s+(.+)$'),                     # A.1. Title / A.1.1. Title
+#     re.compile(r'^(\d+(?:\.\d+)*\.?)\s+(.+)$'),                       # 1.1. Title
+#     re.compile(r'^(\d+(?:-\d+)*-)\s+(.+)$'),                          # 1- Title / 1-2- Title
+# ]
+
+# 新的合并后的章节模式
+chapter_patterns = [
+    # 1. 中文附录：附录A, 附 录 B
+    re.compile(r'^(附\s*录\s*[A-Z0-9])$'),
+
+    # 2. 英文附录：APPENDIX A, ANNEX A, ATTACHMENT A
+    re.compile(r'^((APPENDIX|ANNEX|ATTACHMENT)\s+(?:[A-Z0-9]+|\([A-Z0-9]+\)))$', re.I),
+
+    # 3. 字母章节（支持点和横线分隔符）：A. Title, A.1. Title, A-1- Title
+    re.compile(r'^([A-Z](?:[.\-]\d+)*[.\-]?)\s+(.+)$'),
+
+    # 4. 数字章节（支持点和横线分隔符）：1. Title, 1.1. Title, 1- Title, 1-2- Title
+    re.compile(r'^(\d+(?:[.\-]\d+)*[.\-]?)\s+(.+)$'),
+]
+
+
+def detect_document_language(lines: List[str]) -> str:
+    """
+    检测文档语言：中文或英文
+    :param lines: 文档的所有行
+    :return: 'zh' 表示中文，'en' 表示英文
+    """
+    chinese_char_count = 0
+    total_chars = 0
+
+    # 采样前1000行或全部行
+    sample_lines = lines[:1000] if len(lines) > 1000 else lines
+
+    for line in sample_lines:
+        for char in line:
+            total_chars += 1
+            if '\u4e00' <= char <= '\u9fff':  # 中文字符
+                chinese_char_count += 1
+
+    # 只要有中文字符就认为是中文文档
+    if chinese_char_count > 0:
+        return 'zh'
+    else:
+        return 'en'
+
+
+# 中文章节max_chapter_num=50
+# 全文首先检测是中文还是英文
+def detect_chapter(line: str, max_chapter_num=1000, language='en', number_analysis=None):
+    clean_line = line.strip()
+    if not clean_line:
+        return None
+
+    for pattern in chapter_patterns:
+        m = pattern.match(clean_line)
+        if m:
+            chapter_id = m.group(1).strip()
+            chapter_title = m.group(len(m.groups())).strip() if m.group(len(m.groups())) else ""
+            if re.match(r'^(附\s*录\s*[A-Z0-9])$', chapter_id):
+                # 去掉中间的空格
+                chapter_id = chapter_id.replace(" ", "")
+                # chapter_id = chapter_id[-1]
+            # ---- 基础过滤 ----
+            first_num = None
+            if chapter_id.upper().startswith("APPENDIX"):
+                suffix = chapter_id[len("APPENDIX"):].strip(" ()")
+                if suffix.isdigit():
+                    first_num = int(suffix)
+            else:
+                m_num = re.match(r'^(\d+)', chapter_id)
+                if m_num:
+                    first_num = int(m_num.group(1))
+
+            if first_num is not None and number_analysis is not None:
+                # 使用智能数字范围判断
+                min_reasonable = number_analysis.get("min_reasonable", 1)
+                max_reasonable = number_analysis.get("max_reasonable", max_chapter_num)
+
+                # 特殊处理法规编号模式
+                if number_analysis.get("regulation_mode", False):
+                    regulation_number = number_analysis.get("regulation_number")
+                    if first_num != regulation_number:
+                        return None  # 不是法规编号，过滤掉
+                else:
+                    # 正常章节编号范围检查
+                    if first_num < min_reasonable or first_num > max_reasonable:
+                        return None  # 数字范围不合理
+            elif first_num is not None:
+                # 兜底逻辑：使用传统的max_chapter_num
+                if first_num < 1 or first_num > max_chapter_num:
+                    return None  # 数字范围不合理
+
+            # ---- 内容特征过滤 ----
+            # 1) 标题必须包含字母或中文
+            if not re.search(r'[A-Za-z\u4e00-\u9fff]', chapter_title):
+                return None
+
+            # 2) 去掉纯数字表格行
+            if re.fullmatch(r'[\d\s\.\-]+', chapter_title):
+                return None
+
+            # 3) 表格内容过滤 - 检测明显的表格数据模式
+            # 如果标题包含大量数字、空格和少量字母的组合，可能是表格数据
+            if re.search(r'^\d+\s+\d+.*[A-Z]\s+\d+\s+\d+', chapter_title):  # 如 "10 0 E 0 16"
+                return None
+
+            # 检测表格行模式：单个字母 + 数字组合
+            if re.fullmatch(r'[A-Z]\s*\d+.*', chapter_title) and len(chapter_title.split()) >= 3:
+                # 如果标题是 "A 10 0" 这样的格式，很可能是表格数据
+                parts = chapter_title.split()
+                if len(parts) >= 3 and all(
+                        part.isdigit() or part in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' for part in parts[:3]):
+                    return None
+
+            # 4) 检测坐标点或参数表格：如 "A15 0 E 0 3"
+            if re.search(r'^[A-Z]\d+\s+\d+\s+[A-Z]\s+\d+\s+\d+', chapter_title):
+                return None
+
+            # 5) 行太短
+            if len(clean_line) < 4 and not chapter_id.upper().startswith("APPENDIX") and not chapter_id.startswith(
+                    "附录"):
+                return None
+
+            # 6) 过滤明显的表格标题组合
+            if len(chapter_id) == 1 and chapter_id.isupper():
+                # 单个大写字母作为章节ID，检查标题是否像表格数据
+                if re.search(r'\d+.*\d+', chapter_title) and len(chapter_title.split()) <= 6:
+                    return None
+
+            return {
+                "chapter_id": chapter_id,
+                "chapter_title": chapter_title
+            }
+
+    return None
+
+
+def build_tree(chapter_list: List[Dict]) -> List[Dict]:
+    id_map = {}
+    root = []
+
+    # 先注册所有节点
+    for chap in chapter_list:
+        chap["children"] = []
+        # 统一去掉末尾点和横线作为 key
+        key = chap["chapter_id"].rstrip('.-')
+        id_map[key] = chap
+
+    # 为每个节点创建缺失的父节点（只针对三级及以上标题）
+    for chap in chapter_list:
+        cid = chap["chapter_id"].rstrip('.')
+        parts = cid.split('.')
+
+        # 只有三级及以上标题才创建中间父节点
+        if len(parts) >= 3:
+            # 创建所有缺失的中间父级节点（但不包括顶级父节点）
+            for i in range(2, len(parts)):  # 从第二级开始创建，跳过顶级
+                parent_key = '.'.join(parts[:i])
+                if parent_key not in id_map:
+                    # 创建缺失的父节点
+                    parent_node = {
+                        "chapter_id": parent_key + ".",
+                        "chapter_title": "",
+                        "raw_text": "",
+                        "children": []
+                    }
+                    id_map[parent_key] = parent_node
+
+    # 构建树结构
+    for chap in chapter_list:
+        cid = chap["chapter_id"].rstrip('.')
+        parts = cid.split('.')
+
+        # 根节点判断
+        if cid.startswith("APPENDIX"):
+            root.append(chap)
+        elif cid.startswith("附录") or len(parts) == 1:
+            root.append(chap)
+        else:
+            parent_key = '.'.join(parts[:-1])
+            parent = id_map.get(parent_key)
+            if parent:
+                parent["children"].append(chap)
+            else:
+                # 如果父节点不存在，对于二级标题，直接作为根节点
+                if len(parts) == 2:
+                    root.append(chap)
+                # 三级及以上标题没有父节点时，不做处理（因为前面已经创建了父节点）
+
+    # 将创建的中间节点也添加到最终的章节列表中，但只有那些有子节点的
+    created_parents = []
+    for key, node in id_map.items():
+        if node not in chapter_list and len(node["children"]) > 0:
+            created_parents.append(node)
+
+    # 对创建的父节点也进行树结构构建
+    for parent in created_parents:
+        cid = parent["chapter_id"].rstrip('.')
+        parts = cid.split('.')
+
+        if len(parts) == 1:
+            root.append(parent)
+        else:
+            parent_key = '.'.join(parts[:-1])
+            grandparent = id_map.get(parent_key)
+            if grandparent and parent not in grandparent["children"]:
+                grandparent["children"].append(parent)
+            elif len(parts) == 1:  # 这是一级章节
+                if parent not in root:
+                    root.append(parent)
+
+    return root
+
+
+def build_full_path(chapters: List[Dict], path_prefix=""):
+    for chap in chapters:
+        if path_prefix:
+            chap["full_path"] = f"{path_prefix}/{chap['chapter_id']} {chap['chapter_title']}"
+        else:
+            chap["full_path"] = f"{chap['chapter_id']} {chap['chapter_title']}"
+        if chap.get("children"):
+            build_full_path(chap["children"], chap["full_path"])
+
+
+def fullwidth_to_halfwidth(text: str) -> str:
+    result = []
+    for char in text:
+        code = ord(char)
+        if 0xFF01 <= code <= 0xFF5E:
+            result.append(chr(code - 0xFEE0))
+        else:
+            result.append(char)
+    return ''.join(result)
+
+
+def build_term_dict(raw_text: str) -> Dict[str, str]:
+    text = re.sub(r'\n+', '\n', raw_text.strip())
+    pattern = re.compile(
+        r'^\d+\.\d+\n'
+        r'(?P<cn>[^\n]*?)\s*'
+        r'(?P<en>[A-Za-z].*?)\s*(?=\n)',
+        re.MULTILINE
+    )
+
+    term_map = {}
+    for m in pattern.finditer(text):
+        cn = m.group("cn").strip()
+        en = m.group("en").strip()
+        if cn and en:
+            term_map[cn] = en
+    return term_map
+
+
+def extract_terms_with_abbr_from_terms_section(raw_text: str) -> Dict[str, Dict[str, str]]:
+    """
+    提取术语章节中的中英文术语及缩写
+    返回格式：
+    {
+      "中文术语": {
+         "en": "英文术语",
+         "abbr": "缩写（如有）"
+      }
+    }
+    """
+    term_map = {}
+    text = re.sub(r'\n+', '\n', raw_text.strip())
+
+    pattern = re.compile(
+        r'(?P<cn>[\u4e00-\u9fff（）()·\s]{2,})'  # 中文部分
+        r'\s*'  # 可选空格
+        r'(?P<en>[A-Za-z][A-Za-z\s\-/]*)'  # 英文术语
+        r'(?:[;；:：]?\s*(?P<abbr>[A-Z0-9·]+))?',  # 可选缩写
+        re.MULTILINE
+    )
+
+    for m in pattern.finditer(text):
+        cn = m.group("cn").strip()
+        en = m.group("en").strip()
+        abbr = m.group("abbr").strip() if m.group("abbr") else ""
+
+        term_map[cn] = {"en": en}
+        if abbr:
+            term_map[cn]["abbr"] = abbr
+
+    return term_map
+
+
+def extract_abbr_terms_from_symbols_section(raw_text: str) -> Dict[str, Dict[str, str]]:
+    """
+    提取“符号和缩略语”章节的中英缩写映射，返回以中文为键的结构：
+    {
+        "中文": {
+            "abbr": "缩写",
+            "en": "英文释义"
+        }
+    }
+    """
+    abbr_map = {}
+    # 清理文本
+    text = re.sub(r'\n+', '\n', raw_text.strip())
+
+    # 匹配模式：ACLR: 邻道泄漏功率比 (Adjacent Channel Leakage Power Ratio)
+    pattern = re.compile(
+        r'(?P<abbr>[A-Za-z0-9·\-_]+)\s*[:：]?\s*'
+        r'(?P<cn>[\u4e00-\u9fff·]+)'
+        r'(?:[（）()]*\s*(?P<en>[A-Za-z\s/\-]+)\s*[（）()]*)?'
+    )
+
+    for m in pattern.finditer(text):
+        abbr = m.group("abbr").strip()
+        cn = m.group("cn").strip("（）()").strip()
+        en = m.group("en").strip() if m.group("en") else ""
+
+        if cn:
+            abbr_map[cn] = {}
+            if abbr:
+                abbr_map[cn]["abbr"] = abbr
+            if en:
+                abbr_map[cn]["en"] = en
+
+    return abbr_map
+
+
+def should_merge_crossline(prev_text, curr_text, prev_bbox, curr_bbox):
+    """
+    判断是否需要把当前行合并到上一行
+    """
+    text_stripped = curr_text.strip()
+
+    # 模式匹配：表格标题、编号标题等
+    if re.match(r'^表\s*\d+', text_stripped):
+        return True
+
+    # 垂直距离很小（说明是视觉上的同一行）
+    prev_y = prev_bbox[1]
+    curr_y = curr_bbox[1]
+    line_height = prev_bbox[3] - prev_bbox[1]
+    if abs(curr_y - prev_y) < 0.3 * line_height:
+        return True
+
+    return False
+
+
+def find_table_title(page, table_bbox, clip_rect, max_above=80):
+    """
+    在表格上方查找表格标题，支持中英文
+    """
+    table_top = table_bbox[1]
+    table_x0, table_x1 = table_bbox[0], table_bbox[2]
+    
+    # 定义搜索区域：表格上方80像素范围内
+    search_rect = fitz.Rect(
+        max(clip_rect.x0, table_x0 - 50),  # 水平扩展50像素
+        max(clip_rect.y0, table_top - max_above),
+        min(clip_rect.x1, table_x1 + 50),
+        table_top + 10
+    )
+    
+    # 提取搜索区域内的文本
+    text_dict = page.get_text("dict", clip=search_rect)
+    
+    # 收集所有文本行
+    lines = []
+    for block in text_dict["blocks"]:
+        if block["type"] == 0:  # 文本块
+            for line in block["lines"]:
+                line_text = ""
+                for span in line["spans"]:
+                    line_text += span["text"]
+                if line_text.strip():
+                    lines.append({
+                        "text": line_text.strip(),
+                        "bbox": line["bbox"],
+                        "y": line["bbox"][1]
+                    })
+    
+    # 按y坐标排序（从上到下）
+    lines.sort(key=lambda x: x["y"])
+    
+    # 查找包含表格标识的行
+    table_keywords = ["表", "Table", "TABLE", "表A", "表B", "表C", "表D", "表E", "表F", "表G", "表H"]
+    best_title = None
+    min_distance = float('inf')
+    
+    for line in lines:
+        line_text = line["text"]
+        line_y = line["y"]
+        
+        # 检查是否包含表格关键词
+        has_table_keyword = any(keyword in line_text for keyword in table_keywords)
+        
+        if has_table_keyword:
+            distance = table_top - line_y
+            if 0 < distance < min_distance:
+                min_distance = distance
+                best_title = line_text
+    
+    # 如果没有找到明确的表格标题，尝试查找数字编号的标题
+    if not best_title:
+        for line in lines:
+            line_text = line["text"]
+            line_y = line["y"]
+            
+            # 匹配表格编号模式：表X.x 或 Table X.x 或 表X 等
+            if (re.search(r'表\s*[A-Z0-9]\.?\d*', line_text) or 
+                re.search(r'Table\s*[A-Z0-9]\.?\d*', line_text, re.I) or
+                re.search(r'表\s*\d+', line_text)):
+                distance = table_top - line_y
+                if 0 < distance < min_distance:
+                    min_distance = distance
+                    best_title = line_text
+    
+    # 清理标题文本
+    if best_title:
+        # 移除多余空格
+        best_title = re.sub(r'\s+', ' ', best_title).strip()
+        # 标准化表格编号格式
+        best_title = re.sub(r'表\s+([A-Z0-9])', r'表\1', best_title)
+        best_title = re.sub(r'Table\s+([A-Z0-9])', r'Table \1', best_title, flags=re.I)
+    
+    return best_title
+
+
+def process_complex_table_structure(table_data):
+    """
+    处理复杂表格结构，包括合并单元格、多级表头等
+    """
+    if not table_data or len(table_data) == 0:
+        return table_data
+    
+    processed_data = []
+    
+    for row_idx, row in enumerate(table_data):
+        processed_row = []
+        for col_idx, cell in enumerate(row):
+            if cell is None or cell == "":
+                # 处理空单元格，尝试从上方或左侧单元格推断内容
+                if row_idx > 0 and col_idx < len(table_data[row_idx - 1]):
+                    # 检查上方单元格是否有内容
+                    above_cell = table_data[row_idx - 1][col_idx]
+                    if above_cell and above_cell.strip():
+                        # 如果上方单元格有内容且当前行其他单元格为空，可能是合并单元格
+                        if all(not c or not c.strip() for c in row[:col_idx]):
+                            processed_row.append(above_cell)
+                        else:
+                            processed_row.append("")
+                    else:
+                        processed_row.append("")
+                else:
+                    processed_row.append("")
+            else:
+                # 清理单元格内容
+                cell_text = str(cell).strip()
+                # 处理特殊字符和格式
+                cell_text = re.sub(r'\s+', ' ', cell_text)
+                processed_row.append(cell_text)
+        
+        processed_data.append(processed_row)
+    
+    # 检测并处理多级表头
+    if len(processed_data) >= 2:
+        # 检查前两行是否可能是多级表头
+        first_row = processed_data[0]
+        second_row = processed_data[1]
+        
+        # 如果第一行有大量空单元格，可能是多级表头
+        empty_count_first = sum(1 for cell in first_row if not cell or not cell.strip())
+        if empty_count_first > len(first_row) * 0.5:
+            # 合并多级表头
+            merged_header = []
+            for i in range(len(first_row)):
+                first_cell = first_row[i] if i < len(first_row) else ""
+                second_cell = second_row[i] if i < len(second_row) else ""
+                
+                if first_cell and second_cell:
+                    merged_header.append(f"{first_cell} {second_cell}")
+                elif first_cell:
+                    merged_header.append(first_cell)
+                elif second_cell:
+                    merged_header.append(second_cell)
+                else:
+                    merged_header.append("")
+            
+            # 用合并后的表头替换前两行
+            processed_data = [merged_header] + processed_data[2:]
+    
+    return processed_data
+
+
+def fix_broken_chapters(lines: list[tuple]) -> list[tuple]: # 大改动
+    def normalize_chapter_spaces(s: str) -> str:
+        line = s.strip()
+
+        # 1. 保留原来的逻辑：修复点后面的空格，适用于所有情况 (A. 1, 7. 1)
+        line = re.sub(r'\.\s+(?=\d)', '.', line)
+
+        # 2. 修复数字/字母和点之间的空格：7 .1 -> 7.1, A .1 -> A.1
+        line = re.sub(r'([A-Za-z0-9]+)\s+(\.\d+)', r'\1\2', line)
+
+        # 3. 修复复杂的多级空格：7 . 1 . 2 -> 7.1.2
+        # 需要循环处理，直到没有更多变化
+        max_iterations = 10  # 防止无限循环
+        iterations = 0
+        prev_line = ""
+        while prev_line != line and iterations < max_iterations:
+            prev_line = line
+            # 处理各种空格组合，支持字母和数字开头
+            line = re.sub(r'([A-Za-z0-9]+)\s*\.\s*(\d+)', r'\1.\2', line)
+            iterations += 1
+
+        # 4. 修复OCR常见错误：数字开头的章节
+        line = re.sub(r'(\d+\.\d+)\.\s*l\b', r'\1.1', line)
+        line = re.sub(r'([A-Za-z0-9]+)\.l\.(\d+)', r'\1.1.\2', line)
+        line = re.sub(r'^l\.(\d+)', r'1.\1', line)
+
+        # 5. 修复字母开头章节的OCR错误：B.l -> B.1, A.O -> A.0, C.I -> C.1
+        line = re.sub(r'^([A-Z])\.l\b', r'\1.1', line)
+        line = re.sub(r'^([A-Z])\.l\.(\d+)', r'\1.1.\2', line)
+        line = re.sub(r'^([A-Z])\.O\.(\d+)', r'\1.0.\2', line)
+        line = re.sub(r'^([A-Z])\.I\.(\d+)', r'\1.1.\2', line)
+
+        # 6. 修复其他OCR错误：O -> 0, I -> 1
+        line = re.sub(r'([A-Za-z0-9]+)\.O\.(\d+)', r'\1.0.\2', line)
+        line = re.sub(r'([A-Za-z0-9]+)\.I\.(\d+)', r'\1.1.\2', line)
+
+        return line
+
+    return [(normalize_chapter_spaces(line), page_num) for line, page_num in lines]
+
+
+def process_gb_terms_format(lines: List[tuple]) -> List[tuple]: # 大改动
+    """
+    处理国标术语定义格式：适配元组列表（文本+页码）
+    """
+    result = []
+    i = 0
+
+    while i < len(lines):
+        current_line, current_page = lines[i]  # 拆分元组
+        current_line_strip = current_line.strip()
+
+        # 原有检测逻辑不变（基于文本内容）
+        if (i + 1 < len(lines) and
+                re.match(r'^\d+\.\d+$', current_line_strip) and
+                current_line_strip.startswith('3.')):
+
+            next_line, next_page = lines[i + 1]
+            next_line_strip = next_line.strip()
+
+            if re.search(r'[\u4e00-\u9fa5].*[A-Za-z]', next_line_strip):
+                merged_line = f"{current_line_strip} {next_line_strip}"
+                result.append((merged_line, current_page))  # 合并后保留页码（取当前页）
+                i += 2
+                continue
+
+            if (i + 2 < len(lines)):
+                second_line, _ = lines[i + 1]
+                third_line, _ = lines[i + 2]
+                second_line_strip = second_line.strip()
+                third_line_strip = third_line.strip()
+                if (re.search(r'[\u4e00-\u9fa5]', second_line_strip) and
+                        re.search(r'[A-Za-z]', third_line_strip)):
+                    merged_line = f"{current_line_strip} {second_line_strip} {third_line_strip}"
+                    result.append((merged_line, current_page))
+                    i += 3
+                    continue
+
+        # 未匹配时直接保留原元组
+        result.append((current_line, current_page))
+        i += 1
+
+    return result
+
+
+def extract_full_text_with_filter(pdf_path: str, top_crop=0.08, bottom_crop=0.08): # 大改动
+    doc = fitz.open(pdf_path)
+    all_lines = []  # 存储格式：[(文本内容, 页码), ...]，确保全程是元组类型
+    all_tables = []  # 存储提取的表格信息
+
+    prev_line_text = None
+    prev_bbox = None
+    prev_page_num = None
+
+    for page_idx, page in enumerate(doc):
+        page_num = page_idx + 1  # 页码从1开始
+        h = page.rect.height
+        clip_rect = fitz.Rect(0, h * top_crop, page.rect.width, h * (1 - bottom_crop))
+        
+        # 提取表格
+        tables = page.find_tables(clip=clip_rect)
+        for table_idx, table in enumerate(tables):
+            table_data = table.extract()
+            if table_data and len(table_data) > 0:
+                # 使用复杂表格处理函数
+                processed_data = process_complex_table_structure(table_data)
+                
+                # 过滤掉只有一列或空行的表格
+                if len(processed_data) > 0 and len(processed_data[0]) > 1:
+                    # 查找表格标题
+                    table_title = find_table_title(page, table.bbox, clip_rect)
+                    
+                    table_info = {
+                        "table_id": table_title or f"表-页{page_num}-表{table_idx + 1}",
+                        "table_content": processed_data,
+                        "page_num": page_num,
+                        "table_bbox": table.bbox,
+                        "table_index": table_idx
+                    }
+                    all_tables.append(table_info)
+        
+        # 提取文本内容
+        page_dict = page.get_text("dict", clip=clip_rect)
+
+        for block in page_dict["blocks"]:
+            if block["type"] != 0:  # 只处理文本
+                continue
+
+            for line in block["lines"]:
+                # 1. 按x坐标合并同一行的span
+                spans = sorted(line["spans"], key=lambda s: s["bbox"][0])
+                merged = ""
+                last_x = None
+                for sp in spans:
+                    x0, x1 = sp["bbox"][0], sp["bbox"][2]
+                    width = max(1.0, x1 - x0)
+                    avg_char_w = width / max(len(sp["text"]), 1)
+
+                    if last_x is not None:
+                        gap = x0 - last_x
+                        if gap > max(avg_char_w * 0.5, 3.0):
+                            merged += " "
+                    merged += sp["text"]
+                    last_x = x1
+
+                merged = merged.strip()
+                curr_bbox = line["bbox"]
+
+                # 2. 跨行智能合并判定（仅同页合并）
+                if prev_line_text is not None and prev_page_num == page_num:
+                    if should_merge_crossline(prev_line_text, merged, prev_bbox, curr_bbox):
+                        prev_line_text += " " + merged
+                        prev_bbox = (
+                            prev_bbox[0],
+                            prev_bbox[1],
+                            max(prev_bbox[2], curr_bbox[2]),
+                            max(prev_bbox[3], curr_bbox[3])
+                        )
+                        continue
+                    else:
+                        # 追加时保持元组格式（文本+页码）
+                        all_lines.append((prev_line_text, prev_page_num))
+
+                prev_line_text = merged
+                prev_bbox = curr_bbox
+                prev_page_num = page_num
+
+    # 最后一行：确保追加元组格式
+    if prev_line_text is not None and prev_page_num is not None:
+        all_lines.append((prev_line_text, prev_page_num))
+
+    # 修复核心：全角转半角时只处理元组中的文本部分，保留页码
+    normalized = [
+        (fullwidth_to_halfwidth(line.strip()), page_num)  # 对元组第一个元素（文本）调用strip
+        for line, page_num in all_lines
+    ]
+
+    # 章节编号修复（需适配元组格式）
+    normalized = fix_broken_chapters(normalized)
+    # 国标术语格式处理（需适配元组格式）
+    normalized = process_gb_terms_format(normalized)
+
+    # 写出纯文本文件（仅用文本部分）
+    with open('extracted_full_text.txt', "w", encoding="utf-8") as f:
+        f.write("\n".join([line for line, _ in normalized]))
+
+    return normalized, all_tables  # 返回格式：[(处理后文本, 页码), ...], [表格信息列表]
+
+
+def detect_chapter_pattern(chapters: List[Dict]) -> str:
+    """
+    检测文档的章节模式：
+    - 'alpha_first': 字母章节在前 (A, A.1, A.2, B, B.1, 1, 2, ...)
+    - 'numeric_first': 数字章节在前 (1, 2, ..., A, A.1, A.2, B, B.1, ...)
+    """
+    alpha_indices = []
+    numeric_indices = []
+
+    for i, ch in enumerate(chapters):
+        chapter_id = ch["chapter_id"].strip()
+        if re.match(r'^[A-Z](\.\d+)*\.?$', chapter_id):
+            alpha_indices.append(i)
+        elif re.match(r'^\d+(\.\d+)*\.?$', chapter_id):
+            numeric_indices.append(i)
+
+    if not alpha_indices or not numeric_indices:
+        return 'numeric_first'  # 默认数字优先
+
+    # 比较第一个字母章节和第一个数字章节的位置
+    first_alpha = min(alpha_indices)
+    first_numeric = min(numeric_indices)
+
+    if first_alpha < first_numeric:
+        return 'alpha_first'
+    else:
+        return 'numeric_first'
+
+
+def parse_chapter_id(chapter_id: str, pattern: str = 'numeric_first') -> List[int]:
+    """
+    根据文档模式解析章节ID
+    :param chapter_id: 章节ID字符串
+    :param pattern: 文档模式 ('alpha_first' 或 'numeric_first')
+    """
+    chapter_id = chapter_id.strip()
+
+    # 字母章节格式 - 支持点和横线分隔符
+    if re.fullmatch(r'[A-Z](?:[.\-]\d+)*[.\-]?', chapter_id):
+        # 统一处理点和横线分隔符
+        normalized = re.sub(r'[.\-]+', '.', chapter_id).rstrip('.')
+        parts = normalized.split('.')
+        letter = parts[0]
+
+        if pattern == 'alpha_first':
+            # 字母在前模式：A=1, B=2, C=3, ...
+            letter_value = ord(letter) - ord('A') + 1
+        else:
+            # 数字在前模式：字母章节放在数字章节之后
+            # 假设最多有100个数字章节，字母从101开始
+            letter_value = ord(letter) - ord('A') + 101
+
+        try:
+            rest = [int(p) for p in parts[1:]] if len(parts) > 1 else []
+            return [letter_value] + rest
+        except ValueError:
+            return []
+
+    # 数字章节格式 - 支持点和横线分隔符
+    elif re.fullmatch(r'\d+(?:[.\-]\d+)*[.\-]?', chapter_id):
+        try:
+            # 统一处理点和横线分隔符
+            normalized = re.sub(r'[.\-]+', '.', chapter_id).rstrip('.')
+            parts = normalized.split('.')
+            numeric_parts = [int(p) for p in parts]
+
+            if pattern == 'alpha_first':
+                # 字母在前模式：数字章节放在字母章节之后
+                # 假设最多有26个字母章节，数字从27开始
+                numeric_parts[0] += 26
+            # 数字在前模式：保持原有数字
+
+            return numeric_parts
+        except ValueError:
+            return []
+
+    return []
+
+
+def is_chapter_a_before_b(a: list[int], b: list[int]) -> bool:
+    for i in range(min(len(a), len(b))):
+        if a[i] < b[i]:
+            return True
+        elif a[i] > b[i]:
+            return False
+    return len(a) < len(b)
+
+
+def is_reasonable_chapter_jump(prev_id: List[int], curr_id: List[int]) -> bool:
+    """
+    判断章节跳跃是否合理，更宽松的策略：
+    主要过滤掉明显不合理的跳跃，但允许正常的章节结构
+    对字母链和数字链都进行合理性判断
+    """
+    if not prev_id or not curr_id:
+        return True  # 如果无法解析，默认允许
+
+    # 如果是不同层级，一般都是合理的（如 1. -> 1.1 或 1.1 -> 2.）
+    if len(prev_id) != len(curr_id):
+        return True
+
+    # 同层级的情况下，检查跳跃幅度
+    if len(prev_id) == 1:  # 一级章节
+        prev_num = prev_id[0]
+        curr_num = curr_id[0]
+        diff = curr_num - prev_num
+
+        # 判断是否为字母章节（编码范围101-126对应A-Z）
+        if prev_num >= 101 and curr_num >= 101:  # 字母章节
+            # 字母跳跃检查：不允许跨越超过2个字母（如B跳到E以上）
+            return 1 <= diff <= 2
+        else:  # 数字章节
+            return 1 <= diff <= 5  # 允许跳跃1-5章（过滤掉从5跳到100这种明显错误的）
+
+    elif len(prev_id) == 2:  # 二级章节
+        # 如果第一级相同，检查第二级的跳跃
+        if prev_id[0] == curr_id[0]:
+            prev_num = prev_id[1]
+            curr_num = curr_id[1]
+            diff = curr_num - prev_num
+
+            # 判断第一级是否为字母章节
+            if prev_id[0] >= 101:  # 字母章节的子级
+                return 1 <= diff <= 5  # 字母章节的子级跳跃稍微宽松一些
+            else:  # 数字章节的子级
+                return 1 <= diff <= 10  # 二级章节允许更大跳跃
+        else:
+            # 不同的一级章节，都合理
+            return True
+
+    else:  # 三级及以上章节
+        # 对于深层次章节，更宽松一些
+        return True
+
+
+def analyze_chapter_number_distribution(chapters: List[Dict]) -> Dict[str, int]:
+    """
+    分析章节编号的数字分布，确定合理的数字范围
+    返回: {"min_reasonable": 最小合理数字, "max_reasonable": 最大合理数字, "primary_range": 主要数字范围}
+    """
+    first_numbers = []
+
+    for ch in chapters:
+        chapter_id = ch["chapter_id"].strip()
+        # 提取第一个数字
+        m_num = re.match(r'^(\d+)', chapter_id)
+        if m_num:
+            first_numbers.append(int(m_num.group(1)))
+        # 处理APPENDIX后跟数字的情况
+        elif chapter_id.upper().startswith("APPENDIX"):
+            suffix = chapter_id[len("APPENDIX"):].strip(" ()")
+            if suffix.isdigit():
+                first_numbers.append(int(suffix))
+
+    if not first_numbers:
+        return {"min_reasonable": 1, "max_reasonable": 50, "primary_range": (1, 50)}
+
+    first_numbers.sort()
+
+    # 分析数字分布模式
+    from collections import Counter
+    counter = Counter(first_numbers)
+
+    # 如果大多数章节都是同一个数字开头（如60.1, 60.2, 60.3...），这可能是法规编号
+    most_common = counter.most_common(1)[0]
+    most_common_num, most_common_count = most_common
+
+    # 如果某个数字出现次数超过总数的60%，且这个数字大于30，可能是法规编号模式
+    if most_common_count > len(first_numbers) * 0.6 and most_common_num > 30:
+        print(f"检测到可能的法规编号模式: {most_common_num}.x (出现{most_common_count}次)")
+        # 在这种情况下，允许这个特定的法规编号
+        return {
+            "min_reasonable": most_common_num,
+            "max_reasonable": most_common_num,
+            "primary_range": (most_common_num, most_common_num),
+            "regulation_mode": True,
+            "regulation_number": most_common_num
+        }
+
+    # 正常的章节编号模式
+    min_num = min(first_numbers)
+    max_num = max(first_numbers)
+
+    # 如果数字范围很小（<= 50），认为是正常章节
+    if max_num <= 50:
+        return {
+            "min_reasonable": max(1, min_num),
+            "max_reasonable": min(50, max_num + 5),  # 允许少量超出
+            "primary_range": (min_num, max_num)
+        }
+
+    # 如果数字范围很大，可能包含页码等干扰，采用更保守策略
+    # 找到最密集的数字区间
+    gaps = []
+    for i in range(len(first_numbers) - 1):
+        gaps.append(first_numbers[i + 1] - first_numbers[i])
+
+    # 如果有明显的大跳跃（>20），可能前面是正常章节，后面是页码等
+    large_gap_idx = -1
+    for i, gap in enumerate(gaps):
+        if gap > 20:
+            large_gap_idx = i
+            break
+
+    if large_gap_idx != -1:
+        # 取跳跃前的数字作为合理范围
+        reasonable_max = first_numbers[large_gap_idx]
+        return {
+            "min_reasonable": max(1, min_num),
+            "max_reasonable": reasonable_max,
+            "primary_range": (min_num, reasonable_max)
+        }
+
+    # 默认保守策略
+    return {"min_reasonable": 1, "max_reasonable": 50, "primary_range": (1, 50)}
+
+
+def find_longest_chapter_chain_with_append(chapters: List[Dict], language: str = 'en') -> Tuple[List[Dict], str]:
+    # 先检测章节模式
+    pattern = detect_chapter_pattern(chapters)
+    print(f"检测到章节模式: {pattern}")
+
+    # 🆕 分析章节数字分布
+    number_analysis = analyze_chapter_number_distribution(chapters)
+    print(f"章节数字分析结果: {number_analysis}")
+
+    # 用检测到的模式重新解析章节ID
+    parsed_ids = [parse_chapter_id(ch["chapter_id"], pattern) for ch in chapters]
+    # print(f'第一个章节: {chapters[0]}')
+    n = len(chapters)
+
+    # 第一步：过滤掉明显不合理的章节（如误识别的数字）
+    valid_indices = []
+    for i in range(n):
+        if not parsed_ids[i]:
+            continue
+
+        # 检查是否是明显的误识别
+        chapter_text = chapters[i]["chapter_id"] + " " + chapters[i]["chapter_title"]
+
+        # 过滤明显的测量单位、频率范围、纯数字等
+        if re.search(
+                r'\b\d+\s*(MHz|GHz|Hz|kHz|dB|V|mV|µV|A|mA|µA|W|mW|Ω|%|°C|°F|mm|cm|m|km|kg|g|mg|ms|s|min|h|rpm|bar|Pa|kPa|MPa)\b',
+                chapter_text, re.I):
+            continue
+        if re.search(r'\d+\s*MHz\s*[~-]\s*\d+\s*MHz', chapter_text, re.I):
+            continue
+        if re.match(r'^\d+\s*$', chapters[i]["chapter_title"].strip()):  # 标题是纯数字
+            continue
+        if len(chapters[i]["chapter_title"].strip()) < 2:  # 标题太短
+            continue
+
+        # 🆕 表格数据特征过滤
+        chapter_title = chapters[i]["chapter_title"].strip()
+        chapter_id = chapters[i]["chapter_id"].strip()
+
+        # 检测表格行模式：单个字母 + 主要是数字的标题
+        if (len(chapter_id) == 1 and chapter_id.isupper() and
+                re.search(r'^\d+.*\d+', chapter_title) and
+                len([x for x in chapter_title.split() if x.isdigit()]) >= 2):
+            continue
+
+        # 检测坐标点格式：如 "10 0 E 0 16"
+        if re.match(r'^\d+\s+\d+\s+[A-Z]\s+\d+\s+\d+', chapter_title):
+            continue
+
+        # 检测参数表格格式：如 "34 65 F 25 77"
+        title_parts = chapter_title.split()
+        if (len(title_parts) >= 4 and
+                sum(1 for part in title_parts if part.isdigit()) >= 3 and
+                sum(1 for part in title_parts if len(part) == 1 and part.isupper()) >= 1):
+            continue
+
+        # 检测图表标注说明：单个字母 + 以破折号开头的标题
+        if (len(chapter_id) == 1 and chapter_id.isupper() and
+                chapter_title.startswith('———')):
+            continue
+
+        valid_indices.append(i)
+
+    # 第二步：验证字母章节的合理性（针对中英文差异化处理）
+    if valid_indices:
+        # 检查是否包含字母章节
+        alpha_chapters = []
+        for i, idx in enumerate(valid_indices):
+            chapter_id = chapters[idx]["chapter_id"].strip()
+            if re.match(r'^[A-Z](?:\.\d+)*\.?$', chapter_id):
+                alpha_chapters.append((i, idx, chapter_id[0]))  # (在valid_indices中的位置, 原始索引, 首字母)
+
+        # 如果有字母章节，进行合理性验证
+        if alpha_chapters:
+            if language == 'en':
+                # 英文文档：要求字母章节必须从A开头
+                first_alpha_letter = alpha_chapters[0][2]
+                if first_alpha_letter != 'A':
+                    print(f"英文文档字母章节不以A开头，跳过: 第一个字母章节是 {alpha_chapters[0][2]}")
+                    # 移除所有字母章节
+                    alpha_indices_set = {item[1] for item in alpha_chapters}
+                    valid_indices = [idx for idx in valid_indices if idx not in alpha_indices_set]
+            else:
+                # 中文文档：检查字母章节的一致性（同一附录应该以同一字母开头）
+                from collections import Counter
+                alpha_letters = [item[2] for item in alpha_chapters]
+                letter_counter = Counter(alpha_letters)
+                most_common_letter, most_common_count = letter_counter.most_common(1)[0]
+
+                # 如果某个字母出现次数超过60%，认为这是主要的附录字母
+                if most_common_count > len(alpha_chapters) * 0.6:
+                    print(f"中文文档检测到主要附录字母: {most_common_letter} (出现{most_common_count}次)")
+                    # 保留与主要字母一致的章节，移除其他字母章节
+                    keep_alpha_indices = {item[1] for item in alpha_chapters if item[2] == most_common_letter}
+                    remove_alpha_indices = {item[1] for item in alpha_chapters if item[2] != most_common_letter}
+                    valid_indices = [idx for idx in valid_indices if idx not in remove_alpha_indices]
+                    if remove_alpha_indices:
+                        removed_letters = {chapters[idx]["chapter_id"].strip()[0] for idx in remove_alpha_indices}
+                        print(f"移除不一致的字母章节: {removed_letters}")
+                else:
+                    # 如果没有明显的主要字母，保持原有逻辑（可能是混合情况）
+                    print(f"中文文档字母章节分布较均匀: {dict(letter_counter)}")
+                    # 不做特殊处理，保留所有字母章节
+
+    # 第三步：从后往前构建最长链
+    dp = [1] * len(valid_indices)
+    next_link = [-1] * len(valid_indices)  # 改为记录下一个节点
+    max_len = 0
+    max_idx = -1
+
+    # 从后往前遍历
+    for i in range(len(valid_indices) - 1, -1, -1):
+        curr_idx = valid_indices[i]
+        curr_parsed = parsed_ids[curr_idx]
+
+        # 找在当前节点之后的所有节点
+        for j in range(i + 1, len(valid_indices)):
+            next_idx = valid_indices[j]
+            next_parsed = parsed_ids[next_idx]
+
+            # 检查当前节点是否可以连到下一个节点
+            if (is_chapter_a_before_b(curr_parsed, next_parsed) and
+                    is_reasonable_chapter_jump(curr_parsed, next_parsed)):
+                if dp[j] + 1 > dp[i]:
+                    dp[i] = dp[j] + 1
+                    next_link[i] = j
+
+        if dp[i] > max_len:
+            max_len = dp[i]
+            max_idx = i
+
+    # 第四步：如果没有找到合理的链，退回到简单的顺序过滤
+    if max_len < 2:
+        # 简单按章节编号顺序过滤
+        filtered_chapters = simple_chapter_filter(chapters)
+
+        # 如果过滤后还是没有章节，将所有内容放入跳过的内容中
+        if not filtered_chapters:
+            all_content = []
+            for ch in chapters:
+                content = f"{ch['chapter_id']} {ch['chapter_title']}"
+                if ch.get('raw_text'):
+                    content += " " + ch['raw_text']
+                all_content.append(content)
+            skipped_text = "\n".join(all_content)
+            return [], skipped_text
+
+        return filtered_chapters, ""
+
+    # 回溯出主链索引（从前往后的正确顺序）
+    chain_indices = []
+    idx = max_idx
+    while idx != -1:
+        chain_indices.append(valid_indices[idx])
+        idx = next_link[idx]
+
+    print(
+        f"从后往前生成的最长链: 长度={len(chain_indices)}, 位置={chain_indices[:5]}{'...' if len(chain_indices) > 5 else ''}")
+
+    # 最长链的第一个章节索引
+    first_chain_idx = chain_indices[0]
+
+    # 生成跳过的内容（最长链第一个章节之前的所有内容）
+    skipped_chapters = chapters[:first_chain_idx]
+    skipped_text = "\n".join(
+        [f"{ch['chapter_id']} {ch['chapter_title']} {ch.get('raw_text', '')}" for ch in skipped_chapters])
+
+    chain_set = set(chain_indices)
+
+    # 最终结果构建
+    result = []
+    last_valid = None
+    for i, chap in enumerate(chapters):
+        if i in chain_set:
+            result.append(chap)
+            last_valid = chap
+        elif i >= first_chain_idx:  # 只处理最长链开始之后的章节
+            if last_valid:
+                content_to_add = "\n" + chap["chapter_id"] + chap["chapter_title"]
+                if chap.get("raw_text"):
+                    content_to_add += " " + chap["raw_text"]
+                last_valid["raw_text"] += content_to_add
+
+    # 判断章节标题是否应该合并到正文中
+    for chap in result:
+        should_merge = False
+
+        # 中文处理：包含中文且有中文逗号，句号，冒号，或者长度大于30字符
+        if re.search(r'[\u4e00-\u9fa5]', chap["chapter_title"]):
+            # 获取章节编号的第一个数字，前三章跳过合并判断
+            first_num = None
+            chapter_id = chap["chapter_id"].strip('.-')
+            if re.match(r'^\d+', chapter_id):
+                first_num = int(re.match(r'^\d+', chapter_id).group())
+            # 前三章跳过合并判断
+            if first_num is not None and first_num <= 3:
+                continue
+            if re.search(r'[，。：,:]', chap["chapter_title"]) or len(chap["chapter_title"]) > 30:
+                should_merge = True
+
+        # 英文处理：更智能的判断逻辑
+        else:
+            # 如果全大写，则肯定是标题
+            if chap["chapter_title"].isupper():
+                continue
+            # 1. 如果raw_text以小写字母开头，可能是标题的延续
+            if len(chap["raw_text"]) and chap["raw_text"][0].islower():
+                should_merge = True
+            # 2. 如果chapter_title包含完整句子的特征
+            elif re.search(r'[,;!?]', chap["chapter_title"]):
+                should_merge = True
+            # 3. 如果chapter_title很长（超过50个字符），可能是段落文本
+            elif len(chap["chapter_title"]) > 50:
+                should_merge = True
+
+        if should_merge:
+            chap["raw_text"] = chap["chapter_title"] + ' ' + chap["raw_text"]
+            chap["chapter_title"] = ""
+
+    return result, skipped_text
+
+
+def simple_chapter_filter(chapters: List[Dict]) -> List[Dict]:
+    """
+    简单的章节过滤策略：当最长链算法失效时的备用方案
+    """
+    # 检测章节模式
+    pattern = detect_chapter_pattern(chapters)
+
+    result = []
+    parsed_ids = [parse_chapter_id(ch["chapter_id"], pattern) for ch in chapters]
+
+    for i, chap in enumerate(chapters):
+        parsed_id = parsed_ids[i]
+
+        # 基本合理性检查
+        if not parsed_id:
+            # 无法解析的章节，追加到上一个有效章节
+            if result:
+                content_to_add = "\n" + chap["chapter_id"] + chap["chapter_title"]
+                if chap.get("raw_text"):
+                    content_to_add += " " + chap["raw_text"]
+                result[-1]["raw_text"] += content_to_add
+            continue
+
+        # 检查章节编号是否在合理范围内
+        first_num = parsed_id[0]
+
+        # 根据模式调整合理性检查
+        if pattern == 'alpha_first':
+            # 字母在前：A=1, B=2, ..., 1=27, 2=28, ...
+            if 1 <= first_num <= 50:  # 合理范围：26个字母 + 20个数字章节
+                result.append(chap)
+            else:
+                # 不合理的章节，追加到上一个有效章节
+                if result:
+                    content_to_add = "\n" + chap["chapter_id"] + chap["chapter_title"]
+                    if chap.get("raw_text"):
+                        content_to_add += " " + chap["raw_text"]
+                    result[-1]["raw_text"] += content_to_add
+        else:
+            # 数字在前：1, 2, ..., A=101, B=102, ...
+            if (1 <= first_num <= 20) or (101 <= first_num <= 126):  # 数字章节或字母章节
+                result.append(chap)
+            else:
+                # 不合理的章节，追加到上一个有效章节
+                if result:
+                    content_to_add = "\n" + chap["chapter_id"] + chap["chapter_title"]
+                    if chap.get("raw_text"):
+                        content_to_add += " " + chap["raw_text"]
+                    result[-1]["raw_text"] += content_to_add
+
+    return result
+
+def split_sections_by_attachment(chapters: List[Dict]) -> List[Dict]:
+    """
+    将整个文档按附件（ANNEX）切分。
+    顶层 file: regulation / ANNEX n
+    改进：合并连续的相同附件标题
+    """
+    sections = []
+    current_section = {
+        "section": "regulation",  # 默认主文档
+        "chapters": []
+    }
+
+    annex_pattern = re.compile(r'^(ANNEX|ATTACHMENT)\s+([A-Z0-9]+)', re.I)
+
+    for chap in chapters:
+        match = annex_pattern.match(chap['chapter_id'])
+        if match:
+            annex_name = match.group(1).upper() + " " + match.group(2)  # 标准化名称，如 "ANNEX 1"
+
+            # 检查是否与当前 section 的名称相同
+            if current_section["section"] != "regulation" and current_section["section"].upper() == annex_name:
+                # 相同的附件，直接添加到当前 section，跳过重复的标题章节
+                if chap.get('chapter_title') or chap.get('raw_text', '').strip():
+                    current_section["chapters"].append(chap)
+                # 如果是空的重复标题章节（只有chapter_id没有内容），则跳过
+            else:
+                # 不同的附件，保存当前块并新建
+                if current_section["chapters"]:
+                    sections.append(current_section)
+                # 新建附件块
+                current_section = {
+                    "section": annex_name,
+                    "chapters": [chap] if (chap.get('chapter_title') or chap.get('raw_text', '').strip()) else []
+                }
+        else:
+            current_section["chapters"].append(chap)
+
+    if current_section["chapters"]:
+        sections.append(current_section)
+
+    return sections
+
+
+def split_sections_by_appendix(chapters):
+    sections = []
+    current_section = {"section": "MAIN", "chapters": []}
+
+    for ch in chapters:
+        # 检测 APPENDIX 开头的顶层标题，或者附录
+        appendix_match = re.match(r'^(APPENDIX\s+(?:[A-Z0-9]+|\([A-Z0-9]+\)))$', ch['chapter_id'], re.IGNORECASE)
+        annex_match = ch["chapter_id"].startswith("附录")
+
+        if appendix_match or annex_match:
+            # 标准化附录名称
+            if appendix_match:
+                appendix_name = appendix_match.group(1).upper()
+            else:
+                appendix_name = ch['chapter_id'].strip()
+
+            # 检查是否与当前 section 的名称相同
+            if current_section["section"] != "MAIN" and current_section["section"].upper() == appendix_name:
+                # 相同的附录，直接添加到当前 section（如果有实际内容）
+                if ch.get('chapter_title') or ch.get('raw_text', '').strip():
+                    current_section["chapters"].append(ch)
+                # 如果是空的重复标题章节，则跳过
+            else:
+                # 不同的附录，先保存当前块
+                if current_section["chapters"]:
+                    sections.append(current_section)
+                # 新建附录块
+                current_section = {
+                    "section": appendix_name,
+                    "chapters": [ch] if (ch.get('chapter_title') or ch.get('raw_text', '').strip()) else []
+                }
+        else:
+            current_section["chapters"].append(ch)
+
+    # 末尾块加入
+    if current_section["chapters"]:
+        sections.append(current_section)
+
+    # # 打印提取的所有章节标题
+    # for sec in sections:
+    #     print(f"Section: {sec['section']}")
+    #     for chap in sec["chapters"]:
+    #         print(f"  Chapter ID: {chap['chapter_id']}, Title: {chap['chapter_title']}")
+
+    return sections
+
+
+def process_sections_with_lis(chapters, language='en'):
+    # 先拆分成正文和多个附录
+    sections = split_sections_by_appendix(chapters)
+
+    # 每个部分内部单独跑最长链
+    processed_sections = []
+    for sec in sections:
+        valid_chaps, skipped_content = find_longest_chapter_chain_with_append(sec["chapters"], language)
+        processed_sections.append({
+            "section": sec["section"],
+            "context": skipped_content,  # 添加被跳过的内容
+            "chapters": valid_chaps
+        })
+
+    return processed_sections
+
+
+def filter_start_of_main(chapters: List[Dict]) -> Tuple[List[Dict], str]:
+    """
+    找到第一个正文章节作为起点，跳过目录
+    """
+    start_index = 0
+    for i, chap in enumerate(chapters):
+        chapter_id = chap.get("chapter_id", "").strip()
+        # 正文主链或附件内部章节：数字开头或字母开头
+        if chapter_id in {"1", "1-", "1.", "A", "A.", "A.1"}:
+            # SCOPE / GENERAL / INTRO 等都算正文起点
+            title_upper = chap.get("chapter_title", "").upper()
+            if any(k in title_upper for k in ["SCOPE", "GENERAL", "INTRO", "总则", "范围", "LEGISLATIVE", "FUNCTION"]):
+                start_index = i
+                break
+
+        # 也检查标准的章节开头模式
+        if re.match(r'^[A-Z](\.\d+)*\.?$', chapter_id) or re.match(r'^\d+(\.\d+)*\.?$', chapter_id):
+            title_upper = chap.get("chapter_title", "").upper()
+            if any(k in title_upper for k in ["SCOPE", "GENERAL", "INTRO", "总则", "范围", "LEGISLATIVE", "FUNCTION"]):
+                start_index = i
+                break
+
+    # print(f'chapters[str]: {chapters[start_index]}')
+    filtered_chapters = chapters[start_index:]
+    skipped_content = chapters[:start_index]
+    skipped_text = "\n".join(
+        [f"{ch['chapter_id']} {ch['chapter_title']} {ch.get('raw_text', '')}" for ch in skipped_content])
+
+    return filtered_chapters, skipped_text
+
+
+def smart_paragraph_join(lines: List[str]) -> str:
+    """
+    智能段落合并：只在段落结束时换行
+    """
+    if not lines:
+        return ""
+
+    result = []
+    current_paragraph = []
+
+    for i, line in enumerate(lines):
+        line = line.strip()
+        if not line:  # 空行直接跳过
+            continue
+
+        # 检查是否是段落结束的标志
+        is_paragraph_end = False
+
+        # 1. 以标点符号结尾（中英文）
+        if re.search(r'[。！？；：.!?;:]$', line):
+            is_paragraph_end = True
+
+        # 2. 检查下一行是否是新段落的开始
+        if i + 1 < len(lines):
+            next_line = lines[i + 1].strip()
+            # 下一行是章节标题、列表项、或明显的段落开始
+            if (detect_chapter(next_line) or
+                    re.match(r'^[一二三四五六七八九十\d]+[、\.\)]', next_line) or  # 列表项
+                    re.match(r'^[（(]\d+[）)]', next_line) or  # 编号项
+                    re.match(r'^[——\-—]+', next_line)):  # 破折号开头
+                is_paragraph_end = True
+
+        # 3. 表格相关内容保持原有换行
+        if ('表' in line and re.search(r'表\s*[A-Z0-9]', line)) or \
+                re.match(r'^[|\s]*[A-Za-z0-9\u4e00-\u9fa5]+[|\s]*$', line):  # 简单表格行检测
+            current_paragraph.append(line)
+            is_paragraph_end = True
+        else:
+            current_paragraph.append(line)
+
+        # 如果是段落结束，将当前段落合并并加入结果
+        if is_paragraph_end:
+            if current_paragraph:
+                paragraph_text = ''.join(current_paragraph).strip()
+                if paragraph_text:
+                    result.append(paragraph_text)
+                current_paragraph = []
+
+    # 处理最后剩余的段落
+    if current_paragraph:
+        paragraph_text = ' '.join(current_paragraph).strip()
+        if paragraph_text:
+            result.append(paragraph_text)
+
+    return '\n'.join(result)
+
+
+def parse_pdf_to_chapter_tree(pdf_path: str) -> Tuple[List[Dict], Dict[str, str], List[Dict]]: # 大改动
+    """
+    从 PDF 中提取章节树和术语映射，新增章节页码范围和表格关联
+    :param pdf_path: PDF 文件路径
+    :return: (章节树, 术语映射, 表格列表)
+    """
+    # 提取带页码的文本行和表格（新增表格信息）
+    cleaned_lines_with_page, tables = extract_full_text_with_filter(pdf_path)
+    cleaned_lines = [line for line, _ in cleaned_lines_with_page]
+
+    # 检测文档语言（原逻辑不变）
+    language = detect_document_language(cleaned_lines)
+    max_chapter_num = 50 if language == 'zh' else 1000
+    print(f"检测到文档语言: {'中文' if language == 'zh' else '英文'}, max_chapter_num={max_chapter_num}")
+
+    print(f"提取到 {len(tables)} 个表格")
+
+    # 第一轮：粗略提取所有可能的章节，用于分析数字分布（原逻辑不变，新增页码跟踪）
+    preliminary_chapters = []
+    current = {
+        "chapter_id": "",
+        "chapter_title": "",
+        "raw_text": "",
+        "start_page": None,  # 新增：章节起始页码
+        "end_page": None  # 新增：章节结束页码
+    }
+    buffer = []
+    buffer_pages = []  # 新增：记录缓冲区文本的页码
+
+    for line, page_num in cleaned_lines_with_page:
+        chapter_info = detect_chapter(line, max_chapter_num=1000, language=language, number_analysis=None)
+
+        if chapter_info:
+            if current:
+                current["raw_text"] = smart_paragraph_join([l for l, _ in buffer])
+                # 计算章节页码范围
+                if buffer_pages:
+                    current["start_page"] = min(buffer_pages)
+                    current["end_page"] = max(buffer_pages)
+                preliminary_chapters.append(current)
+                buffer = []
+                buffer_pages = []
+            current = {
+                "chapter_id": chapter_info["chapter_id"],
+                "chapter_title": chapter_info["chapter_title"],
+                "raw_text": "",
+                "start_page": page_num,  # 初始化起始页码
+                "end_page": page_num  # 初始化结束页码
+            }
+            buffer_pages.append(page_num)
+        else:
+            buffer.append((line, page_num))
+            buffer_pages.append(page_num)
+
+    if current:
+        current["raw_text"] = smart_paragraph_join([l for l, _ in buffer])
+        if buffer_pages:
+            current["start_page"] = min(buffer_pages)
+            current["end_page"] = max(buffer_pages)
+        preliminary_chapters.append(current)
+
+    # 分析章节数字分布（原逻辑不变）
+    number_analysis = analyze_chapter_number_distribution(preliminary_chapters)
+    print(f"数字分布分析: {number_analysis}")
+
+    # 第二轮：使用分析结果重新精确提取章节（原逻辑不变，新增页码跟踪）
+    chapters = []
+    current = {
+        "chapter_id": "",
+        "chapter_title": "",
+        "raw_text": "",
+        "start_page": None,
+        "end_page": None
+    }
+    buffer = []
+    buffer_pages = []
+
+    for line, page_num in cleaned_lines_with_page:
+        chapter_info = detect_chapter(line, max_chapter_num=max_chapter_num, language=language,
+                                      number_analysis=number_analysis)
+
+        if chapter_info:
+            if current:
+                current["raw_text"] = smart_paragraph_join([l for l, _ in buffer])
+                if buffer_pages:
+                    current["start_page"] = min(buffer_pages)
+                    current["end_page"] = max(buffer_pages)
+                chapters.append(current)
+                buffer = []
+                buffer_pages = []
+            current = {
+                "chapter_id": chapter_info["chapter_id"],
+                "chapter_title": chapter_info["chapter_title"],
+                "raw_text": "",
+                "start_page": page_num,
+                "end_page": page_num
+            }
+            buffer_pages.append(page_num)
+        else:
+            buffer.append((line, page_num))
+            buffer_pages.append(page_num)
+
+    if current:
+        current["raw_text"] = smart_paragraph_join([l for l, _ in buffer])
+        if buffer_pages:
+            current["start_page"] = min(buffer_pages)
+            current["end_page"] = max(buffer_pages)
+        chapters.append(current)
+
+    # 章节与表格匹配（新增步骤）
+    for chap in chapters:
+        chap["table_names"] = []  # 新增：存储章节包含的表格标题
+        chap_start = chap.get("start_page")
+        chap_end = chap.get("end_page")
+        if not chap_start or not chap_end:
+            continue
+
+        # 匹配规则：表格页码在章节页码范围内
+        for table in tables:
+            if chap_start <= table["page_num"] <= chap_end:
+                chap["table_names"].append(table["table_id"])
+
+    # 构建章节树（原逻辑不变，保留新增的页码范围和表格信息）
+    attachment_sections = split_sections_by_attachment(chapters)
+    tree = []
+
+    for top_sec in attachment_sections:
+        sections = split_sections_by_appendix(top_sec["chapters"])
+        section_tree_list = []
+        for sec in sections:
+            valid_chaps_in_sec, skipped_text = find_longest_chapter_chain_with_append(sec["chapters"], language)
+            tree_in_sec = build_tree(valid_chaps_in_sec)
+            build_full_path(tree_in_sec)
+            section_tree_list.append({
+                "section": sec["section"],
+                "context": skipped_text,
+                "chapters": tree_in_sec,
+            })
+        tree.append({
+            "file": top_sec["section"],
+            "sections": section_tree_list,
+        })
+
+    # 提取术语（原逻辑不变）
+    term_map = {}
+    for chap in chapters:
+        title = chap.get("chapter_title", "")
+        if "术语" in title:
+            terms = extract_terms_with_abbr_from_terms_section(chap["chapter_title"])
+            term_map.update(terms)
+            for child in chap.get("children", []):
+                terms = extract_terms_with_abbr_from_terms_section(child["chapter_title"])
+                term_map.update(terms)
+        elif "缩略" in title:
+            abbr_terms = extract_abbr_terms_from_symbols_section(chap["chapter_title"] + chap["raw_text"])
+            term_map.update(abbr_terms)
+            for child in chap.get("children", []):
+                abbr_terms = extract_abbr_terms_from_symbols_section(child["chapter_title"] + child["raw_text"])
+                term_map.update(abbr_terms)
+
+    return tree, term_map, tables
+
+
+
+def main():
+    import argparse
+    parser = argparse.ArgumentParser()
+    # parser.add_argument("--pdf_path", default="C:/Users/chenhuaji/OneDrive/桌面/DAO2016-23-1.pdf")
+    # parser.add_argument("--pdf_path", default="C:/Users/chenhuaji/OneDrive/桌面/CELEX_42012X0920(02)_EN_TXT.pdf")
+
+    # parser.add_argument("--pdf_path", default="国标_车载事故紧急呼叫系统-征求意见稿.pdf")
+    # parser.add_argument("--pdf_path", default="D:\\Documents\\知识图谱agent\\示例文件\\GBT+43187-2023 处理\\组合 1.pdf")
+
+    # parser.add_argument("--pdf_path", default="GB∕T 38997-2020 轻小型多旋翼无人机飞行控制与导航系统通用要求.pdf")
+    # parser.add_argument("--pdf_path", default="国标_车载事故紧急呼叫系统-征求意见稿_可识别文字.pdf")
+    # parser.add_argument("--pdf_path", default="GB∕T 38930-2020 民用轻小型无人机系统抗风性要求及试验方法.pdf")
+    # parser.add_argument("--pdf_path", default="GB 7258-2017 《机动车运行安全技术条件》.pdf")
+    # parser.add_argument("--pdf_path", default="../示例文件/GB+11551-2014.pdf")
+    # parser.add_argument("--pdf_path", default="../示例文件/GB+20071-2025.pdf")
+    # parser.add_argument("--pdf_path", default="../示例文件/GB+20072-2024.pdf")
+    # parser.add_argument("--pdf_path", default="../示例文件/GB+34660-2017.pdf")
+    # parser.add_argument("--pdf_path", default="../示例文件/GBT+43187-2023.pdf")
+    # parser.add_argument("--pdf_path", default="../示例文件/GBT+43187-2023_OCR.pdf")
+    # parser.add_argument("--pdf_path", default="C:/Users/chenhuaji/OneDrive/桌面/test/GBT+43187-2023_page-0001_chrome.pdf")
+    # parser.add_argument("--pdf_path", default="D:\\Documents\\知识图谱agent\\示例文件\\GB+34660-2017 处理\\组合 1.pdf")
+    # parser.add_argument("--pdf_path", default="D:\\Documents\\知识图谱agent\\示例文件\\GBT+43187-2023 处理\\组合 1.pdf")
+    # parser.add_argument("--pdf_path", default="unece_ecall_standard.pdf")
+    # parser.add_argument("--pdf_path", default="D:/Documents/知识图谱agent/标准差异分析/GSO-1040/GSO-1040-2000_OCR/GSO-1040-2000-E机动车- 轻型柴油引擎车辆大气污染物排放允许限值.pdf")
+    # parser.add_argument("--pdf_path", default="D:/Documents/知识图谱agent/标准差异分析/GSO-1040/CELEX_42006X1124(01)_EN_TXT.pdf")
+    # parser.add_argument("--pdf_path", default="D:/Documents/知识图谱agent/标准差异分析/GSO-1040/CELEX_42006X1227(06)_EN_TXT.pdf")
+    # parser.add_argument("--pdf_path", default="D:/Documents/知识图谱agent/标准差异分析/ADR60/R048r12e.pdf")
+    parser.add_argument("--pdf_path", default="D:/Documents/知识图谱agent/标准差异分析/ADR60/R007r6e.pdf")
+    # parser.add_argument("--pdf_path", default="D:/Documents/知识图谱agent/标准差异分析/ADR60/F2023C00147.pdf")
+
+    parser.add_argument("--output", help="输出 JSON 文件路径", default="output.json")
+    args = parser.parse_args()
+
+    chapter_tree, term_map, tables = parse_pdf_to_chapter_tree(args.pdf_path)
+
+    # 创建输出目录结构
+    output_data = {
+        "chapters": chapter_tree,
+        "tables": tables,
+        "terms": term_map
+    }
+
+    # output_data = chapter_tree
+    # output_data["terms"] = term_map
+    # output_data["tables"] = tables
+
+    print(f'term_map: {term_map}')
+
+    # 保存结果
+    with open(args.output, "w", encoding="utf-8") as f:
+        json.dump(output_data, f, ensure_ascii=False, indent=2)
+
+    # # file之间换行隔开，section直接换行隔开
+    # with open(args.output, "w", encoding="utf-8") as f:
+    #     for file in output_data:
+    #         for section in file["sections"]:
+    #             for chapter in section["chapters"]:
+    #                 # 将chapter_title字段合并到rawtext，删掉chapter_title字段
+    #                 # chapter["raw_text"] = chapter["chapter_title"] + " " + chapter["raw_text"]
+    #                 # del chapter["chapter_title"]
+    #                 f.write(json.dumps(chapter, ensure_ascii=False) + "\n")
+    #             f.write("\n")
+    #         f.write("\n")
+    #     # json.dump(output_data, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ 提取完成，章节和表格已保存至 {args.output}")
+    print(f"   - 共提取 {len(chapter_tree)} 个章节")
+    print(f"   - 共提取 {len(tables)} 个表格")
+
+
+if __name__ == "__main__":
+    main()

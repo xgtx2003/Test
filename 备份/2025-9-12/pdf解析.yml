@@ -1,0 +1,2510 @@
+app:
+  description: '保留引用、面向两个场景
+
+    '
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: advanced-chat
+  name: pdf解析
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/deepseek:0.0.6@dd589dc093c8084925858034ab5ec1fdf0d33819f43226c2f8c4a749a9acbbb2
+kind: app
+version: 0.3.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        audio_file_size_limit: 50
+        batch_count_limit: 5
+        file_size_limit: 15
+        image_file_size_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 10
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        sourceType: iteration-start
+        targetType: llm
+      id: 1756557801310start-source-1756557804693-target
+      source: 1756557801310start
+      sourceHandle: source
+      target: '1756557804693'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        sourceType: llm
+        targetType: code
+      id: 1756557804693-source-1756557929661-target
+      source: '1756557804693'
+      sourceHandle: source
+      target: '1756557929661'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInLoop: false
+        sourceType: iteration
+        targetType: code
+      id: 1756557801310-source-1756563307317-target
+      source: '1756557801310'
+      sourceHandle: source
+      target: '1756563307317'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: start
+        targetType: code
+      id: 1756550268945-source-1756550411122-target
+      source: '1756550268945'
+      sourceHandle: source
+      target: '1756550411122'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        sourceType: iteration-start
+        targetType: llm
+      id: 1756613329065start-source-1756613344845-target
+      source: 1756613329065start
+      sourceHandle: source
+      target: '1756613344845'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        sourceType: llm
+        targetType: code
+      id: 1756613344845-source-1756613456815-target
+      source: '1756613344845'
+      sourceHandle: source
+      target: '1756613456815'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: iteration
+        targetType: code
+      id: 1756613329065-source-1756618044071-target
+      source: '1756613329065'
+      sourceHandle: source
+      target: '1756618044071'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: code
+      id: 1756618044071-source-1756629493937-target
+      source: '1756618044071'
+      sourceHandle: source
+      target: '1756629493937'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: answer
+      id: 1756629493937-source-1756558073574-target
+      source: '1756629493937'
+      sourceHandle: source
+      target: '1756558073574'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: code
+        targetType: iteration
+      id: 1756550411122-source-1756557801310-target
+      source: '1756550411122'
+      sourceHandle: source
+      target: '1756557801310'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: code
+        targetType: iteration
+      id: 1756563307317-source-1756613329065-target
+      source: '1756563307317'
+      sourceHandle: source
+      target: '1756613329065'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        sourceType: code
+        targetType: llm
+      id: 1756557929661-fail-branch-1756698267184-target
+      source: '1756557929661'
+      sourceHandle: fail-branch
+      target: '1756698267184'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        sourceType: code
+        targetType: variable-aggregator
+      id: 1756557929661-source-1756698812908-target
+      source: '1756557929661'
+      sourceHandle: source
+      target: '1756698812908'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        sourceType: llm
+        targetType: code
+      id: 1756698267184-source-1756698848564-target
+      source: '1756698267184'
+      sourceHandle: source
+      target: '1756698848564'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        sourceType: code
+        targetType: variable-aggregator
+      id: 1756698848564-source-1756698812908-target
+      source: '1756698848564'
+      sourceHandle: source
+      target: '1756698812908'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        sourceType: code
+        targetType: llm
+      id: 1756613456815-fail-branch-1756701753504-target
+      source: '1756613456815'
+      sourceHandle: fail-branch
+      target: '1756701753504'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        sourceType: llm
+        targetType: code
+      id: 1756701753504-source-1756701757205-target
+      source: '1756701753504'
+      sourceHandle: source
+      target: '1756701757205'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        sourceType: code
+        targetType: variable-aggregator
+      id: 1756613456815-source-1756701763194-target
+      source: '1756613456815'
+      sourceHandle: source
+      target: '1756701763194'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        sourceType: code
+        targetType: variable-aggregator
+      id: 1756701757205-source-1756701763194-target
+      source: '1756701757205'
+      sourceHandle: source
+      target: '1756701763194'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - allowed_file_extensions: []
+          allowed_file_types:
+          - document
+          allowed_file_upload_methods:
+          - local_file
+          - remote_url
+          label: file
+          max_length: 48
+          options: []
+          required: false
+          type: file
+          variable: file
+        - label: context
+          max_length: 100000
+          options: []
+          required: false
+          type: paragraph
+          variable: context
+        - label: array
+          max_length: 1000000
+          options: []
+          required: false
+          type: paragraph
+          variable: array
+        - label: regulation
+          max_length: 1000000
+          options: []
+          required: false
+          type: paragraph
+          variable: regulation
+      height: 167
+      id: '1756550268945'
+      position:
+        x: 30
+        y: 429.5
+      positionAbsolute:
+        x: 30
+        y: 429.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        answer: '{{#1756550411122.tree#}}
+
+
+
+
+
+
+
+          {{#1756550411122.context#}}
+
+
+
+
+
+          {{#1756550411122.array#}}'
+        desc: ''
+        selected: false
+        title: 直接回复
+        type: answer
+        variables: []
+      height: 122
+      id: answer
+      position:
+        x: 30
+        y: 636.5
+      positionAbsolute:
+        x: 30
+        y: 636.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        code: "import fitz  # PyMuPDF\nimport re\nimport json\nimport os\nfrom typing\
+          \ import List, Dict, Tuple\nfrom collections import defaultdict\n\n# chapter_patterns\
+          \ = [\n#     re.compile(r'^(附\\s*录\\s*[A-Z])\\s+(.+)$'),\n#     re.compile(r'^([A-Z](?:\\\
+          .\\d+)+)\\s+(.+)$'),\n#     re.compile(r'^(\\d+(?:\\.\\d+)*)(\\s+)(.+)$'),\n\
+          # ]\n\n# chapter_patterns = [\n#     re.compile(r'^(APPENDIX\\s+[A-Z0-9]+)$',\
+          \ re.I),          # APPENDIX A / APPENDIX 1\n#     re.compile(r'^([A-Z](?:\\\
+          .\\d+)+)\\s+(.+)$'),\n#     re.compile(r'^(\\d+(?:\\.\\d+)*\\.?)\\s+(.+)$'),\
+          \                     # 1.1. Title\n# ]\n\n# 旧的章节模式（已注释）\n# chapter_patterns\
+          \ = [\n#     re.compile(r'^(附\\s*录\\s*[A-Z0-9])$'), # 附 录 B\n#     re.compile(r'^((APPENDIX|ANNEX|ATTACHMENT)\\\
+          s+(?:[A-Z0-9]+|\\([A-Z0-9]+\\)))$', re.I),  # ANNEX A / ANNEX 1\n#     re.compile(r'^([A-Z]\\\
+          .)\\s+(.+)$'),                                # A. Title (单独字母章节)\n#   \
+          \  re.compile(r'^([A-Z](?:\\.\\d+)+\\.?)\\s+(.+)$'),                   \
+          \  # A.1. Title / A.1.1. Title\n#     re.compile(r'^(\\d+(?:\\.\\d+)*\\\
+          .?)\\s+(.+)$'),                       # 1.1. Title\n#     re.compile(r'^(\\\
+          d+(?:-\\d+)*-)\\s+(.+)$'),                          # 1- Title / 1-2- Title\n\
+          # ]\n\n# 新的合并后的章节模式\nchapter_patterns = [\n    # 1. 中文附录：附录A, 附 录 B\n  \
+          \  re.compile(r'^(附\\s*录\\s*[A-Z0-9])$'),\n    \n    # 2. 英文附录：APPENDIX\
+          \ A, ANNEX A, ATTACHMENT A\n    re.compile(r'^((APPENDIX|ANNEX|ATTACHMENT)\\\
+          s+(?:[A-Z0-9]+|\\([A-Z0-9]+\\)))$', re.I),\n    \n    # 3. 字母章节（支持点和横线分隔符）：A.\
+          \ Title, A.1. Title, A-1- Title\n    re.compile(r'^([A-Z](?:[.\\-]\\d+)*[.\\\
+          -]?)\\s+(.+)$'),\n    \n    # 4. 数字章节（支持点和横线分隔符）：1. Title, 1.1. Title, 1-\
+          \ Title, 1-2- Title\n    re.compile(r'^(\\d+(?:[.\\-]\\d+)*[.\\-]?)\\s+(.+)$'),\n\
+          ]\n\ndef detect_document_language(lines: List[str]) -> str:\n    \"\"\"\n\
+          \    检测文档语言：中文或英文\n    :param lines: 文档的所有行\n    :return: 'zh' 表示中文，'en'\
+          \ 表示英文\n    \"\"\"\n    chinese_char_count = 0\n    total_chars = 0\n  \
+          \  \n    # 采样前1000行或全部行\n    sample_lines = lines[:1000] if len(lines) >\
+          \ 1000 else lines\n    \n    for line in sample_lines:\n        for char\
+          \ in line:\n            total_chars += 1\n            if '\\u4e00' <= char\
+          \ <= '\\u9fff':  # 中文字符\n                chinese_char_count += 1\n    \n\
+          \    # 只要有中文字符就认为是中文文档\n    if chinese_char_count > 0:\n        return 'zh'\n\
+          \    else:\n        return 'en'\n\n# 中文章节max_chapter_num=50\n# 全文首先检测是中文还是英文\n\
+          def detect_chapter(line: str, max_chapter_num=1000, language='en', number_analysis=None):\n\
+          \    clean_line = line.strip()\n    if not clean_line:\n        return None\n\
+          \n    for pattern in chapter_patterns:\n        m = pattern.match(clean_line)\n\
+          \        if m:\n            chapter_id = m.group(1).strip()\n          \
+          \  chapter_title = m.group(len(m.groups())).strip() if m.group(len(m.groups()))\
+          \ else \"\"\n            if re.match(r'^(附\\s*录\\s*[A-Z0-9])$', chapter_id):\n\
+          \                # 去掉中间的空格\n                chapter_id = chapter_id.replace(\"\
+          \ \", \"\")\n                # chapter_id = chapter_id[-1]\n           \
+          \ # ---- 基础过滤 ----\n            first_num = None\n            if chapter_id.upper().startswith(\"\
+          APPENDIX\"):\n                suffix = chapter_id[len(\"APPENDIX\"):].strip(\"\
+          \ ()\")\n                if suffix.isdigit():\n                    first_num\
+          \ = int(suffix)\n            else:\n                m_num = re.match(r'^(\\\
+          d+)', chapter_id)\n                if m_num:\n                    first_num\
+          \ = int(m_num.group(1))\n\n            if first_num is not None and number_analysis\
+          \ is not None:\n                # 使用智能数字范围判断\n                min_reasonable\
+          \ = number_analysis.get(\"min_reasonable\", 1)\n                max_reasonable\
+          \ = number_analysis.get(\"max_reasonable\", max_chapter_num)\n         \
+          \       \n                # 特殊处理法规编号模式\n                if number_analysis.get(\"\
+          regulation_mode\", False):\n                    regulation_number = number_analysis.get(\"\
+          regulation_number\")\n                    if first_num != regulation_number:\n\
+          \                        return None  # 不是法规编号，过滤掉\n                else:\n\
+          \                    # 正常章节编号范围检查\n                    if first_num < min_reasonable\
+          \ or first_num > max_reasonable:\n                        return None  #\
+          \ 数字范围不合理\n            elif first_num is not None:\n                # 兜底逻辑：使用传统的max_chapter_num\n\
+          \                if first_num < 1 or first_num > max_chapter_num:\n    \
+          \                return None  # 数字范围不合理\n\n            # ---- 内容特征过滤 ----\n\
+          \            # 1) 标题必须包含字母或中文\n            if not re.search(r'[A-Za-z\\\
+          u4e00-\\u9fff]', chapter_title):\n                return None\n\n      \
+          \      # 2) 去掉纯数字表格行\n            if re.fullmatch(r'[\\d\\s\\.\\-]+', chapter_title):\n\
+          \                return None\n\n            # 3) 表格内容过滤 - 检测明显的表格数据模式\n\
+          \            # 如果标题包含大量数字、空格和少量字母的组合，可能是表格数据\n            if re.search(r'^\\\
+          d+\\s+\\d+.*[A-Z]\\s+\\d+\\s+\\d+', chapter_title):  # 如 \"10 0 E 0 16\"\
+          \n                return None\n            \n            # 检测表格行模式：单个字母\
+          \ + 数字组合\n            if re.fullmatch(r'[A-Z]\\s*\\d+.*', chapter_title)\
+          \ and len(chapter_title.split()) >= 3:\n                # 如果标题是 \"A 10 0\"\
+          \ 这样的格式，很可能是表格数据\n                parts = chapter_title.split()\n      \
+          \          if len(parts) >= 3 and all(part.isdigit() or part in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'\
+          \ for part in parts[:3]):\n                    return None\n\n         \
+          \   # 4) 检测坐标点或参数表格：如 \"A15 0 E 0 3\"\n            if re.search(r'^[A-Z]\\\
+          d+\\s+\\d+\\s+[A-Z]\\s+\\d+\\s+\\d+', chapter_title):\n                return\
+          \ None\n\n            # 5) 行太短\n            if len(clean_line) < 4 and not\
+          \ chapter_id.upper().startswith(\"APPENDIX\") and not chapter_id.startswith(\"\
+          附录\"):\n                return None\n\n            # 6) 过滤明显的表格标题组合\n  \
+          \          if len(chapter_id) == 1 and chapter_id.isupper():\n         \
+          \       # 单个大写字母作为章节ID，检查标题是否像表格数据\n                if re.search(r'\\d+.*\\\
+          d+', chapter_title) and len(chapter_title.split()) <= 6:\n             \
+          \       return None\n\n            return {\n                \"chapter_id\"\
+          : chapter_id,\n                \"chapter_title\": chapter_title\n      \
+          \      }\n\n    return None\n\ndef build_tree(chapter_list: List[Dict])\
+          \ -> List[Dict]:\n    id_map = {}\n    root = []\n\n    # 先注册所有节点\n    for\
+          \ chap in chapter_list:\n        chap[\"children\"] = []\n        # 统一去掉末尾点和横线作为\
+          \ key\n        key = chap[\"chapter_id\"].rstrip('.-')\n        id_map[key]\
+          \ = chap\n\n    # 为每个节点创建缺失的父节点（只针对三级及以上标题）\n    for chap in chapter_list:\n\
+          \        cid = chap[\"chapter_id\"].rstrip('.')\n        parts = cid.split('.')\n\
+          \        \n        # 只有三级及以上标题才创建中间父节点\n        if len(parts) >= 3:\n  \
+          \          # 创建所有缺失的中间父级节点（但不包括顶级父节点）\n            for i in range(2, len(parts)):\
+          \  # 从第二级开始创建，跳过顶级\n                parent_key = '.'.join(parts[:i])\n \
+          \               if parent_key not in id_map:\n                    # 创建缺失的父节点\n\
+          \                    parent_node = {\n                        \"chapter_id\"\
+          : parent_key + \".\",\n                        \"chapter_title\": \"\",\n\
+          \                        \"raw_text\": \"\",\n                        \"\
+          children\": []\n                    }\n                    id_map[parent_key]\
+          \ = parent_node\n\n    # 构建树结构\n    for chap in chapter_list:\n        cid\
+          \ = chap[\"chapter_id\"].rstrip('.')\n        parts = cid.split('.')\n\n\
+          \        # 根节点判断\n        if cid.startswith(\"APPENDIX\"):\n           \
+          \ root.append(chap)\n        elif cid.startswith(\"附录\") or len(parts) ==\
+          \ 1:\n            root.append(chap)\n        else:\n            parent_key\
+          \ = '.'.join(parts[:-1])\n            parent = id_map.get(parent_key)\n\
+          \            if parent:\n                parent[\"children\"].append(chap)\n\
+          \            else:\n                # 如果父节点不存在，对于二级标题，直接作为根节点\n        \
+          \        if len(parts) == 2:\n                    root.append(chap)\n  \
+          \              # 三级及以上标题没有父节点时，不做处理（因为前面已经创建了父节点）\n\n\n    # 将创建的中间节点也添加到最终的章节列表中，但只有那些有子节点的\n\
+          \    created_parents = []\n    for key, node in id_map.items():\n      \
+          \  if node not in chapter_list and len(node[\"children\"]) > 0:\n      \
+          \      created_parents.append(node)\n    \n    # 对创建的父节点也进行树结构构建\n    for\
+          \ parent in created_parents:\n        cid = parent[\"chapter_id\"].rstrip('.')\n\
+          \        parts = cid.split('.')\n        \n        if len(parts) == 1:\n\
+          \            root.append(parent)\n        else:\n            parent_key\
+          \ = '.'.join(parts[:-1])\n            grandparent = id_map.get(parent_key)\n\
+          \            if grandparent and parent not in grandparent[\"children\"]:\n\
+          \                grandparent[\"children\"].append(parent)\n            elif\
+          \ len(parts) == 1:  # 这是一级章节\n                if parent not in root:\n \
+          \                   root.append(parent)\n    \n    return root\n\ndef build_full_path(chapters:\
+          \ List[Dict], path_prefix=\"\"):\n    for chap in chapters:\n        if\
+          \ path_prefix:\n            chap[\"full_path\"] = f\"{path_prefix}/{chap['chapter_id']}\
+          \ {chap['chapter_title']}\"\n        else:\n            chap[\"full_path\"\
+          ] = f\"{chap['chapter_id']} {chap['chapter_title']}\"\n        if chap.get(\"\
+          children\"):\n            build_full_path(chap[\"children\"], chap[\"full_path\"\
+          ])\n\ndef fullwidth_to_halfwidth(text: str) -> str:\n    result = []\n \
+          \   for char in text:\n        code = ord(char)\n        if 0xFF01 <= code\
+          \ <= 0xFF5E:\n            result.append(chr(code - 0xFEE0))\n        else:\n\
+          \            result.append(char)\n    return ''.join(result)\n\ndef build_term_dict(raw_text:\
+          \ str) -> Dict[str, str]:\n    text = re.sub(r'\\n+', '\\n', raw_text.strip())\n\
+          \    pattern = re.compile(\n        r'^\\d+\\.\\d+\\n'\n        r'(?P<cn>[^\\\
+          n]*?)\\s*'\n        r'(?P<en>[A-Za-z].*?)\\s*(?=\\n)',\n        re.MULTILINE\n\
+          \    )\n\n    term_map = {}\n    for m in pattern.finditer(text):\n    \
+          \    cn = m.group(\"cn\").strip()\n        en = m.group(\"en\").strip()\n\
+          \        if cn and en:\n            term_map[cn] = en\n    return term_map\n\
+          \ndef extract_terms_with_abbr_from_terms_section(raw_text: str) -> Dict[str,\
+          \ Dict[str, str]]:\n    \"\"\"\n    提取术语章节中的中英文术语及缩写\n    返回格式：\n    {\n\
+          \      \"中文术语\": {\n         \"en\": \"英文术语\",\n         \"abbr\": \"缩写（如有）\"\
+          \n      }\n    }\n    \"\"\"\n    term_map = {}\n    text = re.sub(r'\\\
+          n+', '\\n', raw_text.strip())\n\n    pattern = re.compile(\n        r'(?P<cn>[\\\
+          u4e00-\\u9fff（）()·\\s]{2,})'        # 中文部分\n        r'\\s*'            \
+          \                             # 可选空格\n        r'(?P<en>[A-Za-z][A-Za-z\\\
+          s\\-/]*)'              # 英文术语\n        r'(?:[;；:：]?\\s*(?P<abbr>[A-Z0-9·]+))?',\
+          \       # 可选缩写\n        re.MULTILINE\n    )\n\n\n    for m in pattern.finditer(text):\n\
+          \        cn = m.group(\"cn\").strip()\n        en = m.group(\"en\").strip()\n\
+          \        abbr = m.group(\"abbr\").strip() if m.group(\"abbr\") else \"\"\
+          \n\n        term_map[cn] = {\"en\": en}\n        if abbr:\n            term_map[cn][\"\
+          abbr\"] = abbr\n\n    return term_map\n\ndef extract_abbr_terms_from_symbols_section(raw_text:\
+          \ str) -> Dict[str, Dict[str, str]]:\n    \"\"\"\n    提取“符号和缩略语”章节的中英缩写映射，返回以中文为键的结构：\n\
+          \    {\n        \"中文\": {\n            \"abbr\": \"缩写\",\n            \"\
+          en\": \"英文释义\"\n        }\n    }\n    \"\"\"\n    abbr_map = {}\n    # 清理文本\n\
+          \    text = re.sub(r'\\n+', '\\n', raw_text.strip())\n\n    # 匹配模式：ACLR:\
+          \ 邻道泄漏功率比 (Adjacent Channel Leakage Power Ratio)\n    pattern = re.compile(\n\
+          \        r'(?P<abbr>[A-Za-z0-9·\\-_]+)\\s*[:：]?\\s*'\n        r'(?P<cn>[\\\
+          u4e00-\\u9fff·]+)'\n        r'(?:[（）()]*\\s*(?P<en>[A-Za-z\\s/\\-]+)\\s*[（）()]*)?'\n\
+          \    )\n\n    for m in pattern.finditer(text):\n        abbr = m.group(\"\
+          abbr\").strip()\n        cn = m.group(\"cn\").strip(\"（）()\").strip()\n\
+          \        en = m.group(\"en\").strip() if m.group(\"en\") else \"\"\n\n \
+          \       if cn:\n            abbr_map[cn] = {}\n            if abbr:\n  \
+          \              abbr_map[cn][\"abbr\"] = abbr\n            if en:\n     \
+          \           abbr_map[cn][\"en\"] = en\n\n    return abbr_map\n\ndef should_merge_crossline(prev_text,\
+          \ curr_text, prev_bbox, curr_bbox):\n    \"\"\"\n    判断是否需要把当前行合并到上一行\n\
+          \    \"\"\"\n    text_stripped = curr_text.strip()\n\n    # 模式匹配：表格标题、编号标题等\n\
+          \    if re.match(r'^表\\s*\\d+', text_stripped):\n        return True\n\n\
+          \    # 垂直距离很小（说明是视觉上的同一行）\n    prev_y = prev_bbox[1]\n    curr_y = curr_bbox[1]\n\
+          \    line_height = prev_bbox[3] - prev_bbox[1]\n    if abs(curr_y - prev_y)\
+          \ < 0.3 * line_height:\n        return True\n\n    return False\n\ndef fix_broken_chapters(lines:\
+          \ list[str]) -> list[str]:\n    def normalize_chapter_spaces(s: str) ->\
+          \ str:\n        line = s.strip()\n        \n        # 1. 保留原来的逻辑：修复点后面的空格，适用于所有情况\
+          \ (A. 1, 7. 1)\n        line = re.sub(r'\\.\\s+(?=\\d)', '.', line)\n  \
+          \      \n        # 2. 修复数字/字母和点之间的空格：7 .1 -> 7.1, A .1 -> A.1\n        line\
+          \ = re.sub(r'([A-Za-z0-9]+)\\s+(\\.\\d+)', r'\\1\\2', line)\n        \n\
+          \        # 3. 修复复杂的多级空格：7 . 1 . 2 -> 7.1.2\n        # 需要循环处理，直到没有更多变化\n\
+          \        max_iterations = 10  # 防止无限循环\n        iterations = 0\n       \
+          \ prev_line = \"\"\n        while prev_line != line and iterations < max_iterations:\n\
+          \            prev_line = line\n            # 处理各种空格组合，支持字母和数字开头\n      \
+          \      line = re.sub(r'([A-Za-z0-9]+)\\s*\\.\\s*(\\d+)', r'\\1.\\2', line)\n\
+          \            iterations += 1\n        \n        # 4. 修复OCR常见错误：数字开头的章节\n\
+          \        line = re.sub(r'(\\d+\\.\\d+)\\.\\s*l\\b', r'\\1.1', line)\n  \
+          \      line = re.sub(r'([A-Za-z0-9]+)\\.l\\.(\\d+)', r'\\1.1.\\2', line)\n\
+          \        line = re.sub(r'^l\\.(\\d+)', r'1.\\1', line)\n        \n     \
+          \   # 5. 修复字母开头章节的OCR错误：B.l -> B.1, A.O -> A.0, C.I -> C.1\n        line\
+          \ = re.sub(r'^([A-Z])\\.l\\b', r'\\1.1', line)\n        line = re.sub(r'^([A-Z])\\\
+          .l\\.(\\d+)', r'\\1.1.\\2', line)\n        line = re.sub(r'^([A-Z])\\.O\\\
+          .(\\d+)', r'\\1.0.\\2', line)\n        line = re.sub(r'^([A-Z])\\.I\\.(\\\
+          d+)', r'\\1.1.\\2', line)\n        \n        # 6. 修复其他OCR错误：O -> 0, I ->\
+          \ 1\n        line = re.sub(r'([A-Za-z0-9]+)\\.O\\.(\\d+)', r'\\1.0.\\2',\
+          \ line)\n        line = re.sub(r'([A-Za-z0-9]+)\\.I\\.(\\d+)', r'\\1.1.\\\
+          2', line)\n        \n        return line\n\n    lines = [normalize_chapter_spaces(line)\
+          \ for line in lines]\n\n    return lines\n\ndef process_gb_terms_format(lines:\
+          \ List[str]) -> List[str]:\n    \"\"\"\n    处理国标术语定义格式：\n    将 \"3.1\" (下一行)\
+          \ \"中文术语 英文术语\" 合并为 \"3.1 中文术语 英文术语\"\n    \"\"\"\n    result = []\n   \
+          \ i = 0\n    \n    while i < len(lines):\n        current_line = lines[i].strip()\n\
+          \        \n        # 检测是否是术语定义编号：纯数字.数字格式，且下一行包含中文+英文，或者第二行是中文，第三行是英文\n\
+          \        if (i + 1 < len(lines) and \n            re.match(r'^\\d+\\.\\\
+          d+$', current_line) and\n            current_line.startswith('3.')):  #\
+          \ 通常术语章节是第3章\n            \n            next_line = lines[i + 1].strip()\n\
+          \            \n            # 检查下一行是否符合: 中文 + 空格 + 英文 的模式\n            if\
+          \ re.search(r'[\\u4e00-\\u9fa5].*[A-Za-z]', next_line):\n              \
+          \  # 合并成标题格式\n                merged_line = f\"{current_line} {next_line}\"\
+          \n                result.append(merged_line)\n                i += 2  #\
+          \ 跳过下一行\n                continue\n\n            # 检查第二行是否是中文，第三行是否是英文\n\
+          \            if (i + 2 < len(lines) and\n                re.search(r'[\\\
+          u4e00-\\u9fa5]', lines[i + 1].strip()) and\n                re.search(r'[A-Za-z]',\
+          \ lines[i + 2].strip())):\n                merged_line = f\"{current_line}\
+          \ {lines[i + 1].strip()} {lines[i + 2].strip()}\"\n                result.append(merged_line)\n\
+          \                i += 3  # 跳过后两行\n                continue\n\n        result.append(current_line)\n\
+          \        i += 1\n    \n    return result\n\ndef extract_full_text_with_filter(pdf_path:\
+          \ str, top_crop=0.08, bottom_crop=0.08):\n    doc = fitz.open(pdf_path)\n\
+          \    all_lines = []\n\n    prev_line_text = None\n    prev_bbox = None\n\
+          \n\n\n    for page in doc:\n\n        h = page.rect.height\n        clip_rect\
+          \ = fitz.Rect(0, h * top_crop, page.rect.width, h * (1 - bottom_crop))\n\
+          \        page_dict = page.get_text(\"dict\", clip=clip_rect)\n\n       \
+          \ for block in page_dict[\"blocks\"]:\n            if block[\"type\"] !=\
+          \ 0:  # 只处理文本\n                continue\n\n            for line in block[\"\
+          lines\"]:\n                # 1. 按x坐标合并同一行的span\n                spans =\
+          \ sorted(line[\"spans\"], key=lambda s: s[\"bbox\"][0])\n              \
+          \  merged = \"\"\n                last_x = None\n                for sp\
+          \ in spans:\n                    x0, x1 = sp[\"bbox\"][0], sp[\"bbox\"][2]\n\
+          \                    width = max(1.0, x1 - x0)\n                    avg_char_w\
+          \ = width / max(len(sp[\"text\"]), 1)\n\n                    if last_x is\
+          \ not None:\n                        gap = x0 - last_x\n               \
+          \         if gap > max(avg_char_w * 0.5, 3.0):\n                       \
+          \     merged += \" \"\n                    merged += sp[\"text\"]\n    \
+          \                last_x = x1\n\n                merged = merged.strip()\n\
+          \                curr_bbox = line[\"bbox\"]\n\n                # 2. 跨行智能合并判定\n\
+          \                if prev_line_text is not None:\n                    if\
+          \ should_merge_crossline(prev_line_text, merged, prev_bbox, curr_bbox):\n\
+          \                        prev_line_text += \" \" + merged\n            \
+          \            prev_bbox = (\n                            prev_bbox[0],\n\
+          \                            prev_bbox[1],\n                           \
+          \ max(prev_bbox[2], curr_bbox[2]),\n                            max(prev_bbox[3],\
+          \ curr_bbox[3])\n                        )\n                        continue\n\
+          \                    else:\n                        all_lines.append(prev_line_text)\n\
+          \n                prev_line_text = merged\n                prev_bbox = curr_bbox\n\
+          \n    # 最后一行\n    if prev_line_text:\n        all_lines.append(prev_line_text)\n\
+          \n    # 进行全角字符转半角字符\n    all_lines = [fullwidth_to_halfwidth(line.strip())\
+          \ for line in all_lines]\n\n    # 进行章节编号修复\n    normalized = fix_broken_chapters(all_lines)\n\
+          \    \n    # \U0001F195 国标术语定义格式处理\n    normalized = process_gb_terms_format(normalized)\n\
+          \n    # 写出文件与返回\n    with open('extracted_full_text.txt', \"w\", encoding=\"\
+          utf-8\") as f:\n        f.write(\"\\n\".join(normalized))\n\n    return\
+          \ normalized\n\ndef detect_chapter_pattern(chapters: List[Dict]) -> str:\n\
+          \    \"\"\"\n    检测文档的章节模式：\n    - 'alpha_first': 字母章节在前 (A, A.1, A.2, B,\
+          \ B.1, 1, 2, ...)\n    - 'numeric_first': 数字章节在前 (1, 2, ..., A, A.1, A.2,\
+          \ B, B.1, ...)\n    \"\"\"\n    alpha_indices = []\n    numeric_indices\
+          \ = []\n    \n    for i, ch in enumerate(chapters):\n        chapter_id\
+          \ = ch[\"chapter_id\"].strip()\n        if re.match(r'^[A-Z](\\.\\d+)*\\\
+          .?$', chapter_id):\n            alpha_indices.append(i)\n        elif re.match(r'^\\\
+          d+(\\.\\d+)*\\.?$', chapter_id):\n            numeric_indices.append(i)\n\
+          \    \n    if not alpha_indices or not numeric_indices:\n        return\
+          \ 'numeric_first'  # 默认数字优先\n    \n    # 比较第一个字母章节和第一个数字章节的位置\n    first_alpha\
+          \ = min(alpha_indices)\n    first_numeric = min(numeric_indices)\n    \n\
+          \    if first_alpha < first_numeric:\n        return 'alpha_first'\n   \
+          \ else:\n        return 'numeric_first'\n\ndef parse_chapter_id(chapter_id:\
+          \ str, pattern: str = 'numeric_first') -> List[int]:\n    \"\"\"\n    根据文档模式解析章节ID\n\
+          \    :param chapter_id: 章节ID字符串\n    :param pattern: 文档模式 ('alpha_first'\
+          \ 或 'numeric_first')\n    \"\"\"\n    chapter_id = chapter_id.strip()\n\n\
+          \    # 字母章节格式 - 支持点和横线分隔符\n    if re.fullmatch(r'[A-Z](?:[.\\-]\\d+)*[.\\\
+          -]?', chapter_id):\n        # 统一处理点和横线分隔符\n        normalized = re.sub(r'[.\\\
+          -]+', '.', chapter_id).rstrip('.')\n        parts = normalized.split('.')\n\
+          \        letter = parts[0]\n        \n        if pattern == 'alpha_first':\n\
+          \            # 字母在前模式：A=1, B=2, C=3, ...\n            letter_value = ord(letter)\
+          \ - ord('A') + 1\n        else:\n            # 数字在前模式：字母章节放在数字章节之后\n   \
+          \         # 假设最多有100个数字章节，字母从101开始\n            letter_value = ord(letter)\
+          \ - ord('A') + 101\n        \n        try:\n            rest = [int(p) for\
+          \ p in parts[1:]] if len(parts) > 1 else []\n            return [letter_value]\
+          \ + rest\n        except ValueError:\n            return []\n\n    # 数字章节格式\
+          \ - 支持点和横线分隔符\n    elif re.fullmatch(r'\\d+(?:[.\\-]\\d+)*[.\\-]?', chapter_id):\n\
+          \        try:\n            # 统一处理点和横线分隔符\n            normalized = re.sub(r'[.\\\
+          -]+', '.', chapter_id).rstrip('.')\n            parts = normalized.split('.')\n\
+          \            numeric_parts = [int(p) for p in parts]\n            \n   \
+          \         if pattern == 'alpha_first':\n                # 字母在前模式：数字章节放在字母章节之后\n\
+          \                # 假设最多有26个字母章节，数字从27开始\n                numeric_parts[0]\
+          \ += 26\n            # 数字在前模式：保持原有数字\n            \n            return numeric_parts\n\
+          \        except ValueError:\n            return []\n\n    return []\n\n\
+          def is_chapter_a_before_b(a: list[int], b: list[int]) -> bool:\n    for\
+          \ i in range(min(len(a), len(b))):\n        if a[i] < b[i]:\n          \
+          \  return True\n        elif a[i] > b[i]:\n            return False\n  \
+          \  return len(a) < len(b)\n\ndef is_reasonable_chapter_jump(prev_id: List[int],\
+          \ curr_id: List[int]) -> bool:\n    \"\"\"\n    判断章节跳跃是否合理，更宽松的策略：\n   \
+          \ 主要过滤掉明显不合理的跳跃，但允许正常的章节结构\n    对字母链和数字链都进行合理性判断\n    \"\"\"\n    if not\
+          \ prev_id or not curr_id:\n        return True  # 如果无法解析，默认允许\n    \n  \
+          \  # 如果是不同层级，一般都是合理的（如 1. -> 1.1 或 1.1 -> 2.）\n    if len(prev_id) != len(curr_id):\n\
+          \        return True\n    \n    # 同层级的情况下，检查跳跃幅度\n    if len(prev_id) ==\
+          \ 1:  # 一级章节\n        prev_num = prev_id[0]\n        curr_num = curr_id[0]\n\
+          \        diff = curr_num - prev_num\n        \n        # 判断是否为字母章节（编码范围101-126对应A-Z）\n\
+          \        if prev_num >= 101 and curr_num >= 101:  # 字母章节\n            #\
+          \ 字母跳跃检查：不允许跨越超过2个字母（如B跳到E以上）\n            return 1 <= diff <= 2\n     \
+          \   else:  # 数字章节\n            return 1 <= diff <= 5  # 允许跳跃1-5章（过滤掉从5跳到100这种明显错误的）\n\
+          \    \n    elif len(prev_id) == 2:  # 二级章节\n        # 如果第一级相同，检查第二级的跳跃\n\
+          \        if prev_id[0] == curr_id[0]:\n            prev_num = prev_id[1]\n\
+          \            curr_num = curr_id[1]\n            diff = curr_num - prev_num\n\
+          \            \n            # 判断第一级是否为字母章节\n            if prev_id[0] >=\
+          \ 101:  # 字母章节的子级\n                return 1 <= diff <= 5  # 字母章节的子级跳跃稍微宽松一些\n\
+          \            else:  # 数字章节的子级\n                return 1 <= diff <= 10  #\
+          \ 二级章节允许更大跳跃\n        else:\n            # 不同的一级章节，都合理\n            return\
+          \ True\n    \n    else:  # 三级及以上章节\n        # 对于深层次章节，更宽松一些\n        return\
+          \ True\n\ndef analyze_chapter_number_distribution(chapters: List[Dict])\
+          \ -> Dict[str, int]:\n    \"\"\"\n    分析章节编号的数字分布，确定合理的数字范围\n    返回: {\"\
+          min_reasonable\": 最小合理数字, \"max_reasonable\": 最大合理数字, \"primary_range\"\
+          : 主要数字范围}\n    \"\"\"\n    first_numbers = []\n    \n    for ch in chapters:\n\
+          \        chapter_id = ch[\"chapter_id\"].strip()\n        # 提取第一个数字\n  \
+          \      m_num = re.match(r'^(\\d+)', chapter_id)\n        if m_num:\n   \
+          \         first_numbers.append(int(m_num.group(1)))\n        # 处理APPENDIX后跟数字的情况\n\
+          \        elif chapter_id.upper().startswith(\"APPENDIX\"):\n           \
+          \ suffix = chapter_id[len(\"APPENDIX\"):].strip(\" ()\")\n            if\
+          \ suffix.isdigit():\n                first_numbers.append(int(suffix))\n\
+          \    \n    if not first_numbers:\n        return {\"min_reasonable\": 1,\
+          \ \"max_reasonable\": 50, \"primary_range\": (1, 50)}\n    \n    first_numbers.sort()\n\
+          \    \n    # 分析数字分布模式\n    from collections import Counter\n    counter\
+          \ = Counter(first_numbers)\n    \n    # 如果大多数章节都是同一个数字开头（如60.1, 60.2, 60.3...），这可能是法规编号\n\
+          \    most_common = counter.most_common(1)[0]\n    most_common_num, most_common_count\
+          \ = most_common\n    \n    # 如果某个数字出现次数超过总数的60%，且这个数字大于30，可能是法规编号模式\n  \
+          \  if most_common_count > len(first_numbers) * 0.6 and most_common_num >\
+          \ 30:\n        print(f\"检测到可能的法规编号模式: {most_common_num}.x (出现{most_common_count}次)\"\
+          )\n        # 在这种情况下，允许这个特定的法规编号\n        return {\n            \"min_reasonable\"\
+          : most_common_num, \n            \"max_reasonable\": most_common_num, \n\
+          \            \"primary_range\": (most_common_num, most_common_num),\n  \
+          \          \"regulation_mode\": True,\n            \"regulation_number\"\
+          : most_common_num\n        }\n    \n    # 正常的章节编号模式\n    min_num = min(first_numbers)\n\
+          \    max_num = max(first_numbers)\n    \n    # 如果数字范围很小（<= 50），认为是正常章节\n\
+          \    if max_num <= 50:\n        return {\n            \"min_reasonable\"\
+          : max(1, min_num), \n            \"max_reasonable\": min(50, max_num + 5),\
+          \  # 允许少量超出\n            \"primary_range\": (min_num, max_num)\n       \
+          \ }\n    \n    # 如果数字范围很大，可能包含页码等干扰，采用更保守策略\n    # 找到最密集的数字区间\n    gaps\
+          \ = []\n    for i in range(len(first_numbers) - 1):\n        gaps.append(first_numbers[i\
+          \ + 1] - first_numbers[i])\n    \n    # 如果有明显的大跳跃（>20），可能前面是正常章节，后面是页码等\n\
+          \    large_gap_idx = -1\n    for i, gap in enumerate(gaps):\n        if\
+          \ gap > 20:\n            large_gap_idx = i\n            break\n    \n  \
+          \  if large_gap_idx != -1:\n        # 取跳跃前的数字作为合理范围\n        reasonable_max\
+          \ = first_numbers[large_gap_idx]\n        return {\n            \"min_reasonable\"\
+          : max(1, min_num), \n            \"max_reasonable\": reasonable_max,\n \
+          \           \"primary_range\": (min_num, reasonable_max)\n        }\n  \
+          \  \n    # 默认保守策略\n    return {\"min_reasonable\": 1, \"max_reasonable\"\
+          : 50, \"primary_range\": (1, 50)}\n\ndef evaluate_content_richness_and_decide_abandonment(chapters:\
+          \ List[Dict], chain_indices: List[int]) -> bool:\n    \"\"\"评估章节链的内容丰度，并决定是否放弃当前链\"\
+          \"\"\n    ############## 内容丰度评估逻辑 #################\n    def evaluate_content_richness(chain_chapters:\
+          \ List[Dict]) -> Dict:\n        \"\"\"评估章节链的内容丰度\"\"\"\n        total_chars\
+          \ = 0\n        chapters_with_content = 0\n        total_chapters = len(chain_chapters)\n\
+          \        \n        # 计算平均标题长度\n        title_lengths = [len(ch.get('chapter_title',\
+          \ '').strip()) for ch in chain_chapters]\n        avg_title_length = sum(title_lengths)\
+          \ / len(title_lengths) if title_lengths else 0\n        \n        # 统计有实质内容的章节\n\
+          \        for ch in chain_chapters:\n            raw_text = ch.get('raw_text',\
+          \ '').strip()\n            title = ch.get('chapter_title', '').strip()\n\
+          \            \n            # 计算总字符数（标题+正文）\n            total_chars += len(title)\
+          \ + len(raw_text)\n            \n            # 判断是否有实质内容\n            if\
+          \ (len(raw_text) > 20 or  # 正文超过20字符\n                len(title) > 30 or\
+          \     # 标题超过30字符（可能是段落）\n                '.' in title or ',' in title or\
+          \ '；' in title or '。' in title):  # 包含标点符号\n                chapters_with_content\
+          \ += 1\n        \n        # 计算各种指标\n        avg_chars_per_chapter = total_chars\
+          \ / total_chapters if total_chapters > 0 else 0\n        content_ratio =\
+          \ chapters_with_content / total_chapters if total_chapters > 0 else 0\n\
+          \        \n        # 检测是否为表格/表单结构（大量短标题，无实质内容）\n        short_titles = sum(1\
+          \ for length in title_lengths if length <= 20)\n        short_title_ratio\
+          \ = short_titles / total_chapters if total_chapters > 0 else 0\n       \
+          \ \n        return {\n            'total_chars': total_chars,\n        \
+          \    'avg_chars_per_chapter': avg_chars_per_chapter,\n            'content_ratio':\
+          \ content_ratio,\n            'avg_title_length': avg_title_length,\n  \
+          \          'short_title_ratio': short_title_ratio,\n            'total_chapters':\
+          \ total_chapters,\n            'chapters_with_content': chapters_with_content\n\
+          \        }\n    \n    # 评估当前最长链的内容丰度\n    chain_chapters = [chapters[i]\
+          \ for i in chain_indices]\n    richness_metrics = evaluate_content_richness(chain_chapters)\n\
+          \    \n    print(f\"内容丰度评估: {richness_metrics}\")\n    # 决策逻辑：如果章节数量多但内容贫乏，放弃当前链\n\
+          \    should_abandon_chain = (\n        richness_metrics['total_chapters']\
+          \ > 10 and (  # 章节数量多的情况下\n            (richness_metrics['avg_chars_per_chapter']\
+          \ < 30 and  # 平均字符数很少\n                richness_metrics['content_ratio']\
+          \ < 0.4) or         # 且有实质内容比例低\n                \n            (richness_metrics['short_title_ratio']\
+          \ > 0.6 and     # 或者短标题比例很高\n                richness_metrics['avg_chars_per_chapter']\
+          \ < 50)     # 且平均字符数不多\n        )\n    )\n    \n    return should_abandon_chain\n\
+          \ndef find_longest_chapter_chain_with_append(chapters: List[Dict], language:\
+          \ str = 'en') -> Tuple[List[Dict], str]:\n    # 先检测章节模式\n    pattern = detect_chapter_pattern(chapters)\n\
+          \    print(f\"检测到章节模式: {pattern}\")\n    \n    # \U0001F195 分析章节数字分布\n \
+          \   number_analysis = analyze_chapter_number_distribution(chapters)\n  \
+          \  print(f\"章节数字分析结果: {number_analysis}\")\n    \n    # 用检测到的模式重新解析章节ID\n\
+          \    parsed_ids = [parse_chapter_id(ch[\"chapter_id\"], pattern) for ch\
+          \ in chapters]\n    # print(f'第一个章节: {chapters[0]}')\n    n = len(chapters)\n\
+          \n    # 第一步：过滤掉明显不合理的章节（如误识别的数字）\n    valid_indices = []\n    for i in range(n):\n\
+          \        if not parsed_ids[i]:\n            continue\n            \n   \
+          \     # 检查是否是明显的误识别\n        chapter_text = chapters[i][\"chapter_id\"]\
+          \ + \" \" + chapters[i][\"chapter_title\"]\n        \n        # 过滤明显的测量单位、频率范围、纯数字等\n\
+          \        if re.search(r'\\b\\d+\\s*(MHz|GHz|Hz|kHz|dB|V|mV|µV|A|mA|µA|W|mW|Ω|%|°C|°F|mm|cm|m|km|kg|g|mg|ms|s|min|h|rpm|bar|Pa|kPa|MPa)\\\
+          b', chapter_text, re.I):\n            continue\n        if re.search(r'\\\
+          d+\\s*MHz\\s*[~-]\\s*\\d+\\s*MHz', chapter_text, re.I):\n            continue\n\
+          \        if re.match(r'^\\d+\\s*$', chapters[i][\"chapter_title\"].strip()):\
+          \  # 标题是纯数字\n            continue\n        if len(chapters[i][\"chapter_title\"\
+          ].strip()) < 2:  # 标题太短\n            continue\n            \n        # \U0001F195\
+          \ 表格数据特征过滤\n        chapter_title = chapters[i][\"chapter_title\"].strip()\n\
+          \        chapter_id = chapters[i][\"chapter_id\"].strip()\n        \n  \
+          \      # 检测表格行模式：单个字母 + 主要是数字的标题\n        if (len(chapter_id) == 1 and chapter_id.isupper()\
+          \ and \n            re.search(r'^\\d+.*\\d+', chapter_title) and \n    \
+          \        len([x for x in chapter_title.split() if x.isdigit()]) >= 2):\n\
+          \            continue\n            \n        # 检测坐标点格式：如 \"10 0 E 0 16\"\
+          \n        if re.match(r'^\\d+\\s+\\d+\\s+[A-Z]\\s+\\d+\\s+\\d+', chapter_title):\n\
+          \            continue\n            \n        # 检测参数表格格式：如 \"34 65 F 25 77\"\
+          \n        title_parts = chapter_title.split()\n        if (len(title_parts)\
+          \ >= 4 and \n            sum(1 for part in title_parts if part.isdigit())\
+          \ >= 3 and\n            sum(1 for part in title_parts if len(part) == 1\
+          \ and part.isupper()) >= 1):\n            continue\n            \n     \
+          \   # 检测图表标注说明：单个字母 + 以破折号开头的标题\n        if (len(chapter_id) == 1 and chapter_id.isupper()\
+          \ and \n            chapter_title.startswith('———')):\n            continue\n\
+          \            \n        valid_indices.append(i)\n    \n    # 第二步：验证字母章节的合理性（针对中英文差异化处理）\n\
+          \    if valid_indices:\n        # 检查是否包含字母章节\n        alpha_chapters = []\n\
+          \        for i, idx in enumerate(valid_indices):\n            chapter_id\
+          \ = chapters[idx][\"chapter_id\"].strip()\n            if re.match(r'^[A-Z](?:\\\
+          .\\d+)*\\.?$', chapter_id):\n                alpha_chapters.append((i, idx,\
+          \ chapter_id[0]))  # (在valid_indices中的位置, 原始索引, 首字母)\n        \n       \
+          \ # 如果有字母章节，进行合理性验证\n        if alpha_chapters:\n            if language\
+          \ == 'en':\n                # 英文文档：要求字母章节必须从A开头\n                first_alpha_letter\
+          \ = alpha_chapters[0][2]\n                if first_alpha_letter != 'A':\n\
+          \                    print(f\"英文文档字母章节不以A开头，跳过: 第一个字母章节是 {alpha_chapters[0][2]}\"\
+          )\n                    # 移除所有字母章节\n                    alpha_indices_set\
+          \ = {item[1] for item in alpha_chapters}\n                    valid_indices\
+          \ = [idx for idx in valid_indices if idx not in alpha_indices_set]\n   \
+          \         else:\n                # 中文文档：检查字母章节的一致性（同一附录应该以同一字母开头）\n    \
+          \            from collections import Counter\n                alpha_letters\
+          \ = [item[2] for item in alpha_chapters]\n                letter_counter\
+          \ = Counter(alpha_letters)\n                most_common_letter, most_common_count\
+          \ = letter_counter.most_common(1)[0]\n                \n               \
+          \ # 如果某个字母出现次数超过60%，认为这是主要的附录字母\n                if most_common_count >\
+          \ len(alpha_chapters) * 0.6:\n                    print(f\"中文文档检测到主要附录字母:\
+          \ {most_common_letter} (出现{most_common_count}次)\")\n                   \
+          \ # 保留与主要字母一致的章节，移除其他字母章节\n                    keep_alpha_indices = {item[1]\
+          \ for item in alpha_chapters if item[2] == most_common_letter}\n       \
+          \             remove_alpha_indices = {item[1] for item in alpha_chapters\
+          \ if item[2] != most_common_letter}\n                    valid_indices =\
+          \ [idx for idx in valid_indices if idx not in remove_alpha_indices]\n  \
+          \                  if remove_alpha_indices:\n                        removed_letters\
+          \ = {chapters[idx][\"chapter_id\"].strip()[0] for idx in remove_alpha_indices}\n\
+          \                        print(f\"移除不一致的字母章节: {removed_letters}\")\n   \
+          \             else:\n                    # 如果没有明显的主要字母，保持原有逻辑（可能是混合情况）\n\
+          \                    print(f\"中文文档字母章节分布较均匀: {dict(letter_counter)}\")\n\
+          \                    # 不做特殊处理，保留所有字母章节\n\n    # 第三步：从后往前构建最长链\n    dp =\
+          \ [1] * len(valid_indices)\n    next_link = [-1] * len(valid_indices)  #\
+          \ 改为记录下一个节点\n    max_len = 0\n    max_idx = -1\n\n    # 从后往前遍历\n    for\
+          \ i in range(len(valid_indices) - 1, -1, -1):\n        curr_idx = valid_indices[i]\n\
+          \        curr_parsed = parsed_ids[curr_idx]\n        \n        # 找在当前节点之后的所有节点\n\
+          \        for j in range(i + 1, len(valid_indices)):\n            next_idx\
+          \ = valid_indices[j]\n            next_parsed = parsed_ids[next_idx]\n \
+          \           \n            # 检查当前节点是否可以连到下一个节点\n            if (is_chapter_a_before_b(curr_parsed,\
+          \ next_parsed) and \n                is_reasonable_chapter_jump(curr_parsed,\
+          \ next_parsed)):\n                if dp[j] + 1 > dp[i]:\n              \
+          \      dp[i] = dp[j] + 1\n                    next_link[i] = j\n       \
+          \ \n        if dp[i] > max_len:\n            max_len = dp[i]\n         \
+          \   max_idx = i\n\n    # 第四步：如果没有找到合理的链，退回到简单的顺序过滤\n    if max_len < 2:\n\
+          \        # 简单按章节编号顺序过滤\n        filtered_chapters = simple_chapter_filter(chapters)\n\
+          \        \n        # 如果过滤后还是没有章节，将所有内容放入跳过的内容中\n        if not filtered_chapters:\n\
+          \            all_content = []\n            for ch in chapters:\n       \
+          \         content = f\"{ch['chapter_id']} {ch['chapter_title']}\"\n    \
+          \            if ch.get('raw_text'):\n                    content += \" \"\
+          \ + ch['raw_text']\n                all_content.append(content)\n      \
+          \      skipped_text = \"\\n\".join(all_content)\n            return [],\
+          \ skipped_text\n        \n        return filtered_chapters, \"\"\n\n   \
+          \ # 回溯出主链索引（从前往后的正确顺序）\n    chain_indices = []\n    idx = max_idx\n    while\
+          \ idx != -1:\n        chain_indices.append(valid_indices[idx])\n       \
+          \ idx = next_link[idx]\n    \n    print(f\"从后往前生成的最长链: 长度={len(chain_indices)},\
+          \ 位置={chain_indices[:5]}{'...' if len(chain_indices)>5 else ''}\")\n   \
+          \ \n    # 最长链的第一个章节索引\n    first_chain_idx = chain_indices[0]\n    \n  \
+          \  # 生成跳过的内容（最长链第一个章节之前的所有内容）\n    skipped_chapters = chapters[:first_chain_idx]\n\
+          \    skipped_text = \"\\n\".join([f\"{ch['chapter_id']} {ch['chapter_title']}\
+          \ {ch.get('raw_text','')}\" for ch in skipped_chapters])\n    \n    chain_set\
+          \ = set(chain_indices)\n    \n    # \U0001F195 添加内容丰度检查\n    if language\
+          \ == 'en' and evaluate_content_richness_and_decide_abandonment(chapters,\
+          \ chain_indices):\n        # 将所有章节内容合并为跳过的内容\n        print(\"=====================================\"\
+          )\n        print(\"内容丰度评估决定放弃当前链，返回空结果\")\n        print(\"=====================================\"\
+          )\n        all_content = []\n        for ch in chapters:\n            content\
+          \ = f\"{ch['chapter_id']} {ch['chapter_title']}\"\n            if ch.get('raw_text'):\n\
+          \                content += \" \" + ch['raw_text']\n            all_content.append(content)\n\
+          \        skipped_text = \"\\n\".join(all_content)\n        \n        return\
+          \ [], skipped_text\n    \n    # 最终结果构建\n    result = []\n    last_valid\
+          \ = None\n    for i, chap in enumerate(chapters):\n        if i in chain_set:\n\
+          \            result.append(chap)\n            last_valid = chap\n      \
+          \  elif i >= first_chain_idx:  # 只处理最长链开始之后的章节\n            if last_valid:\n\
+          \                content_to_add = \"\\n\" + chap[\"chapter_id\"] + chap[\"\
+          chapter_title\"]\n                if chap.get(\"raw_text\"):\n         \
+          \           content_to_add += \" \" + chap[\"raw_text\"]\n             \
+          \   last_valid[\"raw_text\"] += content_to_add\n\n    # 判断章节标题是否应该合并到正文中\n\
+          \    for chap in result:\n        should_merge = False\n        \n     \
+          \   # 中文处理：包含中文且有中文逗号，句号，冒号，或者长度大于30字符\n        if re.search(r'[\\u4e00-\\\
+          u9fa5]', chap[\"chapter_title\"]):\n            # 获取章节编号的第一个数字，前三章跳过合并判断\n\
+          \            first_num = None\n            chapter_id = chap[\"chapter_id\"\
+          ].strip('.-')\n            if re.match(r'^\\d+', chapter_id):\n        \
+          \        first_num = int(re.match(r'^\\d+', chapter_id).group())\n     \
+          \       # 前三章跳过合并判断\n            if first_num is not None and first_num\
+          \ <= 3:\n                continue          \n            if re.search(r'[，。：,:]',\
+          \ chap[\"chapter_title\"]) or len(chap[\"chapter_title\"]) > 30:\n     \
+          \           should_merge = True\n        \n        # 英文处理：更智能的判断逻辑\n   \
+          \     else:\n            # 如果全大写，则肯定是标题\n            if chap[\"chapter_title\"\
+          ].isupper():\n                continue\n            # 1. 如果raw_text以小写字母开头，可能是标题的延续\n\
+          \            if len(chap[\"raw_text\"]) and chap[\"raw_text\"][0].islower():\n\
+          \                should_merge = True\n            # 2. 如果chapter_title包含完整句子的特征\n\
+          \            elif re.search(r'[,;!?]', chap[\"chapter_title\"]):\n     \
+          \           should_merge = True\n            # 3. 如果chapter_title很长（超过50个字符），可能是段落文本\n\
+          \            elif len(chap[\"chapter_title\"]) > 50:\n                should_merge\
+          \ = True\n        \n        if should_merge:\n            chap[\"raw_text\"\
+          ] = chap[\"chapter_title\"] + ' ' + chap[\"raw_text\"]\n            chap[\"\
+          chapter_title\"] = \"\"\n\n    return result, skipped_text\n\ndef simple_chapter_filter(chapters:\
+          \ List[Dict]) -> List[Dict]:\n    \"\"\"\n    简单的章节过滤策略：当最长链算法失效时的备用方案\n\
+          \    \"\"\"\n    # 检测章节模式\n    pattern = detect_chapter_pattern(chapters)\n\
+          \    \n    result = []\n    parsed_ids = [parse_chapter_id(ch[\"chapter_id\"\
+          ], pattern) for ch in chapters]\n    \n    for i, chap in enumerate(chapters):\n\
+          \        parsed_id = parsed_ids[i]\n        \n        # 基本合理性检查\n      \
+          \  if not parsed_id:\n            # 无法解析的章节，追加到上一个有效章节\n            if result:\n\
+          \                content_to_add = \"\\n\" + chap[\"chapter_id\"] + chap[\"\
+          chapter_title\"]\n                if chap.get(\"raw_text\"):\n         \
+          \           content_to_add += \" \" + chap[\"raw_text\"]\n             \
+          \   result[-1][\"raw_text\"] += content_to_add\n            continue\n \
+          \       \n        # 检查章节编号是否在合理范围内\n        first_num = parsed_id[0]\n \
+          \       \n        # 根据模式调整合理性检查\n        if pattern == 'alpha_first':\n\
+          \            # 字母在前：A=1, B=2, ..., 1=27, 2=28, ...\n            if 1 <=\
+          \ first_num <= 50:  # 合理范围：26个字母 + 20个数字章节\n                result.append(chap)\n\
+          \            else:\n                # 不合理的章节，追加到上一个有效章节\n              \
+          \  if result:\n                    content_to_add = \"\\n\" + chap[\"chapter_id\"\
+          ] + chap[\"chapter_title\"]\n                    if chap.get(\"raw_text\"\
+          ):\n                        content_to_add += \" \" + chap[\"raw_text\"\
+          ]\n                    result[-1][\"raw_text\"] += content_to_add\n    \
+          \    else:\n            # 数字在前：1, 2, ..., A=101, B=102, ...\n          \
+          \  if (1 <= first_num <= 20) or (101 <= first_num <= 126):  # 数字章节或字母章节\n\
+          \                result.append(chap)\n            else:\n              \
+          \  # 不合理的章节，追加到上一个有效章节\n                if result:\n                   \
+          \ content_to_add = \"\\n\" + chap[\"chapter_id\"] + chap[\"chapter_title\"\
+          ]\n                    if chap.get(\"raw_text\"):\n                    \
+          \    content_to_add += \" \" + chap[\"raw_text\"]\n                    result[-1][\"\
+          raw_text\"] += content_to_add\n    \n    return result\n    \n    return\
+          \ result\n\ndef split_sections_by_attachment(chapters: List[Dict]) -> List[Dict]:\n\
+          \    \"\"\"\n    将整个文档按附件（ANNEX）切分。\n    顶层 file: regulation / ANNEX n\n\
+          \    改进：合并连续的相同附件标题\n    \"\"\"\n    sections = []\n    current_section\
+          \ = {\n        \"section\": \"regulation\",  # 默认主文档\n        \"chapters\"\
+          : []\n    }\n\n    annex_pattern = re.compile(r'^(ANNEX|ATTACHMENT)\\s+([A-Z0-9]+)',\
+          \ re.I)\n\n    for chap in chapters:\n        match = annex_pattern.match(chap['chapter_id'])\n\
+          \        if match:\n            annex_name = match.group(1).upper() + \"\
+          \ \" + match.group(2)  # 标准化名称，如 \"ANNEX 1\"\n            \n           \
+          \ # 检查是否与当前 section 的名称相同\n            if current_section[\"section\"] !=\
+          \ \"regulation\" and current_section[\"section\"].upper() == annex_name:\n\
+          \                # 相同的附件，直接添加到当前 section，跳过重复的标题章节\n                if chap.get('chapter_title')\
+          \ or chap.get('raw_text', '').strip():\n                    current_section[\"\
+          chapters\"].append(chap)\n                # 如果是空的重复标题章节（只有chapter_id没有内容），则跳过\n\
+          \            else:\n                # 不同的附件，保存当前块并新建\n                if\
+          \ current_section[\"chapters\"]:\n                    sections.append(current_section)\n\
+          \                # 新建附件块\n                current_section = {\n        \
+          \            \"section\": annex_name,\n                    \"chapters\"\
+          : [chap] if (chap.get('chapter_title') or chap.get('raw_text', '').strip())\
+          \ else []\n                }\n        else:\n            current_section[\"\
+          chapters\"].append(chap)\n\n    if current_section[\"chapters\"]:\n    \
+          \    sections.append(current_section)\n\n    return sections\n\ndef split_sections_by_appendix(chapters):\n\
+          \    sections = []\n    current_section = {\"section\": \"MAIN\", \"chapters\"\
+          : []}\n\n    for ch in chapters:\n        # 检测 APPENDIX 开头的顶层标题，或者附录\n \
+          \       appendix_match = re.match(r'^(APPENDIX\\s+(?:[A-Z0-9]+|\\([A-Z0-9]+\\\
+          )))$', ch['chapter_id'], re.IGNORECASE)\n        annex_match = ch[\"chapter_id\"\
+          ].startswith(\"附录\")\n        \n        if appendix_match or annex_match:\n\
+          \            # 标准化附录名称\n            if appendix_match:\n               \
+          \ appendix_name = appendix_match.group(1).upper()\n            else:\n \
+          \               appendix_name = ch['chapter_id'].strip()\n            \n\
+          \            # 检查是否与当前 section 的名称相同\n            if current_section[\"\
+          section\"] != \"MAIN\" and current_section[\"section\"].upper() == appendix_name:\n\
+          \                # 相同的附录，直接添加到当前 section（如果有实际内容）\n                if ch.get('chapter_title')\
+          \ or ch.get('raw_text', '').strip():\n                    current_section[\"\
+          chapters\"].append(ch)\n                # 如果是空的重复标题章节，则跳过\n            else:\n\
+          \                # 不同的附录，先保存当前块\n                if current_section[\"chapters\"\
+          ]:\n                    sections.append(current_section)\n             \
+          \   # 新建附录块\n                current_section = {\n                    \"\
+          section\": appendix_name,\n                    \"chapters\": [ch] if (ch.get('chapter_title')\
+          \ or ch.get('raw_text', '').strip()) else []\n                }\n      \
+          \  else:\n            current_section[\"chapters\"].append(ch)\n\n    #\
+          \ 末尾块加入\n    if current_section[\"chapters\"]:\n        sections.append(current_section)\n\
+          \n    # # 打印提取的所有章节标题\n    # for sec in sections:\n    #     print(f\"Section:\
+          \ {sec['section']}\")\n    #     for chap in sec[\"chapters\"]:\n    # \
+          \        print(f\"  Chapter ID: {chap['chapter_id']}, Title: {chap['chapter_title']}\"\
+          )\n\n    return sections\n\ndef process_sections_with_lis(chapters, language='en'):\n\
+          \    # 先拆分成正文和多个附录\n    sections = split_sections_by_appendix(chapters)\n\
+          \n    # 每个部分内部单独跑最长链\n    processed_sections = []\n    for sec in sections:\n\
+          \        valid_chaps, skipped_content = find_longest_chapter_chain_with_append(sec[\"\
+          chapters\"], language)\n        processed_sections.append({\n          \
+          \  \"section\": sec[\"section\"],\n            \"context\": skipped_content,\
+          \  # 添加被跳过的内容\n            \"chapters\": valid_chaps\n        })\n\n   \
+          \ return processed_sections\n\ndef filter_start_of_main(chapters: List[Dict])\
+          \ -> Tuple[List[Dict], str]:\n    \"\"\"\n    找到第一个正文章节作为起点，跳过目录\n    \"\
+          \"\"\n    start_index = 0\n    for i, chap in enumerate(chapters):\n   \
+          \     chapter_id = chap.get(\"chapter_id\", \"\").strip()\n        # 正文主链或附件内部章节：数字开头或字母开头\n\
+          \        if chapter_id in {\"1\", \"1-\", \"1.\", \"A\", \"A.\", \"A.1\"\
+          }:\n            # SCOPE / GENERAL / INTRO 等都算正文起点\n            title_upper\
+          \ = chap.get(\"chapter_title\", \"\").upper()\n            if any(k in title_upper\
+          \ for k in [\"SCOPE\", \"GENERAL\", \"INTRO\", \"总则\", \"范围\", \"LEGISLATIVE\"\
+          , \"FUNCTION\"]):\n                start_index = i\n                break\n\
+          \                \n        # 也检查标准的章节开头模式\n        if re.match(r'^[A-Z](\\\
+          .\\d+)*\\.?$', chapter_id) or re.match(r'^\\d+(\\.\\d+)*\\.?$', chapter_id):\n\
+          \            title_upper = chap.get(\"chapter_title\", \"\").upper()\n \
+          \           if any(k in title_upper for k in [\"SCOPE\", \"GENERAL\", \"\
+          INTRO\", \"总则\", \"范围\", \"LEGISLATIVE\", \"FUNCTION\"]):\n            \
+          \    start_index = i\n                break\n                \n    # print(f'chapters[str]:\
+          \ {chapters[start_index]}')\n    filtered_chapters = chapters[start_index:]\n\
+          \    skipped_content = chapters[:start_index]\n    skipped_text = \"\\n\"\
+          .join([f\"{ch['chapter_id']} {ch['chapter_title']} {ch.get('raw_text','')}\"\
+          \ for ch in skipped_content])\n\n    return filtered_chapters, skipped_text\n\
+          \n\ndef smart_paragraph_join(lines: List[str]) -> str:\n    \"\"\"\n   \
+          \ 智能段落合并：只在段落结束时换行\n    \"\"\"\n    if not lines:\n        return \"\"\n\
+          \    \n    result = []\n    current_paragraph = []\n    \n    for i, line\
+          \ in enumerate(lines):\n        line = line.strip()\n        if not line:\
+          \  # 空行直接跳过\n            continue\n            \n        # 检查是否是段落结束的标志\n\
+          \        is_paragraph_end = False\n        \n        # 1. 以标点符号结尾（中英文）\n\
+          \        if re.search(r'[。！？；：.!?;:]$', line):\n            is_paragraph_end\
+          \ = True\n            \n        # 2. 检查下一行是否是新段落的开始\n        if i + 1 <\
+          \ len(lines):\n            next_line = lines[i + 1].strip()\n          \
+          \  # 下一行是章节标题、列表项、或明显的段落开始\n            if (detect_chapter(next_line) or\n\
+          \                re.match(r'^[一二三四五六七八九十\\d]+[、\\.\\)]', next_line) or \
+          \ # 列表项\n                re.match(r'^[（(]\\d+[）)]', next_line) or  # 编号项\n\
+          \                re.match(r'^[——\\-—]+', next_line)):  # 破折号开头\n       \
+          \         is_paragraph_end = True\n        \n        # 3. 表格相关内容保持原有换行\n\
+          \        if ('表' in line and re.search(r'表\\s*[A-Z0-9]', line)) or \\\n\
+          \           re.match(r'^[|\\s]*[A-Za-z0-9\\u4e00-\\u9fa5]+[|\\s]*$', line):\
+          \  # 简单表格行检测\n            current_paragraph.append(line)\n            is_paragraph_end\
+          \ = True\n        else:\n            current_paragraph.append(line)\n  \
+          \      \n        # 如果是段落结束，将当前段落合并并加入结果\n        if is_paragraph_end:\n\
+          \            if current_paragraph:\n                paragraph_text = ''.join(current_paragraph).strip()\n\
+          \                if paragraph_text:\n                    result.append(paragraph_text)\n\
+          \                current_paragraph = []\n    \n    # 处理最后剩余的段落\n    if current_paragraph:\n\
+          \        paragraph_text = ' '.join(current_paragraph).strip()\n        if\
+          \ paragraph_text:\n            result.append(paragraph_text)\n    \n   \
+          \ return '\\n'.join(result)\n\ndef parse_pdf_to_chapter_tree(pdf_path: str)\
+          \ -> Tuple[List[Dict], Dict[str, str]]:\n    \"\"\"\n    从 PDF 中提取章节树和术语映射\n\
+          \    :param pdf_path: PDF 文件路径\n    :return: (章节树, 术语映射)\n    \"\"\"\n \
+          \   cleaned_lines = extract_full_text_with_filter(pdf_path)\n\n    # \U0001F195\
+          \ 检测文档语言\n    language = detect_document_language(cleaned_lines)\n    max_chapter_num\
+          \ = 50 if language == 'zh' else 1000\n    print(f\"检测到文档语言: {'中文' if language\
+          \ == 'zh' else '英文'}, max_chapter_num={max_chapter_num}\")\n\n    # \U0001F195\
+          \ 第一轮：粗略提取所有可能的章节，用于分析数字分布\n    preliminary_chapters = []\n    current =\
+          \ {\n        \"chapter_id\": \"\",\n        \"chapter_title\": \"\",\n \
+          \       \"raw_text\": \"\"\n    }\n    buffer = []\n\n    for line in cleaned_lines:\n\
+          \        # 第一轮使用宽松的数字范围进行粗提取\n        chapter_info = detect_chapter(line,\
+          \ max_chapter_num=1000, language=language, number_analysis=None)\n\n   \
+          \     if chapter_info:\n            if current:\n                current[\"\
+          raw_text\"] = smart_paragraph_join(buffer)\n                preliminary_chapters.append(current)\n\
+          \                buffer = []\n            current = {\n                \"\
+          chapter_id\": chapter_info[\"chapter_id\"],\n                \"chapter_title\"\
+          : chapter_info[\"chapter_title\"],\n                \"raw_text\": \"\"\n\
+          \            }\n        else:\n            buffer.append(line)\n\n    if\
+          \ current:\n        current[\"raw_text\"] = smart_paragraph_join(buffer)\n\
+          \        preliminary_chapters.append(current)\n\n    # \U0001F195 分析章节数字分布\n\
+          \    number_analysis = analyze_chapter_number_distribution(preliminary_chapters)\n\
+          \    print(f\"数字分布分析: {number_analysis}\")\n\n    # \U0001F195 第二轮：使用分析结果重新精确提取章节\n\
+          \    chapters = []\n    current = {\n        \"chapter_id\": \"\",\n   \
+          \     \"chapter_title\": \"\",\n        \"raw_text\": \"\"\n    }\n    buffer\
+          \ = []\n\n    for line in cleaned_lines:\n        chapter_info = detect_chapter(line,\
+          \ max_chapter_num=max_chapter_num, language=language, number_analysis=number_analysis)\n\
+          \n        if chapter_info:\n            if current:\n                # 使用智能段落合并而不是简单的\
+          \ \\n 连接\n                current[\"raw_text\"] = smart_paragraph_join(buffer)\n\
+          \                chapters.append(current)\n                buffer = []\n\
+          \            current = {\n                \"chapter_id\": chapter_info[\"\
+          chapter_id\"],\n                \"chapter_title\": chapter_info[\"chapter_title\"\
+          ],\n                \"raw_text\": \"\"\n            }\n        else:\n \
+          \           buffer.append(line)\n\n    if current:\n        current[\"raw_text\"\
+          ] = smart_paragraph_join(buffer)\n        chapters.append(current)\n\n \
+          \   # 1️⃣ 先按附件切分顶层\n    attachment_sections = split_sections_by_attachment(chapters)\n\
+          \n    tree = []\n\n    for top_sec in attachment_sections:\n        \n \
+          \       # 2️⃣ 每个顶层块再按附录切分\n        sections = split_sections_by_appendix(top_sec[\"\
+          chapters\"])\n        section_tree_list = []\n\n        for sec in sections:\n\
+          \            # filtered_chapters, skipped_text = filter_start_of_main(sec[\"\
+          chapters\"])\n            # 3️⃣ 对每个部分内部保留最长链\n            valid_chaps_in_sec,\
+          \ skipped_text = find_longest_chapter_chain_with_append(sec[\"chapters\"\
+          ], language)\n            # \U0001F195 如果最长链提取结果为空，创建虚拟的ALL章节\n        \
+          \    if not valid_chaps_in_sec:\n                # 将context内容作为虚拟章节的rawtext\n\
+          \                virtual_chapter = {\n                    \"chapter_id\"\
+          : \"ALL\",\n                    \"chapter_title\": \"\",\n             \
+          \       \"raw_text\": skipped_text,\n                    \"full_path\":\
+          \ \"ALL\",\n                    \"children\": []\n                }\n  \
+          \              tree_in_sec = [virtual_chapter]\n                # 清空context，因为内容已经放入虚拟章节\n\
+          \                skipped_text = \"\"\n            else:\n              \
+          \  tree_in_sec = build_tree(valid_chaps_in_sec)\n                build_full_path(tree_in_sec)\n\
+          \n        # 4️⃣ 构建顶层树\n        tree.append({\n            \"file\": top_sec[\"\
+          section\"],  # regulation 或 ANNEX n\n            \"sections\": section_tree_list,\n\
+          \        })\n\n    term_map = {}\n\n    for chap in chapters:\n        title\
+          \ = chap.get(\"chapter_title\", \"\")\n        if \"术语\" in title:\n   \
+          \         # 提取术语\n            terms = extract_terms_with_abbr_from_terms_section(chap[\"\
+          chapter_title\"])\n            term_map.update(terms)\n            for child\
+          \ in chap.get(\"children\", []):\n                terms = extract_terms_with_abbr_from_terms_section(child[\"\
+          chapter_title\"])\n                term_map.update(terms)\n        elif\
+          \ \"缩略\" in title:\n            # 提取缩略语\n            abbr_terms = extract_abbr_terms_from_symbols_section(chap[\"\
+          chapter_title\"] + chap[\"raw_text\"])\n            term_map.update(abbr_terms)\n\
+          \            for child in chap.get(\"children\", []):\n                abbr_terms\
+          \ = extract_abbr_terms_from_symbols_section(child[\"chapter_title\"] + child[\"\
+          raw_text\"])\n                term_map.update(abbr_terms)\n\n    return\
+          \ tree, term_map\n\nimport re\nfrom collections import defaultdict\nfrom\
+          \ typing import List, Dict\nimport pdfplumber\n\ndef _build_page_lines_from_words(page,\
+          \ y_tol=3):\n    \"\"\"\n    用 page.extract_words() 构建行：按 top 分桶（y_tol 容差），每行按\
+          \ x0 排序并合并文本，\n    返回列表：{'text', 'y', 'x0', 'x1'}\n    \"\"\"\n    words\
+          \ = page.extract_words()  # 返回每个 word 带 x0,x1,top,bottom,text\n    if not\
+          \ words:\n        return []\n\n    # 按 top, x0 排序\n    words = sorted(words,\
+          \ key=lambda w: (w['top'], w['x0']))\n\n    lines = []\n    cur = None\n\
+          \    for w in words:\n        top = w['top']\n        x0 = float(w['x0'])\n\
+          \        x1 = float(w['x1'])\n        text = w['text']\n\n        if cur\
+          \ is None:\n            cur = {'text': text, 'y': top, 'x0': x0, 'x1': x1}\n\
+          \            continue\n\n        if abs(top - cur['y']) <= y_tol:\n    \
+          \        # 同一行，按 x 顺序连接（extract_words 已按 x 排序，但仍做保险）\n            if x0\
+          \ < cur['x1'] + 1:\n                # 重叠或紧邻，直接用空格隔开（避免把词粘在一起）\n        \
+          \        cur['text'] = cur['text'] + ' ' + text\n            else:\n   \
+          \             cur['text'] = cur['text'] + ' ' + text\n            cur['x1']\
+          \ = max(cur['x1'], x1)\n            cur['x0'] = min(cur['x0'], x0)\n   \
+          \         # keep y as average to be robust\n            cur['y'] = (cur['y']\
+          \ + top) / 2.0\n        else:\n            lines.append(cur)\n         \
+          \   cur = {'text': text, 'y': top, 'x0': x0, 'x1': x1}\n    if cur:\n  \
+          \      lines.append(cur)\n    return lines\n\ndef _find_table_title_near_bbox(page,\
+          \ table_bbox, max_above=60, y_tol=4):\n    \"\"\"\n    在表格上方 max_above pt\
+          \ 的范围内找可能的标题：\n    - 先从 page.extract_words() 中筛选出该垂直带内并且与表格水平有重叠的 words\n\
+          \    - 按 top/x0 分组成行并拼接，返回拼完的字符串（可能包含编号）\n    \"\"\"\n    table_top = float(table_bbox[1])\n\
+          \    table_x0, table_x1 = float(table_bbox[0]), float(table_bbox[2])\n \
+          \   words = page.extract_words()\n    if not words:\n        return None\n\
+          \n    # 筛选：垂直在 (table_top - max_above, table_top + 10) 范围内，\n    # 同时水平上至少与表格左右扩展\
+          \ 50pt 有重叠（防止完全靠左的标题被忽略）\n    relevant = []\n    margin_x = 60\n    for\
+          \ w in words:\n        w_top = float(w['top'])\n        if not (table_top\
+          \ - max_above <= w_top <= table_top + 10):\n            continue\n     \
+          \   w_x0 = float(w['x0']); w_x1 = float(w['x1'])\n        # 与表格水平投影有重叠 或\
+          \ 在表格左侧接近位置\n        if (w_x1 >= table_x0 - margin_x and w_x0 <= table_x1\
+          \ + margin_x) or w_x0 < table_x0:\n            relevant.append(w)\n\n  \
+          \  if not relevant:\n        return None\n\n    # 将这些 words 按 top/x0 排序，分行并合并\n\
+          \    relevant = sorted(relevant, key=lambda w: (w['top'], w['x0']))\n  \
+          \  lines = []\n    cur = None\n    for w in relevant:\n        top = w['top'];\
+          \ x0 = float(w['x0']); x1 = float(w['x1']); txt = w['text']\n        if\
+          \ cur is None:\n            cur = {'text': txt, 'y': top, 'x0': x0, 'x1':\
+          \ x1}\n        else:\n            if abs(top - cur['y']) <= y_tol:\n   \
+          \             cur['text'] = cur['text'] + ' ' + txt\n                cur['x1']\
+          \ = max(cur['x1'], x1)\n                cur['x0'] = min(cur['x0'], x0)\n\
+          \                cur['y'] = (cur['y'] + top) / 2.0\n            else:\n\
+          \                lines.append(cur)\n                cur = {'text': txt,\
+          \ 'y': top, 'x0': x0, 'x1': x1}\n    if cur:\n        lines.append(cur)\n\
+          \n    # 现在把这些行拼成最终标题：按 y 从上到下、按 x0 从左到右连接\n    # 但优先选择包含 \"表\" 的行或以 \"表\"\
+          \ 开头的行及其相邻行\n    full = \" \".join([ln['text'] for ln in lines]).strip()\n\
+          \n    # 优先策略：找到包含\"表\"的行（最靠近表格的那一行优先）\n    cand = None\n    candidates =\
+          \ []\n    for ln in lines:\n        if '表' in ln['text'] or 'Table' in ln['text']:\n\
+          \            candidates.append((abs(table_top - ln['y']), ln))\n    if candidates:\n\
+          \        # 取距离最小的那一行作为核心，然后把同一 y 带内的其他行合并（左右扩展）\n        candidates.sort(key=lambda\
+          \ x: x[0])\n        core_y = candidates[0][1]['y']\n        # 合并与 core_y\
+          \ 接近的所有行\n        merge_parts = [ln['text'] for ln in lines if abs(ln['y']\
+          \ - core_y) <= max(y_tol, 10)]\n        cand = \" \".join(merge_parts).strip()\n\
+          \    else:\n        # 未找到包含\"表\"的明确行，就退回用 full（可能就是整段标题）\n        cand =\
+          \ full if full else None\n\n    # print(f\"找到标题候选: {cand}\")\n    # 进一步清理：把多余空格、连续多余标点整理一下\n\
+          \    if cand:\n        cand = re.sub(r'\\s+', ' ', cand).strip()\n     \
+          \   cand = re.sub(r'\\s*([，,：:；;])\\s*', r'\\1 ', cand)\n    return cand\n\
+          \ndef extract_tables_from_pdf(pdf_path: str) -> List[Dict]:\n    \"\"\"\n\
+          \    改进版：从PDF中提取所有表格及其标识，尽量恢复 '表F.1' 这类编号\n    返回格式: [{\"table_id\": \"\
+          表X.x 标题\", \"table_content\": 二维数组}, ...]\n    \"\"\"\n    all_tables =\
+          \ []\n\n    with pdfplumber.open(pdf_path) as pdf:\n        for page_num,\
+          \ page in enumerate(pdf.pages):\n            # 使用 extract_words 构建页面行（也保留原始\
+          \ words 用于更精细判断）\n            page_lines = _build_page_lines_from_words(page,\
+          \ y_tol=3)\n\n            # 提取并排序表格\n            tables = page.find_tables()\n\
+          \            if not tables:\n                continue\n            tables\
+          \ = sorted(tables, key=lambda t: t.bbox[1])\n\n            for table_idx,\
+          \ table in enumerate(tables):\n                # 过滤：只有 1 列的直接丢弃\n      \
+          \          table_data = table.extract()\n                if not table_data:\n\
+          \                    continue\n                sample_row = table_data[0]\n\
+          \                if len(sample_row) <= 1:\n                    continue\n\
+          \n                cleaned_data = [\n                    [cell.replace('\\\
+          n', ' ').strip() if cell else \"\" for cell in row]\n                  \
+          \  for row in table_data\n                ]\n\n                # 优先通过 page_lines\
+          \ 找标题\n                table_top = table.bbox[1]\n                best_line\
+          \ = None\n                min_gap = float('inf')\n\n                # 先尝试更稳健的方式：从\
+          \ words 区域收集并拼接标题\n                cand = _find_table_title_near_bbox(page,\
+          \ table.bbox, max_above=60, y_tol=4)\n                if cand:\n       \
+          \             best_line = cand\n                else:\n                \
+          \    # 退回到原先逻辑：在 page_lines 中找包含 \"表\" 的行（距离最近的）\n                    for\
+          \ item in page_lines:\n                        if (\"表\" in item['text']\
+          \ or 'Table' in item['text']) and 0 < (table_top - item['y']) < 60:\n  \
+          \                          gap = table_top - item['y']\n               \
+          \             if gap < min_gap:\n                                min_gap\
+          \ = gap\n                                best_line = item['text']\n\n  \
+          \              # 兜底：如果还是没有编号，检查表格第一行的单元格里是否有“表X”样式\n                if best_line\
+          \ is None:\n                    first_row = cleaned_data[0]\n          \
+          \          # 把第一行所有单元格拼起来查找“表”关键词\n                    joined_first = \"\
+          \ \".join(first_row).strip()\n                    if re.search(r'表\\s*[A-Z0-9]\\\
+          .?\\d*', joined_first) or joined_first.startswith('表'):\n              \
+          \          best_line = joined_first\n\n                # 如果找到了标题则新增，否则用兜底\
+          \ id\n                if best_line:\n                    # 进一步做小清洗：将 \"\
+          表  F.1\" 等中间多余空格去掉（保留表字和编号）\n                    best_line = re.sub(r'表\\\
+          s+([A-Za-z0-9])', r'表\\1', best_line)\n                    all_tables.append({\n\
+          \                        \"table_id\": best_line,\n                    \
+          \    \"table_content\": cleaned_data\n                    })\n         \
+          \       else:\n                    table_id = f\"表-页{page_num + 1}-表{table_idx\
+          \ + 1}\"\n                    all_tables.append({\n                    \
+          \    \"table_id\": table_id,\n                        \"table_content\"\
+          : cleaned_data\n                    })\n\n    return all_tables\n\nimport\
+          \ tempfile\nimport requests\nfrom urllib.parse import urlparse\n\ndef resolve_pdf_path(pdf_path:\
+          \ str) -> str:\n    # 如果是 URL，就下载到临时文件夹\n    if pdf_path.startswith(\"http://\"\
+          ) or pdf_path.startswith(\"https://\"):\n        response = requests.get(pdf_path)\n\
+          \        response.raise_for_status()\n        suffix = os.path.splitext(urlparse(pdf_path).path)[-1]\n\
+          \        with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as\
+          \ tmp_file:\n            tmp_file.write(response.content)\n            return\
+          \ tmp_file.name\n    else:\n        return pdf_path\n\ndef count_leaf_nodes(chapters):\n\
+          \    \"\"\"递归计算章节树中的叶子节点数量\"\"\"\n    total = 0\n    for chapter in chapters:\n\
+          \        if chapter.get(\"children\") and len(chapter[\"children\"]) > 0:\n\
+          \            # 有子节点，递归计算\n            total += count_leaf_nodes(chapter[\"\
+          children\"])\n        else:\n            # 叶子节点\n            total += 1\n\
+          \    return total\n\ndef extract_chapters_by_id(tree, chapter_ids):\n  \
+          \  \"\"\"从树结构中提取指定ID的章节，保持原有层级结构\"\"\"\n    result = []\n    \n    for file_item\
+          \ in tree:\n        # 只处理 file 为 regulation 的内容\n        if file_item[\"\
+          file\"] != \"regulation\":\n            continue\n            \n       \
+          \ new_file = {\n            \"file\": file_item[\"file\"],\n           \
+          \ \"sections\": []\n        }\n        \n        for section in file_item[\"\
+          sections\"]:\n            new_section = {\n                \"section\":\
+          \ section[\"section\"],\n                \"context\": section[\"context\"\
+          ],\n                \"chapters\": []\n            }\n            \n    \
+          \        # 提取匹配的章节\n            for chapter in section[\"chapters\"]:\n\
+          \                if chapter[\"chapter_id\"] in chapter_ids:\n          \
+          \          new_section[\"chapters\"].append(chapter)\n            \n   \
+          \         # 只有当section有章节时才添加\n            if new_section[\"chapters\"]:\n\
+          \                new_file[\"sections\"].append(new_section)\n        \n\
+          \        # 只有当file有sections时才添加\n        if new_file[\"sections\"]:\n  \
+          \          result.append(new_file)\n    \n    return result\n\ndef get_first_three_chapters_from_main(tree):\n\
+          \    \"\"\"从 MAIN section 中获取前三章的 chapter_id\"\"\"\n    for file_item in\
+          \ tree:\n        if file_item[\"file\"] != \"regulation\":\n           \
+          \ continue\n            \n        for section in file_item[\"sections\"\
+          ]:\n            if section[\"section\"] == \"MAIN\":\n                #\
+          \ 获取前三章的 chapter_id\n                chapter_ids = []\n                for\
+          \ i, chapter in enumerate(section[\"chapters\"]):\n                    if\
+          \ i < 3:  # 前三章\n                        chapter_ids.append(chapter[\"chapter_id\"\
+          ])\n                    else:\n                        break\n         \
+          \       return set(chapter_ids)\n    return set()\n\n# def group_main_chapters_by_leaf_count(tree,\
+          \ max_leaf_nodes=30):\n#     \"\"\"将 MAIN section 的章节按叶子节点数量分组\"\"\"\n#\
+          \     groups = []\n#     current_group_chapters = []\n#     current_leaf_count\
+          \ = 0\n    \n#     # 找到 regulation file 的 MAIN section\n#     main_chapters\
+          \ = []\n#     for file_item in tree:\n#         if file_item[\"file\"] !=\
+          \ \"regulation\":\n#             continue\n            \n#         for section\
+          \ in file_item[\"sections\"]:\n#             if section[\"section\"] ==\
+          \ \"MAIN\":\n#                 # 跳过前三章（context部分）\n#                 for\
+          \ i, chapter in enumerate(section[\"chapters\"]):\n#                   \
+          \  # if i >= 3:  # 从第四章开始\n#                     main_chapters.append(chapter)\n\
+          #                 break\n#         break\n    \n#     for chapter in main_chapters:\n\
+          #         chapter_leaf_count = count_leaf_nodes([chapter])\n        \n#\
+          \         # 如果单个章节就超过max_leaf_nodes，单独成组\n#         if chapter_leaf_count\
+          \ > max_leaf_nodes:\n#             # 先处理当前积累的章节组\n#             if current_group_chapters:\n\
+          #                 groups.append(current_group_chapters)\n#             \
+          \    current_group_chapters = []\n#                 current_leaf_count =\
+          \ 0\n            \n#             # 单独成组\n#             groups.append([chapter[\"\
+          chapter_id\"]])\n#         else:\n#             # 检查加入后是否超过限制\n#       \
+          \      if current_leaf_count + chapter_leaf_count <= max_leaf_nodes:\n#\
+          \                 current_group_chapters.append(chapter[\"chapter_id\"])\n\
+          #                 current_leaf_count += chapter_leaf_count\n#          \
+          \   else:\n#                 # 超过限制，先保存当前组，开始新组\n#                 if current_group_chapters:\n\
+          #                     groups.append(current_group_chapters)\n#         \
+          \        current_group_chapters = [chapter[\"chapter_id\"]]\n#         \
+          \        current_leaf_count = chapter_leaf_count\n    \n#     # 处理最后一组\n\
+          #     if current_group_chapters:\n#         groups.append(current_group_chapters)\n\
+          \    \n#     return groups\n\ndef group_main_chapters(tree):\n    \"\"\"\
+          \n    每个一级章节单独作为一组\n    \"\"\"\n    groups = []\n\n    # 找到 regulation file\
+          \ 的 MAIN section\n    for file_item in tree:\n        if file_item[\"file\"\
+          ] != \"regulation\":\n            continue\n\n        for section in file_item[\"\
+          sections\"]:\n            if section[\"section\"] == \"MAIN\":\n       \
+          \         for chapter in section[\"chapters\"]:\n                    groups.append([chapter[\"\
+          chapter_id\"]])\n                break\n        break\n\n    return groups\n\
+          \ndef get_non_main_sections(tree):\n    \"\"\"获取所有非 MAIN 的 sections\"\"\"\
+          \n    non_main_sections = []\n    \n    for file_item in tree:\n       \
+          \ if file_item[\"file\"] != \"regulation\":\n            continue\n    \
+          \        \n        for section in file_item[\"sections\"]:\n           \
+          \ if section[\"section\"] != \"MAIN\":\n                non_main_sections.append(section[\"\
+          section\"])\n    \n    return non_main_sections\n\ndef create_section_tree(tree,\
+          \ section_name):\n    \"\"\"创建包含指定 section 的完整树结构\"\"\"\n    result = []\n\
+          \    \n    for file_item in tree:\n        if file_item[\"file\"] != \"\
+          regulation\":\n            continue\n            \n        new_file = {\n\
+          \            \"file\": file_item[\"file\"],\n            \"sections\": []\n\
+          \        }\n        \n        for section in file_item[\"sections\"]:\n\
+          \            if section[\"section\"] == section_name:\n                new_file[\"\
+          sections\"].append(section)\n                break\n        \n        if\
+          \ new_file[\"sections\"]:\n            result.append(new_file)\n       \
+          \     break\n    \n    return result\n\ndef main(url: str) -> dict:\n  \
+          \  pdf_path = resolve_pdf_path(url)  # 兼容 URL 和本地路径\n\n    # 章节树\n    tree,\
+          \ term_map = parse_pdf_to_chapter_tree(pdf_path)\n    \n    # 提取前三章的 chapter_id（从\
+          \ MAIN section）\n    first_three_chapter_ids = get_first_three_chapters_from_main(tree)\n\
+          \    \n    # 提取前三章作为context\n    context_tree = extract_chapters_by_id(tree,\
+          \ first_three_chapter_ids)\n    \n    # 按叶子节点数量分组 MAIN section 的其余章节\n \
+          \   main_chapter_groups = group_main_chapters(tree)\n    \n    # 获取所有非 MAIN\
+          \ 的 sections\n    non_main_sections = get_non_main_sections(tree)\n    \n\
+          \    # 为每个 MAIN 章节组和非 MAIN section 创建完整的树结构\n    array_items = []\n    \n\
+          \    # 处理 MAIN section 的章节组\n    for group_chapter_ids in main_chapter_groups:\n\
+          \        group_tree = extract_chapters_by_id(tree, set(group_chapter_ids))\n\
+          \        if group_tree:  # 确保组不为空\n            array_items.append(json.dumps(group_tree,\
+          \ ensure_ascii=False))\n    \n    # 处理非 MAIN sections（每个附录作为一个独立的 item）\n\
+          \    for section_name in non_main_sections:\n        section_tree = create_section_tree(tree,\
+          \ section_name)\n        if section_tree:  # 确保section不为空\n            array_items.append(json.dumps(section_tree,\
+          \ ensure_ascii=False))\n\n    return {\n        \"tree\":json.dumps(tree,\
+          \ ensure_ascii=False),\n        \"context\": json.dumps(context_tree, ensure_ascii=False),\n\
+          \        \"array\": array_items\n    }"
+        code_language: python3
+        desc: ''
+        outputs:
+          array:
+            children: null
+            type: array[string]
+          context:
+            children: null
+            type: string
+          tree:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行
+        type: code
+        variables:
+        - value_selector:
+          - '1756550268945'
+          - file
+          - url
+          value_type: file
+          variable: url
+      height: 53
+      id: '1756550411122'
+      position:
+        x: 334
+        y: 429.5
+      positionAbsolute:
+        x: 334
+        y: 429.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        error_handle_mode: continue-on-error
+        height: 303.5
+        is_parallel: true
+        iterator_input_type: array[string]
+        iterator_selector:
+        - '1756550411122'
+        - array
+        output_selector:
+        - '1756698812908'
+        - output
+        output_type: array[string]
+        parallel_nums: 10
+        selected: false
+        start_node_id: 1756557801310start
+        title: 迭代
+        type: iteration
+        width: 1724
+      height: 304
+      id: '1756557801310'
+      position:
+        x: 638
+        y: 429.5
+      positionAbsolute:
+        x: 638
+        y: 429.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 1724
+      zIndex: 1
+    - data:
+        desc: ''
+        isInIteration: true
+        selected: false
+        title: ''
+        type: iteration-start
+      draggable: false
+      height: 48
+      id: 1756557801310start
+      parentId: '1756557801310'
+      position:
+        x: 60
+        y: 100.5
+      positionAbsolute:
+        x: 698
+        y: 530
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-iteration-start
+      width: 44
+      zIndex: 1002
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1756550411122'
+          - context
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        model:
+          completion_params: {}
+          mode: chat
+          name: deepseek-reasoner
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: b8df94d2-1037-41d9-8649-be6e2790a7d5
+          role: system
+          text: "# 角色\n\n你是一名技术标准知识工程专家，专注于将汽车及相关领域的标准和法规文档转化为可结构化解析的数据资产。\n\n你的任务是基于输入的标准文档\
+            \ JSON 树结构，精准抽取技术条款、实验要求、参数约束和引用信息，生成统一的机器可读数据，以支持跨标准条款比对、法规一致性验证、设备能力评估等下游应用。\n\
+            \n---\n\n# 输入内容\n\n你将收到一个 JSON 数组，包含多个对象，每个对象的结构如下：\n\n- `file`: 文件标识（如\
+            \ \"regulation\"、\"ANNEX 1\"）\n- `sections`: 块数组，每个元素包含：\n  - `section`:\
+            \ 标识当前块（如 \"MAIN\", \"APPENDIX 1\"）\n  - `context`: 当前块标题与第一个章节间的文本（总述）\n\
+            \  - `chapters`: 章节数组，每个元素包含：\n    - `chapter_id`: 章节编号（保持原样）\n    - `chapter_title`:\
+            \ 章节标题\n    - `raw_text`: 该节的纯文本内容\n    - `children`: 子条款数组（结构与父级相同）\n\
+            \    - `full_path`: 完整路径（可选）\n\n> 同时提供背景上下文（{{#context#}}），包含范围、术语定义等章节，便于理解。\n\
+            \n---\n\n# 输出格式\n\n请输出一个 JSON 对象（不得包含任何解释性文字），必须完全符合以下结构：\n\n```json\n\
+            \    {\n      \"file\": \"string\",\n      \"section\": \"string\",\n\
+            \      \"experiment_root_ids\": [\"string\", \"...\"],\n       \"chapters\"\
+            :[\n        {      \n          \"chapter_id\": \"string\",\n\n       \
+            \   \"paramaters\": [\n            {\n              \"item\": \"string\"\
+            ,\n              \"constraint\": \"<=|<|=|>=|>|range_closed|range_open|enum|boolean\"\
+            ,\n              \"value\": \"string|array|null\",\n              \"unit\"\
+            : \"string|null\",\n              \"source_text\": \"string\"\n      \
+            \      }\n          ],\n\n          \"topic_keywords\": [\"string\", \"\
+            ...\"],\n          \"context_keywords\": [\"string\", \"...\"],\n\n  \
+            \        \"refs\": [\n            {\n              \"ref_type\": \"table|graph|clause|external_clause\"\
+            ,\n              \"doc_id\": \"string|null\",\n              \"target_id\"\
+            : \"string\",\n              \"anchor_text\": \"string\"\n           \
+            \ }\n          ],\n\n          \"table_headers\": [\"string\", \"...\"\
+            ]}\n        ]\n\n    }\n```\n\n# 处理逻辑（链式思考）\n\n1. **遍历章节树**\n    遍历每个\
+            \ `chapter_id` 及其子章节，分别处理，确保输出中每个章节都独立成条。\n2. **参数提取 (`paramaters`)**\n\
+            \   - 提取标准中的定量指标或约束条件，每条参数独立成对象。\n   - `constraint`：\n     - 单值约束：`<`,\
+            \ `<=`, `>`, `>=`, `=`\n     - 区间闭合：`range_closed`\n     - 区间开区间：`range_open`\n\
+            \     - 枚举：`enum`\n     - 布尔值：`boolean`\n   - `value`：保持字符串或字符串数组，中文数字需转阿拉伯数字。\n\
+            \   - `source_text`：保留原文完整片段，符号不做替换。\n3. **关键词提取**\n   - `topic_keywords`：核心主题关键词，突出当前章节围绕什么主题展开，对什么内容进行规定，名词短语，1-6个。\n\
+            \   - `context_keywords`：辅助上下文关键词，描述实验对象、环境、条件等，0-6个\n   - 术语、符号、缩写等若出现在上下文的术语章节中，则认为较为重要，需要保留，且体现出与该术语的关联（例：\
+            \ \"Gaseous pollutants include carbon monoxide, hydrocarbons and oxides\
+            \ of nitrogen.\"，则某个章节仅出现carbon monoxide, hydrocarbons and oxides of nitrogen.或者其缩写时，关键词中应该也出现Gaseous\
+            \ pollutants）\n4. **引用提取 (`refs`)**\n   - 提取内部引用（本标准内章节/表格/图片）与外部引用（外部标准编号），并区分\
+            \ `ref_type`。\n   - `doc_id` 填写标准编号（如有），内部引用填 `null`。\n   - `target_id`\
+            \ 保留引用目标编号（如“B.2.1.1”、“表B.1”）。\n   - `anchor_text` 在上下文提取简要文本，说明引用的内容，确保可精确定位。\n\
+            \   - 原文相同位置出现的引用，可只生成一条内容，同样保持并列即可。例如：按A、B进行实验，提取时可将A、B并列，而不用生成两条内容。\n\
+            5. **表格表头 (`table_headers`)**\n   - 如果当前章节包含表格引用，提取表格的表头字段，按顺序输出。\n6.\
+            \ **实验章节识别 (`experiment_root_ids`)**\n   - 判断章节内容是否为实验章节，标记其 `chapter_id`\
+            \ 为实验根节点。有以下三种情况：\n     - 标题中直接包含了关键字例如实验、test等，但需注意区分实验和实验的部分，比如“D.1\
+            \ 实验条件”、“D.2 实验方法”、“附录D 自检试验方法”，则“附录D”应该作为实验根节点，尽管D.1/D.2都包含了关键词实验\n \
+            \    - 正文中包含了“按XX实验”等内容\n     - 根据推断，该章节及其子章节均围绕某个实验展开\n   - 若一个章节是实验章节，则所有子章节都算实验内容，无需单独重复标注。但若是子章节包含了不同的实验，则需要对每个实验进行标记，而不是当前章节\n\
+            \   - 若综合判定一个section仅围绕一个实验展开（例如：附录D 自检实验方法），则以特殊标记ALL作为结果（例如：experiment_root_ids：[\"\
+            ALL\"]，禁止仅保留“D”导致代码无法匹配）\n7. **输出规范**\n   - 必须输出所有章节的结构化信息。\n   - `experiment_root_ids`\
+            \ 列表中仅包含最顶层实验节点。\n\n------\n\n# 注意事项\n\n- 输出必须是严格 JSON，不得添加解释说明、注释或 Markdown\
+            \ 符号。\n- 尽可能保留原有表达，包括语言类型和专业术语等，术语或者缩写可以参照上下文进行理解\n- 不允许推断章节编号或虚构值，只能根据输入内容提取。\n\
+            - 缺失信息时返回空数组`[]`或`null`，不省略字段。\n- 数值统一用阿拉伯数字，不要添加单位到 `value` 字段。\n- 对于表格内容无需提取为table_headers外的任何字段\n\
+            - topic_keywords并不是越多越好，而是服务于后续向量化-召回步骤。范围、引用性文件等纲领性内容，仅需对章节顶层编号提取一个topic_keywords，术语等章节，仅需对每个阐释术语的章节提取一个topic_keywords\n\
+            - `topic_keywords` 和 `context_keywords`保留原文，可为中文或英文\n- 所有引用必须能在原文中精准定位，且必须是实际引用才能提取refs字段，即上下文有类似于“参见XX”或者“按XX实验”等表述，若是孤立、突兀出现则可以理解为页眉被错误解析，或者“规范性引用文件”章节中对引用文件的罗列\n\
+            \n------\n\n# Few-shot 示例\n\n## 输入示例1\n\n```\n[\n  {\n    \"file\": \"\
+            regulation\",\n    \"sections\": [\n      {\n        \"section\": \"附录B\"\
+            ,\n        \"context\": \"(规范性)自动触发试验方法\",\n        \"chapters\": [\n\
+            \          {\n          {\n            \"chapter_id\": \"B.2\",\n    \
+            \        \"chapter_title\": \"试验项目\",\n            \"raw_text\": \"\"\
+            ,\n            \"children\": [\n              {\n                \"chapter_id\"\
+            : \"B.2.1\",\n                \"chapter_title\": \"正面碰撞\",\n         \
+            \       \"raw_text\": \"\",\n                \"children\": [\n       \
+            \           {\n                    \"chapter_id\": \"B.2.1.1\",\n    \
+            \                \"chapter_title\": \"滑台正面碰撞试验\",\n                  \
+            \  \"raw_text\": \"\",\n                    \"children\": [\n        \
+            \              {\n                        \"chapter_id\": \"B.2.1.1.1\"\
+            ,\n                        \"chapter_title\": \"\",\n                \
+            \        \"raw_text\": \"将白车身或工装固定在碰撞试验滑台上,安装方向模拟正面碰撞。 \",\n         \
+            \               \"children\": [],\n                        \"full_path\"\
+            : \"B.2 试验项目/B.2.1 正面碰撞/B.2.1.1 滑台正面碰撞试验/B.2.1.1.1 \"\n              \
+            \        },\n                      {\n                        \"chapter_id\"\
+            : \"B.2.1.1.2\",\n                        \"chapter_title\": \"\",\n \
+            \                       \"raw_text\": \"滑台按照以下加速度波形之一进行碰撞试验。 a) 使用制造商指定的加速度波形进行试验,指定的加速度波形应为在B.2.1.2中描述的实车碰撞试验条件中,车身非变形区域采集的加速度-时间曲线,并经过滤波等级CFC60\
+            \ 滤波或100Hz低通滤波。实际试验结果波形的积分速度变化量Δvs( t)应在任意时刻,不超过指定波形的积分速度变化量[Δvt( t)±1]km/h的范围。\\\
+            nb) 按图B.1 的标准加速度通道范围和表B.1 的参数进行加速或减速,其速度变化量Δv 为\\n(25±1)km/h。\\nGB45672—2025图B.1\
+            \ 正面碰撞自动触发加速度通道表B.1 正面碰撞自动触发加速度参数\\n点\\n时间t\\nms\\n加速度下限(×g) 点 时间tms\\\
+            n加速度上限(×g) A 15 0 E 0 3 B 45 10 F 40 17 C 60 10 G 63 17 D 85 0 H 105 0\"\
+            ,\n                        \"children\": [],\n                       \
+            \ \"full_path\": \"B.2 试验项目/B.2.1 正面碰撞/B.2.1.1 滑台正面碰撞试验/B.2.1.1.2 \"\n\
+            \                      }\n                    ],\n                   \
+            \ \"full_path\": \"B.2 试验项目/B.2.1 正面碰撞/B.2.1.1 滑台正面碰撞试验\"\n          \
+            \        },\n                ],\n              },\n            ],\n  \
+            \        }\n        ]\n      }\n    ]\n  }\n]\n```\n\n## 输出示例1\n\n```\n\
+            \  {\n      \"file\": \"regulation\",\n      \"section\": \"附录B\",\n \
+            \     \"experiment_root_ids\": [\"B.2.1.1\"]\n      \"chapters\":[\n \
+            \         {\n      \"chapter_id\": \"B.2\",\n      \"topic_keywords\"\
+            : [\"试验项目\", \"自动触发试验方法\"],\n    },\n        {\n      \"chapter_id\":\
+            \ \"B.2.1\",\n      \"topic_keywords\": [\"正面碰撞\"],\n    },\n        {\n\
+            \      \"chapter_id\": \"B.2.1.1\",\n      \"topic_keywords\": [\"滑台正面碰撞试验\"\
+            ],\n    },\n        {\n      \"chapter_id\": \"B.2.1.1.1\",\n      \"\
+            topic_keywords\": [\"安装方向\", \"正面碰撞\"],\n      \"context_keywords\": [\"\
+            白车身\", \"工装\", \"碰撞试验滑台\"],\n    },\n     {\n      \"chapter_id\": \"\
+            B.2.1.1.2\",\n      \"paramaters\": [\n        {\n          \"item\":\
+            \ \"速度变化量Δv\",\n          \"constraint\": \"=\",\n          \"value\"\
+            : \"25\",\n          \"unit\": \"km/h\",\n          \"source_text\": \"\
+            其速度变化量Δv为(25±1)km/h\"\n        }\n      ],\n      \"topic_keywords\":\
+            \ [\"滑台正面碰撞试验\",\"滑台\",\"加速度波形\", \"碰撞试验\", \"加速度-时间曲线\"],\n      \"context_keywords\"\
+            : [\"CFC60滤波\", \"100Hz低通滤波\"],\n      \"refs\": [\n        {\n      \
+            \    \"ref_type\": \"clause\",\n          \"doc_id\": null,\n        \
+            \  \"target_id\": \"B.2.1.2\",\n          \"anchor_text\": \"实车碰撞试验条件-加速度波形\"\
+            \n        },\n        {\n          \"ref_type\": \"graph\",\n        \
+            \  \"doc_id\": null,\n          \"target_id\": \"图B.1\",\n          \"\
+            anchor_text\": \"\"\n        },\n        {\n          \"ref_type\": \"\
+            table\",\n          \"doc_id\": null,\n          \"target_id\": \"表B.1\"\
+            ,\n          \"anchor_text\": \"\"\n        },\n      ],\n      \"table_headers\"\
+            : [\"点\", \"时间t(ms)\", \"加速度下限(×g)\", \"加速度上限(×g)\"]\n    }\n      ]\n\
+            \  }\n\n```\n\n## 输入示例2\n\n```\n[\n  {\n    \"file\": \"regulation\",\n\
+            \    \"sections\": [\n      {\n        \"section\": \"MAIN\",\n      \
+            \  \"context\": \"\",\n        \"chapters\": [\n          {\n        \
+            \    \"chapter_id\": \"1\",\n            \"chapter_title\": \"范围\",\n\
+            \            \"raw_text\": \"本文件规定了车载事故紧急呼叫系统的技术要求、同一型式判定要求,描述了相应的试验方法。\\\
+            n本文件适用于M1 类及N1 类车辆的车载事故紧急呼叫系统。\",\n            \"children\": [],\n   \
+            \         \"full_path\": \"1 范围\"\n          },\n          {\n       \
+            \     \"chapter_id\": \"2\",\n            \"chapter_title\": \"规范性引用文件\"\
+            ,\n            \"raw_text\": \"下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中,注日期的引用文件,仅该日期对应的版本适用于本文件;不注日期的引用文件,其最新版本(包括所有的修改单)适用于本文件。\\\
+            nGB11551—2014 汽车正面碰撞的乘员保护 GB/T15089 机动车辆及挂车分类 GB16735 道路车辆 车辆识别代号(VIN)\
+            \ GB20071—2025 汽车侧面碰撞的乘员保护 GB20072—2024 乘用车后碰撞安全要求 GB/T20913—2007 乘用车正面偏置碰撞的乘员保护\
+            \ GB34660—2017 道路车辆 电磁兼容性要求和试验方法 GB39732—2020 汽车事件数据记录系统 GB/T43187—2023\
+            \ 车载无线通信终端 GB/T45086.1—2024 车载定位系统技术要求及试验方法 第1部分:卫星定位 GB/T45314—2025 道路车辆免提通话和语音交互性能要求及试验方法\"\
+            ,\n            \"children\": [],\n            \"full_path\": \"2 规范性引用文件\"\
+            \n          },\n          {\n            \"chapter_id\": \"3\",\n    \
+            \        \"chapter_title\": \"术语和定义\",\n            \"raw_text\": \"下列术语和定义适用于本文件。\"\
+            ,\n            \"children\": [\n              {\n                \"chapter_id\"\
+            : \"3.1\",\n                \"chapter_title\": \"车载事故紧急呼叫系统 on-boardaccidentemergencycallsystem;AECS\"\
+            ,\n                \"raw_text\": \"通过车辆内部策略在发生事故时自动激活,或由车内人员进行手动触发后,将车辆的位置及车辆相关状态信息同步发送给紧急呼叫服务平台并建立语音通话的系统。\"\
+            ,\n                \"children\": [],\n                \"full_path\": \"\
+            3 术语和定义/3.1 车载事故紧急呼叫系统 on-boardaccidentemergencycallsystem;AECS\"\n  \
+            \            },\n              {\n                \"chapter_id\": \"3.2\"\
+            ,\n                \"chapter_title\": \"车载无线通信终端 on-boardwirelesscommunicationterminal\"\
+            ,\n                \"raw_text\": \"安装在车辆上,能够通过蜂窝移动通信等技术建立连接并进行信息交互的电子设备。\\\
+            n注:车载无线通信终端通常由发射机、接收机、天线、控制器和线缆等部件构成。\\n[来源:GB/T43187—2023,3.1]\",\n \
+            \               \"children\": [],\n                \"full_path\": \"3\
+            \ 术语和定义/3.2 车载无线通信终端 on-boardwirelesscommunicationterminal\"\n       \
+            \       }\n            ],\n            \"full_path\": \"3 术语和定义\"\n  \
+            \        }\n        ]\n      }\n    ]\n  }\n]\n```\n\n## 输出示例2\n\n```\n\
+            \  {\n      \"file\": \"regulation\",\n      \"section\": \"MAIN\",\n\
+            \      \"experiment_root_ids\": []\n      \"chapters\":[\n          {\n\
+            \            \"chapter_id\": \"1\",\n            \"topic_keywords\": [\n\
+            \              \"范围\"\n            ],\n          },\n          {\n   \
+            \         \"chapter_id\": \"2\",\n            \"parameters\": [],\n  \
+            \          \"topic_keywords\": [\n              \"规范性引用文件\"\n        \
+            \    ],\n          },\n          {\n            \"chapter_id\": \"3\"\
+            ,\n            \"topic_keywords\": [\n              \"术语和定义\"\n      \
+            \      ],\n          },\n          {\n            \"chapter_id\": \"3.1\"\
+            ,\n            \"topic_keywords\": [\n              \"车载事故紧急呼叫系统\"\n \
+            \           ],\n          },\n          {\n            \"chapter_id\"\
+            : \"3.2\",\n            \"topic_keywords\": [\n              \"车载无线通信终端\"\
+            \n            ],\n            \"refs\": [\n              {\n         \
+            \       \"ref_type\": \"external_clause\",\n                \"doc_id\"\
+            : \"GB/T43187—2023\",\n                \"target_id\": \"3.1\",\n     \
+            \           \"anchor_text\": \"车载无线通信终端定义\"\n              }\n       \
+            \     ],\n          },\n      ]\n  }\n\n```\n\n"
+        - id: 2e89206c-ded1-462d-9db7-2832e587c8ad
+          role: user
+          text: '{{#1756557801310.item#}}'
+        selected: false
+        title: LLM 2
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1756557804693'
+      parentId: '1756557801310'
+      position:
+        x: 204
+        y: 80
+      positionAbsolute:
+        x: 842
+        y: 509.5
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "import json\nimport re\n\nimport json\nimport ast\nimport re\nfrom\
+          \ typing import Dict, List, Any\n\ndef parse_input(src: str) -> List[Dict[str,\
+          \ Any]]:\n    \"\"\"预处理并解析输入字符串为列表字典结构\"\"\"\n    try:\n        # 1. 直接按\
+          \ </think> 切分并取后半段\n        src = src.rsplit('</think>', 1)[-1].strip()\n\
+          \n        try:\n            data = json.loads(src)\n        except json.JSONDecodeError:\n\
+          \            try:\n                if src.startswith('\\ufeff'):\n     \
+          \               src = src[1:]\n                data = ast.literal_eval(src)\n\
+          \            except (SyntaxError, ValueError):\n                try:\n \
+          \                   processed = src.replace('\\\\\"', '\"').replace('\\\\\
+          n', '\\n')\n                    data = json.loads(processed)\n         \
+          \       except Exception as e:\n                    raise ValueError(f\"\
+          无法解析：{str(e)}\")\n\n        # 保证为 list\n        if isinstance(data, dict):\n\
+          \            return [data]\n        elif isinstance(data, list):\n     \
+          \       return data\n        else:\n            return []\n    except Exception\
+          \ as e:\n        raise ValueError(f\"预处理失败: {str(e)}\")\n        # return\
+          \ []\n\n\ndef main(arg1: str) -> dict:\n    data = parse_input(arg1)\n\n\
+          \    return {\n        \"result\":json.dumps(data, ensure_ascii=False),\n\
+          \    }"
+        code_language: python3
+        desc: ''
+        error_strategy: fail-branch
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 2
+        type: code
+        variables:
+        - value_selector:
+          - '1756557804693'
+          - text
+          value_type: string
+          variable: arg1
+      height: 89
+      id: '1756557929661'
+      parentId: '1756557801310'
+      position:
+        x: 508
+        y: 80
+      positionAbsolute:
+        x: 1146
+        y: 509.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        answer: '{{#1756613329065.output#}}'
+        desc: ''
+        selected: false
+        title: 直接回复 2
+        type: answer
+        variables: []
+      height: 104
+      id: '1756558073574'
+      position:
+        x: 5118
+        y: 429.5
+      positionAbsolute:
+        x: 5118
+        y: 429.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        code: "import json\nimport re\nimport os\n\nimport json\nimport ast\nimport\
+          \ re\nfrom typing import Dict, List, Any\n\ndef parse_input(src: str) ->\
+          \ List[Dict[str, Any]]:\n    \"\"\"预处理并解析输入字符串为列表字典结构\"\"\"\n    try:\n\
+          \        # 去除 LLM 思维链标记\n        try: \n            src = re.sub(r'<think>.*?</think>',\
+          \ '', src, flags=re.DOTALL).strip()\n        except:\n            pass\n\
+          \n        try:\n            data = json.loads(src)\n        except json.JSONDecodeError:\n\
+          \            try:\n                if src.startswith('\\ufeff'):\n     \
+          \               src = src[1:]\n                data = ast.literal_eval(src)\n\
+          \            except (SyntaxError, ValueError):\n                try:\n \
+          \                   processed = src.replace('\\\\\"', '\"').replace('\\\\\
+          n', '\\n')\n                    data = json.loads(processed)\n         \
+          \       except Exception as e:\n                    raise ValueError(f\"\
+          无法解析：{str(e)}\")\n\n        # 保证为 list\n        if isinstance(data, dict):\n\
+          \            return [data]\n        elif isinstance(data, list):\n     \
+          \       return data\n        else:\n            return []\n    except Exception\
+          \ as e:\n        raise ValueError(f\"预处理失败: {str(e)}\")\n        # return\
+          \ []\n\ndef find_chapters_and_children_by_ids(tree, target_file, target_section,\
+          \ experiment_root_ids):\n    \"\"\"\n    根据 experiment_root_ids 找到对应的章节及其所有子章节\n\
+          \    \n    Args:\n        tree: 完整的章节树结构\n        target_file: 目标文件名 (如\
+          \ \"regulation\")\n        target_section: 目标section名 (如 \"附录B\")\n    \
+          \    experiment_root_ids: 要查找的章节ID列表 (如 [\"B.2.1.1\",\"B.2.4.1\"])\n   \
+          \ \n    Returns:\n        List[Dict]: 每个item包含找到的章节及其所有子章节\n    \"\"\"\n\
+          \    \n    def get_chapter_with_all_children(chapter):\n        \"\"\"递归获取章节及其所有子章节\"\
+          \"\"\n        result = {\n            \"chapter_id\": chapter[\"chapter_id\"\
+          ],\n            \"chapter_title\": chapter[\"chapter_title\"],\n       \
+          \     \"raw_text\": chapter.get(\"raw_text\", \"\"),\n            \"full_path\"\
+          : chapter.get(\"full_path\", \"\"),\n            \"children\": []\n    \
+          \    }\n        \n        # 如果有子章节，递归获取\n        if \"children\" in chapter\
+          \ and chapter[\"children\"]:\n            for child in chapter[\"children\"\
+          ]:\n                result[\"children\"].append(get_chapter_with_all_children(child))\n\
+          \        \n        return result\n    \n    def find_chapter_by_id(chapters,\
+          \ target_id):\n        \"\"\"在章节列表中递归查找指定ID的章节\"\"\"\n        for chapter\
+          \ in chapters:\n            if chapter[\"chapter_id\"] == target_id:\n \
+          \               return chapter\n\n            # 在子章节中递归查找\n            if\
+          \ \"children\" in chapter and chapter[\"children\"]:\n                found\
+          \ = find_chapter_by_id(chapter[\"children\"], target_id)\n             \
+          \   if found:\n                    return found\n        \n        return\
+          \ None\n    \n    result = []\n    \n    # 遍历树结构，找到目标文件和section\n    for\
+          \ file_item in tree:\n        if file_item[\"file\"] != target_file:\n \
+          \           continue\n            \n        for section in file_item[\"\
+          sections\"]:\n            if section[\"section\"] != target_section:\n \
+          \               continue\n            \n            # 在 find_chapters_and_children_by_ids\
+          \ 里，找到目标 section 后加：\n            if experiment_root_ids == [\"ALL\"]:\n\
+          \                # 把第一层所有 chapter_id 取出来\n                experiment_root_ids\
+          \ = [ch[\"chapter_id\"] for ch in section.get(\"chapters\", [])]\n\n   \
+          \         # 在该section中查找每个experiment_root_id\n            for root_id in\
+          \ experiment_root_ids:\n                found_chapter = find_chapter_by_id(section[\"\
+          chapters\"], root_id)\n                if found_chapter:\n             \
+          \       # 获取该章节及其所有子章节\n                    chapter_with_children = get_chapter_with_all_children(found_chapter)\n\
+          \                    result.append(chapter_with_children)\n            \
+          \    else:\n                    print(f\"警告: 未找到章节ID '{root_id}' 在 {target_file}/{target_section}\
+          \ 中\")\n    \n    return result\n\ndef extract_experiment_chapters(tree,\
+          \ experiment_info):\n    \"\"\"\n    根据实验信息提取对应的章节\n    \n    Args:\n  \
+          \      tree: 完整的章节树\n        experiment_info: 包含 file, section, experiment_root_ids\
+          \ 的字典\n    \n    Returns:\n        List[Dict]: 实验相关的章节列表\n    \"\"\"\n \
+          \   return find_chapters_and_children_by_ids(\n        tree=tree,\n    \
+          \    target_file=experiment_info[\"file\"],\n        target_section=experiment_info[\"\
+          section\"],\n        experiment_root_ids=experiment_info[\"experiment_root_ids\"\
+          ]\n    )\n\ndef main(arg1: list[str], arg2: str, file_name) -> dict:\n \
+          \   \"\"\"\n    处理实验数据的主函数\n    \n    Args:\n        arg1: JSON字符串列表，每个包含\
+          \ file, section, experiment_root_ids\n        arg2: 章节树的JSON字符串\n    \n\
+          \    Returns:\n        dict: 处理后的实验章节数据\n    \"\"\"\n    import json\n \
+          \   from collections import defaultdict\n    \n    # 解析输入数据\n    experiment_data\
+          \ = []\n    solved_tree = []\n    for t in arg1:\n        if t is None:\n\
+          \            continue\n        items = json.loads(t)\n        for item in\
+          \ items:\n            experiment_data.append({\n                'file':\
+          \ item['file'],\n                'section': item['section'],\n         \
+          \       'experiment_root_ids': item['experiment_root_ids']\n           \
+          \ })\n            solved_tree.append({\n                'file': item['file'],\n\
+          \                'section': item['section'],\n                'chapters':item['chapters']\n\
+          \            })\n    \n    # # 按 file 和 section 合并相同的项目\n    # merged_experiments\
+          \ = defaultdict(list)\n    # for item in experiment_data:\n    #     key\
+          \ = (item['file'], item['section'])\n    #     merged_experiments[key].extend(item['experiment_root_ids'])\n\
+          \    \n    # # 去重并生成最终的 experiment_info 列表\n    # experiment_infos = []\n\
+          \    # for (file, section), root_ids in merged_experiments.items():\n  \
+          \  #     # 去重但保持顺序\n    #     unique_root_ids = []\n    #     seen = set()\n\
+          \    #     for root_id in root_ids:\n    #         if root_id not in seen:\n\
+          \    #             unique_root_ids.append(root_id)\n    #             seen.add(root_id)\n\
+          \    #     if len(unique_root_ids):\n    #         experiment_infos.append({\n\
+          \    #             'file': file,\n    #             'section': section,\n\
+          \    #             'experiment_root_ids': unique_root_ids\n    #       \
+          \  })\n    \n    # ✅ 按原始 JSON 字符串粒度合并，不拆 ID\n    experiment_infos = []\n\
+          \    for item in experiment_data:\n        if item['experiment_root_ids']:\
+          \  # 只保留非空的\n            experiment_infos.append({\n                'file':\
+          \ item['file'],\n                'section': item['section'],\n         \
+          \       'experiment_root_ids': item['experiment_root_ids']  # 保持原样，不拆\n\
+          \            })\n\n    # ✅ 按 (file, section, tuple(root_ids)) 去重\n    seen\
+          \ = set()\n    unique_experiments = []\n    for exp in experiment_infos:\n\
+          \        key = (exp['file'], exp['section'], tuple(exp['experiment_root_ids']))\n\
+          \        if key not in seen:\n            seen.add(key)\n            unique_experiments.append(exp)\n\
+          \n    experiment_infos = unique_experiments\n\n    # 1. 先把 solved_tree 按\
+          \ (file, section) 做分组\n    merged_chapters = defaultdict(list)\n    for\
+          \ node in solved_tree:\n        key = (node['file'], node['section'])\n\
+          \        merged_chapters[key].extend(node['chapters'])\n\n    # 2. 在每个分组内对\
+          \ chapters 去重且保持原顺序\n    final_tree = []\n    for (file, section), chapters\
+          \ in merged_chapters.items():\n        seen_id = set()\n        unique_chapters\
+          \ = []\n        for c in chapters:\n            cid = c.get(\"chapter_id\"\
+          )\n            if cid not in seen_id:\n                unique_chapters.append(c)\n\
+          \                seen_id.add(cid)\n        if unique_chapters:\n       \
+          \     final_tree.append({\n                \"file\": file,\n           \
+          \     \"section\": section,\n                \"chapters\": unique_chapters\n\
+          \            })\n\n    # 解析章节树\n    regulation_tree = parse_input(arg2)\n\
+          \    \n    # print(experiment_infos)\n\n\n    # 处理每个实验信息，提取对应的章节\n    result\
+          \ = []\n    for i, experiment_info in enumerate(experiment_infos):\n   \
+          \     chapters_with_hierarchy = extract_experiment_chapters(regulation_tree,\
+          \ experiment_info)\n        \n        result.append(json.dumps(chapters_with_hierarchy,\
+          \ ensure_ascii=False))\n    \n    # 去掉扩展名，再拼 .json\n    base_name = os.path.splitext(file_name)[0]\
+          \          # 得到无后缀的纯文件名\n    path = f\"/tmp/mydata/{base_name}/first_version.json\"\
+          \n\n\n    os.makedirs(os.path.dirname(path), exist_ok=True)\n    with open(path,\
+          \ \"w\", encoding=\"utf-8\") as f:\n        json.dump(final_tree, f, ensure_ascii=False,\
+          \ indent=2)\n\n    return {\n        \"chapters\":result,\n        \"experiment_infos\"\
+          :json.dumps(experiment_infos, ensure_ascii=False),\n        \"final_tree\"\
+          :json.dumps(final_tree, ensure_ascii=False),\n    }"
+        code_language: python3
+        desc: ''
+        outputs:
+          chapters:
+            children: null
+            type: array[string]
+          experiment_infos:
+            children: null
+            type: string
+          final_tree:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 3
+        type: code
+        variables:
+        - value_selector:
+          - '1756557801310'
+          - output
+          value_type: array[string]
+          variable: arg1
+        - value_selector:
+          - '1756550411122'
+          - tree
+          value_type: string
+          variable: arg2
+        - value_selector:
+          - '1756550268945'
+          - file
+          - name
+          value_type: file
+          variable: file_name
+      height: 53
+      id: '1756563307317'
+      position:
+        x: 2422
+        y: 429.5
+      positionAbsolute:
+        x: 2422
+        y: 429.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        error_handle_mode: continue-on-error
+        height: 273
+        is_parallel: true
+        iterator_input_type: array[string]
+        iterator_selector:
+        - '1756563307317'
+        - chapters
+        output_selector:
+        - '1756613456815'
+        - result
+        output_type: array[string]
+        parallel_nums: 10
+        selected: false
+        start_node_id: 1756613329065start
+        title: 迭代 2
+        type: iteration
+        width: 1718
+      height: 273
+      id: '1756613329065'
+      position:
+        x: 2726
+        y: 429.5
+      positionAbsolute:
+        x: 2726
+        y: 429.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 1718
+      zIndex: 1
+    - data:
+        desc: ''
+        isInIteration: true
+        selected: false
+        title: ''
+        type: iteration-start
+      draggable: false
+      height: 48
+      id: 1756613329065start
+      parentId: '1756613329065'
+      position:
+        x: 60
+        y: 100.5
+      positionAbsolute:
+        x: 2786
+        y: 530
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-iteration-start
+      width: 44
+      zIndex: 1002
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1756550411122'
+          - context
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        model:
+          completion_params: {}
+          mode: chat
+          name: deepseek-reasoner
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: 8e7bb797-e961-48ec-9029-47c638adcc67
+          role: system
+          text: "# 角色（Role）\n你是一名 **标准测试用例设计专家**，精通汽车及相关领域的标准和法规文档。  \n你的职责是将标准或法规文件中的条款和试验方法\
+            \ **严格拆解为结构化测试用例**，输出结果用于：  \n- 标准和法规的比对分析  \n- 测试机构设备能力验证和覆盖率评估  \n-\
+            \ 自动化测试用例管理系统  \n要求信息完整、条理清晰、字段规范化，确保结构化结果具备可追溯性和可执行性。\n\n---\n\n# 输入格式（Input\
+            \ Format）\n输入为一个 JSON 数组，每个元素表示一个章节：\n```json\n[\n  {\n    \"chapter_id\"\
+            : \"string\",      // 章节编号\n    \"chapter_title\": \"string\",   // 章节标题\n\
+            \    \"raw_text\": \"string\",        // 本章节正文\n    \"children\": [  \
+            \              // 子章节数组（递归结构）\n      { ...同结构... }\n    ],\n    \"full_path\"\
+            : \"string\"        // 从根到该章节的路径\n  }\n]\n```\n说明：\n- 你也可以从 {{#context#}}\
+            \ 中理解此标准的相关信息\n- `raw_text` 可能为空，正文可能在 `children` 内。\n- 同一章节可包含多个实验方法；每个实验方法需单独拆解成对象。不同章节间各自独立，不要相互推断\n\
+            - 一个实验方法中存在多种试验方案时，也要分别拆解为多个对象（命名时在 `test_name` 后添加方案标识，如“(XX方案)”）。\n\n\
+            ---\n\n# 输出格式（Output Format）\n输出为一个 JSON 数组，对应输入的章节数组，每个章节对应一个数组，数组中的每个对象代表一个独立的实验或实验方案：\n\
+            \n```json\n[\n  [\n    {\n      \"chapter_id\": \"string\",    // 来源章节的chapter_id，保证可追溯性\n\
+            \      \"test_name\": \"string\",     // 测试名称，从章节标题或路径提炼，简洁且唯一\n     \
+            \ \"conditions\": [            // 测试条件：试件状态、安装、环境等，完整分点列出\n        \"\
+            string\"\n      ],\n      \"criteria\": [              // 判定标准：明确检测项+达标条件，分点列出\n\
+            \        \"string\"\n      ],\n      \"equipment\": [             // 所需设备及规格，便于设备能力验证\n\
+            \        {\n          \"name\": \"string\",          // 设备名称\n       \
+            \   \"specification\": \"string\"  // 设备规格/性能\n        }\n      ],\n \
+            \     \"parameters\": [            // 提取的关键参数\n        {\n          \"\
+            item\": \"string\",          // 参数项\n          \"constraint\": \"string\"\
+            ,    // 约束：<=|<|=|>=|>|range_closed|range_open|enum|boolean\n        \
+            \  \"value\": \"string|array|null\", // 参数值，可为数字、范围或枚举\n          \"unit\"\
+            : \"string|null\",     // 单位，若无则null\n          \"source_text\": \"string\"\
+            \    // 原文完整片段，保留符号，便于追溯\n        }\n      ],\n      \"refs\": [     \
+            \             // 引用信息\n        {\n          \"ref_type\": \"internal|external\"\
+            , // 内部/外部引用\n          \"doc_id\": \"string|null\",         // 外部标准编号；内部引用填null\n\
+            \          \"target_id\": \"string\",           // 引用目标编号（如“B.2.1.1”、“表B.1”）\n\
+            \          \"anchor_text\": \"string\"          // 引用的简要上下文描述\n      \
+            \  }\n      ]\n    }\n  ]\n]\n```\n\n---\n\n# 字段说明\n- **chapter_id**：标记来源章节，保证可追溯性。\
+            \  \n- **test_name**：唯一标识该实验方法，若同一实验有多方案，在后加括号标明方案，如“(方案A)”。  \n- **conditions**：完整分点列出测试前置条件、安装状态、环境要求等。\
+            \  \n- **criteria**：每条必须包含检测对象与判定条件，避免笼统描述。  \n- **equipment**：完整列出所有设备及关键规格。\
+            \  \n- **parameters**：提取所有定量指标，中文数字转阿拉伯数字。  \n- **refs**：提取章节内的标准引用：\n\
+            \  - 内部引用：指向本标准的章节、表、图，`ref_type=internal`，`doc_id=null`。\n  - 外部引用：指向外部标准，`ref_type=external`，填写标准编号。\n\
+            \  - 多个引用可合并成一条记录（如“表B.1、图B.1”可为一个条目）。\n\n---\n\n# 处理逻辑（Chain-of-Thought）\n\
+            1. **解析章节内容**：递归遍历`children`，判断是否存在真实实验\n   - 若实验主体是要求，例如：“4.4. 1.1 按附录B进行试验后,AECS应被自动触发,且发送的MSD中触发类型应为自动触发”，结合上下文综合评估此部分主体是要求，则不提取实验\n\
+            \   - 若实验主体是实验，即实际上此处确实进行实验，但是并不完整（比如实验步骤参见他处），仍应提取实验\n\n2. **拆分实验方法与方案**：根据描述逻辑、序号、a)/b)分项等拆成多个对象。若是英文内容，则输出也必须全是英文。\n\
+            3. **提取章节ID**：写入每个对象的`chapter_id`字段。  \n4. **提取实验名称**：优先章节标题，结合路径简化，必要时标明方案。\
+            \  \n5. **解析实验条件**：\n   - 列出安装方式、试件状态、环境条件、电源状态等。\n   - 即使与参数重复，也需完整保留，保证上下文完整性。\
+            \  \n6. **提取判定标准**：\n   - 分点描述检测项+判定条件，避免“符合要求”这种模糊表述。  \n7. **提取设备**：\n\
+            \   - 捕捉所有提及的设备与关键规格。  \n8. **提取参数**：\n   - 所有定量值、范围、精度要求等，严格标注约束类型和单位。\n\
+            \   - 中文数字需转阿拉伯数字。  \n9. **提取引用**：\n   - 将内部和外部引用单独记录在`refs`数组中。  \n10.\
+            \ **输出标准化**：\n    - 缺失项保持字段但填空值（如空数组或null）。  \n    - 严格JSON结构，键名全部小写英文。\
+            \  \n\n---\n\n# 注意事项（Notes）\n\n- 输出必须严格符合JSON格式，键名统一为英文，**值则与输入保持一致**（输入英文，则保留英文表达）\n\
+            - 输入章节可能包含多个实验方法，每个方法独立成对象。\n- 缺失信息时返回空数组`[]`或`null`，不省略字段。\n- 不解释或展开引用的外部标准，仅原文保留在`source_text`。\n\
+            \n# Few-shot示例\n\n### 输入\n```json\n[\n  {\n    \"chapter_id\": \"B.2.1.1\"\
+            ,\n    \"chapter_title\": \"滑台正面碰撞试验\",\n    \"raw_text\": \"\",\n   \
+            \ \"children\": [\n      {\n        \"chapter_id\": \"B.2.1.1.1\",\n \
+            \       \"chapter_title\": \"\",\n        \"raw_text\": \"将白车身或工装固定在碰撞试验滑台上,安装方向模拟正面碰撞。\"\
+            ,\n        \"children\": [],\n        \"full_path\": \"B.2 试验项目/B.2.1\
+            \ 正面碰撞/B.2.1.1 滑台正面碰撞试验/B.2.1.1.1 \"\n      },\n      {\n        \"chapter_id\"\
+            : \"B.2.1.1.2\",\n        \"chapter_title\": \"\",\n        \"raw_text\"\
+            : \"滑台按照以下加速度波形之一进行碰撞试验。 a) 使用制造商指定的加速度波形进行试验,指定的加速度波形应为在B.2.1.2中描述的实车碰撞试验条件中,车身非变形区域采集的加速度-时间曲线,并经过滤波等级CFC60\
+            \ 滤波或100Hz低通滤波。实际试验结果波形的积分速度变化量Δvs(t)应在任意时刻,不超过指定波形的积分速度变化量[Δvt(t)±1]km/h的范围。\\\
+            nb) 按图B.1 的标准加速度通道范围和表B.1 的参数进行加速或减速,其速度变化量Δv 为(25±1)km/h。\",\n      \
+            \  \"children\": [],\n        \"full_path\": \"B.2 试验项目/B.2.1 正面碰撞/B.2.1.1\
+            \ 滑台正面碰撞试验/B.2.1.1.2 \"\n      }\n    ],\n    \"full_path\": \"B.2 试验项目/B.2.1\
+            \ 正面碰撞/B.2.1.1 滑台正面碰撞试验\"\n  }\n]\n```\n\n### 输出\n```json\n[\n  [\n  \
+            \  {\n      \"chapter_id\": \"B.2.1.1\",\n      \"test_name\": \"滑台正面碰撞试验(方案A)\"\
+            ,\n      \"conditions\": [\n        \"将白车身或工装固定在碰撞试验滑台上，安装方向模拟正面碰撞。\"\
+            ,\n        \"试验滑台按制造商指定的加速度波形进行试验。\",\n        \"加速度波形来源：实车碰撞试验条件下，车身非变形区域采集的加速度-时间曲线。\"\
+            \n      ],\n      \"criteria\": [\n        \"检查碰撞触发信号，确保与MSD中记录的触发类型一致。\"\
+            ,\n        \"积分速度变化量Δvs(t)在任意时刻不得超出指定波形Δvt(t)±1 km/h。\"\n      ],\n  \
+            \    \"equipment\": [\n        {\n          \"name\": \"碰撞试验滑台\",\n  \
+            \        \"specification\": \"可模拟正面碰撞；支持自定义加速度波形输入\"\n        }\n    \
+            \  ],\n      \"parameters\": [\n        {\n          \"item\": \"积分速度变化量Δvs(t)\"\
+            ,\n          \"constraint\": \"range_closed\",\n          \"value\": [\"\
+            Δvt(t)-1\", \"Δvt(t)+1\"],\n          \"unit\": \"km/h\",\n          \"\
+            source_text\": \"积分速度变化量Δvs(t)应在任意时刻,不超过指定波形的积分速度变化量[Δvt(t)±1]km/h\"\n\
+            \        },\n        {\n          \"item\": \"滤波等级\",\n          \"constraint\"\
+            : \"enum\",\n          \"value\": [\"CFC60\", \"100Hz低通\"],\n        \
+            \  \"unit\": null,\n          \"source_text\": \"并经过滤波等级CFC60滤波或100Hz低通滤波\"\
+            \n        }\n      ],\n      \"refs\": [\n        {\n          \"ref_type\"\
+            : \"internal\",\n          \"doc_id\": null,\n          \"target_id\"\
+            : \"B.2.1.2\",\n          \"anchor_text\": \"实车碰撞试验条件\"\n        }\n \
+            \     ]\n    },\n    {\n      \"chapter_id\": \"B.2.1.1\",\n      \"test_name\"\
+            : \"滑台正面碰撞试验(方案B)\",\n      \"conditions\": [\n        \"将白车身或工装固定在碰撞试验滑台上，安装方向模拟正面碰撞。\"\
+            ,\n        \"按图B.1标准加速度通道和表B.1参数进行滑台加速或减速。\"\n      ],\n      \"criteria\"\
+            : [\n        \"检查碰撞触发信号，确保与MSD中记录的触发类型一致。\",\n        \"速度变化量Δv应为25±1\
+            \ km/h。\"\n      ],\n      \"equipment\": [\n        {\n          \"name\"\
+            : \"碰撞试验滑台\",\n          \"specification\": \"满足图B.1、表B.1加速度曲线参数\"\n \
+            \       }\n      ],\n      \"parameters\": [\n        {\n          \"\
+            item\": \"速度变化量Δv\",\n          \"constraint\": \"range_closed\",\n  \
+            \        \"value\": [\"24\", \"26\"],\n          \"unit\": \"km/h\",\n\
+            \          \"source_text\": \"速度变化量Δv为(25±1)km/h\"\n        },\n     \
+            \ ],\n      \"refs\": [\n        {\n          \"ref_type\": \"internal\"\
+            ,\n          \"doc_id\": null,\n          \"target_id\": \"图B.1\",\n \
+            \         \"anchor_text\": \"标准加速度通道\"\n        },\n        {\n      \
+            \    \"ref_type\": \"internal\",\n          \"doc_id\": null,\n      \
+            \    \"target_id\": \"表B.1\",\n          \"anchor_text\": \"标准加速度参数\"\n\
+            \        }\n      ]\n    }\n  ]\n]\n```\n"
+        - id: 8ee6a7aa-9eb1-44fd-8cf5-1d32d1a65fea
+          role: user
+          text: '{{#1756613329065.item#}}'
+        selected: false
+        title: LLM 2
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1756613344845'
+      parentId: '1756613329065'
+      position:
+        x: 204
+        y: 80
+      positionAbsolute:
+        x: 2930
+        y: 509.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "import json\nimport re\n\nimport json\nimport ast\nimport re\nfrom\
+          \ typing import Dict, List, Any\n\ndef parse_input(src: str) -> List[Dict[str,\
+          \ Any]]:\n    \"\"\"预处理并解析输入字符串为列表字典结构\"\"\"\n    try:\n        # 1. 直接按\
+          \ </think> 切分并取后半段\n        src = src.rsplit('</think>', 1)[-1].strip()\n\
+          \n        try:\n            data = json.loads(src)\n        except json.JSONDecodeError:\n\
+          \            try:\n                if src.startswith('\\ufeff'):\n     \
+          \               src = src[1:]\n                data = ast.literal_eval(src)\n\
+          \            except (SyntaxError, ValueError):\n                try:\n \
+          \                   processed = src.replace('\\\\\"', '\"').replace('\\\\\
+          n', '\\n')\n                    data = json.loads(processed)\n         \
+          \       except Exception as e:\n                    raise ValueError(f\"\
+          无法解析：{str(e)}\")\n\n        # 保证为 list\n        if isinstance(data, dict):\n\
+          \            return [data]\n        elif isinstance(data, list):\n     \
+          \       return data\n        else:\n            return []\n    except Exception\
+          \ as e:\n        # raise ValueError(f\"预处理失败: {str(e)}\")\n        return\
+          \ []\n\n\ndef main(arg1: str) -> dict:\n    data = parse_input(arg1)\n\n\
+          \    return {\n        \"result\":json.dumps(data, ensure_ascii=False),\n\
+          \    }"
+        code_language: python3
+        desc: ''
+        error_strategy: fail-branch
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 6
+        type: code
+        variables:
+        - value_selector:
+          - '1756613344845'
+          - text
+          value_type: string
+          variable: arg1
+      height: 89
+      id: '1756613456815'
+      parentId: '1756613329065'
+      position:
+        x: 508
+        y: 80
+      positionAbsolute:
+        x: 3234
+        y: 509.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "import os, json, traceback, subprocess, platform\n\ndef main(arg1:\
+          \ list[str], arg2: str, file_name) -> dict:\n    \"\"\"\n    将试验数据与章节信息一一对应，生成目标格式\n\
+          \    [\n        {\n            \"file\": \"regulation\",\n            \"\
+          section\": \"附录B\",\n            \"experiments\": [...]\n        },\n  \
+          \      ...\n    ]\n    \"\"\"\n    # 1. 先把 arg2 的字符串反序列化成列表\n    sec_list\
+          \ = json.loads(arg2)\n\n    # 2. 依次处理 arg1 中的每个元素\n    result = []\n   \
+          \ for sec, exp_str in zip(sec_list, arg1):\n        # 把当前试验字符串反序列化成列表\n\
+          \        experiments = json.loads(exp_str)\n\n        # 3. 拼成目标字典\n    \
+          \    result.append({\n            \"file\": sec[\"file\"],\n           \
+          \ \"section\": sec[\"section\"],\n            \"experiments\": experiments\n\
+          \        })\n        \n\n\n    # 去掉扩展名，再拼 .json\n    base_name = os.path.splitext(file_name)[0]\
+          \          # 得到无后缀的纯文件名\n    path = f\"/tmp/mydata/{base_name}/experiment.json\"\
+          \n\n    # 3. 调试信息\n    log = []\n    log.append(f\"[PWD] 当前工作目录: {os.getcwd()}\"\
+          )\n    log.append(f\"[PATH] 绝对路径: {os.path.abspath(path)}\")\n    log.append(f\"\
+          [DIR] 父目录是否存在: {os.path.exists(os.path.dirname(path))}\")\n    log.append(f\"\
+          [VOLUMES] 挂载信息: {subprocess.getoutput('mount | grep mydata')}\")\n\n   \
+          \ # 4. 写文件\n    try:\n        os.makedirs(os.path.dirname(path), exist_ok=True)\n\
+          \        with open(path, \"w\", encoding=\"utf-8\") as f:\n            json.dump(result,\
+          \ f, ensure_ascii=False, indent=2)\n        log.append(\"[SUCCESS] 文件已写入\"\
+          )\n    except Exception as e:\n        log.append(f\"[ERROR] {type(e).__name__}:\
+          \ {e}\")\n        log.append(traceback.format_exc())\n\n    # 5. 再检查一次\n\
+          \    log.append(f\"[EXISTS] 文件是否存在: {os.path.exists(path)}\")\n    if os.path.exists(path):\n\
+          \        log.append(f\"[SIZE] 文件大小: {os.path.getsize(path)} 字节\")\n\n  \
+          \  return {\"debug\": \"\\n\".join(log), \"result\": json.dumps(result,\
+          \ ensure_ascii=False)}"
+        code_language: python3
+        desc: ''
+        outputs:
+          debug:
+            children: null
+            type: string
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 7
+        type: code
+        variables:
+        - value_selector:
+          - '1756613329065'
+          - output
+          value_type: array[string]
+          variable: arg1
+        - value_selector:
+          - '1756563307317'
+          - experiment_infos
+          value_type: string
+          variable: arg2
+        - value_selector:
+          - '1756550268945'
+          - file
+          - name
+          value_type: file
+          variable: file_name
+      height: 53
+      id: '1756618044071'
+      position:
+        x: 4510
+        y: 429.5
+      positionAbsolute:
+        x: 4510
+        y: 429.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        code: "import json\nimport os\nfrom collections import defaultdict\n\ndef\
+          \ build_chapter_index(tree_data):\n    \"\"\"构建chapter索引，key为(file, section,\
+          \ chapter_id)，value为chapter对象的引用\"\"\"\n    chapter_index = {}\n    section_index\
+          \ = {}\n    \n    def add_chapter_recursive(chapter, file_name, section_name):\n\
+          \        \"\"\"递归添加章节及其子章节到索引中\"\"\"\n        if 'chapter_id' in chapter:\n\
+          \            chapter_id = chapter['chapter_id']\n            chapter_key\
+          \ = (file_name, section_name, chapter_id)\n            chapter_index[chapter_key]\
+          \ = chapter\n        \n        # 递归处理子章节\n        if 'children' in chapter:\n\
+          \            for child_chapter in chapter['children']:\n               \
+          \ add_chapter_recursive(child_chapter, file_name, section_name)\n    \n\
+          \    for file_data in tree_data:\n        file_name = file_data['file']\n\
+          \        for section in file_data['sections']:\n            section_name\
+          \ = section['section']\n            section_key = (file_name, section_name)\n\
+          \            section_index[section_key] = section\n            \n      \
+          \      # 处理每个顶级章节\n            for chapter in section['chapters']:\n   \
+          \             add_chapter_recursive(chapter, file_name, section_name)\n\
+          \    \n    return chapter_index, section_index\n\ndef merge_final_tree_data(chapter_index,\
+          \ final_tree_data):\n    \"\"\"将final_tree的数据融合到tree中\"\"\"\n    merged_count\
+          \ = 0\n    not_found_count = 0\n    \n    for final_section in final_tree_data:\n\
+          \        file_name = final_section['file']\n        section_name = final_section['section']\n\
+          \        \n        for final_chapter in final_section['chapters']:\n   \
+          \         if 'chapter_id' not in final_chapter:\n                continue\n\
+          \                \n            chapter_id = final_chapter['chapter_id']\n\
+          \            chapter_key = (file_name, section_name, chapter_id)\n     \
+          \       \n            # O(1)查找\n            tree_chapter = chapter_index.get(chapter_key)\n\
+          \            \n            if tree_chapter:\n                # 直接修改引用的对象\n\
+          \                tree_chapter['parameters'] = final_chapter.get('paramaters',\
+          \ [])\n                tree_chapter['topic_keywords'] = final_chapter.get('topic_keywords',\
+          \ [])\n                tree_chapter['context_keywords'] = final_chapter.get('context_keywords',\
+          \ [])\n                tree_chapter['refs'] = final_chapter.get('refs',\
+          \ [])\n                tree_chapter['table_headers'] = final_chapter.get('table_headers',\
+          \ [])\n                merged_count += 1\n            else:\n          \
+          \      not_found_count += 1\n    \n    return merged_count, not_found_count\n\
+          \ndef merge_result_data(chapter_index, result_data):\n    \"\"\"将result的experiments数据融合到tree中\"\
+          \"\"\n    merged_count = 0\n    not_found_count = 0\n    \n    for result_section\
+          \ in result_data:\n        file_name = result_section['file']\n        section_name\
+          \ = result_section['section']\n        experiments_groups = result_section.get('experiments',\
+          \ [])\n        \n        # 遍历每个实验组\n        for experiments_group in experiments_groups:\n\
+          \            if not experiments_group:\n                continue\n     \
+          \           \n            # 获取第一个实验的chapter_id作为该组的定位标识\n            first_experiment\
+          \ = experiments_group[0]\n            chapter_id = first_experiment.get('chapter_id')\n\
+          \            \n            if not chapter_id:\n                not_found_count\
+          \ += 1\n                continue\n            \n            chapter_key\
+          \ = (file_name, section_name, chapter_id)\n            # O(1)查找对应的章节\n \
+          \           chapter = chapter_index.get(chapter_key)\n            \n   \
+          \         if chapter:\n                # 将该组实验添加到对应章节的experiments字段\n  \
+          \              if 'experiments' not in chapter:\n                    chapter['experiments']\
+          \ = []\n                chapter['experiments'].extend(experiments_group)\n\
+          \                merged_count += 1\n            else:\n                not_found_count\
+          \ += 1\n    \n    return merged_count, not_found_count\n\ndef main(result:\
+          \ str, tree: str, final_tree: str, file_name) -> dict:\n    # 加载JSON数据\n\
+          \    tree_data = json.loads(tree)\n    final_tree_data = json.loads(final_tree)\n\
+          \    result_data = json.loads(result)\n    \n    # 构建索引\n    chapter_index,\
+          \ section_index = build_chapter_index(tree_data)\n    \n    # 融合数据\n   \
+          \ chapter_merged, chapter_not_found = merge_final_tree_data(chapter_index,\
+          \ final_tree_data)\n    experiment_merged, experiment_not_found = merge_result_data(chapter_index,\
+          \ result_data)\n    \n    # 统计信息\n    total_chapters = len(chapter_index)\n\
+          \    chapters_with_params = 0\n    chapters_with_keywords = 0\n    chapters_with_experiments\
+          \ = 0\n    \n    for chapter in chapter_index.values():\n        if chapter.get('parameters'):\n\
+          \            chapters_with_params += 1\n        if chapter.get('topic_keywords'):\n\
+          \            chapters_with_keywords += 1\n        if chapter.get('experiments'):\n\
+          \            chapters_with_experiments += 1\n    \n    # 合并后的数据就是修改后的tree_data\n\
+          \    merged_tree = tree_data\n\n    # 去掉扩展名，再拼 .json\n    base_name = os.path.splitext(file_name)[0]\
+          \          # 得到无后缀的纯文件名\n    path = f\"/tmp/mydata/{base_name}/{base_name}.json\"\
+          \n    os.makedirs(os.path.dirname(path), exist_ok=True)\n    with open(path,\
+          \ \"w\", encoding=\"utf-8\") as f:\n        json.dump(merged_tree, f, ensure_ascii=False,\
+          \ indent=2)\n    \n    return {\n        \"result\": f\"融合完成！统计信息: 总章节数:\
+          \ {total_chapters}, 参数章节: {chapters_with_params}, 关键词章节: {chapters_with_keywords},\
+          \ 试验章节: {chapters_with_experiments}, 融合成功: 章节数据{chapter_merged}个, 试验数据{experiment_merged}个\"\
+          \n    }"
+        code_language: python3
+        desc: ''
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 8
+        type: code
+        variables:
+        - value_selector:
+          - '1756618044071'
+          - result
+          value_type: string
+          variable: result
+        - value_selector:
+          - '1756550411122'
+          - tree
+          value_type: string
+          variable: tree
+        - value_selector:
+          - '1756563307317'
+          - final_tree
+          value_type: string
+          variable: final_tree
+        - value_selector:
+          - '1756550268945'
+          - file
+          - name
+          value_type: file
+          variable: file_name
+      height: 53
+      id: '1756629493937'
+      position:
+        x: 4814
+        y: 429.5
+      positionAbsolute:
+        x: 4814
+        y: 429.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        model:
+          completion_params: {}
+          mode: chat
+          name: deepseek-reasoner
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: fb74cb72-3859-4cad-ac1e-cdbb9834f569
+          role: system
+          text: "# 角色（Role）\n你是一名严格的 JSON 输出修复器（JSON Fixer）。  \n你的职责是：\n- 接收一个可能格式错误的\
+            \ JSON 字符串和错误信息。\n- 严格修复其中的语法问题或结构问题。\n- 输出完全符合预期格式的 JSON 对象。\n\n---\n\
+            \n# 输入（Input）\n你将收到：\n1. **error_type**：解析失败的类型\n2. **error_message**：具体错误原因\n\
+            2. **raw_output**：模型原始输出，你需要忽略从”<think>“到\"</think>\"的部分，只保留错误 JSON。\n\
+            \n示例输入：\nerror: Expecting property name enclosed in double quotes: line\
+            \ 3 column 5 (char 25)\nraw_text: {file: \"doc1\", section: \"main\",\
+            \ chapters: [ ... ]}\n\n---\n\n# 输出格式（Output）\n请输出一个 **完整 JSON 对象**，必须严格符合以下结构（不要输出多余的解释性文字）：\
+            \  \n```json\n{\n  \"file\": \"string\",\n  \"section\": \"string\",\n\
+            \  \"experiment_root_ids\": [\"string\", \"...\"],\n  \"chapters\": [\n\
+            \    {\n      \"chapter_id\": \"string\",\n      \"paramaters\": [\n \
+            \       {\n          \"item\": \"string\",\n          \"constraint\":\
+            \ \"<=|<|=|>=|>|range_closed|range_open|enum|boolean\",\n          \"\
+            value\": \"string|array|null\",\n          \"unit\": \"string|null\",\n\
+            \          \"source_text\": \"string\"\n        }\n      ],\n      \"\
+            topic_keywords\": [\"string\", \"...\"],\n      \"context_keywords\":\
+            \ [\"string\", \"...\"],\n      \"refs\": [\n        {\n          \"ref_type\"\
+            : \"internal|external\",\n          \"doc_id\": \"string|null\",\n   \
+            \       \"target_id\": \"string\",\n          \"anchor_text\": \"string\"\
+            \n        }\n      ],\n      \"table_headers\": [\"string\", \"...\"]\n\
+            \    }\n  ]\n}\n```\n\n# 注意事项\n\n1. 并不是说此json仅包含一个错误，只是用作参考，你需要严格按照输出格式要求进行修复，可通过输入json进行推断，确保\
+            \ JSON 字符串可被 `json.loads()` 解析通过即可\n2. 严格输出一个合法 JSON 对象，不得输出多余文字、注释或 Markdown。\n\
+            3. 如果某字段无内容，请使用 `null` 或空数组 `[]`。\n4. 必须补全缺失字段，不允许省略任何字段。"
+        - id: c68f56a1-5429-4a52-b480-a030d0c3f431
+          role: user
+          text: 'error_type:
+
+            {{#1756557929661.error_type#}}
+
+
+            error_message:
+
+            {{#1756557929661.error_message#}}
+
+
+            raw_text:
+
+            {{#1756557804693.text#}}
+
+            '
+        selected: false
+        title: LLM 3
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1756698267184'
+      parentId: '1756557801310'
+      position:
+        x: 812
+        y: 154.5
+      positionAbsolute:
+        x: 1450
+        y: 584
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        output_type: string
+        selected: false
+        title: 变量聚合器
+        type: variable-aggregator
+        variables:
+        - - '1756557929661'
+          - result
+        - - '1756698848564'
+          - result
+      height: 129
+      id: '1756698812908'
+      parentId: '1756557801310'
+      position:
+        x: 1420
+        y: 60
+      positionAbsolute:
+        x: 2058
+        y: 489.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "import json\nimport re\n\nimport json\nimport ast\nimport re\nfrom\
+          \ typing import Dict, List, Any\n\ndef parse_input(src: str) -> List[Dict[str,\
+          \ Any]]:\n    \"\"\"预处理并解析输入字符串为列表字典结构\"\"\"\n    try:\n        # 去除 LLM\
+          \ 思维链标记\n        # 1. 直接按 </think> 切分并取后半段\n        src = src.rsplit('</think>',\
+          \ 1)[-1].strip()\n\n        try:\n            data = json.loads(src)\n \
+          \       except json.JSONDecodeError:\n            try:\n               \
+          \ if src.startswith('\\ufeff'):\n                    src = src[1:]\n   \
+          \             data = ast.literal_eval(src)\n            except (SyntaxError,\
+          \ ValueError):\n                try:\n                    processed = src.replace('\\\
+          \\\"', '\"').replace('\\\\n', '\\n')\n                    data = json.loads(processed)\n\
+          \                except Exception as e:\n                    raise ValueError(f\"\
+          无法解析：{str(e)}\")\n\n        # 保证为 list\n        if isinstance(data, dict):\n\
+          \            return [data]\n        elif isinstance(data, list):\n     \
+          \       return data\n        else:\n            return []\n    except Exception\
+          \ as e:\n        raise ValueError(f\"预处理失败: {str(e)}\")\n        # return\
+          \ []\n\n\ndef main(arg1: str) -> dict:\n    data = parse_input(arg1)\n\n\
+          \    return {\n        \"result\":json.dumps(data, ensure_ascii=False),\n\
+          \    }"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756557801310'
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 9
+        type: code
+        variables:
+        - value_selector:
+          - '1756698267184'
+          - text
+          value_type: string
+          variable: arg1
+      height: 53
+      id: '1756698848564'
+      parentId: '1756557801310'
+      position:
+        x: 1116
+        y: 172.5
+      positionAbsolute:
+        x: 1754
+        y: 602
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        model:
+          completion_params: {}
+          mode: chat
+          name: deepseek-reasoner
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: 0b007606-fb40-4d26-add9-dd2a2564689c
+          role: system
+          text: "# 角色（Role）\n你是一名严格的 JSON 输出修复器（JSON Fixer）。  \n你的职责是：\n- 接收一个可能格式错误的\
+            \ JSON 字符串和错误信息。\n- 严格修复其中的语法问题或结构问题。\n- 输出完全符合预期格式的 JSON 对象。\n\n---\n\
+            \n# 输入（Input）\n你将收到：\n1. **error_type**：解析失败的类型\n2. **error_message**：具体错误原因\n\
+            2. **raw_output**：模型原始输出，你需要忽略从”<think>“到\"</think>\"的部分，只保留错误 JSON。\n\
+            \n示例输入：\nerror: Expecting property name enclosed in double quotes: line\
+            \ 3 column 5 (char 25)\nraw_text: {file: \"doc1\", section: \"main\",\
+            \ chapters: [ ... ]}\n\n---\n\n# 输出格式（Output）\n请输出一个 **完整 JSON 对象**，必须严格符合以下结构（不要输出多余的解释性文字）：\
+            \  \n```json\n[\n  [\n    {\n      \"chapter_id\": \"string\",    // 来源章节的chapter_id，保证可追溯性\n\
+            \      \"test_name\": \"string\",     // 测试名称，从章节标题或路径提炼，简洁且唯一\n     \
+            \ \"conditions\": [            // 测试条件：试件状态、安装、环境等，完整分点列出\n        \"\
+            string\"\n      ],\n      \"criteria\": [              // 判定标准：明确检测项+达标条件，分点列出\n\
+            \        \"string\"\n      ],\n      \"equipment\": [             // 所需设备及规格，便于设备能力验证\n\
+            \        {\n          \"name\": \"string\",          // 设备名称\n       \
+            \   \"specification\": \"string\"  // 设备规格/性能\n        }\n      ],\n \
+            \     \"parameters\": [            // 提取的关键参数\n        {\n          \"\
+            item\": \"string\",          // 参数项\n          \"constraint\": \"string\"\
+            ,    // 约束：<=|<|=|>=|>|range_closed|range_open|enum|boolean\n        \
+            \  \"value\": \"string|array|null\", // 参数值，可为数字、范围或枚举\n          \"unit\"\
+            : \"string|null\",     // 单位，若无则null\n          \"source_text\": \"string\"\
+            \    // 原文完整片段，保留符号，便于追溯\n        }\n      ],\n      \"refs\": [     \
+            \             // 引用信息\n        {\n          \"ref_type\": \"internal|external\"\
+            , // 内部/外部引用\n          \"doc_id\": \"string|null\",         // 外部标准编号；内部引用填null\n\
+            \          \"target_id\": \"string\",           // 引用目标编号（如“B.2.1.1”、“表B.1”）\n\
+            \          \"anchor_text\": \"string\"          // 引用的简要上下文描述\n      \
+            \  }\n      ]\n    }\n  ]\n]\n```\n\n# 注意事项\n\n1. 并不是说此json仅包含一个错误，只是用作参考，你需要严格按照输出格式要求进行修复，可通过输入json进行推断，确保\
+            \ JSON 字符串可被 `json.loads()` 解析通过即可\n2. 严格输出一个合法 JSON 对象，不得输出多余文字、注释或 Markdown。\n\
+            3. 如果某字段无内容，请使用 `null` 或空数组 `[]`。\n4. 必须补全缺失字段，不允许省略任何字段。"
+        - id: a8b0fca2-0a7e-4db4-853b-72baab717c7b
+          role: user
+          text: 'error_type:
+
+            {{#1756613456815.error_type#}}
+
+
+            error_message:
+
+            {{#1756613456815.error_message#}}
+
+
+            raw_text:
+
+            {{#1756613344845.text#}}'
+        selected: false
+        title: LLM 4
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1756701753504'
+      parentId: '1756613329065'
+      position:
+        x: 812
+        y: 154.5
+      positionAbsolute:
+        x: 3538
+        y: 584
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "import json\nimport re\n\nimport json\nimport ast\nimport re\nfrom\
+          \ typing import Dict, List, Any\n\ndef parse_input(src: str) -> List[Dict[str,\
+          \ Any]]:\n    \"\"\"预处理并解析输入字符串为列表字典结构\"\"\"\n    try:\n        # 去除 LLM\
+          \ 思维链标记\n        # 1. 直接按 </think> 切分并取后半段\n        src = src.rsplit('</think>',\
+          \ 1)[-1].strip()\n\n        try:\n            data = json.loads(src)\n \
+          \       except json.JSONDecodeError:\n            try:\n               \
+          \ if src.startswith('\\ufeff'):\n                    src = src[1:]\n   \
+          \             data = ast.literal_eval(src)\n            except (SyntaxError,\
+          \ ValueError):\n                try:\n                    processed = src.replace('\\\
+          \\\"', '\"').replace('\\\\n', '\\n')\n                    data = json.loads(processed)\n\
+          \                except Exception as e:\n                    raise ValueError(f\"\
+          无法解析：{str(e)}\")\n\n        # 保证为 list\n        if isinstance(data, dict):\n\
+          \            return [data]\n        elif isinstance(data, list):\n     \
+          \       return data\n        else:\n            return []\n    except Exception\
+          \ as e:\n        raise ValueError(f\"预处理失败: {str(e)}\")\n        # return\
+          \ []\n\n\ndef main(arg1: str) -> dict:\n    data = parse_input(arg1)\n\n\
+          \    return {\n        \"result\":json.dumps(data, ensure_ascii=False),\n\
+          \    }"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 10
+        type: code
+        variables:
+        - value_selector:
+          - '1756701753504'
+          - text
+          value_type: string
+          variable: arg1
+      height: 53
+      id: '1756701757205'
+      parentId: '1756613329065'
+      position:
+        x: 1116
+        y: 172.5
+      positionAbsolute:
+        x: 3842
+        y: 602
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1756613329065'
+        output_type: string
+        selected: false
+        title: 变量聚合器 2
+        type: variable-aggregator
+        variables:
+        - - '1756613456815'
+          - result
+        - - '1756701757205'
+          - result
+      height: 129
+      id: '1756701763194'
+      parentId: '1756613329065'
+      position:
+        x: 1420
+        y: 60
+      positionAbsolute:
+        x: 4146
+        y: 489.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    viewport:
+      x: 205.2749076452285
+      y: -19.17523915553204
+      zoom: 0.512053391550336

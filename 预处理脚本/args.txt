@@ -1,0 +1,9 @@
+-dNOPAUSE
+-dBATCH
+-dSAFER
+-sDEVICE=pdfwrite
+-dPDFSETTINGS=/prepress
+-dCompatibilityLevel=1.7
+-sOutputFile
+fixed.pdf
+copy.pdf

@@ -1,0 +1,283 @@
+STANDARDIZATION ORGANIZATION FOR G.C.C (GSO)
+GSO 1040/2000
+MOTOR VEHICLES -
+ALLOW ABLE LIMITS OF POLLUTANTS EMITTED TO
+THE ATMOSPHERE FROM LIGHT DUTY DIESEL
+ENGINED VEHICLES
+MOTOR VEHICLES -
+ALLOW ABLE LIMITS OF POLLUTANTS EMITTED TO
+THE ATMOSPHERE FROM LIGHT DUTY DIESEL
+ENGINED VEHICLES
+Date of GSO Board of Directors' Approval 11- 6- 1421 (9-9-2000)
+MOTOR VEHICLES -
+ALLOWABLE LIMITS OF POLLUTANTS EMITTED TO
+THE ATMOSPHERE FROM LIGHT DUTY DIESEL
+ENGINED VEHICLES
+1- SCOPE AND FIELD OF APPLICATION
+This standard is concerned with the allowable limits  of gaseous pollutants and
+smoke emitted to the atmosphere from new light duty vehicles with maximum
+weight equal to or less than 3500 kg powered by diesel engines.
+2- COMPLEMENTARY REFERENCES
+2.1 GSO 48/1984 "Motor Vehicles - Conformity Certificates".
+2.2 GSO 153/1993 "Motor Vehicles - Conformity Certificates for Vehicles
+Manufactured in Multi - Stages".
+2.3 GSO 1041/2000 Motor Vehicles - Methods of Testing for Pollutants Emitted from
+Diesel Engined Vehicles - Part 1:  Determination of Exhaust Gaseous Pollutants".
+2.4 GSO 1042/2000 Motor Vehicles - Methods of Testing for Pollutants Emitted from
+Diesel Engined Vehicles - Part 2: Determination of Smoke".
+3- DEFINITIONS
+3.1 Gaseous pollutants: Substances airborne to atmosphere, which arise during the
+running of the vehicle, due to exhaust gases.  They include carbon monoxide,
+hydrocarbons and oxides of nitrogen.
+3.2 Exhaust gases: Gases produced  by  combustion  of  the fuel, emitted to the
+atmosphere at any point downstream of the exhaust ports of the engine.
+3.3 Smoke: Particulate matter  in  the exhaust emissions which obscures the
+transmission of light.
+3.4 Light duty vehicles: Any motor vehicle having a maximum weight equal to or less
+than 3500 kg.
+3.5 Maximum weight:  The kerb weight together with the maximum load declared by
+the manufacturer.
+3.6 Kerb weight: The  weight  of the vehicle with standard equipment, maximum
+capacity of engine fuel, oil and coolant, the spare wheel, tools and, (if so
+equipped), the air conditioning system.
+4- REQUIREMENTS
+The fallowing shall be met:
+4.1 The mass of gaseous pollutants in the exhaust gases shall not exceed the amounts
+given in Table (1) when testing the vehicle in accordance with Gulf Standard No.
+1041/2000 "Motor Vehicles - Methods  of Testing for Pollutants Emitted from
+Diesel Engined Vehicles - Part 1:  Determination of Exhaust Gaseous Pollutants".
+TABLE (1)
+Maximum Masses of Gaseous Pollutants and Reference Weight of Vehicle
+Reference weight Mass of Carbon Combined mass of
+of vehicle (rw) Monoxide (CO) Hydrocarbons (HC)
+(kg) (g/test) oxides of Nitrogen
+(Nox) (g/test)
+Type Acceptance Type Acceptance
+test test test test
+rw < 1020 58 70 19 23.8
+1020 <  rw < 1250 67 80 20.5 25.6
+1250 <  rw < 1470 76 91 22 27.5
+1470 <  rw < 1700 84 101 23.5 29.4
+1700 <  rw < 1930 93 112 25 31.3
+1930 <  rw < 2150 101 121 26.5 33.1
+2150 <  rw < 3500 110 132 28 35
+4.2 The  light absorption coefficient  of  the exhaust gases shall not exceed the
+respective limits for k specified in Table (2) when testing the vehicle/engine, in
+accordance with Gulf Standard No. GSO 1042/2000 "Motor Vehicles - Methods of
+Testing for Pollutants Emitted from Diesel Engined Vehicles - Part 2:
+Determination of Smoke". In case of engines equipped with an exhaust driven
+supercharger, the absorption coefficient measured under free acceleration shall not
+exceed the respective limit for k, specified in Table (2), plus 0.5 m-1,  for the
+nominal flow value  corresponding to the maximum absorption coefficient
+TABLE (2)
+Exhaust Gas Flow and Absorption Coefficient
+Nominal flow (g) Absorption coefficient (k)
+litres/second m-1
+<  42 2.26
+45 2.19
+50 2.08
+55 1.985
+60 1.90
+65 1.84
+70 1.775
+75 1.72
+80 1.665
+85 1.62
+90 1.575
+95 1.535
+100 1.495
+105 1.465
+110 1.425
+115 1.395
+120 1.37
+125 1.345
+130 1.32
+135 l.30
+140 1.27
+145 1.25
+TABLE (2) ( continued)
+Nominal flow (g) Absorption coefficient (k)
+litres/second - 1 m
+155 1.205
+160 1.19
+165 1.17
+170 1.155
+175 1.14
+180 1.125
+185 1.1 l
+190 1.095
+195 1.08
+>200 1.065
+NOTES:
+(1) If the value of the nominal flow is between the values given in the Table (2),  the limit value
+applicable shall be obtained by inte,polation.
+(2) m·1 denotes: Absorption coefficient measured per meter length.
+4.3 There shall be no emission from the crankcase of the vehicle to the atmosphere.
+5- TESTING
+5.1 The manufacturer shall supply  the testing authorities with all technical data
+required for carrying out the tests as specified in appendix (A).
+5.2 Sampling
+5.2.1 Type test:
+One vehicle or engine of the new type or kind shall be taken.
+5.2.2 Acceptance test
+One or more vehicles of the same type or kind, as provided for in item (7.3), shall
+be taken from the consignment.
+5.3 Methods of Testing
+Testing shall be carried out in accordance with the following Gulf Standards:
+5.3.1 GSO 1041/2000 "Motor Vehicles - Methods  of Testing for Pollutants Emitted
+from Diesel Engined Vehicles - Part  1: Determination  of Exhaust  Gaseous
+Pollutants".
+5.3.2 GSO 1042/2000 "Motor Vehicles - Methods  of Testing for Pollutants Emitted
+5.4 Tests
+The  following tests shall  be carried out on the sample vehicle withdrawn  1n
+accordance with (5.2).
+5.4.1 Determination of exhaust gaseous pollutants.
+5.4.2 Determination of smoke.
+6- INSTRUCTION BOOKLET
+The manufacturer shall supply with each vehicle, a booklet, in English, or Arabic
+or both, including instructions for the maintenance of the vehicle in relation to the
+control of emissions, within the limits specified in this standard.
+7- CRITERIA OF TECHNICAL CONFORMITY
+7.1 The criteria of technical conformity shall be in accordance with the requirements
+specified  in  Gulf Standard No. GSO 48/1984 "Motor Vehicles - Conformity
+Certificates".
+7.2 Vehicle subjected to type test
+7.2.1 The vehicle shall be considered complying with the requirement specified in item
+4.1  of this standard, if the measured mass of carbon monoxide and the combined
+mass of hydrocarbon and oxides of nitrogen, are less than or  equal to 0.70 of the
+allowahle limits mentioned in Tahle (1 ).
+7.2.2 The test shall  be repeated  if in the initial test, the measured masses of both the
+carbon monoxide and the combined value of hydrocarbons and oxides of nitrogen
+are less than or equal to 0.85 of their allowable limits and one of these values is
+greater than 0.70 of its allowable limit.
+7.2.3 The vehicle shall be considered complying with the requirement mentioned in item
+4.1  of this standard if the measured masses of both the carbon monoxide and the
+combined value hydrocarbons and oxides of nitrogen in the second test, is less
+than its allowable limit and if the sum of the masses of both the carbon monoxide
+and the combined value of hydrocarbons and oxides of nitrogen in the two tests is
+less than 1.70 of the allowable limit.
+7.2.4 The test shall be carried out a third time  if the sum of the masses  of both the
+carbon monoxide and the combined value of hydrocarbons and oxides of nitrogen
+in the two previous test is greater than 1.70 of the allowable limit or the measured
+mass of both the carbon monoxide and the combined value of hydrocarbons and
+oxides of nitrogen in either of those tests, is equal to or greater than the allowable
+li1nit and not more than 1.1 tilnes the allowable li1nit.
+7.2.5 The vehicle shall be considered complying with the requirement mentioned in item
+4.1  of this standard,  if the arithmetic means  of the masses  of both the carbon
+monoxide and the combined value of hydrocarbons and oxides of nitrogen in the
+three tests is less than or equal to allowable limit and not more than one of the
+masses for each pollutant ( carbon monoxide and the combined mass  of
+hydrocarbons and oxides  of nitrogen) in the three tests exceeds 1.1 times the
+7.2.6 The vehicle shall be considered non-complying with the requirement mentioned in
+item 4.1  if more than one of the measured masses of both the carbon monoxide
+and the combined value of hydrocarbons and oxides of nitrogen in the three tests
+exceed 1.1 times the allowable limit for the pollutant.
+7.3 Vehicles subjected to acceptance tests
+7.3.1 The consignment shall be accepted without carrying out the tests mentioned in
+item 5.4 in the case  of  acceptance  of  the certificate accompanying the
+consignment.
+7.3.2 If the certificate is not accepted or whenever otherwise deemed necessary, tests
+mentioned in item 5.4 shall be carried out on the sample vehicle taken as in item
+5.2.
+7.3.3 The  vehicle taken is subjected  to  the test under free acceleration and  if the
+absorption coefficient determined does not exceed by more than 0.5 m- 1  to the
+limits specified in Table (2), then the vehicle shall be considered complying with
+the requirement specified in item 4.2 of this standard.  If exceed the vehicle is
+subjected  to  the test at full load steady speed.  The vehicle shall  be considered
+complying with the requirement specified  in item 4.2 of this standard,  if the
+absorption coefficient determined is less than or equal to the limits specified in
+Table (3).
+7.3.4 Should the first sample fail the test the manufacturer may ask for measurement to
+be performed on a sample of vehicles taken from the consignment and including
+the vehicle originally taken.  The manufacturer shall determine the size (n) of the
+sample. Vehicles other than the vehicle originally taken shall be subjected to a test
+specified in (5.3.1).  The arithmetical mean m  of the results obtained with the
+sample shall then be determined for both the carbon monoxide and the combined
+value of hydrocarbons and oxides of nitrogen.  The consignment shall then be
+deemed to conform if the following condition is met:
+m + k.S <L
+Where:
+L is the limit value laid down  in Table  (1)  for the e1nissions  of carbon
+monoxide and the combined emissions  of hydrocarbons and oxides  of
+nitrogen.
+S is the value obtained from the following equation:
+s2 =  L cm - ~)2
+n - 1
+m is any one of the individual results obtained with the sample n, and
+n 2 3
+k 0.973 0.613
+n 11 12
+k 0.265 0.253
+If n > 20
+TABLE (3)
+Sample Size and Statistical Factor
+4
+0.489
+13
+0.242
+k =
+5
+0.421
+14
+0.233
+0.860
+✓ n
+6 7 8
+0.376 0.342 0.317
+15 16 17
+0.224 0.216 0.210
+9 10
+0.296 0.279
+18 19
+APPENDIX (A)
+Essential Technical Data of the Engine/ vehicle.
+1 Engine
+1.1 Make
+1.2 Type
+1.3 Cycle: four-stroke/two stroke
+1.4 Cylinders:
+1.4.1 Number and layout of cylinders
+1.4.2 Bore (mm)
+1.4.3 Capacity
+1.5 Stroke (mm)
+1.6 Compression ratio
+1.7 Idle Speed (rpm)
+1.8 Maximum no load speed (rpm)
+1.9 Maximum Power Engine Speed (k\.v/rpm)
+1.10 Maximum Torque (Nm/rpm)
+1.11 System of Cooling: Air cooling/Liquid cooling
+1.12 Electronic Ignition:  Yes/No
+1.13 Crankcase Ventilation System
+Supercharger: with/without
+I.14 Air cleaner.
+2. Description of additional anti-smoke device.
+3. Description of air intake system.
+4. Description of fuel feed.
+4.1 Feed pump: pressure.
+4.2 Injection pump
+4.2.1 Make
+4.2.2 Type
+4.2.3 Delivery
+4.3 Injection nozzle
+4.3.1 Make
+4.3.2 Type
+4.4 Governor
+4.4.1 Make
+4.4.2 Type
+4.4.3 Speed at which cut-off starts under full load (rpm)
+4.5 Cold Start System
+4.5.1 Make
+4.5.2 Type
+5. Valve timing
+6. Additional information on test conditions
+6.1 Lubricant used
+6.1.1 Make
+6.1.2 Type
+6.1.3 Viscosity
+6.2 Accelerating (0-100 km/h)
+6.3 Maximum designed speed of vehicle:
+6.4 Fuel consumption
+6.4.1 90 km/h (1}100 km):
+6.4.2 120 km/h (L/100 km):
+6.5 Transmission:
+6.6 Steering (Type):

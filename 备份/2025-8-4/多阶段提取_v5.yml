@@ -1,0 +1,2287 @@
+app:
+  description: 第一个LLM保留原有引用格式，第二个LLM进行补全
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: advanced-chat
+  name: 多阶段提取
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/deepseek:0.0.6@dd589dc093c8084925858034ab5ec1fdf0d33819f43226c2f8c4a749a9acbbb2
+kind: app
+version: 0.3.0
+workflow:
+  conversation_variables:
+  - description: ''
+    id: e0035b6b-f99f-4240-bccf-708d1dd7bf26
+    name: LLM3_output
+    selector:
+    - conversation
+    - LLM3_output
+    value: ''
+    value_type: string
+  - description: ''
+    id: 8c1c7c83-a4d8-44d3-bd75-dc32b2a94999
+    name: LLM2_output
+    selector:
+    - conversation
+    - LLM2_output
+    value: ''
+    value_type: string
+  - description: ''
+    id: 18d6e95b-911a-40b4-98cc-b1c6aa5c07dc
+    name: LLM1_output
+    selector:
+    - conversation
+    - LLM1_output
+    value: ''
+    value_type: string
+  environment_variables:
+  - description: ''
+    id: f62979ad-1321-45fd-9d3b-d34f5d69678c
+    name: PLUGIN_MAX_EXECUTION_TIMEOUT
+    selector:
+    - env
+    - PLUGIN_MAX_EXECUTION_TIMEOUT
+    value: '1800'
+    value_type: string
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        audio_file_size_limit: 50
+        batch_count_limit: 5
+        file_size_limit: 15
+        image_file_size_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 10
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: loop
+        targetType: code
+      id: 1753409012058-source-1753409017000-target
+      selected: false
+      source: '1753409012058'
+      sourceHandle: source
+      target: '1753409017000'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: answer
+      id: 1753409017000-source-answer-target
+      selected: false
+      source: '1753409017000'
+      sourceHandle: source
+      target: answer
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        sourceType: if-else
+        targetType: loop-end
+      id: 1753409501855-true-1753409505567-target
+      selected: false
+      source: '1753409501855'
+      sourceHandle: 'true'
+      target: '1753409505567'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1752730418049'
+        sourceType: code
+        targetType: llm
+      id: 1753070274269-source-1753071359036-target
+      selected: false
+      source: '1753070274269'
+      sourceHandle: source
+      target: '1753071359036'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1752730418049'
+        sourceType: llm
+        targetType: assigner
+      id: 1753071359036-source-1753493998402-target
+      selected: false
+      source: '1753071359036'
+      sourceHandle: source
+      target: '1753493998402'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1752730418049'
+        sourceType: assigner
+        targetType: code
+      id: 1753493998402-source-1753257336262-target
+      selected: false
+      source: '1753493998402'
+      sourceHandle: source
+      target: '1753257336262'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        sourceType: llm
+        targetType: assigner
+      id: 1753409474112-source-1753494056663-target
+      selected: false
+      source: '1753409474112'
+      sourceHandle: source
+      target: '1753494056663'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        sourceType: code
+        targetType: if-else
+      id: 1753409497092-source-1753409501855-target
+      selected: false
+      source: '1753409497092'
+      sourceHandle: source
+      target: '1753409501855'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        sourceType: if-else
+        targetType: code
+      id: 1753409501855-false-1753409508297-target
+      selected: false
+      source: '1753409501855'
+      sourceHandle: 'false'
+      target: '1753409508297'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        sourceType: code
+        targetType: assigner
+      id: 1753409508297-source-1753409511950-target
+      selected: false
+      source: '1753409508297'
+      sourceHandle: source
+      target: '1753409511950'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        sourceType: loop-start
+        targetType: llm
+      id: 1753409012058start-source-1753409474112-target
+      selected: false
+      source: 1753409012058start
+      sourceHandle: source
+      target: '1753409474112'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        sourceType: assigner
+        targetType: code
+      id: 1753494056663-source-1753409497092-target
+      selected: false
+      source: '1753494056663'
+      sourceHandle: source
+      target: '1753409497092'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        sourceType: assigner
+        targetType: if-else
+      id: 1753409511950-source-1753884991237-target
+      selected: false
+      source: '1753409511950'
+      sourceHandle: source
+      target: '1753884991237'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        sourceType: if-else
+        targetType: loop-end
+      id: 1753884991237-true-1753885009929-target
+      selected: false
+      source: '1753884991237'
+      sourceHandle: 'true'
+      target: '1753885009929'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInLoop: false
+        sourceType: iteration
+        targetType: code
+      id: 1752730418049-source-1753409007363-target
+      source: '1752730418049'
+      sourceHandle: source
+      target: '1753409007363'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: code
+        targetType: loop
+      id: 1753409007363-source-1753409012058-target
+      source: '1753409007363'
+      sourceHandle: source
+      target: '1753409012058'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: code
+        targetType: iteration
+      id: 1752737813275-source-1752730418049-target
+      source: '1752737813275'
+      sourceHandle: source
+      target: '1752730418049'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: answer
+      id: 1754278386090-source-1754278435628-target
+      source: '1754278386090'
+      sourceHandle: source
+      target: '1754278435628'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: start
+        targetType: code
+      id: 1752117396348-source-1752737813275-target
+      source: '1752117396348'
+      sourceHandle: source
+      target: '1752737813275'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1752730418049'
+        sourceType: iteration-start
+        targetType: llm
+      id: 1752730418049start-source-1754280046577-target
+      source: 1752730418049start
+      sourceHandle: source
+      target: '1754280046577'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1752730418049'
+        sourceType: llm
+        targetType: code
+      id: 1754280046577-source-1753070274269-target
+      source: '1754280046577'
+      sourceHandle: source
+      target: '1753070274269'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - allowed_file_extensions: []
+          allowed_file_types:
+          - document
+          allowed_file_upload_methods:
+          - local_file
+          - remote_url
+          label: file
+          max_length: 48
+          options: []
+          required: true
+          type: file
+          variable: file
+        - label: finished
+          max_length: 10000000
+          options: []
+          required: false
+          type: paragraph
+          variable: finished
+        - label: unfinished
+          max_length: 1000000
+          options: []
+          required: false
+          type: paragraph
+          variable: unfinished
+        - label: arg1
+          max_length: 100000
+          options: []
+          required: false
+          type: paragraph
+          variable: arg1
+        - label: arg2
+          max_length: 100000
+          options: []
+          required: false
+          type: paragraph
+          variable: arg2
+      height: 193
+      id: '1752117396348'
+      position:
+        x: 30
+        y: 342.5
+      positionAbsolute:
+        x: 30
+        y: 342.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        answer: '{{#conversation.LLM1_output#}}
+
+          {{#conversation.LLM2_output#}}
+
+          {{#conversation.LLM3_output#}}
+
+
+          {{#1753409017000.markdown_table#}}'
+        desc: ''
+        selected: false
+        title: 直接回复
+        type: answer
+        variables: []
+      height: 141
+      id: answer
+      position:
+        x: 5816
+        y: 386.5
+      positionAbsolute:
+        x: 5816
+        y: 386.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        error_handle_mode: continue-on-error
+        height: 322
+        is_parallel: true
+        iterator_input_type: array[string]
+        iterator_selector:
+        - '1752737813275'
+        - array
+        output_selector:
+        - '1753257336262'
+        - result
+        output_type: array[object]
+        parallel_nums: 10
+        selected: false
+        start_node_id: 1752730418049start
+        title: 迭代
+        type: iteration
+        width: 1814
+      height: 322
+      id: '1752730418049'
+      position:
+        x: 626.3360859321056
+        y: 386.5
+      positionAbsolute:
+        x: 626.3360859321056
+        y: 386.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 1814
+      zIndex: 1
+    - data:
+        desc: ''
+        isInIteration: true
+        selected: false
+        title: ''
+        type: iteration-start
+      draggable: false
+      height: 48
+      id: 1752730418049start
+      parentId: '1752730418049'
+      position:
+        x: 60
+        y: 93.5
+      positionAbsolute:
+        x: 686.3360859321056
+        y: 480
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-iteration-start
+      width: 44
+      zIndex: 1002
+    - data:
+        code: "import pdfplumber\nimport re\nimport json\nimport os\nfrom collections\
+          \ import defaultdict\nfrom typing import List, Dict, Tuple, Optional\n\n\
+          # 章节标题正则（支持 1、1.1、1.1.1、附录A、A.1 等）\nchapter_patterns = [\n    re.compile(r'^(附\\\
+          s*录\\s*[A-Z])\\s+(.+)$'),                        # 附录A xxx\n    re.compile(r'^([A-Z](?:\\\
+          .\\d+)+)\\s+(.+)$'),                        # A.1、B.2.3\n    re.compile(r'^(\\\
+          d+(?:\\.\\d+)*)(\\s+)(.+)$'),                        # 4、4.1、4.1.2\n]\n\n\
+          # 表格标题正则（表X.x形式）\ntable_id_regex = re.compile(r'^\\s*表\\s*([A-Z]*\\d+(?:\\\
+          .[\\d]+)*)\\s*$')  # 匹配表1.1, 表A.1等\n\ndef detect_chapter(line: str):\n \
+          \   for pattern in chapter_patterns:\n        m = pattern.match(line)\n\
+          \        if m:\n            return {\n                \"chapter_id\": m.group(1).strip(),\n\
+          \                \"chapter_title\": m.group(len(m.groups())).strip()\n \
+          \           }\n    return None\n\ndef build_tree(chapter_list: List[Dict])\
+          \ -> List[Dict]:\n    id_map = {}\n    root = []\n\n    # 初始化 id_map\n \
+          \   for chap in chapter_list:\n        chap[\"children\"] = []\n       \
+          \ id_map[chap[\"chapter_id\"]] = chap\n\n    # 构建普通父子关系\n    for chap in\
+          \ chapter_list:\n        parts = chap[\"chapter_id\"].split(\".\")\n   \
+          \     if len(parts) == 1 or chap[\"chapter_id\"].startswith(\"附录\"):\n \
+          \           root.append(chap)\n        else:\n            parent_id = \"\
+          .\".join(parts[:-1])\n            parent = id_map.get(parent_id)\n     \
+          \       if parent:\n                parent[\"children\"].append(chap)\n\
+          \            else:\n                # 检查是否是 A.1, B.2 这类格式\n            \
+          \    if len(parts) == 2 and len(parts[0]) == 1 and parts[0].isupper():\n\
+          \                    appendix_id = f\"附录{parts[0]}\"\n                 \
+          \   appendix_title = f\"附录{parts[0]}\"\n                    if appendix_id\
+          \ not in id_map:\n                        appendix_node = {\n          \
+          \                  \"chapter_id\": appendix_id,\n                      \
+          \      \"chapter_title\": appendix_title,\n                            \"\
+          raw_text\": \"\",\n                            \"children\": []\n      \
+          \                  }\n                        id_map[appendix_id] = appendix_node\n\
+          \                        root.append(appendix_node)\n                  \
+          \  else:\n                        appendix_node = id_map[appendix_id]\n\
+          \                    appendix_node[\"children\"].append(chap)\n        \
+          \        else:\n                    root.append(chap)  # fallback\n\n  \
+          \  return root\n\ndef build_full_path(chapters: List[Dict], path_prefix=\"\
+          \"):\n    for chap in chapters:\n        if path_prefix:\n            chap[\"\
+          full_path\"] = f\"{path_prefix}/{chap['chapter_id']} {chap['chapter_title']}\"\
+          \n        else:\n            chap[\"full_path\"] = f\"{chap['chapter_id']}\
+          \ {chap['chapter_title']}\"\n        if chap.get(\"children\"):\n      \
+          \      build_full_path(chap[\"children\"], chap[\"full_path\"])\n\ndef fullwidth_to_halfwidth(text:\
+          \ str) -> str:\n    result = []\n    for char in text:\n        code = ord(char)\n\
+          \        if 0xFF01 <= code <= 0xFF5E:  # 全角字符范围\n            result.append(chr(code\
+          \ - 0xFEE0))\n        else:\n            result.append(char)\n    return\
+          \ ''.join(result)\n\n\ndef is_valid_next_chapter(prev_parts: list, chapter_id:\
+          \ str) -> bool:\n    \"\"\"\n    判断 chapter_id 是否可能为前一个章节号的“下一个”合法编号。\n\
+          \    prev_parts: 前一个有效章节号按'.'分割后的 int 列表，例如 [4,1,10]\n    chapter_id: 当前待检测的章节号字符串，如\
+          \ \"4.2\"\n    返回 True 表示合法，False 表示非法\n    \"\"\"\n    # 1. 过滤带单位的伪编号\n\
+          \    if re.search(r'\\d+\\s*(mm|cm|kg|km/h|%|℃)', chapter_id, re.I):\n \
+          \       return False\n\n    # 2. 附录直接放过\n    if re.match(r'^[A-Z](?:\\.\\\
+          d+)*$', chapter_id):\n        return True\n\n    # 3. 解析为数字列表\n    try:\n\
+          \        parts = [int(p) for p in chapter_id.split('.')]\n    except ValueError:\n\
+          \        return False\n\n    # # 4. 首章直接通过\n    # if not prev_parts:\n \
+          \   #     return True\n\n    # 5. 同层递增：4.1.10 -> 4.1.11\n    if len(parts)\
+          \ == len(prev_parts) and parts[:-1] == prev_parts[:-1] and parts[-1] ==\
+          \ prev_parts[-1] + 1:\n        return True\n\n    # 6. 升层：4.1.10 -> 4.2\n\
+          \    if len(parts) < len(prev_parts) and parts[:-1] == prev_parts[:len(parts)-1]\
+          \ and parts[-1] == prev_parts[len(parts) - 1] + 1:\n        return True\n\
+          \n    # 7. 子层：4.1.10 -> 4.1.10.1\n    if len(parts) == len(prev_parts) +\
+          \ 1 and parts[:-1] == prev_parts and parts[-1] == 1:\n        return True\n\
+          \n    return False\n\ndef build_term_dict(raw_text: str) -> Dict[str, str]:\n\
+          \    \"\"\"\n    返回: {中文术语: 英文术语}\n    \"\"\"\n    # 把多个换行压成一个\n    text\
+          \ = re.sub(r'\\n+', '\\n', raw_text.strip())\n\n    # 关键正则：\n    # 3.1\\\
+          n\n    # 中文术语英文字符串（中间无换行）\n    # 然后一个换行开始描述\n    pattern = re.compile(\n\
+          \        r'^\\d+\\.\\d+\\n'                     # 3.1\n        r'(?P<cn>[^\\\
+          n]*?)\\s*'             # 中文术语（无换行）\n        r'(?P<en>[A-Za-z].*?)\\s*(?=\\\
+          n)',  # 英文术语（直到换行）\n        re.MULTILINE\n    )\n\n    term_map = {}\n \
+          \   for m in pattern.finditer(text):\n        cn = m.group(\"cn\").strip()\n\
+          \        en = m.group(\"en\").strip()\n        if cn and en:\n         \
+          \   term_map[cn] = en\n    return term_map\n\ndef parse_pdf_to_chapter_tree(pdf_path:\
+          \ str) -> Tuple[List[Dict], Dict[str, str]]:\n    with pdfplumber.open(pdf_path)\
+          \ as pdf:\n        lines = []\n        for page in pdf.pages:\n        \
+          \    text = page.extract_text()\n            if text:\n                lines\
+          \ += text.split(\"\\n\")\n\n    chapters = []\n    current = None\n    buffer\
+          \ = []\n\n    for line in lines:\n        line = line.strip()\n        line\
+          \ = fullwidth_to_halfwidth(line)\n        chapter_info = detect_chapter(line)\n\
+          \n        if chapter_info:\n            if current:\n                current[\"\
+          raw_text\"] = \"\\n\".join(buffer).strip()\n                chapters.append(current)\n\
+          \                buffer = []\n            current = {\n                \"\
+          chapter_id\": chapter_info[\"chapter_id\"],\n                \"chapter_title\"\
+          : chapter_info[\"chapter_title\"],\n                \"raw_text\": \"\"\n\
+          \            }\n        else:\n            buffer.append(line)\n\n    if\
+          \ current:\n        current[\"raw_text\"] = \"\\n\".join(buffer).strip()\n\
+          \        chapters.append(current)\n\n    # ✅ 新增：过滤掉“范围”之前的章节\n    start_index\
+          \ = 0\n    for i, chap in enumerate(chapters):\n        if chap.get(\"chapter_id\"\
+          ) == \"1\" and chap.get(\"chapter_title\", \"\") == \"范围\":\n          \
+          \  start_index = i\n            break\n    print(start_index)\n    filtered_chapters\
+          \ = chapters[start_index:]\n\n    # # 当raw_text为空且children都为空列表时，将chapter_title移动到raw_text\n\
+          \    # for chap in filtered_chapters:\n    #     if not chap.get(\"raw_text\"\
+          ) and not chap.get(\"children\"):\n    #         chap[\"raw_text\"] = chap.get(\"\
+          chapter_title\", \"\")\n    #         chap[\"chapter_title\"] = \"\"\n\n\
+          \n    # \U0001F50D 再做递增校验\n    valid_chapters = [filtered_chapters[0]]\n\
+          \    prev_parts = [1,]\n\n    for chap in filtered_chapters[1:]:\n     \
+          \   cid = chap[\"chapter_id\"]\n        if not is_valid_next_chapter(prev_parts,\
+          \ cid):\n            print(f\"无效章节: {cid}, 标题: {chap['chapter_title']}\"\
+          )\n            # 追加到最近有效章节\n            if valid_chapters:             \
+          \          # 有有效章节\n                valid_chapters[-1][\"raw_text\"] +=\
+          \ \"\\n\" + chap['chapter_id'] + chap[\"chapter_title\"]\n             \
+          \   print(f\"追加到上一有效章节: {valid_chapters[-1]['chapter_id']}\")\n        \
+          \    continue\n\n        print(f\"有效章节: {cid}, 标题: {chap['chapter_title']}\"\
+          )\n        valid_chapters.append(chap)                  # 首次加入列表\n\n   \
+          \     try:\n            prev_parts = [int(p) for p in cid.split('.')]\n\
+          \        except ValueError:\n            # prev_parts = []   # 附录\n    \
+          \        pass\n\n    # valid_chapters = filtered_chapters  # 直接使用过滤后的章节列表\n\
+          \n    # 构建 full_path\n    tree = build_tree(valid_chapters)\n    build_full_path(tree)\n\
+          \    # # 删除第一层空节点\n    # tree = [n for n in tree if n.get(\"raw_text\")\
+          \ or n.get(\"children\")]\n\n    # 假设 third_chapter 是章节树里 chapter_id ==\
+          \ \"3\" 的字典\n    third_chapter = valid_chapters[2]               # 你解析到的第三章节点\n\
+          \    raw = third_chapter[\"raw_text\"]\n    term_map = build_term_dict(raw)\n\
+          \    # print(term_map)\n\n    return tree, term_map\n\nimport re\nfrom collections\
+          \ import defaultdict\nfrom typing import List, Dict\nimport pdfplumber\n\
+          \n\ndef extract_tables_from_pdf(pdf_path: str) -> List[Dict]:\n    \"\"\"\
+          \n    从PDF中提取所有表格及其标识\n    返回格式: [{\"table_id\": \"表X.x 标题\", \"table_content\"\
+          : 二维数组}, ...]\n    \"\"\"\n    all_tables = []\n\n    with pdfplumber.open(pdf_path)\
+          \ as pdf:\n        for page_num, page in enumerate(pdf.pages):\n       \
+          \     # ---- 1. 先收集页面文本行及其 y 坐标，方便后面找标题 ----\n            page_lines = []\n\
+          \            if page.extract_text():\n                chars = page.chars\n\
+          \                rows = defaultdict(list)\n                for c in chars:\n\
+          \                    rows[int(c['top'])].append(c)\n                for\
+          \ top in sorted(rows.keys()):\n                    line = ''.join([c['text']\
+          \ for c in rows[top]]).strip()\n                    page_lines.append({'text':\
+          \ line, 'y': top})\n\n            # ---- 2. 提取并排序表格 ----\n            tables\
+          \ = page.find_tables()\n            if not tables:\n                continue\n\
+          \            tables = sorted(tables, key=lambda t: t.bbox[1])  # 从上到下\n\n\
+          \            # ---- 3. 处理每个表格 ----\n            for table_idx, table in\
+          \ enumerate(tables):\n                # 过滤：只有 1 列的直接丢弃\n               \
+          \ sample_row = table.extract()[0] if table.extract() else []\n         \
+          \       if len(sample_row) <= 1:\n                    continue\n\n     \
+          \           # 获取表格内容\n                table_data = table.extract()\n   \
+          \             cleaned_data = [\n                    [cell.replace('\\n',\
+          \ ' ').strip() if cell else \"\" for cell in row]\n                    for\
+          \ row in table_data\n                ]\n\n                # ---- 找标题：在表格上方\
+          \ 50 pt 内找“表 X.Y …”整行 ----\n                table_top = table.bbox[1]\n\
+          \                best_line = None\n                min_gap = float('inf')\n\
+          \                for item in page_lines:\n                    if \"表\" in\
+          \ item['text'] and 0 < (table_top - item['y']) < 50:\n                 \
+          \       gap = table_top - item['y']\n                        if gap < min_gap:\n\
+          \                            min_gap = gap\n                           \
+          \ best_line = item['text']\n\n                # 【修改】逻辑：找不到标题时，尝试合并到上一张表\n\
+          \                if best_line:\n                    # 找到了标题 -> 新增一张表\n \
+          \                   all_tables.append({\n                        \"table_id\"\
+          : best_line,\n                        \"table_content\": cleaned_data\n\
+          \                    })\n                else:\n                    if all_tables:\n\
+          \                        # 【修改】找不到标题 -> 把当前表内容追加到上一张表\n                \
+          \        all_tables[-1][\"table_content\"].extend(cleaned_data)\n      \
+          \              else:\n                        # 整个文档第一张表就找不到标题，兜底命名\n  \
+          \                      table_id = f\"表-页{page_num + 1}-表{table_idx + 1}\"\
+          \n                        all_tables.append({\n                        \
+          \    \"table_id\": table_id,\n                            \"table_content\"\
+          : cleaned_data\n                        })\n\n    return all_tables\n\n\n\
+          import tempfile\nimport requests\nfrom urllib.parse import urlparse\n\n\
+          def resolve_pdf_path(pdf_path: str) -> str:\n    # 如果是 URL，就下载到临时文件夹\n \
+          \   if pdf_path.startswith(\"http://\") or pdf_path.startswith(\"https://\"\
+          ):\n        response = requests.get(pdf_path)\n        response.raise_for_status()\n\
+          \        suffix = os.path.splitext(urlparse(pdf_path).path)[-1]\n      \
+          \  with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp_file:\n\
+          \            tmp_file.write(response.content)\n            return tmp_file.name\n\
+          \    else:\n        return pdf_path\n\n\ndef main(url: str) -> dict:\n \
+          \   pdf_path = resolve_pdf_path(url)  # 兼容 URL 和本地路径\n\n\n    # 章节树\n  \
+          \  tree, term_map = parse_pdf_to_chapter_tree(pdf_path)\n    # 表格\n    tables\
+          \ = extract_tables_from_pdf(pdf_path)\n\n    # 1-3 章（id 为 '1','2','3'）\n\
+          \    context = str(tree[:3])\n\n    # 章节内容\n\n\n    # 其余章节（非附录、非前三章）\n \
+          \   chapter_text = []\n    for c in tree:\n        if c['chapter_id'] not\
+          \ in {\"1\", \"2\", \"3\"} and not c['chapter_id'].startswith(\"附录\"):\n\
+          \            chapter_text.append(str(c))\n\n    appendix = str([c for c\
+          \ in tree if c['chapter_id'].startswith(\"附录\")])\n\n    # 表格内容\n    tables_str\
+          \ = str(tables)\n\n    return {\n        \"context\": context,\n       \
+          \ \"array\": chapter_text,\n        \"appendix\": appendix,\n        \"\
+          tables\": tables_str,\n        \"term_map\":json.dumps(term_map, ensure_ascii=False),\n\
+          \    }"
+        code_language: python3
+        desc: ''
+        outputs:
+          appendix:
+            children: null
+            type: string
+          array:
+            children: null
+            type: array[string]
+          context:
+            children: null
+            type: string
+          tables:
+            children: null
+            type: string
+          term_map:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行
+        type: code
+        variables:
+        - value_selector:
+          - '1752117396348'
+          - file
+          - url
+          value_type: file
+          variable: url
+      height: 53
+      id: '1752737813275'
+      position:
+        x: 334
+        y: 386.5
+      positionAbsolute:
+        x: 334
+        y: 386.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        author: Chen Huaji
+        desc: ''
+        height: 116
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"这里先简单的直接将其数组全部放入迭代，后续可以先判断该章节是否可以提取测试用例，如果不可以则直接跳过","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":"ltr","format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: 272
+      height: 116
+      id: '1752739174100'
+      position:
+        x: 874.6692761778318
+        y: 198.1358024278445
+      positionAbsolute:
+        x: 874.6692761778318
+        y: 198.1358024278445
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-note
+      width: 272
+    - data:
+        author: Chen Huaji
+        desc: ''
+        height: 137
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"此处使用的测试用例；","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"正在进行提取pdf为格式化文档的操作，数据结构暂定如下：","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"{
+          ","type":"text","version":1}],"direction":null,"format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"\"chapter_id\":
+          \"3\", ","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"\"chapter_title\":
+          \"术语和定义\", ","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"\"full_path\":
+          \"3 术语和定义\", ","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"\"raw_text\":
+          \"下列术语和定义适用于本文件。\", ","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"\"children\":
+          [] ","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"},","type":"text","version":1}],"direction":null,"format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":null,"format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: 299
+      height: 137
+      id: '1752748874609'
+      position:
+        x: 295.3672652120056
+        y: 451.37038258369523
+      positionAbsolute:
+        x: 295.3672652120056
+        y: 451.37038258369523
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-note
+      width: 299
+    - data:
+        author: Chen Huaji
+        desc: ''
+        height: 88
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"处理对于附录的引用和本章节其它条款的引用","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":"ltr","format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: 240
+      height: 88
+      id: '1752810016224'
+      position:
+        x: 1360.1085138625185
+        y: 198.1358024278445
+      positionAbsolute:
+        x: 1360.1085138625185
+        y: 198.1358024278445
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-note
+      width: 240
+    - data:
+        code: "import json\nimport re\n\nimport json\nimport ast\nimport re\nfrom\
+          \ typing import Dict, List, Any\n\ndef parse_input(src: str) -> List[Dict[str,\
+          \ Any]]:\n    \"\"\"预处理并解析输入字符串为列表字典结构\"\"\"\n    try:\n        # 去除 LLM\
+          \ 思维链标记\n        try: \n            src = re.sub(r'<think>.*?</think>',\
+          \ '', src, flags=re.DOTALL).strip()\n        except:\n            pass\n\
+          \n        try:\n            data = json.loads(src)\n        except json.JSONDecodeError:\n\
+          \            try:\n                if src.startswith('\\ufeff'):\n     \
+          \               src = src[1:]\n                data = ast.literal_eval(src)\n\
+          \            except (SyntaxError, ValueError):\n                try:\n \
+          \                   processed = src.replace('\\\\\"', '\"').replace('\\\\\
+          n', '\\n')\n                    data = json.loads(processed)\n         \
+          \       except Exception as e:\n                    raise ValueError(f\"\
+          无法解析：{str(e)}\")\n\n        # 保证为 list\n        if isinstance(data, dict):\n\
+          \            return [data]\n        elif isinstance(data, list):\n     \
+          \       return data\n        else:\n            return []\n    except Exception\
+          \ as e:\n        # raise ValueError(f\"预处理失败: {str(e)}\")\n        return\
+          \ []\n\n\ndef main(raw_text: str) -> dict:\n    # # 1. 去掉 <think>...</think>\n\
+          \    # clean_text = re.sub(r'<think>.*?</think>', '', raw_text, flags=re.DOTALL).strip()\n\
+          \n    \n    \n\n    # return {\"test_cases\": clean_text}\n\n    data =\
+          \ parse_input(raw_text)\n\n    unfinished = []\n    finished = []\n    for\
+          \ item in data:\n        if not isinstance(item, dict):\n            unfinished.append(item)\n\
+          \            continue\n\n        ref_raw = str(item.get(\"ref\", \"\")).strip()\n\
+          \        # 判断是否仅由\"GB\"或\"图\"开头的部分组成\n        valid = True\n        for\
+          \ part in re.split(r'[,，、]', ref_raw):\n            part = part.strip()\n\
+          \            if part and not (part.startswith(\"GB\") or part.startswith(\"\
+          GA\") or part.startswith(\"图\")):\n                valid = False\n     \
+          \           break\n\n        if valid:\n            finished.append(item)\n\
+          \        else:\n            unfinished.append(item)\n\n    return {\n  \
+          \      \"test_cases\":json.dumps(unfinished, ensure_ascii=False),\n    \
+          \    \"finished\":json.dumps(finished, ensure_ascii=False)\n    }"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1752730418049'
+        outputs:
+          finished:
+            children: null
+            type: string
+          test_cases:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 2
+        type: code
+        variables:
+        - value_selector:
+          - '1754280046577'
+          - text
+          value_type: string
+          variable: raw_text
+      height: 53
+      id: '1753070274269'
+      parentId: '1752730418049'
+      position:
+        x: 474.66890140381565
+        y: 91
+      positionAbsolute:
+        x: 1101.0049873359212
+        y: 477.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1752737813275'
+          - context
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1752730418049'
+        model:
+          completion_params:
+            stop:
+            - '[''```'']'
+          mode: chat
+          name: deepseek-reasoner
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: 477d96c6-a56b-4928-b2e9-2f8330845baa
+          role: system
+          text: "# 角色\n你是一名专业的标准测试用例设计专家，擅长根据国家标准或行业标准中出现的“引用条款”“引用附录”“引用外部文件”等内容，进行严格的展开和拆解，确保测试用例描述完整、自包含，无需人工二次跳转或推理。你的任务是对之前生成的含有引用语句的测试用例，基于原始引用位置内容进行补全，确保所有测试用例在结构和技术内容上完整一致，满足直接执行需求。\n\
+            \n---\n\n# 任务目标\n你将接收一组测试用例（由上一阶段初步提取，但保留了对附录或其它条款的引用内容），以及标准中被引用的所有附录、章节内容。请你定位测试用例中所有引用内容，并逐一将引用内容完整替换/展开为具体参数、步骤、条件、标准等，**使每条测试用例成为完全自包含、结构完整的条目**。\n\
+            \n**当展开测试用例时，又引入了其它引用，务必将引用内容填充至ref字段！**\n\n---\n\n# 输入内容包括：\n- 初步生成的测试用例（test_cases）：由上一阶段生成，可能存在“按附录X试验”等引用语句；\
+            \  \n- 文章所有的表格内容（tables，只有当处理chapter_text需要时才读取对应表格内容）\n- 附录内容（appendix_text）：包含标准中所有附录，结构与原文一致；\
+            \  \n- 背景上下文（{{#context#}}）：如范围、术语、适用说明等，有助于补全信息；\n\n---\n\n# 输出格式\n\n\
+            只输出纯 JSON 数组，无任何前缀、后缀、解释、注释或 Markdown 代码块标记（例如不要包含```json或```），确保结果可以被Python的json.loads()函数直接解析，无需额外处理。\n\
+            \n当没有任何结果需要输出时，**返回“[]”即可**（严格执行，禁止任何额外输出导致json.loads()函数解析失败）\n\n[\n\
+            {\n\"实验编号\": \"\", // （编号自动生成，对T4-1进行展开，得到T4-1-1A、T4-1-1B、T4-1-2...若展开后只有一个测试用例，则保留为T4-1）\n\
+            \"实验目的\": \"\", // （简要说明验证目标或功能）\n\"实验条件\": \"\", // （如安装部件、电源状态、环境要求等，可分条罗列）\n\
+            \"判定标准\": \"\", // （明确通过/失败的条件，描述试验是否符合要求）\n\"实验参数\": {}, // （实验前必须设定或满足的可量化物理参数，如速度、加速度、滤波频率等，包含参数名称和要求，以对象形式表示）\n\
+            \"判定参数\": {}, // （实验完成后用于判断结果是否合格的可量化参数要求，包含参数名称和要求，以对象形式表示）\n\"对应标准条款编号\"\
+            : \"\", // （如 4.1.3, B.2.1.2 等，指向相关标准或条款）\n\"ref\": \"\", // （引用的标准或条款编号，如GB\
+            \ 11551、附录、本文其它条款、图、表）\n\"parent\":\"\", // （新增，当前生成的测试用例由哪个输入展开，parent就是谁；例如：展开T23-1后生成的测试用例T23-1-1、T23-1-2的parent均为是T23-1；展开T4-2只生成了一条测试用例T4-2，parent同样是T4-2）\n\
+            },\n]\n\n\n---\n\n# 处理逻辑（链式思考）\n首先将根据上下文理解本文件的前置背景信息，包括术语、前言、范围等信息，然后对于输入的test_cases中的每一个测试用例：\n\
+            \n1. 查找对于存在引用的测试用例，结合ref字段和实际内容分析是否需要展开，并确定需要展开的项目(**若 ref 字段含多个可达引用，一次性提取并合并所有被引内容后整体展开**)；不需要展开则直接跳过此条输入。\n\
+            2. 分析是否可达（对附录的引用视为可达）： 若可达则执行步骤3；不可达则跳过此条输入，不进行任何处理，不重复输出（无引用的测试用例同样不做任何输出）（此条仅针对输入的test_cases，若在对某一条test_case进行展开时产生了存在不可达的引用时，正常生成测试用例）\n\
+            3. 跳转至引用位置，提取全部试验步骤、判定标准、参数条件等内容，**嵌入到当前测试用例的实验条件/步骤/判定标准中**，并**删除原有引用语句**。具体工作包括：\n\
+            \   - 根据用户输入的chapter_text的层级关系不断向下分析，直到遇到正文，正文部分以段落为单位进行处理。\n   - 对于每个段落（appendix的chapter_title+raw_text中每行结尾都有换行符，不准确，需自行理解段落结构），如果包含可测试要求，则提取实验条件、检测项/参数、判定标准，生成完整测试用例；若不存在需在内部逻辑中写出「原因」并确认无遗漏（但最终不输出，只用于内部验证）。\n\
+            \   - 对于关键的参数需要仔细思考后明确属于实验条件还是检测项\n\n4. 更新ref字段，规定如下：\n   - 对于已经展开的内容，将其从ref中移除，例如：输入测试用例ref字段为“附录A”，说明其包含对附录A的引用，对引用的附录A进行展开后，需要将ref中的\n\
+            \   - **当且仅当**生成测试用例时又引入了对其他内容的引用时，需要将其填充至ref字段！（例如，在展开对于附录F的引用时，又引入了对于附录A的引用，比如“按照附录A要求”等描述，需要将附录A加入ref字段；）\n\
+            5. 更新parent字段：\n   - 务必确保parent字段正确，由哪个输入展开，parent就是谁。例如：展开T23-1后生成的测试用例T23-1-1、T23-1-2的parent均为是T23-1；展开T4-2只生成了一条测试用例T4-2，parent同样是T4-2\n\
+            \n最后**输出完整 json格式的测试用例**，确保所有引用内容已被展开并补全。\n\n---\n\n\n# 注意事项 \n1. **必须完全移除所有可解析的引用语句**，如“按附录X试验”等，必须索引至真实内容后提取或展开，对于引用中涉及的参数、判定规则、试验方式等，必须完全提取；外部标准引用（如“按GB/T\
+            \ 12345”）或其它章节条款无法展开时，不做任何处理（不再输出）；\n2. 务必更新“ref”字段；务必填充“parent”字段，parent字段不能为空；parent和ref字段将作为后续代码判断标准，务必准确！\n\
+            3. 完整输出要求：\n\n   - **必须完整输出所有处理后的测试用例，无论数量多少或内容长度**（此条最为重要，请只进行一遍思考，避免思考内容过多而输出正文较少）\n\
+            \n   - 若输出内容超长，必须自动分段完整输出，不得截断任何测试用例\n\n   - 每个测试用例必须独立完整呈现，不得合并或简化\n\
+            4. 以段为单位进行处理，若不存在测试用例时需在内部逻辑中写出「原因」并确认无遗漏（但最终不输出，只用于内部验证）。若存在多个方案，应分别展开并生成多条测试用例例如\
+            \ 对于T1展开：T1-1A / T1-1B / T1-2等，对于T1-1展开：T1-1-1、T1-1-2等）；\n5. 每个句子、每个补充方案、每个可选方案（例如「可使用…」「制造商可选…」「另一方案…」）都必须视作独立验证路径，均需生成独立测试用例，禁止省略、合并、隐藏。\n\
+            6. 引用表格时，需在tables中去找到对应的表格，并完整理解分析后，决定是展开成多条测试用例还是将相关参数提取到引用位置即可。\n7.\
+            \ 输出必须是纯 json格式，每条测试用例都应完整自足，便于直接用于测试系统录入或执行；\n8. **不得省略**任何条件、步骤或判断标准，尤其是附录中提及的设备、环境参数、容差值、安装要求等；\n\
+            9. 测试编号、条款编号请保持原样；如新增测试用例，编号可在原基础上扩展；\n10. 所有字段内容都应补充为具体、可操作、详细、无歧义的描述；\n\
+            11. 测试用例生成粒度不必过细，例如测试车辆需要左右两侧均做碰撞实验等情况，直接在步骤中写明即可，无需每一侧都生成一个测试用例\n\n------\n\
+            \n# 绝对禁令（违反将导致严重错误）\n\n1. 禁止出现「同上」「同T17-1判定标准」 「符合T17-1全部功能要求等描述」，即每个测试用例为独立项\n\
+            2. 禁止参数简化：所有技术参数必须完整呈现\n3. 禁止步骤合并：操作流程必须分解为原子级可执行步骤\n4. 禁止检测项合并：每个可独立验证的技术指标必须单独列出\n\
+            5. 禁止任何形式的输出省略：包括但不限于\"部分示例\"、\"类似处理\"、\"其他测试用例同理\"等表述，必须完整呈现每条测试用例\n\
+            6. 禁止任何无关输出（仅输出结果表格）\n7. 禁止对无引用的测试用例或有引用但该引用无法解析（其它文件或其它章节条款）输入重复进行输出（（此条仅针对test_cases，若在对某一条test_case进行展开时产生了存在不可达的引用时，正常生成测试用例））\n\
+            8. 严禁输出 ```json、```、#、// 等非 JSON 标准语法元素，输出必须从 [ 字符开始，以 ] 字符结束。当无需展开任何内容时，禁止输出[]以外的任何内容\n\
+            9. 输出测试用例的parent字段禁止为空\n\n\n# 示例（fewshot，务必严格模仿）\n\n## 示例一\n\n### 输入\n\
+            \n// test_cases示例1\n\n{\n  \"实验编号\": \"T4-6\",\n  \"实验目的\": \"验证AECS在附录B试验条件下是否自动触发\"\
+            ,\n  \"实验条件\": \"参照附录B进行滑台或实车碰撞试验\",\n  \"判定标准\": \"AECS应被自动触发，且发送的MSD中触发类型为自动触发。\"\
+            ,\n  \"关键实验参数\": {},\n  \"关键判定参数\": {},\n  \"对应标准条款编号\": \"4.4.1\",\n\
+            \  \"ref\": \"附录B\",\n  \"parent\": \"\"\n}\n\n\n\n// appendix中附录B的部分内容，仅作示例\n\
+            \n  {\n    \"chapter_id\": \"附录 B\",\n    \"chapter_title\": \"自动触发试验方法\"\
+            ,\n    \"full_path\": \"附录B 自动触发试验方法\",\n    \"raw_text\": \"\",\n   \
+            \ \"children\": [\n          {\n        \"chapter_id\": \"B.2\",\n   \
+            \     \"chapter_title\": \"试验项目\",\n        \"full_path\": \"附录B 自动触发试验方法/B.2\
+            \ 试验项目\",\n        \"raw_text\": \"\",\n        \"children\": [\n    \
+            \      {\n            \"chapter_id\": \"B.2.1\",\n            \"chapter_title\"\
+            : \"正面碰撞\",\n            \"full_path\": \"附录B 自动触发试验方法/B.2 试验项目/B.2.1\
+            \ 正面碰撞\",\n            \"raw_text\": \"\",\n            \"children\":\
+            \ [\n              {\n                \"chapter_id\": \"B.2.1.1\",\n \
+            \               \"chapter_title\": \"滑台正面碰撞试验\",\n                \"full_path\"\
+            : \"附录B 自动触发试验方法/B.2 试验项目/B.2.1 正面碰撞/B.2.1.1 滑台正面碰撞试验\",\n           \
+            \     \"raw_text\": \"将白车身固定在碰撞试验滑台上，安装方向模拟正面碰撞。滑台按照图B.1的加速度通道范围和表B.1的参数进行加速或减速，速度变化量△V应为26.6\
+            \ km/h±1 km/h。\\n\\n根据制造商要求，也可使用制造商申报的气囊必爆限加速度波形进行试验，即按照气囊起爆最低速度进行正面刚性壁障碰撞试验时，在车身非变形区域采集的加速度-时间曲线，采用CFC\
+            \ 60或100 Hz低通进行滤波。实际试验结果波形的积分速度变化量△Vs(t)应在任意时刻，不超过申报波形的积分速度变化量△Vt(t)±1\
+            \ km/h的范围，即应满足△Vt(t)-1≤△Vs(t)≤△Vt(t)+1，单位km/h。\",\n                \"\
+            children\": []\n              },\n              {\n                \"\
+            chapter_id\": \"B.2.1.2\",\n                \"chapter_title\": \"实车正面碰撞试验\"\
+            ,\n                \"full_path\": \"附录B 自动触发试验方法/B.2 试验项目/B.2.1 正面碰撞/B.2.1.2\
+            \ 实车正面碰撞试验\",\n                \"raw_text\": \"按GB 11551的规定调整车辆状态但不安装碰撞假人，在碰撞速度不高于30\
+            \ km/h的条件下，进行正面碰撞试验。\",\n                \"children\": []\n          \
+            \    },\n          },\n          ...\n      ],\n  },\n\n### 思考过程\n\n1.\
+            \ 此测试用例存在引用，并确定需要展开的是这句话：“执行附录B试验”，将附录B中的内容进行展开\n2. 初步判断可达（附录B已提供），继续执行步骤3\n\
+            3. 跳转到附录B，对于每个标题下的正文，以段落为单位进行分析。对于正面碰撞滑台试验，有两个段落，分别对应一个一种方案，根据要求，需要分别为每种方案生成一个测试用例；对于正面碰撞实车试验，可提取一个测试用例（此处虽然又引入了对于外部不可达文件的引用，但是仍需要生成此测试用例。若引入的是对于可达内容的引用，则需要完善ref字段）。\n\
+            4. 对于附录B的引用已经展开，则将其从ref字段移除；其中生成的T4-16-1C引入了对GB 11551的引用，将其添加至ref；\n5.\
+            \ 填充parent，生成的三条测试用例的parent均为T4-16\n6. 将步骤3生成的3个测试用例输出为json格式\n\n### 输出\n\
+            \n// 上述输入中仅包含如下内容，但实际输入请依据实际输出！\n\n[\n  {\n    \"实验编号\": \"T4-16-1A\"\
+            ,\n    \"实验目的\": \"验证AECS自动触发（滑台正面碰撞试验）\",\n    \"实验条件\": \"AECS相关部件（控制模块、通信模块、电源、连接器、天线、GNSS接收机、碰撞感知元件）按照原车状态安装在白车身上；将白车身固定在碰撞试验滑台上，安装方向模拟正面碰撞；滑台按图B.1的加速度通道范围和表B.1的参数进行加速或减速，速度变化量△V应为26.6\
+            \ km/h ±1 km/h\",\n    \"判定标准\": \"MSD中触发类型为自动触发（即AECS被自动触发）。\",\n   \
+            \ \"实验参数\": {\n      \"速度变化量△V\": \"26.6 km/h ±1 km/h\"\n    },\n    \"\
+            判定参数\": {},\n    \"对应标准条款编号\": \"4.4.1、B.2.1.1\",\n    \"ref\": \"图B.1,表B.1\"\
+            ,\n    \"parent\":\"T4-16\", \n  },\n  {\n    \"实验编号\": \"T4-16-1B\",\n\
+            \    \"实验目的\": \"验证AECS自动触发（滑台试验，气囊必爆限加速度波形）\",\n    \"实验条件\": \"气囊起爆最低速度条件下的刚性壁障碰撞；在车身非变形区域采集加速度-时间曲线；使用CFC\
+            \ 60或100 Hz低通滤波\",\n    \"判定标准\": \"MSD中触发类型为自动触发（即AECS被自动触发）；试验结果参数满足判定参数要求。\"\
+            ,\n    \"实验参数\": {\n      \"滤波频率（CFC）\": \"60 或 100 Hz\"\n    },\n   \
+            \ \"判定参数\": {\n      \"积分速度变化量△Vs(t)\": \"在任意时刻满足 △Vt(t)±1 km/h\"\n  \
+            \  },\n    \"对应标准条款编号\": \"4.4.1、B.2.1.1\",\n    \"ref\": \"\",\n    \"\
+            parent\":\"T4-16\",\n  },\n  {\n    \"实验编号\": \"T4-16-1C\",\n    \"实验目的\"\
+            : \"验证AECS自动触发（实车正面碰撞试验）\",\n    \"实验条件\": \"按GB 11551规定调整车辆状态但不安装碰撞假人；碰撞速度不高于30\
+            \ km/h\",\n    \"判定标准\": \"MSD中触发类型为自动触发（即AECS被自动触发）。\",\n    \"实验参数\"\
+            : {\n      \"碰撞速度v\": \"不高于30 km/h\"\n    },\n    \"判定参数\": {},\n    \"\
+            对应标准条款编号\": \"4.4.1、B.2.1.2\",\n    \"ref\": \"GB 11551\",\n    \"parent\"\
+            :\"T4-16\",\n  }\n]\n\n## 示例二\n\n{\n    \"实验编号\": \"T4-2\",\n    ......\n\
+            \    \"ref\": \"\",\n},\n{\n    \"实验编号\": \"T4-12\",\n    ......\n   \
+            \ \"ref\": \"GB/T 43187\"\n},\n{\n    \"实验编号\": \"T4-18\",\n    ......\n\
+            \    \"ref\": \"附录C, GB 11551, GB 20071\"\n},\n### 说明\n\n明确：附录C是可达的引用，其余均不可达\n\
+            \n说明：\n\n- T4-2无引用，无需处理且不输出为json\n\n- T4-12存在引用，且所有引用均不可达，无需处理且不输出为json\n\
+            \n- T4-18存在引用，其中附录C是可达引用，需要将T18中对于附录C的引用部分展开，并将最终结果输出为json。如果在展开过程中，又出现了不可达的引用，正常输出！\n\
+            \n\n# 错误输出示例\n\n以下是一个错误输出示例\n\n{\n    \"实验编号\": \"...\",\n    \"实验目的\"\
+            : \"...\",\n    \"实验条件\": \"...\",\n    \"判定标准\": \"满足GB 34660要求，且符合附录F失效判定准则：\\\
+            n- AECS成功建立连接\\n- 语音通话清晰可懂（车辆端和平台端）\\n- MSD符合附录A要求\\n- 试验中无AECS故障指示或存储故障码\"\
+            ,\n    \"对应标准条款编号\": \"4.8, F.1\",\n    \"实验参数\": {},\n    \"判定参数\": {},\n\
+            \    \"ref\": \"GB 34660\"\n    \"parent\":\"...\", \n}\n\n## 错误原因\n\n\
+            1. 生成测试用例时，引入了对于附录A的引用，即“MSD符合附录A要求”，要将其填充至ref字段！\n\n2. 已经展开的内容，附录F，则无需在描述中保留（满足GB\
+            \ 34660要求，且符合附录F失效判定准则），未展开的才需要保留\n\n# 错误示例二\n## 输入\n{\n    '实验编号': 'T4-19',\
+            \ \n    '实验目的': '验证手动触发或GB试验自动触发后系统功能性符合要求', \n    '实验条件': '手动触发AECS或执行GB\
+            \ 11551和GB 20071试验自动触发后', \n    '判定标准': '符合以下所有要求：\\n- MSD符合附录A要求\\n-\
+            \ 如果使用表C.1序号3方法，碰撞后移动网络天线电压驻波比满足制造商参数，且天线馈电线路无断开或短路', \n    \"实验参数\":\
+            \ {},\n    \"判定参数\": {},\n    '对应标准条款编号': '4.5.2, C.2.1, C.2.2, C.2.3,\
+            \ C.2.4, C.2.5',\n    'ref': '附录A', \n    'parent': ''\n}\n## 错误输出\n{\n\
+            \    \"实验编号\": \"T4-19-1\",\n    \"实验目的\": \"验证手动触发或GB试验自动触发后系统功能性符合要求（使用公共移动通信网络无线空口传输）\"\
+            ,\n    ......\n    \"ref\": \"\",\n    \"parent\": \"T4-19\"\n},\n{\n\
+            \    \"实验编号\": \"T4-19-2\",\n    \"实验目的\": \"验证手动触发或GB试验自动触发后系统功能性符合要求（使用网络模拟器无线空口传输）\"\
+            ,\n    ......\n    \"ref\": \"\",\n    \"parent\": \"T4-19\"\n},\n{\n\
+            \    \"实验编号\": \"T4-19-3\",\n    \"实验目的\": \"验证手动触发或GB试验自动触发后系统功能性符合要求（使用网络模拟器有线连接）\"\
+            ,\n    ......\n    \"ref\": \"\",\n    \"parent\": \"T4-19\"\n}\n## 错误原因分析\n\
+            应该展开的是对于附录A的引用，其余部分保持不变即可；仅需将该输入测试用例中的“检查MSD符合附录A要求”进行展开，而不是将“ 使用表C.1的一种试验方法（无线空口传输、网络模拟器无线、网络模拟器有线）验证系统功能性”展开为三个极为相似的测试用例"
+        - id: b84866a9-31b8-42f4-b068-8cd28f1e3cc2
+          role: user
+          text: 'test_cases:{{#1753070274269.test_cases#}}
+
+            appendix_text:{{#1752737813275.appendix#}}
+
+            tables:{{#1752737813275.tables#}}'
+        selected: false
+        structured_output_enabled: false
+        title: LLM 2
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1753071359036'
+      parentId: '1752730418049'
+      position:
+        x: 812
+        y: 71.24573165283243
+      positionAbsolute:
+        x: 1438.3360859321056
+        y: 457.74573165283243
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "import json\nimport ast\nimport re\nfrom typing import Dict, List,\
+          \ Any\n\ndef parse_input(src: str) -> List[Dict[str, Any]]:\n    \"\"\"\
+          预处理并解析输入字符串为列表字典结构\"\"\"\n    try:\n        # 去除 LLM 思维链标记\n        try:\
+          \ \n            src = re.sub(r'<think>.*?</think>', '', src, flags=re.DOTALL).strip()\n\
+          \        except:\n            pass\n\n        try:\n            data = json.loads(src)\n\
+          \        except json.JSONDecodeError:\n            try:\n              \
+          \  if src.startswith('\\ufeff'):\n                    src = src[1:]\n  \
+          \              data = ast.literal_eval(src)\n            except (SyntaxError,\
+          \ ValueError):\n                try:\n                    processed = src.replace('\\\
+          \\\"', '\"').replace('\\\\n', '\\n')\n                    data = json.loads(processed)\n\
+          \                except Exception as e:\n                    raise ValueError(f\"\
+          无法解析：{str(e)}\")\n\n        # 保证为 list\n        if isinstance(data, dict):\n\
+          \            return [data]\n        elif isinstance(data, list):\n     \
+          \       return data\n        else:\n            return []\n    except Exception\
+          \ as e:\n        # raise ValueError(f\"预处理失败: {str(e)}\")\n        return\
+          \ []\n\ndef merge_expanded_data(data1: List[Dict], data2: List[Dict]) ->\
+          \ List[Dict]:\n    \"\"\"将 data2 中以 Tn 或 Tn- 前缀的项替换掉 data1 中 Tn 的主项\"\"\"\
+          \n    # 构建前缀映射：T20 -> [T20-1, T20-2] 或 [T20]\n    replacement_map = {}\n\
+          \n    for row in data2:\n        if not isinstance(row, dict):\n       \
+          \     continue\n        test_id = row.get(\"实验编号\", \"\")\n        match\
+          \ = re.match(r\"^(T\\d+)\", test_id)\n        if match:\n            base_id\
+          \ = match.group(1)\n            replacement_map.setdefault(base_id, []).append(row)\n\
+          \n    # 构建合并结果\n    merged = []\n    for row in data1:\n        test_id\
+          \ = row.get(\"实验编号\", \"\")\n        if test_id in replacement_map:\n  \
+          \          merged.extend(replacement_map[test_id])\n        else:\n    \
+          \        merged.append(row)\n\n    return merged\n\ndef split_by_ref_field(data:\
+          \ List[Dict]) -> Dict[str, List[Dict]]:\n    \"\"\"\n    根据 ref 字段是否为空拆分数据\n\
+          \    返回: {\n        \"with_ref\": [含有ref字段的记录],\n        \"without_ref\"\
+          : [ref为空的记录]\n    }\n    \"\"\"\n    with_ref = []\n    without_ref = []\n\
+          \    \n    for item in data:\n        if not isinstance(item, dict):\n \
+          \           continue\n            \n        # 检查ref字段是否存在且非空\n        if\
+          \ item.get(\"ref\"):\n            with_ref.append(item)\n        else:\n\
+          \            without_ref.append(item)\n    \n    return {\n        \"with_ref\"\
+          : with_ref,\n        \"without_ref\": without_ref\n    }\n\ndef to_markdown_table(data:\
+          \ List[Dict]) -> str:\n    \"\"\"将结构化数据转换为 Markdown 表格\"\"\"\n    headers\
+          \ = [\"实验编号\", \"实验目的\", \"实验条件\", \"具体步骤\", \"检测项\", \"判定标准\", \"对应标准条款编号\"\
+          ]\n    md_lines = [\n        \"| \" + \" | \".join(headers) + \" |\",\n\
+          \        \"| \" + \" | \".join([\"-\" * len(h) for h in headers]) + \" |\"\
+          \n    ]\n\n    for row in data:\n        values = []\n        for h in headers:\n\
+          \            val = row.get(h, \"\")\n            if not isinstance(val,\
+          \ str):\n                val = str(val)\n            val = val.replace(\"\
+          \\n\", \"<br>\")\n            values.append(val)\n        md_lines.append(\"\
+          | \" + \" | \".join(values) + \" |\")\n\n    return \"\\n\".join(md_lines)\n\
+          \ndef merge_data(data1: List[Dict], data2: List[Dict]) -> List[Dict]:\n\
+          \    \"\"\"\n    根据parent字段将data2中的数据替换data1中对应的内容\n    规则：\n    1. 如果data2中的项有parent字段，则替换data1中实验编号匹配parent的项\n\
+          \    2. 如果data2中的项没有parent字段，则直接追加到结果中\n    3. data1中没有被替换的项保留在结果中\n   \
+          \ \"\"\"\n    result = []\n    \n    # 构建parent映射：parent -> [子项列表]\n   \
+          \ parent_map = {}\n    for item in data2:\n        if not isinstance(item,\
+          \ dict):\n            continue\n        parent = item.get(\"parent\")\n\
+          \        if parent:\n            parent_map.setdefault(parent, []).append(item)\n\
+          \    \n    # 处理data1中的项\n    for item in data1:\n        if not isinstance(item,\
+          \ dict):\n            continue\n        test_id = item.get(\"实验编号\", \"\"\
+          )\n        \n        # 如果data2中有这个test_id的扩展项，则替换\n        if test_id in\
+          \ parent_map:\n            result.extend(parent_map[test_id])\n        else:\n\
+          \            result.append(item)\n    \n    # 添加data2中没有parent的项\n    for\
+          \ item in data2:\n        if not isinstance(item, dict):\n            continue\n\
+          \        if not item.get(\"parent\"):\n            result.append(item)\n\
+          \    \n    return result\n\n# from typing import List, Dict, Any\n\n# def\
+          \ merge_data(data1: List[Dict], data2: List[Dict]) -> List[Dict]:\n#   \
+          \  \"\"\"\n#     规则：\n#     1. data2 中无 parent 且实验编号与 data1 某条相同 → 替换该条\n\
+          #     2. data2 中有 parent → 替换 data1 中对应 parent 的条目\n#     3. data2 中剩余条目（无\
+          \ parent 且编号未匹配）直接追加\n#     4. data1 中未被替换的保留\n#     \"\"\"\n#     # 快速索引：编号\
+          \ -> 索引（仅 data1）\n#     id2idx = {item.get(\"实验编号\"): idx for idx, item\
+          \ in enumerate(data1) if isinstance(item, dict)}\n\n#     # 先深拷贝一份 data1，避免原地修改\n\
+          #     result = [dict(item) for item in data1 if isinstance(item, dict)]\n\
+          \n#     # 遍历 data2\n#     for item in data2:\n#         if not isinstance(item,\
+          \ dict):\n#             continue\n#         cid = item.get(\"实验编号\")\n#\
+          \         parent = item.get(\"parent\")\n\n#         if parent:        \
+          \              # 有 parent：替换 parent 对应条目\n#             # 找到 parent 在 result\
+          \ 中的索引\n#             for i, old in enumerate(result):\n#              \
+          \   if old.get(\"实验编号\") == parent:\n#                     result[i] = dict(item)\n\
+          #                     break\n#         else:\n#             if cid in id2idx:\
+          \           # 无 parent：按编号直接替换\n#                 result[id2idx[cid]] =\
+          \ dict(item)\n#             else:                       # 无 parent 且编号不匹配：追加\n\
+          #                 result.append(dict(item))\n\n#     return result\n\n\n\
+          def main(src1: str, src2: str, finished: str) -> Dict:\n    try:\n     \
+          \   data1 = parse_input(src1)\n        data2 = parse_input(src2)\n     \
+          \   data3 = json.loads(finished)\n\n        # merged_data = merge_expanded_data(data1,\
+          \ data2)\n        merged_data = merge_data(data1, data2) + data3      \n\
+          \n        # 根据ref字段拆分数据\n        split_data = split_by_ref_field(merged_data)\n\
+          \n        # markdown_table = to_markdown_table(merged_data)\n\n        #\
+          \ return {\n        #     \"markdown_table\": markdown_table\n        #\
+          \ }\n        return {\n            \"result\":{            \n          \
+          \  # \"markdown_table\": str(merged_data),\n            \"with_ref\": str(split_data[\"\
+          with_ref\"]),\n            \"without_ref\": str(split_data[\"without_ref\"\
+          ]\n            )}\n        }\n    except Exception as e:\n        return\
+          \ {\n            \"error\": str(e)\n        }\n"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1752730418049'
+        outputs:
+          result:
+            children: null
+            type: object
+        selected: false
+        title: 代码执行 3
+        type: code
+        variables:
+        - value_selector:
+          - '1753070274269'
+          - test_cases
+          value_type: string
+          variable: src1
+        - value_selector:
+          - '1753071359036'
+          - text
+          value_type: string
+          variable: src2
+        - value_selector:
+          - '1753070274269'
+          - finished
+          value_type: string
+          variable: finished
+      height: 53
+      id: '1753257336262'
+      parentId: '1752730418049'
+      position:
+        x: 1420
+        y: 91
+      positionAbsolute:
+        x: 2046.3360859321056
+        y: 477.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "\n# import json\n# import ast\n# def main(data: list[str]) -> dict:\n\
+          #     finished = []\n#     unfinished = []\n#     for item in data:\n# \
+          \        finished.extend(ast.literal_eval(item['without_ref']))\n#     \
+          \    unfinished.extend(ast.literal_eval(item['with_ref']))\n    \n#    \
+          \ for item in unfinished:\n#         item['parent'] = \"\"\n#     for item\
+          \ in finished:\n#         item['parent'] = \"\"\n\n#     return {\n#   \
+          \      \"finished\":str(finished),\n#         \"unfinished\":str(unfinished),\n\
+          #     }\nimport ast\nimport re\nfrom typing import Any, Dict, List\n\ndef\
+          \ main(data: List[str]) -> Dict[str, str]:\n    finished: List[Dict[str,\
+          \ Any]] = []\n    unfinished: List[Dict[str, Any]] = []\n\n    for item\
+          \ in data:\n        # 过滤掉 None 或不是 dict 的元素\n        if not isinstance(item,\
+          \ dict):\n            continue\n\n        try:\n            # 安全地把字符串转回列表\n\
+          \            finished_chunk = ast.literal_eval(item.get(\"without_ref\"\
+          ) or \"[]\")\n            unfinished_chunk = ast.literal_eval(item.get(\"\
+          with_ref\") or \"[]\")\n        except Exception:\n            # 解析失败直接跳过\n\
+          \            continue\n\n        # 扩展列表，同时保证元素都是 dict\n        finished.extend([c\
+          \ for c in finished_chunk if isinstance(c, dict)])\n        unfinished.extend([c\
+          \ for c in unfinished_chunk if isinstance(c, dict)])\n\n    # 新增逻辑：处理new_temp中以\"\
+          GB\"或\"图\"开头的ref项\n    remaining_temp = []\n    for item in unfinished:\n\
+          \        if not isinstance(item, dict):\n            remaining_temp.append(item)\n\
+          \            continue\n\n        ref_raw = str(item.get(\"ref\", \"\")).strip()\n\
+          \        # 判断是否仅由\"GB\"或\"图\"开头的部分组成\n        valid = True\n        valid\
+          \ = True\n        for part in re.split(r'[,，、]', ref_raw):\n           \
+          \ part = part.strip()\n            if part and not (part.startswith(\"GB\"\
+          ) or part.startswith(\"GA\") or part.startswith(\"图\")):\n             \
+          \   valid = False\n                break\n\n        if valid:\n        \
+          \    finished.append(item)\n        else:\n            remaining_temp.append(item)\n\
+          \    \n    unfinished = remaining_temp\n\n    # 统一把 parent 字段置空，防止后续引用出错\n\
+          \    for item in finished + unfinished:\n        item[\"parent\"] = \"\"\
+          \n\n    return {\n        \"finished\": str(finished),\n        \"unfinished\"\
+          : str(unfinished),\n    }"
+        code_language: python3
+        desc: ''
+        outputs:
+          finished:
+            children: null
+            type: string
+          unfinished:
+            children: null
+            type: string
+        retry_config:
+          max_retries: 3
+          retry_enabled: false
+          retry_interval: 1000
+        selected: false
+        title: 代码执行 5
+        type: code
+        variables:
+        - value_selector:
+          - '1752730418049'
+          - output
+          value_type: array[object]
+          variable: data
+      height: 53
+      id: '1753409007363'
+      position:
+        x: 2512
+        y: 386.5
+      positionAbsolute:
+        x: 2512
+        y: 386.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        break_conditions: []
+        desc: ''
+        error_handle_mode: terminated
+        height: 373
+        logical_operator: and
+        loop_count: 1
+        loop_variables:
+        - id: 498663b8-ae21-4da5-b3c6-ab033247a4d4
+          label: temp
+          value:
+          - '1753409007363'
+          - unfinished
+          value_type: variable
+          var_type: string
+        - id: 380bb322-b5df-459d-8e34-2333bb20853a
+          label: finished
+          value:
+          - '1753409007363'
+          - finished
+          value_type: variable
+          var_type: string
+        selected: false
+        start_node_id: 1753409012058start
+        title: 循环
+        type: loop
+        width: 2636
+      height: 373
+      id: '1753409012058'
+      position:
+        x: 2816
+        y: 386.5
+      positionAbsolute:
+        x: 2816
+        y: 386.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 2636
+      zIndex: 1
+    - data:
+        desc: ''
+        isInLoop: true
+        selected: false
+        title: ''
+        type: loop-start
+      draggable: false
+      height: 48
+      id: 1753409012058start
+      parentId: '1753409012058'
+      position:
+        x: 60
+        y: 98.5
+      positionAbsolute:
+        x: 2876
+        y: 485
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-loop-start
+      width: 44
+      zIndex: 1002
+    - data:
+        code: "# import json\n# import ast\n# import re\n# from typing import Dict,\
+          \ List, Any\n\n# # def to_markdown_table(data: List[Dict]) -> str:\n# #\
+          \     \"\"\"将结构化数据转换为 Markdown 表格\"\"\"\n# #     headers = [\"实验编号\", \"\
+          实验目的\", \"实验条件\", \"具体步骤\", \"检测项\", \"判定标准\", \"对应标准条款编号\"]\n# #     md_lines\
+          \ = [\n# #         \"| \" + \" | \".join(headers) + \" |\",\n# #       \
+          \  \"| \" + \" | \".join([\"-\" * len(h) for h in headers]) + \" |\"\n#\
+          \ #     ]\n\n# #     for row in data:\n# #         values = []\n# #    \
+          \     for h in headers:\n# #             val = row.get(h, \"\")\n# #   \
+          \          if not isinstance(val, str):\n# #                 val = str(val)\n\
+          # #             val = val.replace(\"\\n\", \"<br>\")\n# #             values.append(val)\n\
+          # #         md_lines.append(\"| \" + \" | \".join(values) + \" |\")\n\n\
+          # #     return \"\\n\".join(md_lines)\n\n# def _serialize_array(arr: List[Dict[str,\
+          \ str]]) -> str:\n#     \"\"\"将 [{参数名称, 参数要求}, ...] 转成 1.xxx;2.xxx 格式\"\"\
+          \"\n#     if not arr:\n#         return \"\"\n#     return \"；\".join(\n\
+          #         f\"{idx + 1}. 参数名称：{item.get('参数名称', '')}；\"\n#         f\"参数要求：{item.get('参数要求',\
+          \ '')}\"\n#         for idx, item in enumerate(arr)\n#     )\n\n# def to_markdown_table(data:\
+          \ List[Dict[str, Any]]) -> str:\n#     headers = [\n#         \"实验编号\",\
+          \ \"实验目的\", \"实验条件\", \"具体步骤\",\n#         \"检测项\", \"判定标准\", \"对应标准条款编号\"\
+          ,\n#         \"实验参数\", \"判定参数\", \"引用\"\n#     ]\n#     md_lines = [\n#\
+          \         \"| \" + \" | \".join(headers) + \" |\",\n#         \"| \" + \"\
+          \ | \".join([\"-\" * len(h) for h in headers]) + \" |\"\n#     ]\n\n#  \
+          \   for row in data:\n#         values = []\n#         for h in headers:\n\
+          #             val = row.get(h, \"\")\n#             if h in (\"实验参数\", \"\
+          判定参数\"):\n#                 val = _serialize_array(val if isinstance(val,\
+          \ list) else [])\n#             elif not isinstance(val, str):\n#      \
+          \           val = str(val)\n#             val = re.sub(r\"\\n+\", \"<br>\"\
+          , val.strip())\n#             values.append(val)\n#         md_lines.append(\"\
+          | \" + \" | \".join(values) + \" |\")\n\n#     return \"\\n\".join(md_lines)\n\
+          \n# def main(arg1: str, arg2: str) -> dict:\n#     # a = arg1\n#     a =\
+          \ ast.literal_eval(arg1)\n#     b = ast.literal_eval(arg2)\n\n    \n#  \
+          \   a.extend(b)\n\n#     # # 按实验编号升序排序（自然排序）\n#     # a.sort(key=lambda\
+          \ x: x.get(\"实验编号\", \"\"))\n\n#     markdown_table = to_markdown_table(a)\n\
+          \n#     return {\n#         \"markdown_table\":str(markdown_table)\n#  \
+          \   }\nimport json\nimport ast\nimport re\nfrom typing import Dict, List,\
+          \ Any\n\ndef _serialize_obj(obj: Dict[str, str]) -> str:\n    \"\"\"把 {k:\
+          \ v} 转成 1.k：v；2.k：v… 形式\"\"\"\n    if not obj:\n        return \"\"\n  \
+          \  return \"；\".join(\n        f\"{idx + 1}. {k}：{v}\"\n        for idx,\
+          \ (k, v) in enumerate(obj.items())\n    )\n\ndef to_markdown_table(data:\
+          \ List[Dict[str, Any]]) -> str:\n    headers = [\n        \"实验编号\", \"实验目的\"\
+          , \"实验条件\",\n        \"判定标准\", \"实验参数\", \"判定参数\",\n        \"对应标准条款编号\"\
+          , \"ref\"\n    ]\n    md_lines = [\n        \"| \" + \" | \".join(headers)\
+          \ + \" |\",\n        \"| \" + \" | \".join([\"-\" * len(h) for h in headers])\
+          \ + \" |\"\n    ]\n\n    for row in data:\n        values = []\n       \
+          \ for h in headers:\n            val = row.get(h, \"\")\n            if\
+          \ h in (\"实验参数\", \"判定参数\"):\n                val = _serialize_obj(val if\
+          \ isinstance(val, dict) else {})\n            elif not isinstance(val, str):\n\
+          \                val = str(val)\n            val = re.sub(r\"\\n+\", \"\
+          <br>\", val.strip())\n            values.append(val)\n        md_lines.append(\"\
+          | \" + \" | \".join(values) + \" |\")\n\n    return \"\\n\".join(md_lines)\n\
+          \n\nimport re\nfrom typing import List, Dict, Any\n\ndef _natural_key(code:\
+          \ str):\n    \"\"\"\n    把 'T4-2-1A' 转成 ('T', 4, 2, '1A') 的元组，用于自然排序\n \
+          \   规则：\n    1. 字母部分保持原样\n    2. 数字部分转 int\n    3. 最后一段若为混合（如 1A），整体保留为字符串\n\
+          \    \"\"\"\n    # 按 '-' 切分\n    parts = code.split('-')\n    key = []\n\
+          \    for p in parts:\n        if p.isdigit():\n            key.append(int(p))\n\
+          \        else:\n            # 若混合，如 '1A'，保留字符串\n            key.append(p)\n\
+          \    return tuple(key)\n\ndef main(arg1: str, arg2: str) -> dict:\n    a\
+          \ = ast.literal_eval(arg1)\n    b = ast.literal_eval(arg2)\n    a.extend(b)\n\
+          \n    # 按实验编号自然排序\n    a.sort(key=lambda x: _natural_key(x.get(\"实验编号\"\
+          , \"\")))\n\n    markdown_table = to_markdown_table(a)\n    return {\"markdown_table\"\
+          : markdown_table}"
+        code_language: python3
+        desc: ''
+        outputs:
+          markdown_table:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 6
+        type: code
+        variables:
+        - value_selector:
+          - '1753409012058'
+          - finished
+          value_type: string
+          variable: arg1
+        - value_selector:
+          - '1753409012058'
+          - temp
+          value_type: string
+          variable: arg2
+      height: 53
+      id: '1753409017000'
+      position:
+        x: 5512
+        y: 386.5
+      positionAbsolute:
+        x: 5512
+        y: 386.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1752737813275'
+          - context
+        desc: ''
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        model:
+          completion_params: {}
+          mode: chat
+          name: deepseek-reasoner
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: 9825ce7b-30f0-4f06-b7b0-936d4c7fefb4
+          role: system
+          text: "# 角色\n\n你是一名专业的标准测试用例设计专家，擅长根据国家标准或行业标准中出现的“引用条款”“引用附录”“引用外部文件”等内容，进行严格的展开和拆解，确保测试用例描述完整、自包含，无需人工二次跳转或推理。你的任务是对之前生成的含有引用语句的测试用例，基于原始引用位置内容进行补全，确保所有测试用例在结构和技术内容上完整一致，满足直接执行需求。\n\
+            \n---\n\n# 任务目标\n\n你将接收一组测试用例，以及标准中被引用的所有附录、章节内容。请你定位测试用例中所有引用内容，并逐一将引用内容完整替换/展开为具体参数、步骤、条件、标准等，**使每条测试用例成为完全自包含、结构完整的条目**。\n\
+            \n本次最多对10条输入进行展开；当所有输入均不包含可展开的引用时，直接返回“clear”；\n\n---\n\n# 输入内容包括：\n\n\
+            - 初步生成的测试用例（test_cases）：由上一阶段生成，可能存在“按附录X试验”“符合11.2.8规定”“符合GB/T 24545要求”等引用语句；\
+            \  \n\n- 文件正文章节内容（chapter_texts)：多个章节拼接而成\n\n- 文章所有的表格内容（tables，只有当处理chapter_text需要时才读取对应表格内容）\n\
+            \n- 附录内容（appendix_text）：包含标准中所有附录，结构与原文一致；  \n\n- 背景上下文（ {{#context#}}）：如范围、术语、适用说明等，有助于补全信息；\n\
+            \n---\n\n# 输出格式\n\n只输出纯 JSON 数组，无任何前缀、后缀、解释、注释或 Markdown 代码块标记（例如不要包含```json或```），确保结果可以被Python的json.loads()函数直接解析，无需额外处理。**当根据提供的内容，无法展开任何引用（如对其它文件的引用）时，直接返回“clear”**。\n\
+            \n格式如下：\n\n[\n{\n\"实验编号\": \"\", // （编号自动生成，对T4-1进行展开，得到T4-1-1A、T4-1-1B、T4-1-2...若展开后只有一个测试用例，则保留为T4-1）\n\
+            \"实验目的\": \"\", // （简要说明验证目标或功能）\n\"实验条件\": \"\", // （如安装部件、电源状态、环境要求等，可分条罗列）\n\
+            \"判定标准\": \"\", // （明确通过/失败的条件，描述试验是否符合要求）\n\"实验参数\": {}, // （实验前必须设定或满足的可量化物理参数，如速度、加速度、滤波频率等，包含参数名称和要求，以对象形式表示）\n\
+            \"判定参数\": {}, // （实验完成后用于判断结果是否合格的可量化参数要求，包含参数名称和要求，以对象形式表示）\n\"对应标准条款编号\"\
+            : \"\", // （如 4.1.3, B.2.1.2 等，指向相关标准或条款）\n\"ref\": \"\", // （引用的标准或条款编号，如GB\
+            \ 11551、附录、本文其它条款、图、表）\n\"parent\":\"\", // （新增，当前生成的测试用例由哪个输入展开，parent就是谁；例如：展开T23-1后生成的测试用例T23-1-1、T23-1-2的parent均为是T23-1；展开T4-2只生成了一条测试用例T4-2，parent同样是T4-2）\n\
+            },\n]\n\n---\n\n# 处理逻辑（链式思考）\n\n首先将根据上下文理解本文件的前置背景信息，包括术语、前言、范围等信息，然后对于输入的test_cases中的每一个测试用例：\n\
+            \n1. 查找对于存在引用的测试用例，结合ref字段和实际内容分析是否需要展开，并确定需要展开的项目(**若 ref 字段含多个可达引用，一次性提取并合并所有被引内容后整体展开**)；不需要展开则直接跳过此条输入。\n\
+            2. 分析是否可达（对于本文内容的引用均视作可达，包括附录）： 若可达则执行步骤3；不可达则跳过此条输入，不进行任何处理，不重复输出（无引用的测试用例同样不做任何输出）（此条仅针对输入的test_cases，若在对某一条test_case进行展开时产生了存在不可达的引用时，正常生成测试用例）\n\
+            3. 跳转至引用位置，提取全部试验步骤、判定标准、参数条件等内容，**嵌入到当前测试用例的实验条件/步骤/判定标准中**，并**删除原有引用语句**。具体工作包括：\n\
+            \   - 根据用户输入的chapter_text的层级关系不断向下分析，直到遇到正文，正文部分以段落为单位进行处理。\n   - 对于每个段落（appendix的chapter_title+raw_text中每行结尾都有换行符，不准确，需自行理解段落结构），如果包含可测试要求，则提取实验条件、检测项/参数、判定标准，生成完整测试用例；若不存在需在内部逻辑中写出「原因」并确认无遗漏（但最终不输出，只用于内部验证）。\n\
+            \   - 对于关键的参数需要仔细思考后明确属于实验条件还是检测项\n4. 更新ref字段，规定如下：\n   - 对于已经展开的内容，将其从ref中移除，例如：输入测试用例ref字段为“附录A”，说明其包含对附录A的引用，对引用的附录A进行展开后，需要将ref中的\n\
+            \   - **当且仅当**生成测试用例时又引入了对其他内容的引用时，需要将其填充至ref字段！（例如，在展开对于附录F的引用时，又引入了对于附录A的引用，比如“按照附录A要求”等描述，需要将附录A加入ref字段）\n\
+            \n5. 更新parent字段：\n   - 务必确保parent字段正确，由哪个输入展开，parent就是谁。例如：展开T23-1后生成的测试用例T23-1-1、T23-1-2的parent均为是T23-1；展开T4-2只生成了一条测试用例T4-2，parent同样是T4-2\n\
+            \n\n最后**输出完整 json格式的测试用例**，确保所有引用内容已被展开并补全。\n\n**当根据提供的内容，无法展开任何引用（如对其它文件的引用）时，直接返回“clear”**；\n\
+            \n---\n\n\n# 注意事项 \n\n1. **必须完全移除所有可解析的引用语句**，如“按附录X试验”等，必须索引至真实内容后提取或展开，对于引用中涉及的参数、判定规则、试验方式等，必须完全提取；外部标准引用（如“按GB/T\
+            \ 12345”）无法展开时，不做任何处理（不再输出）；\n2. 务必更新“ref”字段；务必填充“parent”字段，parent字段不能为空；parent和ref字段将作为后续代码判断标准，务必准确！\n\
+            3. 完整输出要求：\n\n   - **必须完整输出所有处理后的测试用例，无论内容长度**\n\n   - 每个测试用例必须独立完整呈现，不得合并或简化\n\
+            \n4. 以段为单位进行处理，若不存在测试用例时需在内部逻辑中写出「原因」并确认无遗漏（但最终不输出，只用于内部验证）。若存在多个方案，应分别展开并生成多条测试用例（例如\
+            \ 对于T1展开：T1-1A / T1-1B / T1-2等，对于T1-1展开：T1-1-1、T1-1-2等）；\n5. 每个句子、每个补充方案、每个可选方案（例如「可使用…」「制造商可选…」「另一方案…」）都必须视作独立验证路径，均需生成独立测试用例，禁止省略、合并、隐藏。\n\
+            6. 引用表格时，需在tables中去找到对应的表格，并完整理解分析后，决定是展开成多条测试用例还是将相关参数提取到引用位置即可。\n7.\
+            \ 输出必须是纯 json格式，每条测试用例都应完整自足，便于直接用于测试系统录入或执行；\n8. **不得省略**任何条件、步骤或判断标准，尤其是附录中提及的设备、环境参数、容差值、安装要求等；\n\
+            9. 测试编号、条款编号请保持原样；如新增测试用例，编号可在原基础上扩展；\n10. 所有字段内容都应补充为具体、可操作、详细、无歧义的描述；\n\
+            11. 测试用例生成粒度不必过细，例如测试车辆需要左右两侧均做碰撞实验等情况，直接在步骤中写明即可，无需每一侧都生成一个测试用例\n\n------\n\
+            \n# 绝对禁令（违反将导致严重错误）\n\n1. 禁止出现「同上」「同T17-1判定标准」 「符合T17-1全部功能要求」等描述，即每个测试用例为独立项\n\
+            2. 禁止参数简化：所有技术参数必须完整呈现\n3. 禁止步骤合并：操作流程必须分解为原子级可执行步骤\n4. 禁止检测项合并：每个可独立验证的技术指标必须单独列出\n\
+            5. 禁止任何形式的输出省略：包括但不限于\"部分示例\"、\"类似处理\"、\"其他测试用例同理\"等表述，必须完整呈现每条测试用例\n\
+            6. 禁止任何无关输出（仅输出展开的测试用例）\n7. 禁止对无引用的测试用例或有引用但该引用无法解析（其它文件）输入重复进行输出（此条仅针对test_cases，若在对某一条test_case进行展开时产生了存在不可达的引用时，正常生成测试用例）\n\
+            8. 禁止围绕无需展开的内容，将测试用例拆分。\n9. 严禁输出 ```json、```、#、// 等非 JSON 标准语法元素，输出必须从\
+            \ [ 字符开始，以 ] 字符结束。\n10. 输出测试用例的parent字段禁止为空\n\n# 示例（fewshot，务必严格模仿）\n\n\
+            ## 示例一\n\n### 输入\n\n// test_cases示例1\n\n{\n  \"实验编号\": \"T4-6\",\n  \"\
+            实验目的\": \"验证AECS在附录B试验条件下是否自动触发\",\n  \"实验条件\": \"参照附录B进行滑台或实车碰撞试验\",\n\
+            \  \"判定标准\": \"AECS应被自动触发，且发送的MSD中触发类型为自动触发。\",\n  \"关键实验参数\": {},\n \
+            \ \"关键判定参数\": {},\n  \"对应标准条款编号\": \"4.4.1\",\n  \"ref\": \"附录B\",\n \
+            \ \"parent\": \"\"\n}\n\n\n\n// appendix中附录B的部分内容，仅作示例\n\n  {\n    \"\
+            chapter_id\": \"附录 B\",\n    \"chapter_title\": \"自动触发试验方法\",\n    \"\
+            full_path\": \"附录B 自动触发试验方法\",\n    \"raw_text\": \"\",\n    \"children\"\
+            : [\n          {\n        \"chapter_id\": \"B.2\",\n        \"chapter_title\"\
+            : \"试验项目\",\n        \"full_path\": \"附录B 自动触发试验方法/B.2 试验项目\",\n     \
+            \   \"raw_text\": \"\",\n        \"children\": [\n          {\n      \
+            \      \"chapter_id\": \"B.2.1\",\n            \"chapter_title\": \"正面碰撞\"\
+            ,\n            \"full_path\": \"附录B 自动触发试验方法/B.2 试验项目/B.2.1 正面碰撞\",\n\
+            \            \"raw_text\": \"\",\n            \"children\": [\n      \
+            \        {\n                \"chapter_id\": \"B.2.1.1\",\n           \
+            \     \"chapter_title\": \"滑台正面碰撞试验\",\n                \"full_path\"\
+            : \"附录B 自动触发试验方法/B.2 试验项目/B.2.1 正面碰撞/B.2.1.1 滑台正面碰撞试验\",\n           \
+            \     \"raw_text\": \"将白车身固定在碰撞试验滑台上，安装方向模拟正面碰撞。滑台按照图B.1的加速度通道范围和表B.1的参数进行加速或减速，速度变化量△V应为26.6\
+            \ km/h±1 km/h。\\n\\n根据制造商要求，也可使用制造商申报的气囊必爆限加速度波形进行试验，即按照气囊起爆最低速度进行正面刚性壁障碰撞试验时，在车身非变形区域采集的加速度-时间曲线，采用CFC\
+            \ 60或100 Hz低通进行滤波。实际试验结果波形的积分速度变化量△Vs(t)应在任意时刻，不超过申报波形的积分速度变化量△Vt(t)±1\
+            \ km/h的范围，即应满足△Vt(t)-1≤△Vs(t)≤△Vt(t)+1，单位km/h。\",\n                \"\
+            children\": []\n              },\n              {\n                \"\
+            chapter_id\": \"B.2.1.2\",\n                \"chapter_title\": \"实车正面碰撞试验\"\
+            ,\n                \"full_path\": \"附录B 自动触发试验方法/B.2 试验项目/B.2.1 正面碰撞/B.2.1.2\
+            \ 实车正面碰撞试验\",\n                \"raw_text\": \"按GB 11551的规定调整车辆状态但不安装碰撞假人，在碰撞速度不高于30\
+            \ km/h的条件下，进行正面碰撞试验。\",\n                \"children\": []\n          \
+            \    },\n          },\n          ...\n      ],\n  },\n\n### 思考过程\n\n1.\
+            \ 此测试用例存在引用，并确定需要展开的是这句话：“执行附录B试验”，将附录B中的内容进行展开\n2. 初步判断可达（附录B已提供），继续执行步骤3\n\
+            3. 跳转到附录B，对于每个标题下的正文，以段落为单位进行分析。对于正面碰撞滑台试验，有两个段落，分别对应一个一种方案，根据要求，需要分别为每种方案生成一个测试用例；对于正面碰撞实车试验，可提取一个测试用例（此处虽然又引入了对于外部不可达文件的引用，但是仍需要生成此测试用例。若引入的是对于可达内容的引用，则需要完善ref字段）。\n\
+            4. 对于附录B的引用已经展开，则将其从ref字段移除；其中生成的T4-16-1C引入了对GB 11551的引用，将其添加至ref；\n5.\
+            \ 填充parent，生成的三条测试用例的parent均为T4-16\n6. 将步骤3生成的3个测试用例输出为json格式\n\n### 输出\n\
+            \n// 上述输入中仅包含如下内容，但实际输入请依据实际输出！\n\n[\n  {\n    \"实验编号\": \"T4-16-1A\"\
+            ,\n    \"实验目的\": \"验证AECS自动触发（滑台正面碰撞试验）\",\n    \"实验条件\": \"AECS相关部件（控制模块、通信模块、电源、连接器、天线、GNSS接收机、碰撞感知元件）按照原车状态安装在白车身上；将白车身固定在碰撞试验滑台上，安装方向模拟正面碰撞；滑台按图B.1的加速度通道范围和表B.1的参数进行加速或减速，速度变化量△V应为26.6\
+            \ km/h ±1 km/h\",\n    \"判定标准\": \"MSD中触发类型为自动触发（即AECS被自动触发）。\",\n   \
+            \ \"实验参数\": {\n      \"速度变化量△V\": \"26.6 km/h ±1 km/h\"\n    },\n    \"\
+            判定参数\": {},\n    \"对应标准条款编号\": \"4.4.1、B.2.1.1\",\n    \"ref\": \"图B.1,表B.1\"\
+            ,\n    \"parent\":\"T4-16\", \n  },\n  {\n    \"实验编号\": \"T4-16-1B\",\n\
+            \    \"实验目的\": \"验证AECS自动触发（滑台试验，气囊必爆限加速度波形）\",\n    \"实验条件\": \"气囊起爆最低速度条件下的刚性壁障碰撞；在车身非变形区域采集加速度-时间曲线；使用CFC\
+            \ 60或100 Hz低通滤波\",\n    \"判定标准\": \"MSD中触发类型为自动触发（即AECS被自动触发）；试验结果参数满足判定参数要求。\"\
+            ,\n    \"实验参数\": {\n      \"滤波频率（CFC）\": \"60 或 100 Hz\"\n    },\n   \
+            \ \"判定参数\": {\n      \"积分速度变化量△Vs(t)\": \"在任意时刻满足 △Vt(t)±1 km/h\"\n  \
+            \  },\n    \"对应标准条款编号\": \"4.4.1、B.2.1.1\",\n    \"ref\": \"\",\n    \"\
+            parent\":\"T4-16\",\n  },\n  {\n    \"实验编号\": \"T4-16-1C\",\n    \"实验目的\"\
+            : \"验证AECS自动触发（实车正面碰撞试验）\",\n    \"实验条件\": \"按GB 11551规定调整车辆状态但不安装碰撞假人；碰撞速度不高于30\
+            \ km/h\",\n    \"判定标准\": \"MSD中触发类型为自动触发（即AECS被自动触发）。\",\n    \"实验参数\"\
+            : {\n      \"碰撞速度v\": \"不高于30 km/h\"\n    },\n    \"判定参数\": {},\n    \"\
+            对应标准条款编号\": \"4.4.1、B.2.1.2\",\n    \"ref\": \"GB 11551\",\n    \"parent\"\
+            :\"T4-16\",\n  }\n]\n\n## 示例二\n\n{\n    \"实验编号\": \"T4-2\",\n    ......\n\
+            \    \"ref\": \"\",\n},\n{\n    \"实验编号\": \"T4-12\",\n    ......\n   \
+            \ \"ref\": \"GB/T 43187\"\n},\n{\n    \"实验编号\": \"T4-18\",\n    ......\n\
+            \    \"ref\": \"附录C, GB 11551, GB 20071\"\n},\n### 说明\n\n明确：附录C是可达的引用，其余均不可达\n\
+            \n说明：\n\n- T4-2无引用，无需处理且不输出为json\n\n- T4-12存在引用，且所有引用均不可达，无需处理且不输出为json\n\
+            \n- T4-18存在引用，其中附录C是可达引用，需要将T18中对于附录C的引用部分展开，并将最终结果输出为json。如果在展开过程中，又出现了不可达的引用，正常输出！\n\
+            \n\n# 错误输出示例\n\n以下是一个错误输出示例\n\n{\n    \"实验编号\": \"...\",\n    \"实验目的\"\
+            : \"...\",\n    \"实验条件\": \"...\",\n    \"判定标准\": \"满足GB 34660要求，且符合附录F失效判定准则：\\\
+            n- AECS成功建立连接\\n- 语音通话清晰可懂（车辆端和平台端）\\n- MSD符合附录A要求\\n- 试验中无AECS故障指示或存储故障码\"\
+            ,\n    \"对应标准条款编号\": \"4.8, F.1\",\n    \"实验参数\": {},\n    \"判定参数\": {},\n\
+            \    \"ref\": \"GB 34660\"\n    \"parent\":\"...\", \n}\n\n## 错误原因\n\n\
+            1. 生成测试用例时，引入了对于附录A的引用，即“MSD符合附录A要求”，要将其填充至ref字段！\n\n2. 已经展开的内容，附录F，则无需在描述中保留（满足GB\
+            \ 34660要求，且符合附录F失效判定准则），未展开的才需要保留\n\n# 错误示例二\n## 输入\n{\n    '实验编号': 'T4-19',\
+            \ \n    '实验目的': '验证手动触发或GB试验自动触发后系统功能性符合要求', \n    '实验条件': '手动触发AECS或执行GB\
+            \ 11551和GB 20071试验自动触发后', \n    '判定标准': '符合以下所有要求：\\n- MSD符合附录A要求\\n-\
+            \ 如果使用表C.1序号3方法，碰撞后移动网络天线电压驻波比满足制造商参数，且天线馈电线路无断开或短路', \n    \"实验参数\":\
+            \ {},\n    \"判定参数\": {},\n    '对应标准条款编号': '4.5.2, C.2.1, C.2.2, C.2.3,\
+            \ C.2.4, C.2.5',\n    'ref': '附录A', \n    'parent': ''\n}\n## 错误输出\n{\n\
+            \    \"实验编号\": \"T4-19-1\",\n    \"实验目的\": \"验证手动触发或GB试验自动触发后系统功能性符合要求（使用公共移动通信网络无线空口传输）\"\
+            ,\n    ......\n    \"ref\": \"\",\n    \"parent\": \"T4-19\"\n},\n{\n\
+            \    \"实验编号\": \"T4-19-2\",\n    \"实验目的\": \"验证手动触发或GB试验自动触发后系统功能性符合要求（使用网络模拟器无线空口传输）\"\
+            ,\n    ......\n    \"ref\": \"\",\n    \"parent\": \"T4-19\"\n},\n{\n\
+            \    \"实验编号\": \"T4-19-3\",\n    \"实验目的\": \"验证手动触发或GB试验自动触发后系统功能性符合要求（使用网络模拟器有线连接）\"\
+            ,\n    ......\n    \"ref\": \"\",\n    \"parent\": \"T4-19\"\n}\n## 错误原因分析\n\
+            应该展开的是对于附录A的引用，其余部分保持不变即可；仅需将该输入测试用例中的“检查MSD符合附录A要求”进行展开，而不是将“ 使用表C.1的一种试验方法（无线空口传输、网络模拟器无线、网络模拟器有线）验证系统功能性”展开为三个极为相似的测试用例"
+        - id: ba63d2c5-f7f4-4ab8-bc25-a169e0432af8
+          role: user
+          text: 'test_cases:{{#1753409012058.temp#}}
+
+            chapter_texts:{{#1752737813275.array#}}
+
+            appendix_text:{{#1752737813275.appendix#}}
+
+            {{#1752737813275.tables#}}'
+        selected: false
+        title: LLM 3
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1753409474112'
+      parentId: '1753409012058'
+      position:
+        x: 204
+        y: 78
+      positionAbsolute:
+        x: 3020
+        y: 464.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "import json\nimport re\n\ndef main(raw_text: str) -> dict:\n    # 1.\
+          \ 去掉 <think>...</think>\n    clean_text = re.sub(r'<think>.*?</think>',\
+          \ '', raw_text, flags=re.DOTALL).strip()\n\n    return {\"answer\": clean_text}"
+        code_language: python3
+        desc: ''
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        outputs:
+          answer:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 7
+        type: code
+        variables:
+        - value_selector:
+          - '1753409474112'
+          - text
+          value_type: string
+          variable: raw_text
+      height: 53
+      id: '1753409497092'
+      parentId: '1753409012058'
+      position:
+        x: 812
+        y: 96
+      positionAbsolute:
+        x: 3628
+        y: 482.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        cases:
+        - case_id: 'true'
+          conditions:
+          - comparison_operator: contains
+            id: 9211438d-2daa-4b10-a5f3-edad6bfb19b0
+            value: clear
+            varType: string
+            variable_selector:
+            - '1753409497092'
+            - answer
+          id: 'true'
+          logical_operator: and
+        desc: ''
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        selected: false
+        title: 条件分支
+        type: if-else
+      height: 125
+      id: '1753409501855'
+      parentId: '1753409012058'
+      position:
+        x: 1116
+        y: 60
+      positionAbsolute:
+        x: 3932
+        y: 446.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        selected: false
+        title: 退出循环
+        type: loop-end
+      height: 53
+      id: '1753409505567'
+      parentId: '1753409012058'
+      position:
+        x: 1420
+        y: 96
+      positionAbsolute:
+        x: 4236
+        y: 482.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-simple
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "import json\nimport ast\nimport re\nfrom typing import Dict, List,\
+          \ Any\n\ndef parse_input(src: str) -> List[Dict[str, Any]]:\n    \"\"\"\
+          预处理并解析输入字符串为列表字典结构\"\"\"\n    try:\n        # 去除 LLM 思维链标记\n        src\
+          \ = re.sub(r'<think>.*?</think>', '', src, flags=re.DOTALL).strip()\n\n\
+          \        try:\n            data = json.loads(src)\n        except json.JSONDecodeError:\n\
+          \            try:\n                if src.startswith('\\ufeff'):\n     \
+          \               src = src[1:]\n                data = ast.literal_eval(src)\n\
+          \            except (SyntaxError, ValueError):\n                try:\n \
+          \                   processed = src.replace('\\\\\"', '\"').replace('\\\\\
+          n', '\\n')\n                    data = json.loads(processed)\n         \
+          \       except Exception as e:\n                    raise ValueError(f\"\
+          无法解析：{str(e)}\")\n\n        # 保证为 list\n        if isinstance(data, dict):\n\
+          \            return [data]\n        elif isinstance(data, list):\n     \
+          \       return data\n        else:\n            return []\n    except Exception\
+          \ as e:\n        raise ValueError(f\"预处理失败: {str(e)}\")\n\ndef merge_data(data1:\
+          \ List[Dict], data2: List[Dict]) -> List[Dict]:\n    \"\"\"\n    根据parent字段将data2中的数据替换data1中对应的内容\n\
+          \    规则：\n    1. 如果data2中的项有parent字段，则替换data1中实验编号匹配parent的项\n    2. 如果data2中的项没有parent字段，则直接追加到结果中\n\
+          \    3. data1中没有被替换的项保留在结果中\n    \"\"\"\n    result = []\n    \n    # 构建parent映射：parent\
+          \ -> [子项列表]\n    parent_map = {}\n    for item in data2:\n        if not\
+          \ isinstance(item, dict):\n            continue\n        parent = item.get(\"\
+          parent\")\n        if parent:\n            parent_map.setdefault(parent,\
+          \ []).append(item)\n    \n    # 处理data1中的项\n    for item in data1:\n   \
+          \     if not isinstance(item, dict):\n            continue\n        test_id\
+          \ = item.get(\"实验编号\", \"\")\n        \n        # 如果data2中有这个test_id的扩展项，则替换\n\
+          \        if test_id in parent_map:\n            result.extend(parent_map[test_id])\n\
+          \        else:\n            result.append(item)\n    \n    # 添加data2中没有parent的项\n\
+          \    for item in data2:\n        if not isinstance(item, dict):\n      \
+          \      continue\n        if not item.get(\"parent\"):\n            result.append(item)\n\
+          \    \n    return result\n\n# from typing import List, Dict, Any\n\n# def\
+          \ merge_data(data1: List[Dict], data2: List[Dict]) -> List[Dict]:\n#   \
+          \  \"\"\"\n#     规则：\n#     1. data2 中无 parent 且实验编号与 data1 某条相同 → 替换该条\n\
+          #     2. data2 中有 parent → 替换 data1 中对应 parent 的条目\n#     3. data2 中剩余条目（无\
+          \ parent 且编号未匹配）直接追加\n#     4. data1 中未被替换的保留\n#     \"\"\"\n#     # 快速索引：编号\
+          \ -> 索引（仅 data1）\n#     id2idx = {item.get(\"实验编号\"): idx for idx, item\
+          \ in enumerate(data1) if isinstance(item, dict)}\n\n#     # 先深拷贝一份 data1，避免原地修改\n\
+          #     result = [dict(item) for item in data1 if isinstance(item, dict)]\n\
+          \n#     # 遍历 data2\n#     for item in data2:\n#         if not isinstance(item,\
+          \ dict):\n#             continue\n#         cid = item.get(\"实验编号\")\n#\
+          \         parent = item.get(\"parent\")\n\n#         if parent:        \
+          \              # 有 parent：替换 parent 对应条目\n#             # 找到 parent 在 result\
+          \ 中的索引\n#             for i, old in enumerate(result):\n#              \
+          \   if old.get(\"实验编号\") == parent:\n#                     result[i] = dict(item)\n\
+          #                     break\n#         else:\n#             if cid in id2idx:\
+          \           # 无 parent：按编号直接替换\n#                 result[id2idx[cid]] =\
+          \ dict(item)\n#             else:                       # 无 parent 且编号不匹配：追加\n\
+          #                 result.append(dict(item))\n\n#     return result\n\ndef\
+          \ split_by_ref_field(data: List[Dict]) -> Dict[str, List[Dict]]:\n    \"\
+          \"\"\n    根据 ref 字段是否为空拆分数据\n    返回: {\n        \"with_ref\": [含有ref字段的记录],\n\
+          \        \"without_ref\": [ref为空的记录]\n    }\n    \"\"\"\n    with_ref =\
+          \ []\n    without_ref = []\n    \n    for item in data:\n        if not\
+          \ isinstance(item, dict):\n            continue\n            \n        #\
+          \ 检查ref字段是否存在且非空\n        if item.get(\"ref\"):\n            with_ref.append(item)\n\
+          \        else:\n            without_ref.append(item)\n    \n    return {\n\
+          \        \"with_ref\": with_ref,\n        \"without_ref\": without_ref\n\
+          \    }\n\n# def main(temp: str, text: str, finished: str) -> Dict:\n#  \
+          \   try:\n#         # 验证输入不为空\n#         if not temp.strip():\n#       \
+          \      temp = \"[]\"\n#         if not text.strip():\n#             text\
+          \ = \"[]\"\n#         if not finished.strip():\n#             finished =\
+          \ \"[]\"\n            \n#         # 解析输入数据\n#         temp_data = ast.literal_eval(temp)\n\
+          #         new_data = parse_input(text)\n#         finished_data = ast.literal_eval(finished)\n\
+          \        \n#         # 使用merge_data函数合并新数据到temp\n#         merged_temp =\
+          \ merge_data(temp_data, new_data)\n        \n#         # 将合并后的数据按ref字段拆分\n\
+          #         ref_split = split_by_ref_field(merged_temp)\n        \n#     \
+          \    # 更新finished：原finished + 新生成的没有引用的测试用例\n#         new_finished = finished_data\
+          \ + ref_split[\"without_ref\"]\n        \n#         # 新的temp：只保留带引用的测试用例\n\
+          #         new_temp = ref_split[\"with_ref\"]\n        \n#         return\
+          \ {\n#             \"with_ref\": str(new_temp),  # 需要继续处理的数据（带引用）\n#   \
+          \          \"without_ref\": str(new_finished)  # 已完成的数据（不带引用）\n#       \
+          \  }\n#     except Exception as e:\n#         return {\n#             \"\
+          error\": str(e)\n#         }\n# def main(temp: str, text: str, finished:\
+          \ str) -> Dict:\n#     try:\n#         # 验证输入不为空\n#         if not temp.strip():\n\
+          #             temp = \"[]\"\n#         if not text.strip():\n#         \
+          \    text = \"[]\"\n#         if not finished.strip():\n#             finished\
+          \ = \"[]\"\n            \n#         # 解析输入数据\n#         temp_data = ast.literal_eval(temp)\n\
+          #         new_data = parse_input(text)\n#         finished_data = ast.literal_eval(finished)\n\
+          \        \n#         # 使用merge_data函数合并新数据到temp\n#         merged_temp =\
+          \ merge_data(temp_data, new_data)\n        \n#         # 将合并后的数据按ref字段拆分\n\
+          #         ref_split = split_by_ref_field(merged_temp)\n        \n#     \
+          \    # 更新finished：原finished + 新生成的没有引用的测试用例\n#         new_finished = finished_data\
+          \ + ref_split[\"without_ref\"]\n        \n#         # 新的temp：只保留带引用的测试用例\n\
+          #         new_temp = ref_split[\"with_ref\"]\n\n#         # 计算 tag\n#  \
+          \       tag = True\n#         for item in new_temp:\n#             if not\
+          \ isinstance(item, dict):\n#                 continue\n#             ref_raw\
+          \ = item.get(\"ref\", \"\")\n#             # 支持空字符串直接视为满足条件\n#         \
+          \    if ref_raw == \"\":\n#                 continue\n#             # 拆分后逐项判断\n\
+          #             for ref_part in str(ref_raw).split(\",\"):\n#            \
+          \     ref_part = ref_part.strip()\n#                 if ref_part and not\
+          \ (ref_part.startswith(\"GB\") or ref_part.startswith(\"图\")):\n#      \
+          \               tag = False\n#                     break\n#            \
+          \ if not tag:\n#                 break\n        \n#         return {\n#\
+          \             \"with_ref\": str(new_temp),\n#             \"without_ref\"\
+          : str(new_finished),\n#             \"tag\": str(tag)\n#         }\n#  \
+          \   except Exception as e:\n#         return {\n#             \"error\"\
+          : str(e)\n#         }\n\ndef main(temp: str, text: str, finished: str) ->\
+          \ Dict:\n    try:\n        # 验证输入不为空\n        if not temp.strip():\n   \
+          \         temp = \"[]\"\n        if not text.strip():\n            text\
+          \ = \"[]\"\n        if not finished.strip():\n            finished = \"\
+          []\"\n\n        # 解析输入数据\n        temp_data = ast.literal_eval(temp)\n \
+          \       new_data = parse_input(text)\n        finished_data = ast.literal_eval(finished)\n\
+          \n        # 合并数据\n        merged_temp = merge_data(temp_data, new_data)\n\
+          \        ref_split = split_by_ref_field(merged_temp)\n\n        new_finished\
+          \ = finished_data + ref_split[\"without_ref\"]\n        new_temp = ref_split[\"\
+          with_ref\"]\n\n        # 新增逻辑：处理new_temp中以\"GB\"或\"图\"开头的ref项\n        remaining_temp\
+          \ = []\n        for item in new_temp:\n            if not isinstance(item,\
+          \ dict):\n                remaining_temp.append(item)\n                continue\n\
+          \n            ref_raw = str(item.get(\"ref\", \"\")).strip()\n         \
+          \   # 判断是否仅由\"GB\"或\"图\"开头的部分组成\n            valid = True\n            for\
+          \ part in re.split(r'[,，、]', ref_raw):\n                part = part.strip()\n\
+          \                if part and not (part.startswith(\"GB\") or part.startswith(\"\
+          GA\") or part.startswith(\"图\")):\n                    valid = False\n \
+          \                   break\n\n            if valid:\n                new_finished.append(item)\n\
+          \            else:\n                remaining_temp.append(item)\n\n    \
+          \    tag = not remaining_temp\n\n        return {\n            \"with_ref\"\
+          : str(remaining_temp),\n            \"without_ref\": str(new_finished),\n\
+          \            \"tag\": str(tag)\n        }\n    except Exception as e:\n\
+          \        return {\n            \"error\": str(e)\n        }"
+        code_language: python3
+        desc: ''
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        outputs:
+          tag:
+            children: null
+            type: string
+          with_ref:
+            children: null
+            type: string
+          without_ref:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 8
+        type: code
+        variables:
+        - value_selector:
+          - '1753409012058'
+          - temp
+          value_type: string
+          variable: temp
+        - value_selector:
+          - '1753409474112'
+          - text
+          value_type: string
+          variable: text
+        - value_selector:
+          - '1753409012058'
+          - finished
+          value_type: string
+          variable: finished
+      height: 53
+      id: '1753409508297'
+      parentId: '1753409012058'
+      position:
+        x: 1420
+        y: 189
+      positionAbsolute:
+        x: 4236
+        y: 575.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        isInIteration: false
+        isInLoop: true
+        items:
+        - input_type: variable
+          operation: over-write
+          value:
+          - '1753409508297'
+          - with_ref
+          variable_selector:
+          - '1753409012058'
+          - temp
+          write_mode: over-write
+        - input_type: variable
+          operation: over-write
+          value:
+          - '1753409508297'
+          - without_ref
+          variable_selector:
+          - '1753409012058'
+          - finished
+          write_mode: over-write
+        loop_id: '1753409012058'
+        selected: false
+        title: 变量赋值
+        type: assigner
+        version: '2'
+      height: 115
+      id: '1753409511950'
+      parentId: '1753409012058'
+      position:
+        x: 1724
+        y: 158
+      positionAbsolute:
+        x: 4540
+        y: 544.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        author: Dale
+        desc: ''
+        height: 88
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"循环，用于处理对于可能的未处理完毕的附录的引用，以及对于本文其它章节条款的引用","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":"ltr","format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: 240
+      height: 88
+      id: '1753449804979'
+      position:
+        x: 2903.259703594025
+        y: 178.1358024278445
+      positionAbsolute:
+        x: 2903.259703594025
+        y: 178.1358024278445
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-note
+      width: 240
+    - data:
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        items:
+        - input_type: variable
+          operation: over-write
+          value:
+          - '1754280046577'
+          - text
+          variable_selector:
+          - conversation
+          - LLM1_output
+          write_mode: over-write
+        - input_type: variable
+          operation: over-write
+          value:
+          - '1753071359036'
+          - text
+          variable_selector:
+          - conversation
+          - LLM2_output
+          write_mode: over-write
+        iteration_id: '1752730418049'
+        selected: false
+        title: 变量赋值 2
+        type: assigner
+        version: '2'
+      height: 115
+      id: '1753493998402'
+      parentId: '1752730418049'
+      position:
+        x: 1116
+        y: 60
+      positionAbsolute:
+        x: 1742.3360859321056
+        y: 446.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        isInIteration: false
+        isInLoop: true
+        items:
+        - input_type: variable
+          operation: over-write
+          value:
+          - '1753409474112'
+          - text
+          variable_selector:
+          - conversation
+          - LLM3_output
+          write_mode: over-write
+        loop_id: '1753409012058'
+        selected: false
+        title: 变量赋值 3
+        type: assigner
+        version: '2'
+      height: 87
+      id: '1753494056663'
+      parentId: '1753409012058'
+      position:
+        x: 508
+        y: 79
+      positionAbsolute:
+        x: 3324
+        y: 465.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        cases:
+        - case_id: 'true'
+          conditions:
+          - comparison_operator: is
+            id: cdf81495-e0d1-4a42-994f-b27f061b92fe
+            value: 'True'
+            varType: string
+            variable_selector:
+            - '1753409508297'
+            - tag
+          id: 'true'
+          logical_operator: and
+        desc: ''
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        selected: false
+        title: 条件分支 2
+        type: if-else
+      height: 125
+      id: '1753884991237'
+      parentId: '1753409012058'
+      position:
+        x: 2028
+        y: 153
+      positionAbsolute:
+        x: 4844
+        y: 539.5
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        isInIteration: false
+        isInLoop: true
+        loop_id: '1753409012058'
+        selected: false
+        title: 退出循环 2
+        type: loop-end
+      height: 53
+      id: '1753885009929'
+      parentId: '1753409012058'
+      position:
+        x: 2332
+        y: 189
+      positionAbsolute:
+        x: 5148
+        y: 575.5
+      sourcePosition: right
+      targetPosition: left
+      type: custom-simple
+      width: 244
+      zIndex: 1002
+    - data:
+        answer: 'context:{{#1752737813275.context#}}
+
+          array:{{#1752737813275.array#}}
+
+          appendix:{{#1752737813275.appendix#}}
+
+          tables:{{#1752737813275.tables#}}
+
+          {{#1752737813275.term_map#}}'
+        desc: ''
+        selected: false
+        title: 直接回复 2
+        type: answer
+        variables: []
+      height: 160
+      id: '1754114949663'
+      position:
+        x: 608.5714285714286
+        y: 62.071428571428584
+      positionAbsolute:
+        x: 608.5714285714286
+        y: 62.071428571428584
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        code: "import ast\nimport re\nfrom typing import Any, Dict, List\n\ndef main(arg1:\
+          \ str, arg2: str) -> Dict[str, str]:\n    finished = ast.literal_eval(arg1)\n\
+          \    unfinished = ast.literal_eval(arg2)\n    \n    # 新增逻辑：处理new_temp中以\"\
+          GB\"或\"图\"开头的ref项\n    remaining_temp = []\n    for item in unfinished:\n\
+          \        if not isinstance(item, dict):\n            remaining_temp.append(item)\n\
+          \            continue\n\n        ref_raw = str(item.get(\"ref\", \"\")).strip()\n\
+          \        # 判断是否仅由\"GB\"或\"图\"开头的部分组成\n        valid = True\n        for\
+          \ part in re.split(r'[,，、]', ref_raw):\n            part = part.strip()\n\
+          \            if part and not (part.startswith(\"GB\") or part.startswith(\"\
+          GA\") or part.startswith(\"图\")):\n                valid = False\n     \
+          \           break\n\n        if valid:\n            finished.append(item)\n\
+          \        else:\n            remaining_temp.append(item)\n    \n    unfinished\
+          \ = remaining_temp\n\n    # 统一把 parent 字段置空，防止后续引用出错\n    for item in finished\
+          \ + unfinished:\n        item[\"parent\"] = \"\"\n\n    return {\n     \
+          \   \"finished\": str(finished),\n        \"unfinished\": str(unfinished),\n\
+          \    }"
+        code_language: python3
+        desc: ''
+        outputs:
+          finished:
+            children: null
+            type: string
+          unfinished:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 8
+        type: code
+        variables:
+        - value_selector:
+          - '1752117396348'
+          - finished
+          value_type: string
+          variable: arg1
+        - value_selector:
+          - '1752117396348'
+          - unfinished
+          value_type: string
+          variable: arg2
+      height: 53
+      id: '1754190567308'
+      position:
+        x: 2499.2731178913464
+        y: 178.1358024278445
+      positionAbsolute:
+        x: 2499.2731178913464
+        y: 178.1358024278445
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        code: "import json\nimport ast\nimport re\nfrom typing import Dict, List,\
+          \ Any\n\ndef _serialize_obj(obj: Dict[str, str]) -> str:\n    \"\"\"把 {k:\
+          \ v} 转成 1.k：v；2.k：v… 形式\"\"\"\n    if not obj:\n        return \"\"\n  \
+          \  return \"；\".join(\n        f\"{idx + 1}. {k}：{v}\"\n        for idx,\
+          \ (k, v) in enumerate(obj.items())\n    )\n\ndef to_markdown_table(data:\
+          \ List[Dict[str, Any]]) -> str:\n    headers = [\n        \"实验编号\", \"实验目的\"\
+          , \"实验条件\",\n        \"判定标准\", \"实验参数\", \"判定参数\",\n        \"对应标准条款编号\"\
+          , \"ref\"\n    ]\n    md_lines = [\n        \"| \" + \" | \".join(headers)\
+          \ + \" |\",\n        \"| \" + \" | \".join([\"-\" * len(h) for h in headers])\
+          \ + \" |\"\n    ]\n\n    for row in data:\n        values = []\n       \
+          \ for h in headers:\n            val = row.get(h, \"\")\n            if\
+          \ h in (\"实验参数\", \"判定参数\"):\n                val = _serialize_obj(val if\
+          \ isinstance(val, dict) else {})\n            elif not isinstance(val, str):\n\
+          \                val = str(val)\n            val = re.sub(r\"\\n+\", \"\
+          <br>\", val.strip())\n            values.append(val)\n        md_lines.append(\"\
+          | \" + \" | \".join(values) + \" |\")\n\n    return \"\\n\".join(md_lines)\n\
+          \n\nimport re\nfrom typing import List, Dict, Any\n\ndef _natural_key(code:\
+          \ str):\n    \"\"\"\n    把 'T4-2-1A' 转成 ('T', 4, 2, '1A') 的元组，用于自然排序\n \
+          \   规则：\n    1. 字母部分保持原样\n    2. 数字部分转 int\n    3. 最后一段若为混合（如 1A），整体保留为字符串\n\
+          \    \"\"\"\n    # 按 '-' 切分\n    parts = code.split('-')\n    key = []\n\
+          \    for p in parts:\n        if p.isdigit():\n            key.append(int(p))\n\
+          \        else:\n            # 若混合，如 '1A'，保留字符串\n            key.append(p)\n\
+          \    return tuple(key)\n\ndef main(arg1: str, arg2: str) -> dict:\n    a\
+          \ = ast.literal_eval(arg1)\n    b = ast.literal_eval(arg2)\n    a.extend(b)\n\
+          \n    # 按实验编号自然排序\n    a.sort(key=lambda x: _natural_key(x.get(\"实验编号\"\
+          , \"\")))\n\n    markdown_table = to_markdown_table(a)\n    return {\"markdown_table\"\
+          : markdown_table}"
+        code_language: python3
+        desc: ''
+        outputs:
+          markdown_table:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 9
+        type: code
+        variables:
+        - value_selector:
+          - '1752117396348'
+          - arg1
+          value_type: string
+          variable: arg1
+        - value_selector:
+          - '1752117396348'
+          - arg2
+          value_type: string
+          variable: arg2
+      height: 53
+      id: '1754278386090'
+      position:
+        x: 236.2900064775926
+        y: 17.659236775975405
+      positionAbsolute:
+        x: 236.2900064775926
+        y: 17.659236775975405
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        answer: '{{#1754278386090.markdown_table#}}'
+        desc: ''
+        selected: false
+        title: 直接回复 3
+        type: answer
+        variables: []
+      height: 104
+      id: '1754278435628'
+      position:
+        x: 715.2487174960096
+        y: -112.58780364884605
+      positionAbsolute:
+        x: 715.2487174960096
+        y: -112.58780364884605
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        context:
+          enabled: true
+          variable_selector:
+          - '1752737813275'
+          - context
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1752730418049'
+        model:
+          completion_params: {}
+          mode: chat
+          name: deepseek-reasoner
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: 4e9b1fab-c144-43df-b615-36cef027ea80
+          role: system
+          text: "# 角色\n你是一名专业的标准测试用例设计专家，擅长将国家标准或行业标准中的技术要求、性能条款、试验方法等内容，严格拆解为结构化测试用例，供测试机构直接用于测试矩阵与标准差异比对，确保高覆盖率、完整性和准确性。\n\
+            \n------\n\n# 任务目标 \n从标准的章节内容 chapter_text 中，提取出**需要验证的结构化的测试用例**，并生成一份完整、清晰、自然的\
+            \ json文件，以「测试用例」形式输出，每个测试用例应包含详细字段，供后续用于跨国标准对比等场景。\n\n输入内容包括：\n\n- 当前章节内容（chapter_text，只有一章）\
+            \ \n- 文章所有的表格内容（tables，只有当处理chapter_text需要时才读取对应表格内容）\n- 你也可以从 {{#context#}}\
+            \ 中理解此标准的相关信息。\n\n**仅需要对 chapter_text 提取测试用例。**\n\n------\n\n# 输入格式\n\n\
+            \ {\n    \"chapter_id\": \"4\",\n    \"chapter_title\": \"技术要求及试验方法\"\
+            ,\n    \"full_path\": \"4 技术要求及试验方法\",\n    \"raw_text\": \"...\",\n \
+            \   \"children\": [\n      {\n        \"chapter_id\": \"4.1\",\n     \
+            \   \"chapter_title\": \"一般要求\",\n        \"full_path\": \"4 技术要求及试验方法/4.1\
+            \ 一般要求\",\n        \"raw_text\": \"...\",\n        \"children\": [\n \
+            \         {\n            \"chapter_id\": \"4.1.1\",\n            \"chapter_title\"\
+            : \"...\",\n            \"raw_text\": \"...\",\n            \"children\"\
+            : []\n          },\n          ...\n        ]\n      },\n      ...\n  \
+            \  ]\n  }\n\n\n------\n\n\n# 输出格式\n\n只输出纯 JSON 数组，无任何前缀、后缀、解释、注释或 Markdown\
+            \ 代码块标记（例如不要包含```json或```），确保结果可以被Python的json.loads()函数直接解析，无需额外处理。\n\n\
+            [\n{\n\"实验编号\": \"\", // （编号自动生成，如假设chapter_text是第四章的内容，则T4-1, T4-2...）\n\
+            \"实验目的\": \"\", // （简要说明验证目标或功能）\n\"实验条件\": \"\", // （如安装部件、电源状态、环境要求等，可分条罗列）\n\
+            \"判定标准\": \"\", // （明确通过/失败的条件，描述试验是否符合要求）\n\"实验参数\": {}, // （实验前必须设定或满足的可量化物理参数，如速度、加速度、滤波频率等，包含参数名称和要求，以对象形式表示）\n\
+            \"判定参数\": {}, // （实验完成后用于判断结果是否合格的可量化参数要求，包含参数名称和要求，以对象形式表示）\n\"对应标准条款编号\"\
+            : \"\", // （如 4.1.3, B.2.1.2 等，指向相关标准或条款）\n\"ref\": \"\", // （引用的标准或条款编号，如GB\
+            \ 11551、附录、本文其它条款、图、表）\n}\n]\n\n\n---\n\n# 注意事项\n1. 每段文字均应判断是否可拆解为测试用例，同时保留原有描述，即便功能目的相似，仍需逐一生成单独测试用例表格行，**禁止合并、过分总结或遗漏，禁止出现原文不存在的描述**\n\
+            2. 当存在引用其它当前章节其它条款时，必须递归解析直至获得原子级参数，若无法进一步索引（例如对其它文件的引用、对于附录的引用、对于其它章节条款的引用等），则保留引用并添加特殊标记“ref”便于后续调整\n\
+            3. 存在引用其它内容的段落，必须生成测试用例，且无法解析的引用必须体现在对应款项和ref字段\n3. 每个句子、每个补充方案、每个可选方案（例如「可使用…」「制造商可选…」「另一方案…」）都必须视作独立验证路径，均需生成独立测试用例，禁止省略、合并、隐藏。\n\
+            5. 处理方案选择时（如\"可采用A或B方法\"）：\n\n      - 必须为每个方案生成独立测试用例\n      - 在实验编号后追加方案标识（如T4-1-A、T4-1-B）\n\
+            \      - 在实验目的中明确说明采用的方案\n6. 输出结果必须为 **纯 json格式结构文件**，完整详细，禁止漏项、模糊描述、杜撰或省略任何参数。禁止使用「同上」等模糊表述。\n\
+            \n\n# 处理逻辑（链式思考）\n1. 首先将根据上下文理解本文件的前置背景信息，包括术语、前言、范围等信息\n2. 根据用户输入的chapter_text的层级关系不断向下分析，直到遇到正文，正文部分以段落为单位进行处理。\n\
+            4. 对于每个段落，先判断是否包含可测试的要求（功能点、性能要求、试验方法等）\n   - 遇到引用本章节的其它条款时，直接立即跳转到相应条款：如果是某个条款（如判定标准）需要时，则将完整的标准或条件完整搬过来；如果是此测试用例完全依照该条款进行，则使用相同的逻辑将引用部分提取成测试用例\n\
+            \   - 遇到引用其它无法进一步递归解析的内容（如其他文件内容、其他章节条款、附录内容）时，保留引用，不展开。\n5. 如果包含可测试要求，则提取实验条件、检测项/参数、判定标准，生成完整测试用例；若不存在需在内部逻辑中写出「原因」并确认无遗漏（但最终不输出，只用于内部验证）。\n\
+            6. 步骤5中生成测试用例时，每个测试用例的生成步骤：先确定实验条件和具体步骤，再确定检测项和判定标准，然后编写实验目的，最后分配实验编号和记录对应标准条款编号。**特别注意区分关键的参数具体属于实验条件还是检测项，同样需在内部逻辑中写出「原因」（但最终不输出，只用于内部验证）**\n\
+            7. 步骤5中对于测试用例中缺失的部分可以在引用位置前后或者同级目录下寻找。对于某个款项需要引用其它位置，比如附录或指定章节时，同样需要跳转到对应位置将相关内容提取到当前位置。\n\
+            8. 若生成的测试用例包含对其它内容，完善ref字段\n\n------\n\n# 绝对禁令（违反将导致严重错误）\n1. 禁止出现「同上」等描述，即每个测试用例为独立项\n\
+            2. 禁止参数简化：所有技术参数必须完整呈现\n3. 禁止步骤合并：操作流程必须分解为原子级可执行步骤\n4. 禁止检测项合并：每个可独立验证的技术指标必须单独列出\n\
+            5. 严禁输出 ```json、```、#、// 等非 JSON 标准语法元素，输出必须从 [ 字符开始，以 ] 字符结束。\n\n\n------\n\
+            \n# 示例（fewshot）\n\n## 输入示例一\n\n\n  {\n    \"chapter_id\": \"4\",\n   \
+            \ \"chapter_title\": \"技术要求及试验方法\",\n    \"full_path\": \"4 技术要求及试验方法\"\
+            ,\n    \"raw_text\": \"\",\n    \"children\": [\n      {\n        \"chapter_id\"\
+            : \"4.1\",\n        \"chapter_title\": \"一般要求\",\n        \"full_path\"\
+            : \"4 技术要求及试验方法/4.1 一般要求\",\n        \"raw_text\": \"\",\n        \"children\"\
+            : [\n        ...\n          {\n            \"chapter_id\": \"4.1.3\",\n\
+            \            \"chapter_title\": \"触发信号处理要求\",\n            \"full_path\"\
+            : \"4 技术要求及试验方法/4.1 一般要求/4.1.3 触发信号处理要求\",\n            \"raw_text\":\
+            \ \"AECS接收和/或产生触发信号后，应满足：\\n——在非易失性存储器中保存MSD，并通过可信的身份认证将MSD发送至紧急呼叫服务平台，并与紧急呼叫服务平台建立双向语音通话连接；\\\
+            n——若MSD发送失败，则以不超过2 min的时间间隔尝试再次发送MSD直至发送成功或尝试时间超过60 min；\\n——若语音通话失败，则以不超过2\
+            \ min的时间间隔尝试再次建立语音通话直至连接成功或尝试时间超过60 min。\",\n            \"children\"\
+            : []\n          },\n      ...\n      ],\n  },\n\n\n## 输出示例一\n\n[\n{\n\"\
+            实验编号\": \"T4-1\",\n\"实验目的\": \"验证AECS在触发信号后保存MSD、发送MSD并建立语音通话\",\n\"实验条件\"\
+            : \"AECS触发；网络连接可用；非易失性存储器可访问\",\n\"判定标准\": \"AECS触发后应将MSD保存在非易失性存储器中，通过可信身份认证发送至紧急呼叫服务平台，并建立双向语音通话连接。\"\
+            ,\n\"实验参数\": {},\n\"判定参数\": {},\n\"对应标准条款编号\": \"4.1.3\",\n\"ref\": \"\
+            \",\n\"parent\": \"\"\n},\n{\n\"实验编号\": \"T4-2\",\n\"实验目的\": \"验证MSD发送失败时重试机制\"\
+            ,\n\"实验条件\": \"模拟MSD发送失败（如网络断开）；AECS触发\",\n\"判定标准\": \"在MSD发送失败的情况下，应每不超过2分钟重试一次，且重试持续时间不超过60分钟。\"\
+            ,\n\"实验参数\": {},\n\"判定参数\": {\n  \"重试时间间隔\": \"不超过2分钟\",\n  \"总尝试时间\"\
+            : \"不超过60分钟\"\n},\n\"对应标准条款编号\": \"4.1.3\",\n\"ref\": \"\",\n},\n]\n\n\
+            ## 输入示例二\n\n\n# 附录B的部分内容，仅作示例\n  {\n    \"chapter_id\": \"附录 B\",\n  \
+            \  \"chapter_title\": \"自动触发试验方法\",\n    \"full_path\": \"附录B 自动触发试验方法\"\
+            ,\n    \"raw_text\": \"\",\n    \"children\": [\n          {\n       \
+            \ \"chapter_id\": \"B.2\",\n        \"chapter_title\": \"试验项目\",\n   \
+            \     \"full_path\": \"附录B 自动触发试验方法/B.2 试验项目\",\n        \"raw_text\"\
+            : \"\",\n        \"children\": [\n          {\n            \"chapter_id\"\
+            : \"B.2.1\",\n            \"chapter_title\": \"正面碰撞\",\n            \"\
+            full_path\": \"附录B 自动触发试验方法/B.2 试验项目/B.2.1 正面碰撞\",\n            \"raw_text\"\
+            : \"\",\n            \"children\": [\n              {\n              \
+            \  \"chapter_id\": \"B.2.1.1\",\n                \"chapter_title\": \"\
+            滑台正面碰撞试验\",\n                \"full_path\": \"附录B 自动触发试验方法/B.2 试验项目/B.2.1\
+            \ 正面碰撞/B.2.1.1 滑台正面碰撞试验\",\n                \"raw_text\": \"将白车身固定在碰撞试验滑台上，安装方向模拟正面碰撞。滑台按照图B.1的加速度通道范围和表B.1的参数进行加速或减速，速度变化量△V应为26.6\
+            \ km/h±1 km/h。\\n\\n根据制造商要求，也可使用制造商申报的气囊必爆限加速度波形进行试验，即按照气囊起爆最低速度进行正面刚性壁障碰撞试验时，在车身非变形区域采集的加速度-时间曲线，采用CFC\
+            \ 60或100 Hz低通进行滤波。实际试验结果波形的积分速度变化量△Vs(t)应在任意时刻，不超过申报波形的积分速度变化量△Vt(t)±1\
+            \ km/h的范围，即应满足△Vt(t)-1≤△Vs(t)≤△Vt(t)+1，单位km/h。\",\n                \"\
+            children\": []\n              },\n          },\n          ...\n      ],\n\
+            \  },\n\n\n## 输出示例二\n\n// 上述输入中仅包含如下内容，但实际输入请依据实际输出！\n\n[\n  {\n    \"\
+            实验编号\": \"T4-1\",\n    \"实验目的\": \"验证AECS自动触发（滑台正面碰撞试验）\",\n    \"实验条件\"\
+            : \"AECS相关部件（控制模块、通信模块、电源、连接器、天线、GNSS接收机、碰撞感知元件）按照原车状态安装在白车身上；将白车身固定在碰撞试验滑台上，安装方向模拟正面碰撞；滑台按图B.1的加速度通道范围和表B.1的参数进行加速或减速，速度变化量△V应为26.6\
+            \ km/h ±1 km/h\",\n    \"判定标准\": \"MSD中触发类型为自动触发（即AECS被自动触发）。\",\n   \
+            \ \"实验参数\": {\n      \"速度变化量△V\": \"26.6 km/h ±1 km/h\"\n    },\n    \"\
+            判定参数\": {},\n    \"对应标准条款编号\": \"B.2.1.1\",\n    \"ref\": \"图B.1,表B.1\"\
+            ,\n  },\n  {\n    \"实验编号\": \"T4-2\",\n    \"实验目的\": \"验证AECS自动触发（滑台试验，气囊必爆限加速度波形）\"\
+            ,\n    \"实验条件\": \"气囊起爆最低速度条件下的刚性壁障碰撞；在车身非变形区域采集加速度-时间曲线；使用CFC 60或100\
+            \ Hz低通滤波\",\n    \"判定标准\": \"MSD中触发类型为自动触发（即AECS被自动触发）；试验结果参数满足判定参数要求。\"\
+            ,\n    \"实验参数\": {\n      \"滤波频率（CFC）\": \"60 或 100 Hz\"\n    },\n   \
+            \ \"判定参数\": {\n      \"积分速度变化量△Vs(t)\": \"在任意时刻满足 △Vt(t)±1 km/h\"\n  \
+            \  },\n    \"对应标准条款编号\": \"B.2.1.1\",\n    \"ref\": \"\",\n  },\n  {\n\
+            \    \"实验编号\": \"T4-5\",\n    \"实验目的\": \"验证AECS自动触发（实车正面碰撞试验）\",\n  \
+            \  \"实验条件\": \"按GB 11551规定调整车辆状态但不安装碰撞假人；碰撞速度不高于30 km/h\",\n    \"判定标准\"\
+            : \"MSD中触发类型为自动触发（即AECS被自动触发）。\",\n    \"实验参数\": {\n      \"碰撞速度v\": \"\
+            不高于30 km/h\"\n    },\n    \"判定参数\": {},\n    \"对应标准条款编号\": \"B.2.1.2\"\
+            ,\n    \"ref\": \"GB 11551\",\n  }\n]"
+        - id: c3873152-838f-43c2-94b2-41a1b6008136
+          role: user
+          text: 'chapter_text：{{#1752730418049.item#}}
+
+            tables:{{#1752737813275.tables#}}'
+        selected: false
+        title: LLM 1
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1754280046577'
+      parentId: '1752730418049'
+      position:
+        x: 164
+        y: 93.5
+      positionAbsolute:
+        x: 790.3360859321056
+        y: 480
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    viewport:
+      x: -2403.8869299770213
+      y: 153.49253502871358
+      zoom: 0.5700382165673663

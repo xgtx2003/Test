@@ -1,0 +1,1392 @@
+[
+  {
+    "file": "regulation",
+    "sections": [
+      {
+        "section": "MAIN",
+        "context": "  Regulation No 83 of the Economic Commission for Europe of the United Nations (UN/ECE)\n– Uniform provisions concerning the approval of vehicles with\nregard to the emission of pollutants according to engine fuel requirements\n\n\nRevision 3\n\nIncorporating all valid text up to:\n\nIncorporating all valid text up to the 05 series of amendments - Date of entry into force:  29 March 2001\nSupplement 1 to the 05 series of amendments - Date of entry into force:  12 September 2001\nSupplement 2 to the 05 series of amendments - Date of entry into force:  21 February 2002\nCorrigendum 1 to the 05 series of amendments subject of Depositary Notification C.N.111.2002.TREATIES-1\ndated 8 February 2002\nCorrigendum 2 to the 05 series of amendments subject of Depositary Notification C.N.883.2003.TREATIES-1\ndated 2 September 2003\nSupplement 3 to the 05 series of amendments - Date of entry into force:  27 February 2004\nSupplement 4 to the 05 series of amendments - Date of entry into force: 12 August 2004\nCorrigendum 3 to the 05 series of amendments subject of Depositary Notification C.N.1038.2004.TREATIES-1\ndated 4 October 2004\nSupplement 5 to the 05 series of amendments – Date of entry into force: 4 April 2005\n\ng\npage 2",
+        "chapters": [
+          {
+            "chapter_id": "1.",
+            "chapter_title": "SCOPE",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "1.1.",
+                "chapter_title": "This Regulation applies to:  1/",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "1.1.1.",
+                    "chapter_title": "Exhaust emissions at normal and low ambient temperature, evaporative",
+                    "raw_text": "emissions, emissions of crankcase gases, the durability of pollution\ncontrol exhaust devices and on-board diagnostic (OBD) systems of motor\nvehicles equipped with positive-ignition (P.I.) engines which have at\nleast 4 wheels.",
+                    "children": [],
+                    "full_path": "1. SCOPE/1.1. This Regulation applies to:  1//1.1.1. Exhaust emissions at normal and low ambient temperature, evaporative"
+                  },
+                  {
+                    "chapter_id": "1.1.2.",
+                    "chapter_title": "Exhaust emissions, the durability of anti-pollution devices and on-board",
+                    "raw_text": "diagnostic (OBD) systems of vehicles of categories M1 and N1 equipped\nwith compression-ignition (C.I.) engines which have at least 4 wheels\nand a maximum mass not exceeding 3,500 kg.",
+                    "children": [],
+                    "full_path": "1. SCOPE/1.1. This Regulation applies to:  1//1.1.2. Exhaust emissions, the durability of anti-pollution devices and on-board"
+                  },
+                  {
+                    "chapter_id": "1.1.3.",
+                    "chapter_title": "Exhaust emissions at normal and low ambient temperature, evaporative",
+                    "raw_text": "emissions, emissions of crankcase gases, the durability of pollution\ncontrol exhaust devices and on-board diagnostic (OBD) systems of\nhybrid electric vehicles (HEV) equipped with positive-ignition (P.I.)\nengines and having at least four wheels.",
+                    "children": [],
+                    "full_path": "1. SCOPE/1.1. This Regulation applies to:  1//1.1.3. Exhaust emissions at normal and low ambient temperature, evaporative"
+                  },
+                  {
+                    "chapter_id": "1.1.4.",
+                    "chapter_title": "Exhaust emissions, the durability of anti-pollution devices and on-board",
+                    "raw_text": "diagnostic (OBD) systems of hybrid electric vehicles (HEV) of\ncategories M1 and N1 equipped with compression-ignition (C.I.) engines,\nhaving at least four wheels and a maximum mass not\nexceeding 3,500 kg.",
+                    "children": [],
+                    "full_path": "1. SCOPE/1.1. This Regulation applies to:  1//1.1.4. Exhaust emissions, the durability of anti-pollution devices and on-board"
+                  },
+                  {
+                    "chapter_id": "1.1.5.",
+                    "chapter_title": "It does not apply to:",
+                    "raw_text": "- vehicles with a maximum mass of less than 400 kg and to\nvehicles having a maximum design speed of less than 50 km/h;\n\n- vehicles whose unladen mass is not more than 400 kg if they are\nintended for carrying passengers or 550 kg if they are intended\nfor carrying goods and whose maximum engine power does not\nexceed 15 kW.",
+                    "children": [],
+                    "full_path": "1. SCOPE/1.1. This Regulation applies to:  1//1.1.5. It does not apply to:"
+                  },
+                  {
+                    "chapter_id": "1.1.6.",
+                    "chapter_title": "At the request of the manufacturer, type approval pursuant to this",
+                    "raw_text": "Regulation may be extended from M1 or N1 vehicles equipped with\ncompression-ignition engines which have already been typed approved to\nM2 and N2 vehicles having a reference mass not exceeding 2,840 kg and\nmeeting the conditions of paragraph 7. (extension of approval).\n\n1/ Vehicle categories as defined in the Consolidated Resolution on the Construction of\nVehicles (R.E.3), Annex 7 (document TRANS/WP.29/78/Rev.1/Amend2).\nRegulation No.83\npage 3",
+                    "children": [],
+                    "full_path": "1. SCOPE/1.1. This Regulation applies to:  1//1.1.6. At the request of the manufacturer, type approval pursuant to this"
+                  },
+                  {
+                    "chapter_id": "1.1.7.",
+                    "chapter_title": "Vehicles of category N1 equipped with compression-ignition engines or",
+                    "raw_text": "equipped with positive-ignition engines fuelled with NG or LPG are not\nsubject to this Regulation provided they have been type-approved\npursuant to Regulation No.49 as amended by the last series of\namendments.",
+                    "children": [],
+                    "full_path": "1. SCOPE/1.1. This Regulation applies to:  1//1.1.7. Vehicles of category N1 equipped with compression-ignition engines or"
+                  }
+                ],
+                "full_path": "1. SCOPE/1.1. This Regulation applies to:  1/"
+              },
+              {
+                "chapter_id": "1.2.",
+                "chapter_title": "This Regulation does not apply to vehicles equipped with positive-",
+                "raw_text": "ignition engines fuelled with NG or LPG used for driving motor vehicles\nof M1 category having a maximum mass exceeding 3,500 kg, M2, M3,\nN2, N3 to which Regulation No.49 is applicable.",
+                "children": [],
+                "full_path": "1. SCOPE/1.2. This Regulation does not apply to vehicles equipped with positive-"
+              }
+            ],
+            "full_path": "1. SCOPE"
+          },
+          {
+            "chapter_id": "2.",
+            "chapter_title": "DEFINITIONS",
+            "raw_text": "For the purposes of this Regulation:",
+            "children": [
+              {
+                "chapter_id": "2.1.",
+                "chapter_title": "\"Vehicle type\" means a category of power-driven vehicles that do not",
+                "raw_text": "differ in such essential respects as:",
+                "children": [
+                  {
+                    "chapter_id": "2.1.1.",
+                    "chapter_title": "the equivalent inertia determined in relation to the reference mass as",
+                    "raw_text": "prescribed in Annex 4, paragraph 5.1. and",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.1. \"Vehicle type\" means a category of power-driven vehicles that do not/2.1.1. the equivalent inertia determined in relation to the reference mass as"
+                  },
+                  {
+                    "chapter_id": "2.1.2.",
+                    "chapter_title": "the engine and vehicle characteristics as defined in Annex 1;",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.1. \"Vehicle type\" means a category of power-driven vehicles that do not/2.1.2. the engine and vehicle characteristics as defined in Annex 1;"
+                  }
+                ],
+                "full_path": "2. DEFINITIONS/2.1. \"Vehicle type\" means a category of power-driven vehicles that do not"
+              },
+              {
+                "chapter_id": "2.2.",
+                "chapter_title": "\"Reference mass\" means the \"unladen mass\" of the vehicle increased by a",
+                "raw_text": "uniform figure of 100 kg for test according to Annexes 4 and 8,",
+                "children": [
+                  {
+                    "chapter_id": "2.2.1.",
+                    "chapter_title": "\"Unladen mass\" means the mass of the vehicle in running order without",
+                    "raw_text": "driver, passengers or load, but with the fuel tank 90 per cent full and the\nusual set of tools and spare wheel on board, where applicable;",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.2. \"Reference mass\" means the \"unladen mass\" of the vehicle increased by a/2.2.1. \"Unladen mass\" means the mass of the vehicle in running order without"
+                  }
+                ],
+                "full_path": "2. DEFINITIONS/2.2. \"Reference mass\" means the \"unladen mass\" of the vehicle increased by a"
+              },
+              {
+                "chapter_id": "2.3.",
+                "chapter_title": "\"Maximum mass\" means the technically permissible maximum mass",
+                "raw_text": "declared by the vehicle manufacturer (this mass may be greater than the\nmaximum mass authorised by the national administration);",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.3. \"Maximum mass\" means the technically permissible maximum mass"
+              },
+              {
+                "chapter_id": "2.4.",
+                "chapter_title": "\"Gaseous pollutants\" means the exhaust gas emissions of carbon",
+                "raw_text": "monoxide, oxides of nitrogen, expressed in nitrogen dioxide (NO2)\nequivalent and hydrocarbons assuming ratio of:\n\n- C1H1.85 for petrol,\n- C1H1.86 for diesel,\n- C1H2.525 for LPG,\n- C1H4 for NG.\n\ng\npage 4",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.4. \"Gaseous pollutants\" means the exhaust gas emissions of carbon"
+              },
+              {
+                "chapter_id": "2.5.",
+                "chapter_title": "\"Particulate pollutants\" means components of the exhaust gas which are",
+                "raw_text": "removed from the diluted exhaust gas at a maximum temperature of 325\nK (52 °C) by means of the filters described in Annex 4;",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.5. \"Particulate pollutants\" means components of the exhaust gas which are"
+              },
+              {
+                "chapter_id": "2.6.",
+                "chapter_title": "\"Exhaust emissions\" means:",
+                "raw_text": "- for positive-ignition (P.I.) engines, emissions of gaseous pollutants;\n- for compression-ignition (C.I.) engines, emissions of gaseous and\nparticulate pollutants;",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.6. \"Exhaust emissions\" means:"
+              },
+              {
+                "chapter_id": "2.7.",
+                "chapter_title": "\"Evaporative emissions\" means the hydrocarbon vapours lost from the",
+                "raw_text": "fuel system of a motor vehicle other than those from exhaust emissions;",
+                "children": [
+                  {
+                    "chapter_id": "2.7.1.",
+                    "chapter_title": "\"Tank breathing losses\" are hydrocarbon emissions caused by",
+                    "raw_text": "temperature changes in the fuel tank (assuming a ratio of C1H2.33).",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.7. \"Evaporative emissions\" means the hydrocarbon vapours lost from the/2.7.1. \"Tank breathing losses\" are hydrocarbon emissions caused by"
+                  },
+                  {
+                    "chapter_id": "2.7.2.",
+                    "chapter_title": "\"Hot soak losses\" are hydrocarbon emissions arising from the fuel system",
+                    "raw_text": "of a stationary vehicle after a period of driving (assuming a ratio of C1\nH2.20 );",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.7. \"Evaporative emissions\" means the hydrocarbon vapours lost from the/2.7.2. \"Hot soak losses\" are hydrocarbon emissions arising from the fuel system"
+                  }
+                ],
+                "full_path": "2. DEFINITIONS/2.7. \"Evaporative emissions\" means the hydrocarbon vapours lost from the"
+              },
+              {
+                "chapter_id": "2.8.",
+                "chapter_title": "\"Engine crankcase\" means the spaces in or external to an engine which",
+                "raw_text": "are connected to the oil sump by internal or external ducts through which\ngases and vapour can escape;",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.8. \"Engine crankcase\" means the spaces in or external to an engine which"
+              },
+              {
+                "chapter_id": "2.9.",
+                "chapter_title": "\"Cold start device\" means a device that temporarily enriches the air/fuel",
+                "raw_text": "mixture of the engine thus assisting the engine to start;",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.9. \"Cold start device\" means a device that temporarily enriches the air/fuel"
+              },
+              {
+                "chapter_id": "2.10.",
+                "chapter_title": "\"Starting aid\" means a device which assists engine start up without",
+                "raw_text": "enrichment of the air/fuel mixture of the engine, e.g. glow plug, injection\ntiming change, etc.;",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.10. \"Starting aid\" means a device which assists engine start up without"
+              },
+              {
+                "chapter_id": "2.11.",
+                "chapter_title": "\"Engine capacity\" means:",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "2.11.1.",
+                    "chapter_title": "For reciprocating piston engines, the nominal engine swept volume;",
+                    "raw_text": "",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.11. \"Engine capacity\" means:/2.11.1. For reciprocating piston engines, the nominal engine swept volume;"
+                  },
+                  {
+                    "chapter_id": "2.11.2.",
+                    "chapter_title": "For rotary piston engines (Wankel), twice the nominal swept volume of a",
+                    "raw_text": "combustion chamber per piston;",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.11. \"Engine capacity\" means:/2.11.2. For rotary piston engines (Wankel), twice the nominal swept volume of a"
+                  }
+                ],
+                "full_path": "2. DEFINITIONS/2.11. \"Engine capacity\" means:"
+              },
+              {
+                "chapter_id": "2.12.",
+                "chapter_title": "\"Pollution control devices\" means those components of a vehicle that",
+                "raw_text": "control and/or limit exhaust and evaporative emissions.",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.12. \"Pollution control devices\" means those components of a vehicle that"
+              },
+              {
+                "chapter_id": "2.13.",
+                "chapter_title": "\"OBD\" means an on-board diagnostic system for emission control, which",
+                "raw_text": "has the capability of identifying the likely area of malfunction by means\nof fault codes stored in computer memory;\n\nRegulation No.83\npage 5",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.13. \"OBD\" means an on-board diagnostic system for emission control, which"
+              },
+              {
+                "chapter_id": "2.14.",
+                "chapter_title": "\"In-service test\" means the test and evaluation of conformity conducted",
+                "raw_text": "in accordance with paragraph 8.2.1. of this Regulation;",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.14. \"In-service test\" means the test and evaluation of conformity conducted"
+              },
+              {
+                "chapter_id": "2.15.",
+                "chapter_title": "\"Properly maintained and used\" means, for the purpose of a test vehicle,",
+                "raw_text": "that such a vehicle satisfies the criteria for acceptance of a selected\nvehicle laid down in paragraph 2. of Appendix 3 to this Regulation;",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.15. \"Properly maintained and used\" means, for the purpose of a test vehicle,"
+              },
+              {
+                "chapter_id": "2.16.",
+                "chapter_title": "\"Defeat device\" means any element of design which senses temperature,",
+                "raw_text": "vehicle speed, engine rotational speed, transmission gear, manifold\nvacuum or any other parameter for the purpose of activating, modulating,\ndelaying or deactivating the operation of any part of the emission control\nsystem, that reduces the effectiveness of the emission control system\nunder conditions which may reasonably be expected to be encountered in\nnormal vehicle operation and use. Such an element of design may not be\nconsidered a defeat device if:",
+                "children": [
+                  {
+                    "chapter_id": "2.16.1.",
+                    "chapter_title": "the need for the device is justified in terms of protecting the engine",
+                    "raw_text": "against damage or accident and for safe operation of the vehicle, or",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.16. \"Defeat device\" means any element of design which senses temperature,/2.16.1. the need for the device is justified in terms of protecting the engine"
+                  },
+                  {
+                    "chapter_id": "2.16.2.",
+                    "chapter_title": "the device does not function beyond the requirements of engine starting,",
+                    "raw_text": "or",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.16. \"Defeat device\" means any element of design which senses temperature,/2.16.2. the device does not function beyond the requirements of engine starting,"
+                  },
+                  {
+                    "chapter_id": "2.16.3.",
+                    "chapter_title": "conditions are substantially included in the Type I or Type VI test",
+                    "raw_text": "procedures.",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.16. \"Defeat device\" means any element of design which senses temperature,/2.16.3. conditions are substantially included in the Type I or Type VI test"
+                  }
+                ],
+                "full_path": "2. DEFINITIONS/2.16. \"Defeat device\" means any element of design which senses temperature,"
+              },
+              {
+                "chapter_id": "2.17.",
+                "chapter_title": "\"Family of vehicles\" means a group of vehicle types identified by a",
+                "raw_text": "parent vehicle for the purpose of Annex 12;",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.17. \"Family of vehicles\" means a group of vehicle types identified by a"
+              },
+              {
+                "chapter_id": "2.18.",
+                "chapter_title": "\"Fuel requirement by the engine\" means the type of fuel normally used",
+                "raw_text": "by the engine:\n\n- petrol,\n- LPG (liquefied petroleum gas),\n- NG (natural gas),\n- either petrol or LPG,\n- either petrol or NG,\n- diesel fuel;",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.18. \"Fuel requirement by the engine\" means the type of fuel normally used"
+              },
+              {
+                "chapter_id": "2.19.",
+                "chapter_title": "\"Approval of a vehicle\" means the approval of a vehicle type with regard",
+                "raw_text": "to the limitation of the following conditions:  2/\n\n\n2/   Approval A cancelled. The 05 series of amendments to this Regulation prohibit the\nuse of leaded petrol.\ng\npage 6",
+                "children": [
+                  {
+                    "chapter_id": "2.19.1.",
+                    "chapter_title": "Limitation of exhaust emissions by the vehicle, evaporative emissions,",
+                    "raw_text": "crankcase emissions, durability of pollution control devices, cold start\npollutant emissions and on-board diagnostics of vehicles fuelled with\nunleaded petrol, or which can be fuelled with either unleaded petrol and\nLPG or NG (Approval B);",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.19. \"Approval of a vehicle\" means the approval of a vehicle type with regard/2.19.1. Limitation of exhaust emissions by the vehicle, evaporative emissions,"
+                  },
+                  {
+                    "chapter_id": "2.19.2.",
+                    "chapter_title": "Limitation of emissions of gaseous and particulate pollutants, durability",
+                    "raw_text": "of pollution control devices and on-board diagnostics of vehicles fuelled\nwith diesel fuel (Approval C);",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.19. \"Approval of a vehicle\" means the approval of a vehicle type with regard/2.19.2. Limitation of emissions of gaseous and particulate pollutants, durability"
+                  },
+                  {
+                    "chapter_id": "2.19.3.",
+                    "chapter_title": "Limitation of emissions of gaseous pollutants by the engine, crankcase",
+                    "raw_text": "emissions, durability of pollution control devices, cold start emissions\nand on-board diagnostics of vehicles fuelled with LPG or NG (Approval\nD);",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.19. \"Approval of a vehicle\" means the approval of a vehicle type with regard/2.19.3. Limitation of emissions of gaseous pollutants by the engine, crankcase"
+                  }
+                ],
+                "full_path": "2. DEFINITIONS/2.19. \"Approval of a vehicle\" means the approval of a vehicle type with regard"
+              },
+              {
+                "chapter_id": "2.20.",
+                "chapter_title": "\"Periodically regenerating system\" means an anti-pollution device (e.g.",
+                "raw_text": "catalytic converter, particulate trap) that requires a periodical\nregeneration process in less than 4,000 km of normal vehicle operation.\nDuring cycles where regeneration occurs, emission standards can be\nexceeded.  If a regeneration of an anti-pollution device occurs at least\nonce per Type I test and that has already regenerated at least once during\nvehicle preparation cycle, it will be considered as a continuously\nregenerating system which does not require a special test procedure.\nAnnex 13 does not apply to continuously regenerating systems.\n\nAt the request of the manufacturer, the test procedure specific to\nperiodically regenerating systems will not apply to a regenerative device\nif the manufacturer provides data to the type approval authority that,\nduring cycles where regeneration occurs, emissions remain below the\nstandards given in paragraph 5.3.1.4. applied for the concerned vehicle\ncategory after agreement of the technical service.",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.20. \"Periodically regenerating system\" means an anti-pollution device (e.g."
+              },
+              {
+                "chapter_id": "2.21.",
+                "chapter_title": "Hybrid vehicles (HV)",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "2.21.1.",
+                    "chapter_title": "General definition of hybrid vehicles (HV):",
+                    "raw_text": "\"Hybrid vehicle (HV)\" means a vehicle with at least two different energy\nconverters and two different energy storage systems (on vehicle) for the\npurpose of vehicle propulsion.",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.21. Hybrid vehicles (HV)/2.21.1. General definition of hybrid vehicles (HV):"
+                  },
+                  {
+                    "chapter_id": "2.21.2.",
+                    "chapter_title": "Definition of hybrid electric vehicles (HEV):",
+                    "raw_text": "\"Hybrid electric vehicle (HEV)\" means a vehicle that, for the purpose of\nmechanical propulsion, draws energy from both of the following on-\nvehicle sources of stored energy/power:\n\nRegulation No.83\npage 7\n\n\n- a consumable fuel\n\n- an electrical energy/power storage device (e.g.: battery, capacitor,\nflywheel/generator etc.)",
+                    "children": [],
+                    "full_path": "2. DEFINITIONS/2.21. Hybrid vehicles (HV)/2.21.2. Definition of hybrid electric vehicles (HEV):"
+                  }
+                ],
+                "full_path": "2. DEFINITIONS/2.21. Hybrid vehicles (HV)"
+              },
+              {
+                "chapter_id": "2.22.",
+                "chapter_title": "\"Mono-fuel vehicle\" means a vehicle that is designed primarily for",
+                "raw_text": "permanent running on LPG or NG, but may also have a petrol system for\nemergency purposes for starting only, where the petrol tank does not\ncontain more than 15 litres of petrol;",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.22. \"Mono-fuel vehicle\" means a vehicle that is designed primarily for"
+              },
+              {
+                "chapter_id": "2.23.",
+                "chapter_title": "\"Bi-fuel vehicle\" means a vehicle that can run part-time on petrol and",
+                "raw_text": "also part-time on either LPG or NG.",
+                "children": [],
+                "full_path": "2. DEFINITIONS/2.23. \"Bi-fuel vehicle\" means a vehicle that can run part-time on petrol and"
+              }
+            ],
+            "full_path": "2. DEFINITIONS"
+          },
+          {
+            "chapter_id": "3.",
+            "chapter_title": "APPLICATION FOR APPROVAL",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "3.1.",
+                "chapter_title": "The application for approval of a vehicle type with regard to exhaust",
+                "raw_text": "emissions, crankcase emissions, evaporative emissions and durability of\npollution control devices, as well as to its on-board diagnostic (OBD)\nsystem shall be submitted by the vehicle manufacturer or by his\nauthorized representative.",
+                "children": [
+                  {
+                    "chapter_id": "3.1.1.",
+                    "chapter_title": "Should the application concern an on-board diagnostic (OBD) system, it",
+                    "raw_text": "shall be accompanied by the additional information required in paragraph\n4.2.11.2.7.of Annex 1, together with:",
+                    "children": [
+                      {
+                        "chapter_id": "3.1.1.1.",
+                        "chapter_title": "a declaration by the manufacturer of:",
+                        "raw_text": "",
+                        "children": [
+                          {
+                            "chapter_id": "3.1.1.1.1.",
+                            "chapter_title": "in the case of vehicles equipped with positive-ignition engines, the",
+                            "raw_text": "percentage of misfires out of a total number of firing events that would\nresult in emissions exceeding the limits given in paragraph 3.3.2. of\nAnnex 11, if that percentage of misfire had been present from the start of\na Type I test as described in paragraph 5.3.1. of Annex 4;",
+                            "children": [],
+                            "full_path": "3. APPLICATION FOR APPROVAL/3.1. The application for approval of a vehicle type with regard to exhaust/3.1.1. Should the application concern an on-board diagnostic (OBD) system, it/3.1.1.1. a declaration by the manufacturer of:/3.1.1.1.1. in the case of vehicles equipped with positive-ignition engines, the"
+                          },
+                          {
+                            "chapter_id": "3.1.1.1.2.",
+                            "chapter_title": "in the case of vehicles equipped with positive-ignition engines, the",
+                            "raw_text": "percentage of misfires out of a total number of firing events that could\nlead to an exhaust catalyst, or catalysts, overheating prior to causing\nirreversible damage;",
+                            "children": [],
+                            "full_path": "3. APPLICATION FOR APPROVAL/3.1. The application for approval of a vehicle type with regard to exhaust/3.1.1. Should the application concern an on-board diagnostic (OBD) system, it/3.1.1.1. a declaration by the manufacturer of:/3.1.1.1.2. in the case of vehicles equipped with positive-ignition engines, the"
+                          }
+                        ],
+                        "full_path": "3. APPLICATION FOR APPROVAL/3.1. The application for approval of a vehicle type with regard to exhaust/3.1.1. Should the application concern an on-board diagnostic (OBD) system, it/3.1.1.1. a declaration by the manufacturer of:"
+                      },
+                      {
+                        "chapter_id": "3.1.1.2.",
+                        "chapter_title": "detailed written information fully describing the functional operation",
+                        "raw_text": "characteristics of the OBD system, including a listing of all relevant parts\nof the vehicle's emission control system, i.e. sensors, actuators and\ncomponents, that are monitored by the OBD system;",
+                        "children": [],
+                        "full_path": "3. APPLICATION FOR APPROVAL/3.1. The application for approval of a vehicle type with regard to exhaust/3.1.1. Should the application concern an on-board diagnostic (OBD) system, it/3.1.1.2. detailed written information fully describing the functional operation"
+                      },
+                      {
+                        "chapter_id": "3.1.1.3.",
+                        "chapter_title": "a description of the malfunction indicator (MI) used by the OBD system",
+                        "raw_text": "to signal the presence of a fault to a driver of the vehicle;\ng\npage 8\n\ncopies of other type approvals with the relevant data to enable extensions\nof approvals;",
+                        "children": [],
+                        "full_path": "3. APPLICATION FOR APPROVAL/3.1. The application for approval of a vehicle type with regard to exhaust/3.1.1. Should the application concern an on-board diagnostic (OBD) system, it/3.1.1.3. a description of the malfunction indicator (MI) used by the OBD system"
+                      },
+                      {
+                        "chapter_id": "3.1.1.4.",
+                        "chapter_title": "if applicable, the particulars of the vehicle family as referred to in Annex",
+                        "raw_text": "11, Appendix 2.",
+                        "children": [],
+                        "full_path": "3. APPLICATION FOR APPROVAL/3.1. The application for approval of a vehicle type with regard to exhaust/3.1.1. Should the application concern an on-board diagnostic (OBD) system, it/3.1.1.4. if applicable, the particulars of the vehicle family as referred to in Annex"
+                      }
+                    ],
+                    "full_path": "3. APPLICATION FOR APPROVAL/3.1. The application for approval of a vehicle type with regard to exhaust/3.1.1. Should the application concern an on-board diagnostic (OBD) system, it"
+                  },
+                  {
+                    "chapter_id": "3.1.2.",
+                    "chapter_title": "For the tests described in paragraph 3. of Annex 11, a vehicle",
+                    "raw_text": "representative of the vehicle type or vehicle family fitted with the OBD\nsystem to be approved shall be submitted to the technical service\nresponsible for the type approval test. If the technical service determines\nthat the submitted vehicle does not fully represent the vehicle type or\nvehicle family described in Annex 11, Appendix 2, an alternative and if\nnecessary an additional vehicle shall be submitted for test in accordance\nwith paragraph 3. of Annex 11.",
+                    "children": [],
+                    "full_path": "3. APPLICATION FOR APPROVAL/3.1. The application for approval of a vehicle type with regard to exhaust/3.1.2. For the tests described in paragraph 3. of Annex 11, a vehicle"
+                  }
+                ],
+                "full_path": "3. APPLICATION FOR APPROVAL/3.1. The application for approval of a vehicle type with regard to exhaust"
+              },
+              {
+                "chapter_id": "3.2.",
+                "chapter_title": "A model of the information document relating to exhaust emissions,",
+                "raw_text": "evaporative emissions, durability and the on-board diagnostic (OBD)\nsystem is given in Annex 1.  The information mentioned under paragraph\n4.2.11.2.7.6.of Annex 1 is to be included in Appendix 1 \"OBD -\nRELATED INFORMATION\" to the type-approval communication given\nin Annex 2.",
+                "children": [
+                  {
+                    "chapter_id": "3.2.1.",
+                    "chapter_title": "Where appropriate, copies of other type approvals with the relevant data",
+                    "raw_text": "to enable extensions of approvals and establishment of deterioration\nfactors shall be submitted.",
+                    "children": [],
+                    "full_path": "3. APPLICATION FOR APPROVAL/3.2. A model of the information document relating to exhaust emissions,/3.2.1. Where appropriate, copies of other type approvals with the relevant data"
+                  }
+                ],
+                "full_path": "3. APPLICATION FOR APPROVAL/3.2. A model of the information document relating to exhaust emissions,"
+              },
+              {
+                "chapter_id": "3.3.",
+                "chapter_title": "For the tests described in paragraph 5. of this Regulation a vehicle",
+                "raw_text": "representative of the vehicle type to be approved shall be submitted to the\ntechnical service responsible for the approval tests.",
+                "children": [],
+                "full_path": "3. APPLICATION FOR APPROVAL/3.3. For the tests described in paragraph 5. of this Regulation a vehicle"
+              }
+            ],
+            "full_path": "3. APPLICATION FOR APPROVAL"
+          },
+          {
+            "chapter_id": "4.",
+            "chapter_title": "APPROVAL",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "4.1.",
+                "chapter_title": "If the vehicle type submitted for approval following this amendment",
+                "raw_text": "meets the requirements of paragraph 5. below, approval of that vehicle\ntype shall be granted.",
+                "children": [],
+                "full_path": "4. APPROVAL/4.1. If the vehicle type submitted for approval following this amendment"
+              },
+              {
+                "chapter_id": "4.2.",
+                "chapter_title": "An approval number shall be assigned to each type approved.",
+                "raw_text": "Its first two digits shall indicate the series of amendments according to\nwhich the approval was granted. The same Contracting Party shall not\nassign the same number to another vehicle type.",
+                "children": [],
+                "full_path": "4. APPROVAL/4.2. An approval number shall be assigned to each type approved."
+              },
+              {
+                "chapter_id": "4.3.",
+                "chapter_title": "Notice of approval or of extension or refusal of approval of a vehicle type",
+                "raw_text": "pursuant to this Regulation shall be communicated to the Parties to the\nAgreement which apply this Regulation by means of a form conforming\nto the model in Annex 2 to this Regulation.\nRegulation No.83\npage 9",
+                "children": [
+                  {
+                    "chapter_id": "4.3.1.",
+                    "chapter_title": "In the event of amendment to the present text, for example, if new limit",
+                    "raw_text": "values are prescribed, the Parties to the Agreement shall be informed\nwhich vehicle types already approved comply with the new provisions.",
+                    "children": [],
+                    "full_path": "4. APPROVAL/4.3. Notice of approval or of extension or refusal of approval of a vehicle type/4.3.1. In the event of amendment to the present text, for example, if new limit"
+                  }
+                ],
+                "full_path": "4. APPROVAL/4.3. Notice of approval or of extension or refusal of approval of a vehicle type"
+              },
+              {
+                "chapter_id": "4.4.",
+                "chapter_title": "There shall be affixed, conspicuously and in a readily accessible place",
+                "raw_text": "specified on the approval form, to every vehicle conforming to a vehicle\ntype approved under this Regulation, an international approval mark\nconsisting of:",
+                "children": [
+                  {
+                    "chapter_id": "4.4.1.",
+                    "chapter_title": "a circle surrounding the letter \"E\" followed by the distinguishing number",
+                    "raw_text": "of the country that has granted approval; 3/",
+                    "children": [],
+                    "full_path": "4. APPROVAL/4.4. There shall be affixed, conspicuously and in a readily accessible place/4.4.1. a circle surrounding the letter \"E\" followed by the distinguishing number"
+                  },
+                  {
+                    "chapter_id": "4.4.2.",
+                    "chapter_title": "the number of this Regulation, followed by the letter \"R\", a dash and the",
+                    "raw_text": "approval number to the right of the circle described in paragraph 4.4.1.",
+                    "children": [],
+                    "full_path": "4. APPROVAL/4.4. There shall be affixed, conspicuously and in a readily accessible place/4.4.2. the number of this Regulation, followed by the letter \"R\", a dash and the"
+                  },
+                  {
+                    "chapter_id": "4.4.3.",
+                    "chapter_title": "However, the approval mark shall contain an additional character after",
+                    "raw_text": "the letter \"R\", the purpose of which is to distinguish the emission limit\nvalues for which the approval has been granted.  For those approvals\nissued to indicate compliance with the limits for the Type I test detailed\nin Row A of the table in paragraph 5.3.1.4.1. of this Regulation, the letter\n\"R\" will be followed by the roman number \"I\". For those approvals\nissued to indicate compliance with the limits for the Type I test detailed\n\n3/   1 for Germany, 2 for France, 3 for Italy, 4 for the Netherlands, 5 for Sweden, 6 for\nBelgium, 7 for Hungary, 8 for the Czech Republic, 9 for Spain, 10 for Serbia and\nMontenegro, 11 for the United Kingdom, 12 for Austria, 13 for Luxembourg, 14 for\nSwitzerland, 15 (vacant), 16 for Norway, 17 for Finland, 18 for Denmark, 19 for\nRomania, 20 for Poland, 21 for Portugal, 22 for the Russian Federation, 23 for Greece,\n24for Ireland, 25 for Croatia, 26 for Slovenia, 27 for Slovakia, 28 for Belarus, 29 for\nEstonia, 30 (vacant), 31 for Bosnia and Herzegovina, 32 for Latvia, 33 (vacant), 34 for\nBulgaria, 35 (vacant), 36 for Lithuania, 37 for Turkey, 38 (vacant), 39 for Azerbaijan,\n40for The former Yugoslav Republic of Macedonia, 41 (vacant), 42 for the European\nCommunity (Approvals are granted by its Member States using their respective ECE\nsymbol), 43 for Japan, 44 (vacant), 45 for Australia, 46 for Ukraine, 47 for South\nAfrica, 48 for New Zealand, 49 for Cyprus, 50 for Malta and 51 for the Republic of\nKorea.  Subsequent numbers shall be assigned to other countries in the chronological\norder in which they ratify or accede to the Agreement Concerning the Adoption of\nUniform Technical Prescriptions for Wheeled Vehicles, Equipment and Parts which can\nbe Fitted and/or be Used on Wheeled Vehicles and the Conditions for Reciprocal\nRecognition of Approvals Granted on the Basis of these Prescriptions, and the numbers\nthus assigned shall be communicated by the Secretary-General of the United Nations to\nthe Contracting Parties to the Agreement.\n\ng\npage 10\n\nin Row B in the table to paragraph 5.3.1.4.1. of this Regulation, the letter\n\"R\" will be followed by the roman number \"II\".",
+                    "children": [],
+                    "full_path": "4. APPROVAL/4.4. There shall be affixed, conspicuously and in a readily accessible place/4.4.3. However, the approval mark shall contain an additional character after"
+                  }
+                ],
+                "full_path": "4. APPROVAL/4.4. There shall be affixed, conspicuously and in a readily accessible place"
+              },
+              {
+                "chapter_id": "4.5.",
+                "chapter_title": "If the vehicle conforms to a vehicle type approved, under one or more",
+                "raw_text": "other Regulations annexed to the Agreement, in the country which has\ngranted approval under this Regulation, the symbol prescribed in\nparagraph 4.4.1. need not be repeated; in such a case, the Regulation and\napproval numbers and the additional symbols of all the Regulations under\nwhich approval has been granted in the country which has granted\napproval under this Regulation shall be placed in vertical columns to the\nright of the symbol prescribed in paragraph 4.4.1.",
+                "children": [],
+                "full_path": "4. APPROVAL/4.5. If the vehicle conforms to a vehicle type approved, under one or more"
+              },
+              {
+                "chapter_id": "4.6.",
+                "chapter_title": "The approval mark shall be clearly legible and be indelible.",
+                "raw_text": "",
+                "children": [],
+                "full_path": "4. APPROVAL/4.6. The approval mark shall be clearly legible and be indelible."
+              },
+              {
+                "chapter_id": "4.7.",
+                "chapter_title": "The approval mark shall be placed close to or on the vehicle data plate.",
+                "raw_text": "",
+                "children": [],
+                "full_path": "4. APPROVAL/4.7. The approval mark shall be placed close to or on the vehicle data plate."
+              },
+              {
+                "chapter_id": "4.8.",
+                "chapter_title": "Annex 3 to this Regulation gives examples of arrangements of the",
+                "raw_text": "approval mark.",
+                "children": [],
+                "full_path": "4. APPROVAL/4.8. Annex 3 to this Regulation gives examples of arrangements of the"
+              }
+            ],
+            "full_path": "4. APPROVAL"
+          },
+          {
+            "chapter_id": "5.",
+            "chapter_title": "SPECIFICATIONS AND TESTS",
+            "raw_text": "Note:  As an alternative to the requirements of this paragraph, vehicle\nmanufacturers whose world-wide annual production is less than 10,000\nunits may obtain approval on the basis of the corresponding technical\nrequirements specified in: the California Code of Regulations, Title 13,\nParagraphs 1960.1 (f) (2) or (g) (1) and (g) (2), 1960.1 (p) applicable to\n1996 and later model-year vehicles, 1968.1, 1976 and 1975, applicable to\n1995 and later model year light-duty vehicles (California Code of\nRegulations is published by Barclays Publishing).",
+            "children": [
+              {
+                "chapter_id": "5.1.",
+                "chapter_title": "General",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "5.1.1.",
+                    "chapter_title": "The components liable to affect the emission of pollutants shall be so",
+                    "raw_text": "designed, constructed and assembled as to enable the vehicle, in normal\nuse, despite the vibration to which they may be subjected, to comply with\nthe provisions of this Regulation.",
+                    "children": [],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.1. The components liable to affect the emission of pollutants shall be so"
+                  },
+                  {
+                    "chapter_id": "5.1.2.",
+                    "chapter_title": "The technical measures taken by the manufacturer shall be such as to",
+                    "raw_text": "ensure that in conformity with the provisions of this Regulation, exhaust\ngas and evaporative emissions are effectively limited throughout the\nnormal life of the vehicle and under normal conditions of use. This will\ninclude the security of those hoses and their joints and connections, used\nwithin the emission control systems, which shall be so constructed as to\nconform with the original design intent.  For exhaust emissions, these\nprovisions are deemed to be met if the provisions of paragraphs 5.3.1.4.\nand 8.2.3.1. respectively are complied with.  For evaporative emissions,\nRegulation No.83\npage 11\n\n\nthese conditions are deemed to be met if the provisions of paragraphs\n5.3.1.4.and 8.2.3.1. respectively are complied with.",
+                    "children": [
+                      {
+                        "chapter_id": "5.1.2.1.",
+                        "chapter_title": "The use of a defeat device is prohibited.",
+                        "raw_text": "",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.2. The technical measures taken by the manufacturer shall be such as to/5.1.2.1. The use of a defeat device is prohibited."
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.2. The technical measures taken by the manufacturer shall be such as to"
+                  },
+                  {
+                    "chapter_id": "5.1.3.",
+                    "chapter_title": "Inlet orifices of petrol tanks",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "5.1.3.1.",
+                        "chapter_title": "Subject to paragraph 5.1.3.2., the inlet orifice of the petrol tank shall be",
+                        "raw_text": "so designed as to prevent the tank from being filled from a petrol pump\ndelivery nozzle which has an external diameter of 23.6 mm or greater.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.3. Inlet orifices of petrol tanks/5.1.3.1. Subject to paragraph 5.1.3.2., the inlet orifice of the petrol tank shall be"
+                      },
+                      {
+                        "chapter_id": "5.1.3.2.",
+                        "chapter_title": "Paragraph 5.1.3.1. shall not apply to a vehicle in respect of which both of",
+                        "raw_text": "the following conditions are satisfied, i.e.:",
+                        "children": [
+                          {
+                            "chapter_id": "5.1.3.2.1.",
+                            "chapter_title": "the vehicle is so designed and constructed that no device designed to",
+                            "raw_text": "control the emission of gaseous pollutants shall be adversely affected by\nleaded petrol, and;",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.3. Inlet orifices of petrol tanks/5.1.3.2. Paragraph 5.1.3.1. shall not apply to a vehicle in respect of which both of/5.1.3.2.1. the vehicle is so designed and constructed that no device designed to"
+                          },
+                          {
+                            "chapter_id": "5.1.3.2.2.",
+                            "chapter_title": "the vehicle is conspicuously, legibly and indelibly marked with the",
+                            "raw_text": "symbol for unleaded petrol, specified in ISO 2575:1982, in a position\nimmediately visible to a person filling the petrol tank. Additional\nmarkings are permitted.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.3. Inlet orifices of petrol tanks/5.1.3.2. Paragraph 5.1.3.1. shall not apply to a vehicle in respect of which both of/5.1.3.2.2. the vehicle is conspicuously, legibly and indelibly marked with the"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.3. Inlet orifices of petrol tanks/5.1.3.2. Paragraph 5.1.3.1. shall not apply to a vehicle in respect of which both of"
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.3. Inlet orifices of petrol tanks"
+                  },
+                  {
+                    "chapter_id": "5.1.4.",
+                    "chapter_title": "Provision shall be made to prevent excess evaporative emissions and fuel",
+                    "raw_text": "spillage caused by a missing fuel filler cap.\n\nThis may be achieved by using one of the following:",
+                    "children": [
+                      {
+                        "chapter_id": "5.1.4.1.",
+                        "chapter_title": "an automatically opening and closing, non-removable fuel filler cap,",
+                        "raw_text": "",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.4. Provision shall be made to prevent excess evaporative emissions and fuel/5.1.4.1. an automatically opening and closing, non-removable fuel filler cap,"
+                      },
+                      {
+                        "chapter_id": "5.1.4.2.",
+                        "chapter_title": "design features which avoid excess evaporative emissions in the case of a",
+                        "raw_text": "missing fuel filler cap,",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.4. Provision shall be made to prevent excess evaporative emissions and fuel/5.1.4.2. design features which avoid excess evaporative emissions in the case of a"
+                      },
+                      {
+                        "chapter_id": "5.1.4.3.",
+                        "chapter_title": "any other provision which has the same effect. Examples may include,",
+                        "raw_text": "but are not limited to, a tethered filler cap, a chained filler cap or one\nutilising the same locking key for the filler cap as for the vehicle's\nignition. In this case, the key shall be removable from the filler cap only\nin the locked condition.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.4. Provision shall be made to prevent excess evaporative emissions and fuel/5.1.4.3. any other provision which has the same effect. Examples may include,"
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.4. Provision shall be made to prevent excess evaporative emissions and fuel"
+                  },
+                  {
+                    "chapter_id": "5.1.5.",
+                    "chapter_title": "Provisions for electronic system security",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "5.1.5.1.",
+                        "chapter_title": "Any vehicle with an emission control computer shall include features to",
+                        "raw_text": "deter modification, except as authorised by the manufacturer.  The\nmanufacturer shall authorise modifications if these modifications are\ng\npage 12\n\nnecessary for the diagnosis, servicing, inspection, retrofitting or repair of\nthe vehicle.  Any reprogrammable computer codes or operating\nparameters shall be resistant to tampering and afford a level of protection\nat least as good as the provisions in ISO DIS 15031-7, dated\nOctober 1998 (SAE J2186 dated October 1996), provided that the\nsecurity exchange is conducted using the protocols and diagnostic\nconnector as prescribed in paragraph 6.5. of Annex II, Appendix 1.  Any\nremovable calibration memory chips shall be potted, encased in a sealed\ncontainer or protected by electronic algorithms and shall not be\nchangeable without the use of specialised tools and procedures.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.5. Provisions for electronic system security/5.1.5.1. Any vehicle with an emission control computer shall include features to"
+                      },
+                      {
+                        "chapter_id": "5.1.5.2.",
+                        "chapter_title": "Computer-coded engine operating parameters shall not be changeable",
+                        "raw_text": "without the use of specialised tools and procedures (e. g. soldered or\npotted computer components or sealed (or soldered) computer\nenclosures).",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.5. Provisions for electronic system security/5.1.5.2. Computer-coded engine operating parameters shall not be changeable"
+                      },
+                      {
+                        "chapter_id": "5.1.5.3.",
+                        "chapter_title": "In the case of mechanical fuel-injection pumps fitted to compression-",
+                        "raw_text": "ignition engines, manufacturers shall take adequate steps to protect the\nmaximum fuel delivery setting from tampering while a vehicle is in\nservice.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.5. Provisions for electronic system security/5.1.5.3. In the case of mechanical fuel-injection pumps fitted to compression-"
+                      },
+                      {
+                        "chapter_id": "5.1.5.4.",
+                        "chapter_title": "Manufacturers may apply to the approval authority for an exemption to",
+                        "raw_text": "one of these requirements for those vehicles which are unlikely to require\nprotection. The criteria that the approval authority will evaluate in\nconsidering an exemption will include, but are not limited to, the current\navailability of performance chips, the high-performance capability of the\nvehicle and the projected sales volume of the vehicle.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.5. Provisions for electronic system security/5.1.5.4. Manufacturers may apply to the approval authority for an exemption to"
+                      },
+                      {
+                        "chapter_id": "5.1.5.5.",
+                        "chapter_title": "Manufacturers using programmable computer code systems (e.g.",
+                        "raw_text": "Electrical Erasable Programmable Read-Only Memory, EEPROM) shall\ndeter unauthorised reprogramming. Manufacturers shall include\nenhanced tamper protection strategies and write protect features requiring\nelectronic access to an off-site computer maintained by the manufacturer.\nMethods giving an adequate level of tamper protection will be approved\nby the authority.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.5. Provisions for electronic system security/5.1.5.5. Manufacturers using programmable computer code systems (e.g."
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.5. Provisions for electronic system security"
+                  },
+                  {
+                    "chapter_id": "5.1.6.",
+                    "chapter_title": "It shall be possible to inspect the vehicle for roadworthiness test in order",
+                    "raw_text": "to determine its performance in relation to the data collected in\naccordance with paragraph 5.3.7. of this Regulation.  If this inspection\nrequires a special procedure, this shall be detailed in the service manual\n(or equivalent media).  This special procedure shall not require the use of\nspecial equipment other than that provided with the vehicle\n\nRegulation No.83\npage 13",
+                    "children": [],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General/5.1.6. It shall be possible to inspect the vehicle for roadworthiness test in order"
+                  }
+                ],
+                "full_path": "5. SPECIFICATIONS AND TESTS/5.1. General"
+              },
+              {
+                "chapter_id": "5.2.",
+                "chapter_title": "Test procedure",
+                "raw_text": "Table 1 illustrates the various possibilities for type approval of a vehicle.",
+                "children": [
+                  {
+                    "chapter_id": "5.2.1.",
+                    "chapter_title": "Positive ignition engine-powered vehicles and hybrid electric vehicles",
+                    "raw_text": "equipped with a positive-ignition engine shall be subject to the following\ntests:\n\nType I (verifying the average exhaust emissions after a cold start),\n\nType II (carbon monoxide emission at idling speed),\n\nType III (emission of crankcase gases),\n\nType IV (evaporation emissions),\n\nType V (durability of anti-pollution devices),\n\nType VI (verifying the average low ambient temperature carbon\nmonoxide and hydrocarbon exhaust emissions after a cold start,\n\nOBD-test.",
+                    "children": [],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.2. Test procedure/5.2.1. Positive ignition engine-powered vehicles and hybrid electric vehicles"
+                  },
+                  {
+                    "chapter_id": "5.2.2.",
+                    "chapter_title": "Positive ignition engine-powered vehicle and hybrid electric vehicles",
+                    "raw_text": "equipped with positive-ignition engine fuelled with LPG or NG (mono or\nbi-fuel) shall be subjected to the following tests (according to Table 1):\n\nType I (verifying the average exhaust emissions after a cold start),\n\nType II (carbon monoxide emissions at idling speed),\n\nType III (emission of crankcase gases),\n\nType IV (evaporative emissions), where applicable,\n\nType V (durability of anti-pollution devices),\n\nType VI (verifying the average low ambient temperature carbon\nmonoxide and hydrocarbon exhaust emissions after a cold start),\nwhere applicable,\n\nOBD test, where applicable.\n\ng\npage 14",
+                    "children": [],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.2. Test procedure/5.2.2. Positive ignition engine-powered vehicle and hybrid electric vehicles"
+                  },
+                  {
+                    "chapter_id": "5.2.3.",
+                    "chapter_title": "Compression ignition engine-powered vehicles and hybrid electric vehicles",
+                    "raw_text": "equipped with a compression ignition engine shall be subject to the\nfollowing tests:\n\nType I (verifying the average exhaust emissions after a cold start)\n\nType V (durability of anti-pollution control devices)\n\nand, where applicable, OBD test.\nRegulation No.83\npage 15\n\n\n\nTable 1\n\nDifferent routes for type approval and extensions\n\n\nType-approval\ntest\nPositive-ignition engined vehicles of categories M and N\nCompression-ignition\nengined vehicles of\ncategories M1 and N1\npetrol fuelled vehicle bi-fuel vehicle mono-fuel vehicle\nType I\nYes\n(maximum mass\nd 3.5 t)\nYes\n(test with both fuel types)\n(maximum mass d 3.5 t)\nYes\n(maximum mass\nd 3.5 t)\nYes\n(maximum mass\nd 3.5 t)\nType II Yes\nYes\n(test with both fuel types)\nYes -\nType III Yes\nYes\n(test only with petrol)\nYes -\nType IV\nYes\n(maximum mass\nd 3.5 t)\nYes\n(test only with petrol)\n(maximum mass d 3.5 t)\n- -\nType V\nYes\n(maximum mass\nd 3.5 t)\nYes\n(test only with petrol)\n(maximum mass d 3.5 t)\nYes\n(maximum mass\nd 3.5 t)\nYes\n(maximum mass\nd 3.5 t)\nType VI\nYes\n(maximum mass\nd 3.5 t)\nYes\n(maximum mass d 3.5 t)\n(test only with petrol)\n- -\nExtension Paragraph 7. Paragraph 7. Paragraph 7.\nParagraph 7.;\nM2 and N2 with a\nreference mass\nd 2,840 kg .\nOn-board\ndiagnostics\nYes, in accordance\nwith paragraph\n11.1.5.1.1.or\n11.1.5.3.\nYes, in accordance with\nparagraph  11.1.5.1.2. or\n11.1.5.3.\nYes, in accordance with\nparagraph 11.1.5.1.2. or\n11.1.5.3.\nYes, in accordance with\nparagraph 11.1.5.2..1 or\n11.1.5.2.2.or 11.1.5.2.3.\nor 11.1.5.3.",
+                    "children": [],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.2. Test procedure/5.2.3. Compression ignition engine-powered vehicles and hybrid electric vehicles"
+                  }
+                ],
+                "full_path": "5. SPECIFICATIONS AND TESTS/5.2. Test procedure"
+              },
+              {
+                "chapter_id": "5.3.",
+                "chapter_title": "Description of tests",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "5.3.1.",
+                    "chapter_title": "Type I test (Simulating the average exhaust emissions after a cold start).",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "5.3.1.1.",
+                        "chapter_title": "Figure 1 illustrates the routes for Type I test. This test shall be carried out",
+                        "raw_text": "on all vehicles referred to in paragraph 1., having a maximum mass not\nexceeding 3.5 tonnes.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.1. Figure 1 illustrates the routes for Type I test. This test shall be carried out"
+                      },
+                      {
+                        "chapter_id": "5.3.1.2.",
+                        "chapter_title": "The vehicle is placed on a chassis dynamometer equipped with a means of",
+                        "raw_text": "load and inertia simulation.",
+                        "children": [
+                          {
+                            "chapter_id": "5.3.1.2.1.",
+                            "chapter_title": "A test lasting a total of 19 minutes and 40 seconds, made up of two parts,",
+                            "raw_text": "One and Two, is performed without interruption. An unsampled period of\ng\npage 16\n\nnot more than 20 seconds may, with the agreement of the manufacturer, be\nintroduced between the end of Part One and the beginning of Part Two in\norder to facilitate adjustment of the test equipment.",
+                            "children": [
+                              {
+                                "chapter_id": "5.3.1.2.1.1.",
+                                "chapter_title": "Vehicles that are fuelled with LPG or NG shall be tested in the Type I test",
+                                "raw_text": "for variation in the composition of LPG or NG, as set out in Annex 12.\nVehicles that can be fuelled either with petrol or LPG or NG shall be tested\non both the fuels, tests on LPG or NG being performed for variation in the\ncomposition of LPG or NG, as set out in Annex 12.",
+                                "children": [],
+                                "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.2. The vehicle is placed on a chassis dynamometer equipped with a means of/5.3.1.2.1. A test lasting a total of 19 minutes and 40 seconds, made up of two parts,/5.3.1.2.1.1. Vehicles that are fuelled with LPG or NG shall be tested in the Type I test"
+                              },
+                              {
+                                "chapter_id": "5.3.1.2.1.2.",
+                                "chapter_title": "Notwithstanding the requirement of paragraph 5.3.1.2.1.1., vehicles that",
+                                "raw_text": "can be fuelled with either petrol or a gaseous fuel, but where the petrol\nsystem is fitted for emergency purposes or starting only and which the\npetrol tank cannot contain more than 15 litres of petrol will be regarded for\nthe test Type I as vehicles that can only run on a gaseous fuel.",
+                                "children": [],
+                                "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.2. The vehicle is placed on a chassis dynamometer equipped with a means of/5.3.1.2.1. A test lasting a total of 19 minutes and 40 seconds, made up of two parts,/5.3.1.2.1.2. Notwithstanding the requirement of paragraph 5.3.1.2.1.1., vehicles that"
+                              }
+                            ],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.2. The vehicle is placed on a chassis dynamometer equipped with a means of/5.3.1.2.1. A test lasting a total of 19 minutes and 40 seconds, made up of two parts,"
+                          },
+                          {
+                            "chapter_id": "5.3.1.2.2.",
+                            "chapter_title": "Part One of the test is made up of four elementary urban cycles. Each",
+                            "raw_text": "elementary urban cycle comprises fifteen phases (idling, acceleration,\nsteady speed, deceleration, etc.).",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.2. The vehicle is placed on a chassis dynamometer equipped with a means of/5.3.1.2.2. Part One of the test is made up of four elementary urban cycles. Each"
+                          },
+                          {
+                            "chapter_id": "5.3.1.2.3.",
+                            "chapter_title": "Part Two of the test is made up of one extra-urban cycle.  The extra-urban",
+                            "raw_text": "cycle comprises 13 phases (idling, acceleration, steady speed, deceleration,\netc.).",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.2. The vehicle is placed on a chassis dynamometer equipped with a means of/5.3.1.2.3. Part Two of the test is made up of one extra-urban cycle.  The extra-urban"
+                          },
+                          {
+                            "chapter_id": "5.3.1.2.4.",
+                            "chapter_title": "During the test, the exhaust gases are diluted and a proportional sample",
+                            "raw_text": "collected in one or more bags.  The exhaust gases of the vehicle tested are\ndiluted, sampled and analysed, following the procedure described below,\nand the total volume of the diluted exhaust is measured. Not only the\ncarbon monoxide, hydrocarbon and nitrogen oxide emissions but also the\nparticulate pollutant emissions from vehicles equipped with compression-\nignition engines are recorded.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.2. The vehicle is placed on a chassis dynamometer equipped with a means of/5.3.1.2.4. During the test, the exhaust gases are diluted and a proportional sample"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.2. The vehicle is placed on a chassis dynamometer equipped with a means of"
+                      },
+                      {
+                        "chapter_id": "5.3.1.3.",
+                        "chapter_title": "The test is carried out using the procedure described in Annex 4. The",
+                        "raw_text": "methods used to collect and analyse the gases and to remove and weigh the\nparticulates shall be as prescribed.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.3. The test is carried out using the procedure described in Annex 4. The"
+                      },
+                      {
+                        "chapter_id": "5.3.1.4.",
+                        "chapter_title": "Subject to the requirements of paragraph 5.3.1.5. the test shall be repeated",
+                        "raw_text": "three times. The results are multiplied by the appropriate deterioration\nfactors obtained from paragraph 5.3.6. and, in the case of periodically\nregenerating systems as defined in paragraph 2.20., also must be multiplied\nby the factors Ki obtained from Annex 13. The resulting masses of gaseous\nemissions and, in the case of vehicles equipped with compression-ignition\nengines, the mass of particulates obtained in each test shall be less than the\nlimits shown in the table below:\nRegulation No.83\npage 17\n\n\nLimit Values\n\n\nMass of\ncarbon monoxide\n(CO)\n\nMass of\nhydrocarbons\n(HC)\n\nMass of  oxides of\nnitrogen (NOx)\n\nCombined mass of\nhydrocarbons and\noxides of nitrogen\n(HC + NOx)\nMass of\nparticulate\ns\n(1)\n(PM)\nReference\nmass\n(RW)\n\n(kg)\nL1\n(g/km)\nL2\n(g/km)\nL3\n(g/km)\nL2 + L3\n(g/km)\nL4\n(g/km)\nCategory Clas\ns\nPetrol Diesel Petrol Diesel Petrol Diesel Petrol Diesel Diesel\nM(2) -\nAll 2.3\n\n0.64\n\n0.20\n\n-\n\n0.15\n\n0.50\n\n-\n\n0.56\n\n0.05\nI RW % 1,305\n\n2.3\n\n0.64\n\n0.20\n\n-\n\n0.15\n\n0.50\n\n-\n\n0.56\n\n0.05\nII\n1,305 < RW\n% 1,760\n\n4.17\n\n0.80\n\n0.25\n\n-\n\n0.18\n\n0.65\n\n-\n\n0.72\n\n0.07\nA(2000)\nN1(3)\nIII\n\n1,760 < RW\n\n5.22\n\n0.95\n\n0.29\n\n-\n\n0.21\n\n0.78\n\n-\n\n0.86\n\n0.10\nM(2) -\n\nAll\n\n1.0\n\n0.50\n\n0.10\n\n-\n\n0.08\n\n0.25\n\n-\n\n0.30\n\n0.025\nI\n\nRW%1,305\n\n1.0\n\n0.50\n\n0.10\n\n-\n\n0.08\n\n0.25\n\n-\n\n0.30\n\n0.025\nII\n\n1,305 < RW\n% 1,760\n\n1.81\n\n0.63\n\n0.13\n\n-\n\n0.10\n\n0.33\n\n-\n\n0.39\n\n0.04\nB(2005)\n\nN1(3)\nIII\n\n1,760 < RW\n\n2.27\n\n0.74\n\n0.16\n\n-\n\n0.11\n\n0.39\n\n-\n\n0.46\n\n0.06\n\n\n(1) For compression-ignition engines.\n(2) Except vehicles the maximum mass of which exceeds 2,500 kg.\n(3) And those category M vehicles which are specified in note (2).",
+                        "children": [
+                          {
+                            "chapter_id": "5.3.1.4.1.",
+                            "chapter_title": "Notwithstanding the requirements of paragraph 5.3.1.4., for each",
+                            "raw_text": "pollutant or combination of pollutants, one of the three resulting masses\nobtained may exceed, by not more than 10 per cent, the limit prescribed,\nprovided the arithmetical mean of the three results is below the\nprescribed limit. Where the prescribed limits are exceeded for more than\none pollutant, it is immaterial whether this occurs in the same test or in\ndifferent tests.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.4. Subject to the requirements of paragraph 5.3.1.5. the test shall be repeated/5.3.1.4.1. Notwithstanding the requirements of paragraph 5.3.1.4., for each"
+                          },
+                          {
+                            "chapter_id": "5.3.1.4.2.",
+                            "chapter_title": "When the tests are performed with gaseous fuels, the resulting mass of",
+                            "raw_text": "gaseous emissions shall be less than the limits for petrol-engined vehicles\nin the above table.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.4. Subject to the requirements of paragraph 5.3.1.5. the test shall be repeated/5.3.1.4.2. When the tests are performed with gaseous fuels, the resulting mass of"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.4. Subject to the requirements of paragraph 5.3.1.5. the test shall be repeated"
+                      },
+                      {
+                        "chapter_id": "5.3.1.5.",
+                        "chapter_title": "The number of tests prescribed in paragraph 5.3.1.4. is reduced in the",
+                        "raw_text": "conditions hereinafter defined, where V1 is the result of the first test and\nV2 the result of the second test for each pollutant or for the combined\nemission of two pollutants subject to limitation.\n\ng\npage 18",
+                        "children": [
+                          {
+                            "chapter_id": "5.3.1.5.1.",
+                            "chapter_title": "Only one test is performed if the result obtained for each pollutant or for",
+                            "raw_text": "the combined emission of two pollutants subject to limitation, is less than\nor equal to 0.70 L (i.e. V1 % 0.70 L).",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.5. The number of tests prescribed in paragraph 5.3.1.4. is reduced in the/5.3.1.5.1. Only one test is performed if the result obtained for each pollutant or for"
+                          },
+                          {
+                            "chapter_id": "5.3.1.5.2.",
+                            "chapter_title": "If the requirement of paragraph 5.3.1.5.1. is not satisfied, only two tests",
+                            "raw_text": "are performed if, for each pollutant or for the combined emission of two\npollutants subject to limitation, the following requirements are met:\n\nV1 % 0.85 L and V1 + V2 % 1.70 L and V2 % L.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.5. The number of tests prescribed in paragraph 5.3.1.4. is reduced in the/5.3.1.5.2. If the requirement of paragraph 5.3.1.5.1. is not satisfied, only two tests"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)./5.3.1.5. The number of tests prescribed in paragraph 5.3.1.4. is reduced in the"
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.1. Type I test (Simulating the average exhaust emissions after a cold start)."
+                  },
+                  {
+                    "chapter_id": "5.3.2.",
+                    "chapter_title": "Type II test (Carbon monoxide emission test at idling speed)",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "5.3.2.1.",
+                        "chapter_title": "This test is carried out on all vehicles powered by positive-ignition",
+                        "raw_text": "engines having maximum mass exceeding 3.5 tonnes.",
+                        "children": [
+                          {
+                            "chapter_id": "5.3.2.1.1.",
+                            "chapter_title": "Vehicles that can be fuelled either with petrol or with LPG or NG shall",
+                            "raw_text": "be tested in the test Type II on both fuels.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.2. Type II test (Carbon monoxide emission test at idling speed)/5.3.2.1. This test is carried out on all vehicles powered by positive-ignition/5.3.2.1.1. Vehicles that can be fuelled either with petrol or with LPG or NG shall"
+                          },
+                          {
+                            "chapter_id": "5.3.2.1.2.",
+                            "chapter_title": "Notwithstanding the requirement of paragraph 5.3.2.1.1., vehicles that",
+                            "raw_text": "can be fuelled with either petrol or a gaseous fuel, but where the petrol\nsystem is fitted for emergency purposes or starting only and which the\npetrol tank cannot contain more than 15 litres of petrol will be regarded\nfor the test Type II as vehicles that can only run on a gaseous fuel.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.2. Type II test (Carbon monoxide emission test at idling speed)/5.3.2.1. This test is carried out on all vehicles powered by positive-ignition/5.3.2.1.2. Notwithstanding the requirement of paragraph 5.3.2.1.1., vehicles that"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.2. Type II test (Carbon monoxide emission test at idling speed)/5.3.2.1. This test is carried out on all vehicles powered by positive-ignition"
+                      },
+                      {
+                        "chapter_id": "5.3.2.2.",
+                        "chapter_title": "When tested in accordance with Annex 5, the carbon monoxide content",
+                        "raw_text": "by volume of the exhaust gases emitted with the engine idling shall not\nexceed 3.5 per cent at the setting specified by the manufacturer and shall\nnot exceed 4.5 per cent within the range of adjustments specified in that\nannex.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.2. Type II test (Carbon monoxide emission test at idling speed)/5.3.2.2. When tested in accordance with Annex 5, the carbon monoxide content"
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.2. Type II test (Carbon monoxide emission test at idling speed)"
+                  },
+                  {
+                    "chapter_id": "5.3.3.",
+                    "chapter_title": "Type III test (verifying emissions of crankcase gases)",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "5.3.3.1.",
+                        "chapter_title": "This test shall be carried out on all vehicles referred to in paragraph 1.",
+                        "raw_text": "except those having compression-ignition engines.",
+                        "children": [
+                          {
+                            "chapter_id": "5.3.3.1.1.",
+                            "chapter_title": "Vehicles that can be fuelled either with petrol or with LPG or NG should",
+                            "raw_text": "be tested in the Type III test on petrol only.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.3. Type III test (verifying emissions of crankcase gases)/5.3.3.1. This test shall be carried out on all vehicles referred to in paragraph 1./5.3.3.1.1. Vehicles that can be fuelled either with petrol or with LPG or NG should"
+                          },
+                          {
+                            "chapter_id": "5.3.3.1.2.",
+                            "chapter_title": "Notwithstanding the requirement of paragraph 5.3.3.1.1., vehicles that",
+                            "raw_text": "can be fuelled with either petrol or a gaseous fuel, but where the petrol\nsystem is fitted for emergency purposes or starting only and which the\npetrol tank cannot contain more than 15 litres of petrol will be regarded\nfor the test Type III as vehicles that can only run on a gaseous fuel.\nRegulation No.83\npage 19\n\n\nFigure 1\n\nFlow chart for Type I type approval\n(see paragraph 5.3.1.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ng\npage 20",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.3. Type III test (verifying emissions of crankcase gases)/5.3.3.1. This test shall be carried out on all vehicles referred to in paragraph 1./5.3.3.1.2. Notwithstanding the requirement of paragraph 5.3.3.1.1., vehicles that"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.3. Type III test (verifying emissions of crankcase gases)/5.3.3.1. This test shall be carried out on all vehicles referred to in paragraph 1."
+                      },
+                      {
+                        "chapter_id": "5.3.3.2.",
+                        "chapter_title": "When tested in accordance with Annex 6, the engine's crankcase",
+                        "raw_text": "ventilation system shall not permit the emission of any of the crankcase\ngases into the atmosphere.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.3. Type III test (verifying emissions of crankcase gases)/5.3.3.2. When tested in accordance with Annex 6, the engine's crankcase"
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.3. Type III test (verifying emissions of crankcase gases)"
+                  },
+                  {
+                    "chapter_id": "5.3.4.",
+                    "chapter_title": "Type IV test (Determination of evaporative emissions)",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "5.3.4.1.",
+                        "chapter_title": "This test shall be carried out on all vehicles referred to in paragraph 1.",
+                        "raw_text": "except those vehicles having a compression-ignition engine, vehicles\nfuelled with LPG or NG and those vehicles with a maximum mass\ngreater than 3,500kg.",
+                        "children": [
+                          {
+                            "chapter_id": "5.3.4.1.1.",
+                            "chapter_title": "Vehicles that can be fuelled either with petrol or with LPG or with NG",
+                            "raw_text": "should be tested in the Type IV test on petrol only.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.4. Type IV test (Determination of evaporative emissions)/5.3.4.1. This test shall be carried out on all vehicles referred to in paragraph 1./5.3.4.1.1. Vehicles that can be fuelled either with petrol or with LPG or with NG"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.4. Type IV test (Determination of evaporative emissions)/5.3.4.1. This test shall be carried out on all vehicles referred to in paragraph 1."
+                      },
+                      {
+                        "chapter_id": "5.3.4.2.",
+                        "chapter_title": "When tested in accordance with Annex 7, evaporative emissions shall be",
+                        "raw_text": "less than 2 g/test.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.4. Type IV test (Determination of evaporative emissions)/5.3.4.2. When tested in accordance with Annex 7, evaporative emissions shall be"
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.4. Type IV test (Determination of evaporative emissions)"
+                  },
+                  {
+                    "chapter_id": "5.3.5.",
+                    "chapter_title": "Type VI test (Verifying the average low ambient temperature carbon",
+                    "raw_text": "monoxide and hydrocarbon exhaust emissions after a cold start).",
+                    "children": [
+                      {
+                        "chapter_id": "5.3.5.1.",
+                        "chapter_title": "This test shall be carried out on all M1 and N1 Class I vehicles equipped",
+                        "raw_text": "with a positive-ignition engine, except vehicles designed to carry more\nthan six occupants and vehicles whose maximum mass exceeds 2,500 kg.",
+                        "children": [
+                          {
+                            "chapter_id": "5.3.5.1.1.",
+                            "chapter_title": "The vehicle is placed on a chassis dynamometer equipped with a means",
+                            "raw_text": "of load an inertia simulation.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.1. This test shall be carried out on all M1 and N1 Class I vehicles equipped/5.3.5.1.1. The vehicle is placed on a chassis dynamometer equipped with a means"
+                          },
+                          {
+                            "chapter_id": "5.3.5.1.2.",
+                            "chapter_title": "The test consists of the four elementary urban driving cycles of Part One",
+                            "raw_text": "of the Type I test. The Part One test is described in Annex 4, Appendix 1\nand illustrated in figures 1/1, 1/2 and 1/3 of the Appendix. The low\nambient temperature test lasting a total of 780 seconds shall be carried\nout without interruption and start at engine cranking.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.1. This test shall be carried out on all M1 and N1 Class I vehicles equipped/5.3.5.1.2. The test consists of the four elementary urban driving cycles of Part One"
+                          },
+                          {
+                            "chapter_id": "5.3.5.1.3.",
+                            "chapter_title": "The low ambient temperature test shall be carried out at an ambient test",
+                            "raw_text": "temperature of 266 K (-7°C). Before the test is carried out, the test\nvehicles shall be conditioned in a uniform manner to ensure that the test\nresults may be reproducible. The conditioning and other test procedures\nare carried out as described in Annex 8.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.1. This test shall be carried out on all M1 and N1 Class I vehicles equipped/5.3.5.1.3. The low ambient temperature test shall be carried out at an ambient test"
+                          },
+                          {
+                            "chapter_id": "5.3.5.1.4.",
+                            "chapter_title": "During the test, the exhaust gases are diluted and a proportional sample",
+                            "raw_text": "collected. The exhaust gases of the vehicle tested are diluted, sampled\nand analysed, following the procedure described in Annex 8, and the\ntotal volume of the diluted exhaust is measured. The diluted exhaust\ngases are analysed for carbon monoxide and hydrocarbons.\n\nRegulation No.83\npage 21",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.1. This test shall be carried out on all M1 and N1 Class I vehicles equipped/5.3.5.1.4. During the test, the exhaust gases are diluted and a proportional sample"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.1. This test shall be carried out on all M1 and N1 Class I vehicles equipped"
+                      },
+                      {
+                        "chapter_id": "5.3.5.2.",
+                        "chapter_title": "Subject to the requirements in paragraphs 5.3.5.2.2. and 5.3.5.3. the test",
+                        "raw_text": "shall be performed three times. The resulting mass of carbon monoxide\nand hydrocarbon emission shall be less than the limits shown in the table\nbelow:\n\nTest temperature Carbon monoxide L1\n(g/km)\nHydrocarbons L2\n(g/km)\n266 K (-7 °C) 15 1.8",
+                        "children": [
+                          {
+                            "chapter_id": "5.3.5.2.1.",
+                            "chapter_title": "Notwithstanding the requirements of paragraph 5.3.5.2., for each",
+                            "raw_text": "pollutant, not more than one of the three results obtained may exceed the\nlimit prescribed by not more than 10 per cent, provided the arithmetical\nmean value of the three results is below the prescribed limit. Where the\nprescribed limits are exceeded for more than one pollutant, it is\nimmaterial whether this occurs in the same test or in different tests.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.2. Subject to the requirements in paragraphs 5.3.5.2.2. and 5.3.5.3. the test/5.3.5.2.1. Notwithstanding the requirements of paragraph 5.3.5.2., for each"
+                          },
+                          {
+                            "chapter_id": "5.3.5.2.2.",
+                            "chapter_title": "The number of tests prescribed in paragraph 5.3.5.2. may, at the request",
+                            "raw_text": "of the manufacturer, be increased to 10 if the arithmetical mean of the\nfirst three results is lower than 110 per cent of the limit. In this case, the\nrequirement after testing is only that the arithmetical mean of all 10\nresults shall be less than the limit value.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.2. Subject to the requirements in paragraphs 5.3.5.2.2. and 5.3.5.3. the test/5.3.5.2.2. The number of tests prescribed in paragraph 5.3.5.2. may, at the request"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.2. Subject to the requirements in paragraphs 5.3.5.2.2. and 5.3.5.3. the test"
+                      },
+                      {
+                        "chapter_id": "5.3.5.3.",
+                        "chapter_title": "The number of tests prescribed in paragraph 5.3.5.2. may be reduced",
+                        "raw_text": "according to paragraphs 5.3.5.3.1. and 5.3.5.3.2.",
+                        "children": [
+                          {
+                            "chapter_id": "5.3.5.3.1.",
+                            "chapter_title": "Only one test is performed if the result obtained for each pollutant of the",
+                            "raw_text": "first test is less than or equal to 0.70 L.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.3. The number of tests prescribed in paragraph 5.3.5.2. may be reduced/5.3.5.3.1. Only one test is performed if the result obtained for each pollutant of the"
+                          },
+                          {
+                            "chapter_id": "5.3.5.3.2.",
+                            "chapter_title": "If the requirement of paragraph 5.3.5.3.1. is not satisfied, only two tests",
+                            "raw_text": "are performed if for each pollutant the result of the first test is less than\nor equal to 0.85 L and the sum of the first two results is less than or equal\nto 1.70 L and the result of the second test is less than or equal to L.\n\n(V1 £ 0.85 L and V1 + V2 £ 1.70 L and V2 £  L).",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.3. The number of tests prescribed in paragraph 5.3.5.2. may be reduced/5.3.5.3.2. If the requirement of paragraph 5.3.5.3.1. is not satisfied, only two tests"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon/5.3.5.3. The number of tests prescribed in paragraph 5.3.5.2. may be reduced"
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.5. Type VI test (Verifying the average low ambient temperature carbon"
+                  },
+                  {
+                    "chapter_id": "5.3.6.",
+                    "chapter_title": "Type V test (Durability of anti-pollution devices)",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "5.3.6.1.",
+                        "chapter_title": "This test shall be carried out on all vehicles referred to in paragraph 1 to",
+                        "raw_text": "which the test specified in paragraph 5.3.1. applies. The test represents\nan ageing test of 80,000 kilometres driven in accordance with the\nprogramme described in Annex 9 on a test track, on the road or on a\nchassis dynamometer.\n\ng\npage 22",
+                        "children": [
+                          {
+                            "chapter_id": "5.3.6.1.1.",
+                            "chapter_title": "Vehicles that can be fuelled either with petrol or with LPG or NG should",
+                            "raw_text": "be tested in the Type V test on petrol only.  In that case the deterioration\nfactor found with unleaded petrol will also be taken for LPG or NG.\n\nNotwithstanding the requirement of paragraph 5.3.6.1., a manufacturer may choose\nto have the deterioration factors from the following table used as an\nalternative to testing to paragraph 5.3.6.1.\n\n\nEngine Category\n\nDeterioration factors\nPollutant CO HC NOx HC + NOx (1) Particulates\nPositive-ignition\nEngine\n\n1.2\n\n1.2\n\n1.2\n\n-\n\n-\nCompression-ignition\nengine\n\n1.1\n\n-\n\n1\n\n1\n\n1.2\n\n(1) For compression ignition engined vehicles\n\nAt the request of the manufacturer, the technical service may carry out\nthe Type I test before the Type V test has been completed using the\ndeterioration factors in the table above. On completion of the Type V\ntest, the technical service may then amend the type approval results\nrecorded in Annex 2 by replacing the deterioration factors in the above\ntable with those measured in the Type V test.",
+                            "children": [],
+                            "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.6. Type V test (Durability of anti-pollution devices)/5.3.6.1. This test shall be carried out on all vehicles referred to in paragraph 1 to/5.3.6.1.1. Vehicles that can be fuelled either with petrol or with LPG or NG should"
+                          }
+                        ],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.6. Type V test (Durability of anti-pollution devices)/5.3.6.1. This test shall be carried out on all vehicles referred to in paragraph 1 to"
+                      },
+                      {
+                        "chapter_id": "5.3.6.3.",
+                        "chapter_title": "Deterioration factors are determined using either procedure in",
+                        "raw_text": "paragraph 5.3.6.1. or using the values in the table in paragraph 5.3.6.2.\nThe factors are used to establish compliance with the requirements of\nparagraphs 5.3.1.4. and 8.2.3.1.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.6. Type V test (Durability of anti-pollution devices)/5.3.6.3. Deterioration factors are determined using either procedure in"
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.6. Type V test (Durability of anti-pollution devices)"
+                  },
+                  {
+                    "chapter_id": "5.3.7.",
+                    "chapter_title": "Emission data required for roadworthiness testing",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "5.3.7.1.",
+                        "chapter_title": "This requirement applies to all vehicles powered by a positive-ignition",
+                        "raw_text": "engine for which type approval is sought in accordance with this\namendment.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.7. Emission data required for roadworthiness testing/5.3.7.1. This requirement applies to all vehicles powered by a positive-ignition"
+                      },
+                      {
+                        "chapter_id": "5.3.7.2.",
+                        "chapter_title": "When tested in accordance with Annex 5 (Type II test) at normal idling",
+                        "raw_text": "speed:\n\n(a) the carbon monoxide content by volume of the exhaust gases\nemitted shall be recorded,\n\n(b) the engine speed during the test shall be recorded, including\nany tolerances.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.7. Emission data required for roadworthiness testing/5.3.7.2. When tested in accordance with Annex 5 (Type II test) at normal idling"
+                      },
+                      {
+                        "chapter_id": "5.3.7.3.",
+                        "chapter_title": "When tested at 'high idle' speed (i. e. > 2,000 min.-1)",
+                        "raw_text": "Regulation No.83\npage 23\n\n\n(a) the carbon monoxide content by volume of the exhaust gases\nemitted shall be recorded,\n\n(b) the Lambda value (*) shall be recorded.\n\n(c) the engine speed during the test shall be recorded, including\nany tolerances.\n\n(*) The Lambda value shall be calculated using the simplified\nBrettschneider equation as follows:\n\n\n\n\nwhere:\n\n[ ] = Concentration in per cent volume\n\nK1 = Conversion factor for NDIR measurement to FID\nmeasurement (provided  by manufacturer of measuring\nequipment)\n\nHcv  =   Atomic ratio of hydrogen to carbon - for petrol  1.73\n- for LPG    2.53\n- for NG      4.0\n\nOcv  =   Atomic ratio of oxygen to carbon - for petrol  0.02\n- for LPG    0.0\n- for NG      0.0",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.7. Emission data required for roadworthiness testing/5.3.7.3. When tested at 'high idle' speed (i. e. > 2,000 min.-1)"
+                      },
+                      {
+                        "chapter_id": "5.3.7.4.",
+                        "chapter_title": "The engine oil temperature at the time of the test shall be measured and",
+                        "raw_text": "recorded.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.7. Emission data required for roadworthiness testing/5.3.7.4. The engine oil temperature at the time of the test shall be measured and"
+                      },
+                      {
+                        "chapter_id": "5.3.7.5.",
+                        "chapter_title": "The table in item 17 to Annex 2 shall be completed.",
+                        "raw_text": "",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.7. Emission data required for roadworthiness testing/5.3.7.5. The table in item 17 to Annex 2 shall be completed."
+                      },
+                      {
+                        "chapter_id": "5.3.7.6.",
+                        "chapter_title": "The manufacturer shall confirm the accuracy of the Lambda value",
+                        "raw_text": "recorded at the time of type approval in paragraph 5.3.7.3. as being\ng\npage 24\n\nrepresentative of typical production vehicles within 24 months of the date\nof the granting of type approval by the competent authority. An\nassessment shall be made based on surveys and studies of production\nvehicles.",
+                        "children": [],
+                        "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.7. Emission data required for roadworthiness testing/5.3.7.6. The manufacturer shall confirm the accuracy of the Lambda value"
+                      }
+                    ],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.7. Emission data required for roadworthiness testing"
+                  },
+                  {
+                    "chapter_id": "5.3.8.",
+                    "chapter_title": "OBD - test",
+                    "raw_text": "This test shall be carried out on all vehicles referred to in paragraph 1.\nThe test procedure described in Annex 11, paragraph 3. shall be\nfollowed.",
+                    "children": [],
+                    "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests/5.3.8. OBD - test"
+                  }
+                ],
+                "full_path": "5. SPECIFICATIONS AND TESTS/5.3. Description of tests"
+              }
+            ],
+            "full_path": "5. SPECIFICATIONS AND TESTS"
+          },
+          {
+            "chapter_id": "6.",
+            "chapter_title": "MODIFICATIONS OF THE VEHICLE TYPE",
+            "raw_text": "",
+            "children": [
+              {
+                "chapter_id": "6.1.",
+                "chapter_title": "Every modification of the vehicle type shall be notified to the",
+                "raw_text": "administrative department that approved the vehicle type. The\ndepartment may then either:",
+                "children": [
+                  {
+                    "chapter_id": "6.1.1.",
+                    "chapter_title": "consider that the modifications made are unlikely to have an appreciable",
+                    "raw_text": "adverse effect and that in any case the vehicle still complies with the\nrequirement; or",
+                    "children": [],
+                    "full_path": "6. MODIFICATIONS OF THE VEHICLE TYPE/6.1. Every modification of the vehicle type shall be notified to the/6.1.1. consider that the modifications made are unlikely to have an appreciable"
+                  },
+                  {
+                    "chapter_id": "6.1.2.",
+                    "chapter_title": "require a further test report from the technical service responsible for",
+                    "raw_text": "conducting the tests.",
+                    "children": [],
+                    "full_path": "6. MODIFICATIONS OF THE VEHICLE TYPE/6.1. Every modification of the vehicle type shall be notified to the/6.1.2. require a further test report from the technical service responsible for"
+                  }
+                ],
+                "full_path": "6. MODIFICATIONS OF THE VEHICLE TYPE/6.1. Every modification of the vehicle type shall be notified to the"
+              },
+              {
+                "chapter_id": "6.2.",
+                "chapter_title": "Confirmation or refusal of approval, specifying the alterations, shall be",
+                "raw_text": "communicated by the procedure specified in paragraph 4.3. above to the\nParties to the Agreement which apply this Regulation.",
+                "children": [],
+                "full_path": "6. MODIFICATIONS OF THE VEHICLE TYPE/6.2. Confirmation or refusal of approval, specifying the alterations, shall be"
+              },
+              {
+                "chapter_id": "6.3.",
+                "chapter_title": "The competent authority issuing the extension of approval shall assign a",
+                "raw_text": "series number to the extension and inform thereof the other Parties to the\n1958 Agreement applying this Regulation by means of a communication\nform conforming to the model in Annex 2 to this Regulation.",
+                "children": [],
+                "full_path": "6. MODIFICATIONS OF THE VEHICLE TYPE/6.3. The competent authority issuing the extension of approval shall assign a"
+              }
+            ],
+            "full_path": "6. MODIFICATIONS OF THE VEHICLE TYPE"
+          },
+          {
+            "chapter_id": "7.",
+            "chapter_title": "EXTENSION OF APPROVAL",
+            "raw_text": "In the case of modifications of the type approval pursuant to this\nRegulation, the following special provisions shall apply, if applicable.",
+            "children": [
+              {
+                "chapter_id": "7.1.",
+                "chapter_title": "Exhaust emission related extensions",
+                "raw_text": "(Type I, Type II and Type VI tests).",
+                "children": [
+                  {
+                    "chapter_id": "7.1.1.",
+                    "chapter_title": "Vehicle types of different reference masses",
+                    "raw_text": "",
+                    "children": [
+                      {
+                        "chapter_id": "7.1.1.1.",
+                        "chapter_title": "Approval granted to a vehicle type may be extended only to vehicle types",
+                        "raw_text": "of a reference mass requiring the use of the next two higher equivalent\ninertia categories or any lower equivalent inertia category.\nRegulation No.83\npage 25",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.1. Exhaust emission related extensions/7.1.1. Vehicle types of different reference masses/7.1.1.1. Approval granted to a vehicle type may be extended only to vehicle types"
+                      },
+                      {
+                        "chapter_id": "7.1.1.2.",
+                        "chapter_title": "In the case of vehicles of category N1 and vehicles of category M referred",
+                        "raw_text": "to in note 2 of paragraph 5.3.1.4., if the reference mass of the vehicle\ntype for which extension of the approval is requested requires the use of\nequivalent inertia lower than that used for the vehicle type already\napproved, extension of the approval is granted if the masses of the\npollutants obtained from the vehicle already approved are within the\nlimits prescribed for the vehicle for which extension of the approval is\nrequested.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.1. Exhaust emission related extensions/7.1.1. Vehicle types of different reference masses/7.1.1.2. In the case of vehicles of category N1 and vehicles of category M referred"
+                      }
+                    ],
+                    "full_path": "7. EXTENSION OF APPROVAL/7.1. Exhaust emission related extensions/7.1.1. Vehicle types of different reference masses"
+                  },
+                  {
+                    "chapter_id": "7.1.2.",
+                    "chapter_title": "Vehicle types with different overall gear ratios",
+                    "raw_text": "Approval granted to a vehicle type may under the following conditions\nbe extended to vehicle types which differ from the type approved only in\nrespect of their transmission ratios:",
+                    "children": [
+                      {
+                        "chapter_id": "7.1.2.1.",
+                        "chapter_title": "For each of the transmission ratios used in the Type I and Type VI test, it",
+                        "raw_text": "is necessary to determine the proportion,\n\n\n\nwhere, at an engine speed of 1,000 min-1, V1 is the speed of the vehicle\ntype approved and V2 is the speed of the vehicle type for which extension\nof the approval is requested.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.1. Exhaust emission related extensions/7.1.2. Vehicle types with different overall gear ratios/7.1.2.1. For each of the transmission ratios used in the Type I and Type VI test, it"
+                      },
+                      {
+                        "chapter_id": "7.1.2.2.",
+                        "chapter_title": "If, for each gear ratio, E <ṥ 8 per cent, the extension is granted without",
+                        "raw_text": "repeating the Type I and Type VI tests.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.1. Exhaust emission related extensions/7.1.2. Vehicle types with different overall gear ratios/7.1.2.2. If, for each gear ratio, E <ṥ 8 per cent, the extension is granted without"
+                      },
+                      {
+                        "chapter_id": "7.1.2.3.",
+                        "chapter_title": "If, for at least one gear ratio, E > 8 per cent and if for each gear ratio E",
+                        "raw_text": "r 13 per cent the Type I and Type VI test shall be repeated, but may be\nperformed in a laboratory chosen by the manufacturer subject to the\napproval of the technical service.  The report of the tests shall be sent to\nthe technical service responsible for the type approval tests.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.1. Exhaust emission related extensions/7.1.2. Vehicle types with different overall gear ratios/7.1.2.3. If, for at least one gear ratio, E > 8 per cent and if for each gear ratio E"
+                      }
+                    ],
+                    "full_path": "7. EXTENSION OF APPROVAL/7.1. Exhaust emission related extensions/7.1.2. Vehicle types with different overall gear ratios"
+                  },
+                  {
+                    "chapter_id": "7.1.3.",
+                    "chapter_title": "Vehicle types of different reference masses and different overall",
+                    "raw_text": "transmission ratios\n\nApproval granted to a vehicle type may be extended to vehicle types\ndiffering from the approved type only in respect of their reference mass\nand their overall transmission ratios, provided that all the conditions\nprescribed in paragraphs 7.1.1. and 7.1.2. are fulfilled.\ng\npage 26",
+                    "children": [],
+                    "full_path": "7. EXTENSION OF APPROVAL/7.1. Exhaust emission related extensions/7.1.3. Vehicle types of different reference masses and different overall"
+                  },
+                  {
+                    "chapter_id": "7.1.4.",
+                    "chapter_title": "Note:  When a vehicle type has been approved in accordance with",
+                    "raw_text": "paragraphs 7.1.1. to 7.1.3., such approval may not be extended to other\nvehicle types.",
+                    "children": [],
+                    "full_path": "7. EXTENSION OF APPROVAL/7.1. Exhaust emission related extensions/7.1.4. Note:  When a vehicle type has been approved in accordance with"
+                  }
+                ],
+                "full_path": "7. EXTENSION OF APPROVAL/7.1. Exhaust emission related extensions"
+              },
+              {
+                "chapter_id": "7.2.",
+                "chapter_title": "Evaporative emissions (Type IV test)",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "7.2.1.",
+                    "chapter_title": "Approval granted to a vehicle type equipped with a control system for",
+                    "raw_text": "evaporative emissions may be extended under the following conditions:",
+                    "children": [
+                      {
+                        "chapter_id": "7.2.1.1.",
+                        "chapter_title": "The basic principle of fuel/air metering (e.g. single point injection,",
+                        "raw_text": "carburetor) shall be the same.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.2. Evaporative emissions (Type IV test)/7.2.1. Approval granted to a vehicle type equipped with a control system for/7.2.1.1. The basic principle of fuel/air metering (e.g. single point injection,"
+                      },
+                      {
+                        "chapter_id": "7.2.1.2.",
+                        "chapter_title": "The shape of the fuel tank and the material of the fuel tank and liquid fuel",
+                        "raw_text": "hoses shall be identical. The worst-case family with regard to the cross-\nparagraph and approximate hose length shall be tested. Whether non-\nidentical vapour/liquid separators are acceptable is decided by the\ntechnical service responsible for the type approval tests. The fuel tank\nvolume shall be within a range of $ 10 per cent. The setting of the tank\nrelief valve shall be identical.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.2. Evaporative emissions (Type IV test)/7.2.1. Approval granted to a vehicle type equipped with a control system for/7.2.1.2. The shape of the fuel tank and the material of the fuel tank and liquid fuel"
+                      },
+                      {
+                        "chapter_id": "7.2.1.3.",
+                        "chapter_title": "The method of storage of the fuel vapour shall be identical, i.e. trap form",
+                        "raw_text": "and volume, storage medium, air cleaner (if used for evaporative\nemission control), etc.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.2. Evaporative emissions (Type IV test)/7.2.1. Approval granted to a vehicle type equipped with a control system for/7.2.1.3. The method of storage of the fuel vapour shall be identical, i.e. trap form"
+                      },
+                      {
+                        "chapter_id": "7.2.1.4.",
+                        "chapter_title": "The carburetor bowl fuel volume shall be within a $ 10 millilitre range.",
+                        "raw_text": "",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.2. Evaporative emissions (Type IV test)/7.2.1. Approval granted to a vehicle type equipped with a control system for/7.2.1.4. The carburetor bowl fuel volume shall be within a $ 10 millilitre range."
+                      },
+                      {
+                        "chapter_id": "7.2.1.5.",
+                        "chapter_title": "The method of purging of the stored vapour shall be identical (e.g. air",
+                        "raw_text": "flow, start point or purge volume over driving cycle).",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.2. Evaporative emissions (Type IV test)/7.2.1. Approval granted to a vehicle type equipped with a control system for/7.2.1.5. The method of purging of the stored vapour shall be identical (e.g. air"
+                      },
+                      {
+                        "chapter_id": "7.2.1.6.",
+                        "chapter_title": "The method of sealing and venting of the fuel metering system shall be",
+                        "raw_text": "identical.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.2. Evaporative emissions (Type IV test)/7.2.1. Approval granted to a vehicle type equipped with a control system for/7.2.1.6. The method of sealing and venting of the fuel metering system shall be"
+                      }
+                    ],
+                    "full_path": "7. EXTENSION OF APPROVAL/7.2. Evaporative emissions (Type IV test)/7.2.1. Approval granted to a vehicle type equipped with a control system for"
+                  },
+                  {
+                    "chapter_id": "7.2.2.",
+                    "chapter_title": "Further notes:",
+                    "raw_text": "(i) different engine sizes are allowed;\n\n(ii) different engine powers are allowed;\n\n(iii) automatic and manual gearboxes, two and four wheel\ntransmissions are allowed;\n\n(iv) different body styles are allowed:\n\n(v) different wheel and tyre sizes are allowed;\n\nRegulation No.83\npage 27",
+                    "children": [],
+                    "full_path": "7. EXTENSION OF APPROVAL/7.2. Evaporative emissions (Type IV test)/7.2.2. Further notes:"
+                  }
+                ],
+                "full_path": "7. EXTENSION OF APPROVAL/7.2. Evaporative emissions (Type IV test)"
+              },
+              {
+                "chapter_id": "7.3.",
+                "chapter_title": "Durability of anti-pollution devices (Type V test)",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "7.3.1.",
+                    "chapter_title": "Approval granted to a vehicle type may be extended to different vehicle",
+                    "raw_text": "types, provided that the engine/pollution control system combination is\nidentical to that of the vehicle already approved. To this end, those\nvehicle types whose parameters described below are identical or remain\nwithin the limit values prescribed are considered to belong to the same\nengine/pollution control system combination.",
+                    "children": [
+                      {
+                        "chapter_id": "7.3.1.1.",
+                        "chapter_title": "Engine:",
+                        "raw_text": "number of cylinders,\n\nengine capacity (r 15 per cent),\n\nconfiguration of the cylinder block,\n\nnumber of valves,\n\nfuel system,\n\ntype of cooling system,\n\ncombustion process,\n\ncylinder bore centre to centre dimensions.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.3. Durability of anti-pollution devices (Type V test)/7.3.1. Approval granted to a vehicle type may be extended to different vehicle/7.3.1.1. Engine:"
+                      },
+                      {
+                        "chapter_id": "7.3.1.2.",
+                        "chapter_title": "Pollution control system:",
+                        "raw_text": "Catalytic converters:\n\nnumber of catalytic converters and elements,\n\nsize and shape of catalytic converters (volume of monolith r\n10per cent),\ntype of catalytic activity (oxidising, three-way,...),\n\nprecious metal load (identical or higher),\n\nprecious metal ratio (r 15 per cent),\n\nsubstrate (structure and material),\n\ng\npage 28\n\ncell density,\n\ntype of casing for the catalytic converter(s),\n\nlocation of catalytic converters (position and dimension in the\nexhaust system, that does not produce a temperature variation of\nmore than 50 K at the inlet of the catalytic converter).\n\nThis temperature variation shall be checked under stabilised\nconditions at a speed of 120 km/h and the load setting of Type I\ntest.\n\nAir injection: with or without\ntype (pulsair, air\npumps,...).\n\nExhaust gas recirculation (EGR):  with or without.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.3. Durability of anti-pollution devices (Type V test)/7.3.1. Approval granted to a vehicle type may be extended to different vehicle/7.3.1.2. Pollution control system:"
+                      },
+                      {
+                        "chapter_id": "7.3.1.3.",
+                        "chapter_title": "Inertia category: the two inertia categories immediately above and any",
+                        "raw_text": "inertia category below.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.3. Durability of anti-pollution devices (Type V test)/7.3.1. Approval granted to a vehicle type may be extended to different vehicle/7.3.1.3. Inertia category: the two inertia categories immediately above and any"
+                      },
+                      {
+                        "chapter_id": "7.3.1.4.",
+                        "chapter_title": "The durability test may be achieved by using a vehicle, the body style,",
+                        "raw_text": "gear box (automatic or manual) and size of the wheels or tyres of which\nare different from those of the vehicle type for which the type approval is\nsought.",
+                        "children": [],
+                        "full_path": "7. EXTENSION OF APPROVAL/7.3. Durability of anti-pollution devices (Type V test)/7.3.1. Approval granted to a vehicle type may be extended to different vehicle/7.3.1.4. The durability test may be achieved by using a vehicle, the body style,"
+                      }
+                    ],
+                    "full_path": "7. EXTENSION OF APPROVAL/7.3. Durability of anti-pollution devices (Type V test)/7.3.1. Approval granted to a vehicle type may be extended to different vehicle"
+                  }
+                ],
+                "full_path": "7. EXTENSION OF APPROVAL/7.3. Durability of anti-pollution devices (Type V test)"
+              },
+              {
+                "chapter_id": "7.4.",
+                "chapter_title": "On-board diagnostics",
+                "raw_text": "",
+                "children": [
+                  {
+                    "chapter_id": "7.4.1.",
+                    "chapter_title": "Approval granted to a vehicle type with respect to the OBD system may",
+                    "raw_text": "be extended to different vehicle types belonging to the same vehicle-\nOBD family as described in Annex 11, Appendix 2. The engine emission\ncontrol system shall be identical to that of the vehicle already approved\nand comply with the description of the OBD engine family given in\nAnnex 11, Appendix 2, regardless of the following vehicle\ncharacteristics:\n\nengine accessories,\n\ntyres,\n\nequivalent inertia,\n\ncooling system,\n\noverall gear ratio,\n\nRegulation No.83\npage 29\n\n\ntransmission type,\n\ntype of bodywork.",
+                    "children": [],
+                    "full_path": "7. EXTENSION OF APPROVAL/7.4. On-board diagnostics/7.4.1. Approval granted to a vehicle type with respect to the OBD system may"
+                  }
+                ],
+                "full_path": "7. EXTENSION OF APPROVAL/7.4. On-board diagnostics"
+              }
+            ],
+            "full_path": "7. EXTENSION OF APPROVAL"
+          }
+        ]
+      }
+    ]
+  }
+]

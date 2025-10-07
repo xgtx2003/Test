@@ -1,0 +1,4362 @@
+[
+  {
+    "file": "regulation",
+    "section": "MAIN",
+    "chapters": [
+      {
+        "chapter_id": "1.1.2.",
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": "<=",
+            "value": "3500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "1.1.4.",
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": "<=",
+            "value": "3500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "1.1.5.",
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": "<",
+            "value": "400",
+            "relative_to": null,
+            "unit": "kg"
+          },
+          {
+            "item": "maximum design speed",
+            "constraint": "<",
+            "value": "50",
+            "relative_to": null,
+            "unit": "km/h"
+          },
+          {
+            "item": "unladen mass for vehicles intended for carrying passengers",
+            "constraint": "<=",
+            "value": "400",
+            "relative_to": null,
+            "unit": "kg"
+          },
+          {
+            "item": "unladen mass for vehicles intended for carrying goods",
+            "constraint": "<=",
+            "value": "550",
+            "relative_to": null,
+            "unit": "kg"
+          },
+          {
+            "item": "maximum engine power",
+            "constraint": "<=",
+            "value": "15",
+            "relative_to": null,
+            "unit": "kW"
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "1.1.6.",
+        "parameters": [
+          {
+            "item": "reference mass",
+            "constraint": "<=",
+            "value": "2840",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "7",
+            "anchor_text": "conditions of paragraph 7 for extension of approval"
+          },
+          {
+            "ref_type": "external",
+            "doc_id": "R.E.3",
+            "target_id": "Annex 7",
+            "anchor_text": "Vehicle categories as defined in Consolidated Resolution on the Construction of Vehicles"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "1.1.7.",
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": "Regulation No.49",
+            "target_id": null,
+            "anchor_text": "type-approved pursuant to Regulation No.49"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "2.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]",
+        "topic_keywords": [
+          "Definitions"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "2.1.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Vehicle type]",
+        "topic_keywords": [
+          "Vehicle type"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "2.1.1.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Vehicle type]",
+        "topic_keywords": [
+          "Vehicle type"
+        ],
+        "context_keywords": [
+          "equivalent inertia",
+          "reference mass"
+        ]
+      },
+      {
+        "chapter_id": "2.1.2.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Vehicle type]",
+        "topic_keywords": [
+          "Vehicle type"
+        ],
+        "context_keywords": [
+          "engine characteristics",
+          "vehicle characteristics"
+        ]
+      },
+      {
+        "chapter_id": "2.2.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Reference mass]",
+        "topic_keywords": [
+          "Reference mass"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "2.2.1.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Unladen mass]",
+        "topic_keywords": [
+          "Unladen mass"
+        ],
+        "context_keywords": [
+          "vehicle mass",
+          "running order",
+          "fuel tank",
+          "tools",
+          "spare wheel"
+        ]
+      },
+      {
+        "chapter_id": "2.3.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Maximum mass]",
+        "topic_keywords": [
+          "Maximum mass"
+        ],
+        "context_keywords": [
+          "technically permissible mass",
+          "vehicle manufacturer",
+          "national administration"
+        ]
+      },
+      {
+        "chapter_id": "2.4.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Gaseous pollutants]",
+        "topic_keywords": [
+          "Gaseous pollutants"
+        ],
+        "context_keywords": [
+          "carbon monoxide",
+          "oxides of nitrogen",
+          "hydrocarbons",
+          "petrol",
+          "diesel",
+          "LPG",
+          "NG"
+        ]
+      },
+      {
+        "chapter_id": "2.5.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Particulate pollutants]",
+        "topic_keywords": [
+          "Particulate pollutants"
+        ],
+        "context_keywords": [
+          "exhaust gas components",
+          "diluted exhaust gas",
+          "filters",
+          "temperature"
+        ]
+      },
+      {
+        "chapter_id": "2.6.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Exhaust emissions]",
+        "topic_keywords": [
+          "Exhaust emissions"
+        ],
+        "context_keywords": [
+          "positive-ignition engines",
+          "compression-ignition engines",
+          "gaseous pollutants",
+          "particulate pollutants"
+        ]
+      },
+      {
+        "chapter_id": "2.7.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Evaporative emissions]",
+        "topic_keywords": [
+          "Evaporative emissions"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "2.7.1.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Tank breathing losses]",
+        "topic_keywords": [
+          "Tank breathing losses"
+        ],
+        "context_keywords": [
+          "hydrocarbon emissions",
+          "temperature changes",
+          "fuel tank"
+        ]
+      },
+      {
+        "chapter_id": "2.7.2.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Hot soak losses]",
+        "topic_keywords": [
+          "Hot soak losses"
+        ],
+        "context_keywords": [
+          "hydrocarbon emissions",
+          "fuel system",
+          "stationary vehicle",
+          "driving period"
+        ]
+      },
+      {
+        "chapter_id": "2.8.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Engine crankcase]",
+        "topic_keywords": [
+          "Engine crankcase"
+        ],
+        "context_keywords": [
+          "engine spaces",
+          "oil sump",
+          "gases",
+          "vapour"
+        ]
+      },
+      {
+        "chapter_id": "2.9.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Cold start device]",
+        "topic_keywords": [
+          "Cold start device"
+        ],
+        "context_keywords": [
+          "air-fuel mixture",
+          "engine start"
+        ]
+      },
+      {
+        "chapter_id": "2.10.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Starting aid]",
+        "topic_keywords": [
+          "Starting aid"
+        ],
+        "context_keywords": [
+          "engine start up",
+          "glow plug",
+          "injection timing"
+        ]
+      },
+      {
+        "chapter_id": "2.11.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Engine capacity]",
+        "topic_keywords": [
+          "Engine capacity"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "2.11.1.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Engine capacity]",
+        "topic_keywords": [
+          "Engine capacity"
+        ],
+        "context_keywords": [
+          "reciprocating piston engines",
+          "nominal engine swept volume"
+        ]
+      },
+      {
+        "chapter_id": "2.11.2.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Engine capacity]",
+        "topic_keywords": [
+          "Engine capacity"
+        ],
+        "context_keywords": [
+          "rotary piston engines",
+          "Wankel",
+          "swept volume",
+          "combustion chamber"
+        ]
+      },
+      {
+        "chapter_id": "2.12.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Pollution control devices]",
+        "topic_keywords": [
+          "Pollution control devices"
+        ],
+        "context_keywords": [
+          "exhaust emissions",
+          "evaporative emissions"
+        ]
+      },
+      {
+        "chapter_id": "2.13.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[OBD]",
+        "topic_keywords": [
+          "OBD"
+        ],
+        "context_keywords": [
+          "on-board diagnostic system",
+          "emission control",
+          "fault codes"
+        ]
+      },
+      {
+        "chapter_id": "2.14.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[In-service test]",
+        "topic_keywords": [
+          "In-service test"
+        ],
+        "context_keywords": [
+          "conformity evaluation",
+          "test"
+        ]
+      },
+      {
+        "chapter_id": "2.15.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Properly maintained and used]",
+        "topic_keywords": [
+          "Properly maintained and used"
+        ],
+        "context_keywords": [
+          "test vehicle",
+          "acceptance criteria"
+        ]
+      },
+      {
+        "chapter_id": "2.16.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Defeat device]",
+        "topic_keywords": [
+          "Defeat device"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "2.16.1.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Defeat device]",
+        "topic_keywords": [
+          "Defeat device"
+        ],
+        "context_keywords": [
+          "engine protection",
+          "damage",
+          "accident",
+          "safe operation"
+        ]
+      },
+      {
+        "chapter_id": "2.16.2.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Defeat device]",
+        "topic_keywords": [
+          "Defeat device"
+        ],
+        "context_keywords": [
+          "engine starting",
+          "function"
+        ]
+      },
+      {
+        "chapter_id": "2.16.3.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Defeat device]",
+        "topic_keywords": [
+          "Defeat device"
+        ],
+        "context_keywords": [
+          "Type I test",
+          "Type VI test",
+          "procedures"
+        ]
+      },
+      {
+        "chapter_id": "2.17.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Family of vehicles]",
+        "topic_keywords": [
+          "Family of vehicles"
+        ],
+        "context_keywords": [
+          "vehicle types",
+          "parent vehicle"
+        ]
+      },
+      {
+        "chapter_id": "2.18.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Fuel requirement by the engine]",
+        "topic_keywords": [
+          "Fuel requirement by the engine"
+        ],
+        "context_keywords": [
+          "petrol",
+          "LPG",
+          "NG",
+          "diesel fuel"
+        ]
+      },
+      {
+        "chapter_id": "2.19.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Approval of a vehicle]",
+        "topic_keywords": [
+          "Approval of a vehicle"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "2.19.1.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Approval of a vehicle]",
+        "topic_keywords": [
+          "Approval of a vehicle"
+        ],
+        "context_keywords": [
+          "exhaust emissions",
+          "evaporative emissions",
+          "crankcase emissions",
+          "durability",
+          "cold start emissions",
+          "on-board diagnostics",
+          "unleaded petrol",
+          "LPG",
+          "NG"
+        ]
+      },
+      {
+        "chapter_id": "2.19.2.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Approval of a vehicle]",
+        "topic_keywords": [
+          "Approval of a vehicle"
+        ],
+        "context_keywords": [
+          "gaseous pollutants",
+          "particulate pollutants",
+          "durability",
+          "on-board diagnostics",
+          "diesel fuel"
+        ]
+      },
+      {
+        "chapter_id": "2.19.3.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Approval of a vehicle]",
+        "topic_keywords": [
+          "Approval of a vehicle"
+        ],
+        "context_keywords": [
+          "gaseous pollutants",
+          "crankcase emissions",
+          "durability",
+          "cold start emissions",
+          "on-board diagnostics",
+          "LPG",
+          "NG"
+        ]
+      },
+      {
+        "chapter_id": "2.20.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Periodically regenerating system]",
+        "topic_keywords": [
+          "Periodically regenerating system"
+        ],
+        "context_keywords": [
+          "anti-pollution device",
+          "catalytic converter",
+          "particulate trap",
+          "regeneration process",
+          "emission standards",
+          "test procedure"
+        ]
+      },
+      {
+        "chapter_id": "2.21.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Hybrid vehicles (HV)]",
+        "topic_keywords": [
+          "Hybrid vehicles",
+          "HV"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "2.21.1.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Hybrid vehicles (HV)]",
+        "topic_keywords": [
+          "Hybrid vehicles",
+          "HV"
+        ],
+        "context_keywords": [
+          "energy converters",
+          "energy storage systems",
+          "vehicle propulsion"
+        ]
+      },
+      {
+        "chapter_id": "2.21.2.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Hybrid electric vehicles (HEV)]",
+        "topic_keywords": [
+          "Hybrid electric vehicles",
+          "HEV"
+        ],
+        "context_keywords": [
+          "mechanical propulsion",
+          "consumable fuel",
+          "electrical energy storage",
+          "battery",
+          "capacitor",
+          "flywheel"
+        ]
+      },
+      {
+        "chapter_id": "2.22.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Mono-fuel vehicle]",
+        "topic_keywords": [
+          "Mono-fuel vehicle"
+        ],
+        "context_keywords": [
+          "LPG",
+          "NG",
+          "petrol system",
+          "emergency purposes"
+        ]
+      },
+      {
+        "chapter_id": "2.23.",
+        "scope": "[Vehicle emission control systems]-[DEFINITIONS]-[Bi-fuel vehicle]",
+        "topic_keywords": [
+          "Bi-fuel vehicle"
+        ],
+        "context_keywords": [
+          "petrol",
+          "LPG",
+          "NG"
+        ]
+      },
+      {
+        "chapter_id": "3.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Application Process]",
+        "topic_keywords": [
+          "application for approval",
+          "vehicle type approval"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "3.1.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Application Submission]",
+        "topic_keywords": [
+          "application submission",
+          "manufacturer declaration"
+        ],
+        "context_keywords": [
+          "vehicle manufacturer",
+          "authorized representative"
+        ]
+      },
+      {
+        "chapter_id": "3.1.1.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Application Submission] - [OBD System Additional Information]",
+        "topic_keywords": [
+          "OBD system",
+          "additional information"
+        ],
+        "context_keywords": [
+          "OBD system application"
+        ]
+      },
+      {
+        "chapter_id": "3.1.1.1.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Application Submission] - [OBD System Additional Information] - [Manufacturer Declaration]",
+        "topic_keywords": [
+          "manufacturer declaration",
+          "OBD system"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "3.1.1.1.1.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Application Submission] - [OBD System Additional Information] - [Manufacturer Declaration]",
+        "topic_keywords": [
+          "misfire percentage",
+          "positive-ignition engines",
+          "emission limits exceedance"
+        ],
+        "context_keywords": [
+          "firing events",
+          "emission limits"
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": "Annex 11",
+            "target_id": "3.3.2.",
+            "anchor_text": "limits for emissions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": "Annex 4",
+            "target_id": "5.3.1.",
+            "anchor_text": "Type I test"
+          }
+        ]
+      },
+      {
+        "chapter_id": "3.1.1.1.2.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Application Submission] - [OBD System Additional Information] - [Manufacturer Declaration]",
+        "topic_keywords": [
+          "misfire percentage",
+          "positive-ignition engines",
+          "catalyst overheating"
+        ],
+        "context_keywords": [
+          "exhaust catalyst",
+          "irreversible damage"
+        ]
+      },
+      {
+        "chapter_id": "3.1.1.2.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Application Submission] - [OBD System Additional Information]",
+        "topic_keywords": [
+          "OBD system functional description",
+          "emission control system components"
+        ],
+        "context_keywords": [
+          "sensors",
+          "actuators",
+          "components"
+        ]
+      },
+      {
+        "chapter_id": "3.1.1.3.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Application Submission] - [OBD System Additional Information]",
+        "topic_keywords": [
+          "malfunction indicator",
+          "OBD system",
+          "fault signaling"
+        ],
+        "context_keywords": [
+          "driver",
+          "fault presence"
+        ]
+      },
+      {
+        "chapter_id": "3.1.1.4.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Application Submission] - [OBD System Additional Information]",
+        "topic_keywords": [
+          "vehicle family particulars",
+          "OBD system approval"
+        ],
+        "context_keywords": [
+          "vehicle family"
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": "Annex 11",
+            "target_id": "Appendix 2",
+            "anchor_text": "particulars of the vehicle family"
+          }
+        ]
+      },
+      {
+        "chapter_id": "3.1.2.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Application Submission] - [Test Vehicle Submission]",
+        "topic_keywords": [
+          "test vehicle submission",
+          "OBD system approval",
+          "technical service"
+        ],
+        "context_keywords": [
+          "vehicle type",
+          "vehicle family",
+          "technical service"
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": "Annex 11",
+            "target_id": "3.",
+            "anchor_text": "tests described"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": "Annex 11",
+            "target_id": "Appendix 2",
+            "anchor_text": "vehicle type or vehicle family described"
+          }
+        ]
+      },
+      {
+        "chapter_id": "3.2.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Information Document]",
+        "topic_keywords": [
+          "information document model",
+          "emission-related information"
+        ],
+        "context_keywords": [
+          "exhaust emissions",
+          "evaporative emissions",
+          "durability",
+          "OBD system"
+        ]
+      },
+      {
+        "chapter_id": "3.2.1.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Information Document]",
+        "topic_keywords": [
+          "other type approvals",
+          "extension of approvals",
+          "deterioration factors"
+        ],
+        "context_keywords": [
+          "copies",
+          "relevant data"
+        ]
+      },
+      {
+        "chapter_id": "3.3.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Approval] - [Test Vehicle Submission]",
+        "topic_keywords": [
+          "test vehicle submission",
+          "approval tests"
+        ],
+        "context_keywords": [
+          "vehicle type",
+          "technical service"
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.",
+            "anchor_text": "tests described"
+          }
+        ]
+      },
+      {
+        "chapter_id": "4.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL]",
+        "topic_keywords": [
+          "approval process"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "4.1.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Granting conditions]",
+        "topic_keywords": [
+          "approval granting",
+          "compliance condition"
+        ],
+        "context_keywords": [
+          "vehicle type",
+          "requirements"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.",
+            "anchor_text": "requirements"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "4.2.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval number assignment]",
+        "topic_keywords": [
+          "approval number",
+          "assignment rules"
+        ],
+        "context_keywords": [
+          "series of amendments",
+          "contracting party"
+        ]
+      },
+      {
+        "chapter_id": "4.3.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval notice communication]",
+        "topic_keywords": [
+          "approval notice",
+          "communication"
+        ],
+        "context_keywords": [
+          "parties to agreement"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Annex 2",
+            "anchor_text": "form conforming to the model"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "4.3.1.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval notice communication] - [Amendment notification]",
+        "topic_keywords": [
+          "amendment notification",
+          "compliance information"
+        ],
+        "context_keywords": [
+          "new limit values",
+          "vehicle types"
+        ]
+      },
+      {
+        "chapter_id": "4.4.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval mark affixing]",
+        "topic_keywords": [
+          "approval mark",
+          "affixing"
+        ],
+        "context_keywords": [
+          "international approval mark",
+          "conspicuously",
+          "accessible place"
+        ]
+      },
+      {
+        "chapter_id": "4.4.1.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval mark affixing] - [Mark composition]",
+        "topic_keywords": [
+          "approval mark",
+          "circle",
+          "letter E",
+          "country number"
+        ],
+        "context_keywords": [
+          "circle",
+          "letter E",
+          "distinguishing number"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "4.4.3.",
+            "anchor_text": "footnote for country distinguishing numbers"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "4.4.2.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval mark affixing] - [Mark composition]",
+        "topic_keywords": [
+          "regulation number",
+          "letter R",
+          "approval number"
+        ],
+        "context_keywords": [
+          "dash",
+          "right of circle"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "4.4.1.",
+            "anchor_text": "circle described"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "4.4.3.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval mark affixing] - [Mark composition]",
+        "topic_keywords": [
+          "additional character",
+          "emission limit values",
+          "type I test"
+        ],
+        "context_keywords": [
+          "roman numerals",
+          "row A",
+          "row B"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.4.1.",
+            "anchor_text": "table for Type I test limits"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "4.5.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval mark for multiple regulations]",
+        "topic_keywords": [
+          "multiple regulations",
+          "approval mark",
+          "vertical columns"
+        ],
+        "context_keywords": [
+          "other regulations",
+          "symbol repetition"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "4.4.1.",
+            "anchor_text": "symbol prescribed"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "4.6.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval mark properties]",
+        "topic_keywords": [
+          "legibility",
+          "indelibility"
+        ],
+        "context_keywords": [
+          "clearly legible",
+          "indelible"
+        ]
+      },
+      {
+        "chapter_id": "4.7.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval mark placement]",
+        "topic_keywords": [
+          "placement",
+          "vehicle data plate"
+        ],
+        "context_keywords": [
+          "close to",
+          "on"
+        ]
+      },
+      {
+        "chapter_id": "4.8.",
+        "scope": "[Vehicle emission control systems]-[APPROVAL] - [Approval mark examples]",
+        "topic_keywords": [
+          "examples",
+          "arrangements"
+        ],
+        "context_keywords": [],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Annex 3",
+            "anchor_text": "examples of arrangements of the approval mark"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "5.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]",
+        "topic_keywords": [
+          "Emission specifications",
+          "Test procedures"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]",
+        "topic_keywords": [
+          "General provisions"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.1.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Component design]",
+        "topic_keywords": [
+          "Emission-related components",
+          "Design and construction"
+        ],
+        "context_keywords": [
+          "Normal use",
+          "Vibration"
+        ]
+      },
+      {
+        "chapter_id": "5.1.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Emission limitation]",
+        "topic_keywords": [
+          "Emission control",
+          "Durability"
+        ],
+        "context_keywords": [
+          "Exhaust emissions",
+          "Evaporative emissions",
+          "Deterioration factors"
+        ]
+      },
+      {
+        "chapter_id": "5.1.2.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Defeat device]",
+        "topic_keywords": [
+          "Defeat device",
+          "Prohibition"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.1.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Petrol tank inlet orifices]",
+        "topic_keywords": [
+          "Petrol tank inlet",
+          "Design requirements"
+        ],
+        "context_keywords": [
+          "Nozzle diameter",
+          "Unleaded petrol"
+        ]
+      },
+      {
+        "chapter_id": "5.1.3.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Petrol tank inlet orifices]-[Nozzle protection]",
+        "topic_keywords": [
+          "Inlet orifice design",
+          "Nozzle compatibility"
+        ],
+        "context_keywords": [
+          "Delivery nozzle",
+          "External diameter"
+        ],
+        "parameters": [
+          {
+            "item": "petrol pump delivery nozzle external diameter",
+            "constraint": ">=",
+            "value": "23.6",
+            "relative_to": null,
+            "unit": "mm"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.1.3.2.",
+            "anchor_text": "Subject to paragraph 5.1.3.2."
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "5.1.3.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Petrol tank inlet orifices]-[Exemption conditions]",
+        "topic_keywords": [
+          "Exemption conditions",
+          "Leaded petrol compatibility"
+        ],
+        "context_keywords": [
+          "Device protection",
+          "Marking requirements"
+        ]
+      },
+      {
+        "chapter_id": "5.1.3.2.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Petrol tank inlet orifices]-[Exemption conditions]-[Device protection]",
+        "topic_keywords": [
+          "Leaded petrol",
+          "Emission control device"
+        ],
+        "context_keywords": [
+          "Adverse effects"
+        ]
+      },
+      {
+        "chapter_id": "5.1.3.2.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Petrol tank inlet orifices]-[Exemption conditions]-[Marking requirements]",
+        "topic_keywords": [
+          "Unleaded petrol symbol",
+          "Marking"
+        ],
+        "context_keywords": [
+          "ISO standard",
+          "Visible position"
+        ]
+      },
+      {
+        "chapter_id": "5.1.4.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Evaporative emissions prevention]",
+        "topic_keywords": [
+          "Evaporative emissions",
+          "Fuel spillage prevention"
+        ],
+        "context_keywords": [
+          "Missing fuel filler cap"
+        ]
+      },
+      {
+        "chapter_id": "5.1.4.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Evaporative emissions prevention]-[Non-removable cap]",
+        "topic_keywords": [
+          "Automatic fuel filler cap",
+          "Non-removable"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.1.4.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Evaporative emissions prevention]-[Design features]",
+        "topic_keywords": [
+          "Design features",
+          "Evaporative emissions control"
+        ],
+        "context_keywords": [
+          "Missing cap"
+        ]
+      },
+      {
+        "chapter_id": "5.1.4.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Evaporative emissions prevention]-[Alternative provisions]",
+        "topic_keywords": [
+          "Alternative provisions",
+          "Fuel filler cap security"
+        ],
+        "context_keywords": [
+          "Tethered cap",
+          "Locking key"
+        ]
+      },
+      {
+        "chapter_id": "5.1.5.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Electronic system security]",
+        "topic_keywords": [
+          "Electronic system security",
+          "Tamper protection"
+        ],
+        "context_keywords": [
+          "Emission control computer",
+          "Reprogrammable codes"
+        ]
+      },
+      {
+        "chapter_id": "5.1.5.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Electronic system security]-[Modification deterrence]",
+        "topic_keywords": [
+          "Computer modification",
+          "Authorised changes"
+        ],
+        "context_keywords": [
+          "Diagnosis",
+          "Servicing",
+          "Retrofitting"
+        ]
+      },
+      {
+        "chapter_id": "5.1.5.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Electronic system security]-[Parameter change prevention]",
+        "topic_keywords": [
+          "Engine operating parameters",
+          "Change prevention"
+        ],
+        "context_keywords": [
+          "Specialised tools",
+          "Soldered components"
+        ]
+      },
+      {
+        "chapter_id": "5.1.5.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Electronic system security]-[Fuel injection pump protection]",
+        "topic_keywords": [
+          "Fuel injection pump",
+          "Tampering protection"
+        ],
+        "context_keywords": [
+          "Compression-ignition engines",
+          "Maximum fuel delivery"
+        ]
+      },
+      {
+        "chapter_id": "5.1.5.4.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Electronic system security]-[Exemption request]",
+        "topic_keywords": [
+          "Exemption",
+          "Protection requirements"
+        ],
+        "context_keywords": [
+          "Performance chips",
+          "Sales volume"
+        ]
+      },
+      {
+        "chapter_id": "5.1.5.5.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Electronic system security]-[Programmable code protection]",
+        "topic_keywords": [
+          "Programmable code",
+          "Tamper protection"
+        ],
+        "context_keywords": [
+          "EEPROM",
+          "Write protect features"
+        ]
+      },
+      {
+        "chapter_id": "5.1.6.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[General]-[Roadworthiness inspection]",
+        "topic_keywords": [
+          "Roadworthiness test",
+          "Inspection procedure"
+        ],
+        "context_keywords": [
+          "Service manual",
+          "Special equipment"
+        ]
+      },
+      {
+        "chapter_id": "5.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Test procedure]",
+        "topic_keywords": [
+          "Test procedure",
+          "Type approval routes"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.2.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Test procedure]-[Positive ignition engine tests]",
+        "topic_keywords": [
+          "Positive ignition engine",
+          "Test types"
+        ],
+        "context_keywords": [
+          "Type I test",
+          "Type II test",
+          "Type III test",
+          "Type IV test",
+          "Type V test",
+          "Type VI test",
+          "OBD test"
+        ]
+      },
+      {
+        "chapter_id": "5.2.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Test procedure]-[LPG/NG vehicle tests]",
+        "topic_keywords": [
+          "LPG vehicles",
+          "NG vehicles",
+          "Test types"
+        ],
+        "context_keywords": [
+          "Type I test",
+          "Type II test",
+          "Type III test",
+          "Type IV test",
+          "Type V test",
+          "Type VI test",
+          "OBD test"
+        ]
+      },
+      {
+        "chapter_id": "5.2.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Test procedure]-[Compression ignition engine tests]",
+        "topic_keywords": [
+          "Compression ignition engine",
+          "Test types"
+        ],
+        "context_keywords": [
+          "Type I test",
+          "Type V test",
+          "OBD test"
+        ]
+      },
+      {
+        "chapter_id": "5.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]",
+        "topic_keywords": [
+          "Test descriptions"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.3.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]",
+        "topic_keywords": [
+          "Type I test",
+          "Cold start exhaust emissions"
+        ],
+        "context_keywords": [
+          "Chassis dynamometer",
+          "Emission sampling"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Test applicability]",
+        "topic_keywords": [
+          "Test applicability",
+          "Vehicle mass"
+        ],
+        "context_keywords": [
+          "Maximum mass",
+          "3.5 tonnes"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Test setup]",
+        "topic_keywords": [
+          "Test setup",
+          "Chassis dynamometer"
+        ],
+        "context_keywords": [
+          "Load simulation",
+          "Inertia simulation"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.2.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Test duration]",
+        "topic_keywords": [
+          "Test duration",
+          "Part One and Part Two"
+        ],
+        "context_keywords": [
+          "19 minutes 40 seconds",
+          "Unsampled period"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.2.1.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[LPG/NG composition variation]",
+        "topic_keywords": [
+          "LPG composition",
+          "NG composition",
+          "Test variation"
+        ],
+        "context_keywords": [
+          "Annex 12",
+          "Fuel types"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.2.1.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Emergency fuel system]",
+        "topic_keywords": [
+          "Emergency fuel system",
+          "Gaseous fuel test"
+        ],
+        "context_keywords": [
+          "Petrol tank capacity",
+          "15 litres"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.2.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Part One urban cycles]",
+        "topic_keywords": [
+          "Urban cycles",
+          "Elementary cycles"
+        ],
+        "context_keywords": [
+          "15 phases",
+          "Idling",
+          "Acceleration",
+          "Steady speed",
+          "Deceleration"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.2.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Part Two extra-urban cycle]",
+        "topic_keywords": [
+          "Extra-urban cycle",
+          "13 phases"
+        ],
+        "context_keywords": [
+          "Idling",
+          "Acceleration",
+          "Steady speed",
+          "Deceleration"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.2.4.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Emission sampling]",
+        "topic_keywords": [
+          "Emission sampling",
+          "Gas analysis"
+        ],
+        "context_keywords": [
+          "Diluted exhaust",
+          "Proportional sample",
+          "Carbon monoxide",
+          "Hydrocarbons",
+          "Nitrogen oxides",
+          "Particulate pollutants"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Test procedure reference]",
+        "topic_keywords": [
+          "Test procedure",
+          "Annex 4"
+        ],
+        "context_keywords": [
+          "Gas collection",
+          "Analysis methods",
+          "Particulate weighing"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.4.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Emission limits]",
+        "topic_keywords": [
+          "Emission limits",
+          "Deterioration factors"
+        ],
+        "context_keywords": [
+          "Gaseous emissions",
+          "Particulate mass",
+          "Reference mass",
+          "Vehicle categories"
+        ],
+        "parameters": [],
+        "refs": [],
+        "table_headers": [
+          "Category",
+          "Class",
+          "Reference mass (RW) (kg)",
+          "L1 (g/km)",
+          "L2 (g/km)",
+          "L3 (g/km)",
+          "L2 + L3 (g/km)",
+          "L4 (g/km)"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.4.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Limit exceedance tolerance]",
+        "topic_keywords": [
+          "Limit exceedance",
+          "Tolerance"
+        ],
+        "context_keywords": [
+          "10 per cent exceedance",
+          "Arithmetical mean"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.4.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Gaseous fuel emission limits]",
+        "topic_keywords": [
+          "Gaseous fuel emissions",
+          "Petrol limits"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.3.1.5.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Test reduction conditions]",
+        "topic_keywords": [
+          "Test reduction",
+          "Number of tests"
+        ],
+        "context_keywords": [
+          "First test result",
+          "Second test result"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.5.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Single test condition]",
+        "topic_keywords": [
+          "Single test",
+          "Emission level"
+        ],
+        "context_keywords": [
+          "0.70 L limit"
+        ]
+      },
+      {
+        "chapter_id": "5.3.1.5.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type I test]-[Two tests condition]",
+        "topic_keywords": [
+          "Two tests",
+          "Emission criteria"
+        ],
+        "context_keywords": [
+          "0.85 L limit",
+          "1.70 L sum"
+        ]
+      },
+      {
+        "chapter_id": "5.3.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type II test]",
+        "topic_keywords": [
+          "Type II test",
+          "Idling speed carbon monoxide"
+        ],
+        "context_keywords": [
+          "Positive ignition engines",
+          "Mass exceeding 3.5 tonnes"
+        ]
+      },
+      {
+        "chapter_id": "5.3.2.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type II test]-[Test applicability]",
+        "topic_keywords": [
+          "Test applicability",
+          "Dual fuel vehicles"
+        ],
+        "context_keywords": [
+          "LPG",
+          "NG",
+          "Petrol"
+        ]
+      },
+      {
+        "chapter_id": "5.3.2.1.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type II test]-[Dual fuel testing]",
+        "topic_keywords": [
+          "Dual fuel testing",
+          "Both fuels"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.3.2.1.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type II test]-[Emergency fuel system]",
+        "topic_keywords": [
+          "Emergency fuel system",
+          "Gaseous fuel only"
+        ],
+        "context_keywords": [
+          "Petrol tank capacity",
+          "15 litres"
+        ]
+      },
+      {
+        "chapter_id": "5.3.2.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type II test]-[Emission limit]",
+        "topic_keywords": [
+          "Carbon monoxide limit",
+          "Idling speed"
+        ],
+        "context_keywords": [
+          "3.5 per cent",
+          "4.5 per cent",
+          "Manufacturer setting"
+        ],
+        "parameters": [
+          {
+            "item": "carbon monoxide content by volume at manufacturer setting",
+            "constraint": "<=",
+            "value": "3.5",
+            "relative_to": null,
+            "unit": "%"
+          },
+          {
+            "item": "carbon monoxide content by volume within adjustment range",
+            "constraint": "<=",
+            "value": "4.5",
+            "relative_to": null,
+            "unit": "%"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Annex 5",
+            "anchor_text": "tested in accordance with Annex 5"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "5.3.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type III test]",
+        "topic_keywords": [
+          "Type III test",
+          "Crankcase emissions"
+        ],
+        "context_keywords": [
+          "Positive ignition engines",
+          "Compression ignition engines exemption"
+        ]
+      },
+      {
+        "chapter_id": "5.3.3.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type III test]-[Test applicability]",
+        "topic_keywords": [
+          "Test applicability",
+          "Dual fuel vehicles"
+        ],
+        "context_keywords": [
+          "Petrol only",
+          "LPG",
+          "NG"
+        ]
+      },
+      {
+        "chapter_id": "5.3.3.1.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type III test]-[Petrol only testing]",
+        "topic_keywords": [
+          "Petrol only testing"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.3.3.1.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type III test]-[Emergency fuel system]",
+        "topic_keywords": [
+          "Emergency fuel system",
+          "Gaseous fuel only"
+        ],
+        "context_keywords": [
+          "Petrol tank capacity",
+          "15 litres"
+        ]
+      },
+      {
+        "chapter_id": "5.3.3.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type III test]-[Crankcase ventilation]",
+        "topic_keywords": [
+          "Crankcase ventilation",
+          "Emission prevention"
+        ],
+        "context_keywords": [
+          "Atmosphere emission"
+        ]
+      },
+      {
+        "chapter_id": "5.3.4.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type IV test]",
+        "topic_keywords": [
+          "Type IV test",
+          "Evaporative emissions"
+        ],
+        "context_keywords": [
+          "Positive ignition engines",
+          "Mass limit",
+          "LPG/NG exemption"
+        ]
+      },
+      {
+        "chapter_id": "5.3.4.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type IV test]-[Test applicability]",
+        "topic_keywords": [
+          "Test applicability",
+          "Dual fuel vehicles"
+        ],
+        "context_keywords": [
+          "Petrol only",
+          "LPG",
+          "NG"
+        ]
+      },
+      {
+        "chapter_id": "5.3.4.1.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type IV test]-[Petrol only testing]",
+        "topic_keywords": [
+          "Petrol only testing"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.3.4.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type IV test]-[Emission limit]",
+        "topic_keywords": [
+          "Evaporative emission limit",
+          "2 g/test"
+        ],
+        "context_keywords": [],
+        "parameters": [
+          {
+            "item": "evaporative emissions",
+            "constraint": "<",
+            "value": "2",
+            "relative_to": null,
+            "unit": "g/test"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Annex 7",
+            "anchor_text": "tested in accordance with Annex 7"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "5.3.5.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]",
+        "topic_keywords": [
+          "Type VI test",
+          "Low temperature emissions"
+        ],
+        "context_keywords": [
+          "Positive ignition engines",
+          "M1 and N1 vehicles",
+          "Mass limit"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Test procedure]",
+        "topic_keywords": [
+          "Test procedure",
+          "Low ambient temperature"
+        ],
+        "context_keywords": [
+          "Chassis dynamometer",
+          "Urban cycles",
+          "266 K",
+          "-7°C"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.1.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Test setup]",
+        "topic_keywords": [
+          "Test setup",
+          "Chassis dynamometer"
+        ],
+        "context_keywords": [
+          "Load simulation",
+          "Inertia simulation"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.1.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Test cycles]",
+        "topic_keywords": [
+          "Test cycles",
+          "Urban driving cycles"
+        ],
+        "context_keywords": [
+          "Part One",
+          "780 seconds",
+          "Engine cranking"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.1.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Test conditioning]",
+        "topic_keywords": [
+          "Test conditioning",
+          "Ambient temperature"
+        ],
+        "context_keywords": [
+          "266 K",
+          "-7°C",
+          "Reproducibility"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.1.4.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Emission sampling]",
+        "topic_keywords": [
+          "Emission sampling",
+          "Gas analysis"
+        ],
+        "context_keywords": [
+          "Diluted exhaust",
+          "Carbon monoxide",
+          "Hydrocarbons"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Emission limits]",
+        "topic_keywords": [
+          "Emission limits",
+          "Low temperature"
+        ],
+        "context_keywords": [
+          "Carbon monoxide",
+          "Hydrocarbons",
+          "Test repetition"
+        ],
+        "parameters": [],
+        "refs": [],
+        "table_headers": [
+          "Test temperature",
+          "Carbon monoxide L1 (g/km)",
+          "Hydrocarbons L2 (g/km)"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.2.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Limit exceedance tolerance]",
+        "topic_keywords": [
+          "Limit exceedance",
+          "Tolerance"
+        ],
+        "context_keywords": [
+          "10 per cent exceedance",
+          "Arithmetical mean"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.2.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Increased tests option]",
+        "topic_keywords": [
+          "Increased tests",
+          "Manufacturer request"
+        ],
+        "context_keywords": [
+          "10 tests",
+          "110 per cent limit"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Test reduction conditions]",
+        "topic_keywords": [
+          "Test reduction",
+          "Number of tests"
+        ],
+        "context_keywords": [
+          "First test result",
+          "Second test result"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.3.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Single test condition]",
+        "topic_keywords": [
+          "Single test",
+          "Emission level"
+        ],
+        "context_keywords": [
+          "0.70 L limit"
+        ]
+      },
+      {
+        "chapter_id": "5.3.5.3.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type VI test]-[Two tests condition]",
+        "topic_keywords": [
+          "Two tests",
+          "Emission criteria"
+        ],
+        "context_keywords": [
+          "0.85 L limit",
+          "1.70 L sum"
+        ]
+      },
+      {
+        "chapter_id": "5.3.6.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type V test]",
+        "topic_keywords": [
+          "Type V test",
+          "Durability of anti-pollution devices"
+        ],
+        "context_keywords": [
+          "Ageing test",
+          "80,000 kilometres"
+        ]
+      },
+      {
+        "chapter_id": "5.3.6.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type V test]-[Test procedure]",
+        "topic_keywords": [
+          "Test procedure",
+          "Ageing test"
+        ],
+        "context_keywords": [
+          "Test track",
+          "Road",
+          "Chassis dynamometer"
+        ]
+      },
+      {
+        "chapter_id": "5.3.6.1.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type V test]-[Dual fuel testing]",
+        "topic_keywords": [
+          "Dual fuel testing",
+          "Deterioration factors"
+        ],
+        "context_keywords": [
+          "Petrol only",
+          "LPG",
+          "NG",
+          "Alternative factors"
+        ]
+      },
+      {
+        "chapter_id": "5.3.6.3.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Type V test]-[Deterioration factors]",
+        "topic_keywords": [
+          "Deterioration factors",
+          "Compliance establishment"
+        ],
+        "context_keywords": [
+          "Emission limits",
+          "Durability"
+        ]
+      },
+      {
+        "chapter_id": "5.3.7.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Roadworthiness data]",
+        "topic_keywords": [
+          "Roadworthiness testing",
+          "Emission data"
+        ],
+        "context_keywords": [
+          "Positive ignition engines"
+        ]
+      },
+      {
+        "chapter_id": "5.3.7.1.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Roadworthiness data]-[Applicability]",
+        "topic_keywords": [
+          "Applicability",
+          "Positive ignition engines"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.3.7.2.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Roadworthiness data]-[Idling test data]",
+        "topic_keywords": [
+          "Idling test data",
+          "Carbon monoxide content"
+        ],
+        "context_keywords": [
+          "Normal idling speed",
+          "Engine speed",
+          "Lambda value"
+        ]
+      },
+      {
+        "chapter_id": "5.3.7.4.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Roadworthiness data]-[Oil temperature]",
+        "topic_keywords": [
+          "Engine oil temperature",
+          "Measurement"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.3.7.5.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Roadworthiness data]-[Data recording]",
+        "topic_keywords": [
+          "Data recording",
+          "Annex 2 table"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "5.3.7.6.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[Roadworthiness data]-[Lambda value accuracy]",
+        "topic_keywords": [
+          "Lambda value accuracy",
+          "Confirmation"
+        ],
+        "context_keywords": [
+          "Production vehicles",
+          "Surveys"
+        ]
+      },
+      {
+        "chapter_id": "5.3.8.",
+        "scope": "[Vehicle emission control systems]-[Specifications and Tests]-[Description of tests]-[OBD test]",
+        "topic_keywords": [
+          "OBD test",
+          "On-board diagnostic"
+        ],
+        "context_keywords": [
+          "Annex 11",
+          "Test procedure"
+        ]
+      },
+      {
+        "chapter_id": "6.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Modifications]",
+        "topic_keywords": [
+          "vehicle type modifications"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "6.1.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Modifications]-[Modification Notification]",
+        "topic_keywords": [
+          "modification notification",
+          "administrative department"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "6.1.1.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Modifications]-[Modification Notification]-[Minor Modification Consideration]",
+        "topic_keywords": [
+          "modification assessment",
+          "adverse effect evaluation",
+          "compliance check"
+        ],
+        "context_keywords": [
+          "adverse effect",
+          "compliance"
+        ]
+      },
+      {
+        "chapter_id": "6.1.2.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Modifications]-[Modification Notification]-[Further Test Requirement]",
+        "topic_keywords": [
+          "test report requirement",
+          "technical service"
+        ],
+        "context_keywords": [
+          "technical service"
+        ]
+      },
+      {
+        "chapter_id": "6.2.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Modifications]-[Approval Communication]",
+        "topic_keywords": [
+          "approval confirmation",
+          "approval refusal",
+          "communication procedure"
+        ],
+        "context_keywords": [
+          "alterations",
+          "Parties to the Agreement"
+        ]
+      },
+      {
+        "chapter_id": "6.3.",
+        "scope": "[Vehicle emission control systems]-[Vehicle Type Modifications]-[Extension of Approval Series Number]",
+        "topic_keywords": [
+          "extension of approval",
+          "series number assignment",
+          "communication form"
+        ],
+        "context_keywords": [
+          "competent authority",
+          "1958 Agreement"
+        ]
+      },
+      {
+        "chapter_id": "7.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL]",
+        "topic_keywords": [
+          "extension of approval"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.1.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Exhaust emission related extensions]",
+        "topic_keywords": [
+          "exhaust emission related extensions"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.1.1.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Exhaust emission related extensions] - [Vehicle types of different reference masses]",
+        "topic_keywords": [
+          "vehicle types",
+          "reference mass",
+          "approval extension"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.1.1.1.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Exhaust emission related extensions] - [Vehicle types of different reference masses]",
+        "topic_keywords": [
+          "approval extension",
+          "reference mass",
+          "equivalent inertia categories"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.1.1.2.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Exhaust emission related extensions] - [Vehicle types of different reference masses]",
+        "topic_keywords": [
+          "approval extension",
+          "vehicle categories",
+          "pollutant masses",
+          "emission limits"
+        ],
+        "context_keywords": [
+          "pollutants"
+        ]
+      },
+      {
+        "chapter_id": "7.1.2.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Exhaust emission related extensions] - [Vehicle types with different overall gear ratios]",
+        "topic_keywords": [
+          "vehicle types",
+          "overall gear ratios",
+          "approval extension"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.1.2.1.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Exhaust emission related extensions] - [Vehicle types with different overall gear ratios]",
+        "topic_keywords": [
+          "gear ratio proportion",
+          "engine speed",
+          "vehicle speed"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.1.2.2.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Exhaust emission related extensions] - [Vehicle types with different overall gear ratios]",
+        "topic_keywords": [
+          "approval extension",
+          "gear ratio variation",
+          "test exemption"
+        ],
+        "context_keywords": [],
+        "parameters": [
+          {
+            "item": "proportion E",
+            "constraint": "<=",
+            "value": "0.08",
+            "relative_to": null,
+            "unit": "times"
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "7.1.2.3.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Exhaust emission related extensions] - [Vehicle types with different overall gear ratios]",
+        "topic_keywords": [
+          "test repetition",
+          "gear ratio variation",
+          "laboratory choice"
+        ],
+        "context_keywords": [],
+        "parameters": [
+          {
+            "item": "proportion E",
+            "constraint": ">",
+            "value": "0.08",
+            "relative_to": null,
+            "unit": "times"
+          },
+          {
+            "item": "proportion E",
+            "constraint": "<=",
+            "value": "0.13",
+            "relative_to": null,
+            "unit": "times"
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "7.1.3.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Exhaust emission related extensions]",
+        "topic_keywords": [
+          "approval extension",
+          "reference mass",
+          "overall transmission ratios"
+        ],
+        "context_keywords": [],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "7.1.1.",
+            "anchor_text": "paragraphs 7.1.1."
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "7.1.2.",
+            "anchor_text": "paragraphs 7.1.2."
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "7.1.4.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Exhaust emission related extensions]",
+        "topic_keywords": [
+          "approval extension limitation"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.2.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Evaporative emissions (Type IV test)]",
+        "topic_keywords": [
+          "evaporative emissions",
+          "Type IV test",
+          "approval extension"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.2.1.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Evaporative emissions (Type IV test)]",
+        "topic_keywords": [
+          "evaporative emissions control system",
+          "approval extension conditions"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.2.1.1.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Evaporative emissions (Type IV test)]",
+        "topic_keywords": [
+          "fuel air metering",
+          "basic principle"
+        ],
+        "context_keywords": [
+          "single point injection",
+          "carburetor"
+        ]
+      },
+      {
+        "chapter_id": "7.2.1.2.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Evaporative emissions (Type IV test)]",
+        "topic_keywords": [
+          "fuel tank",
+          "fuel hoses",
+          "vapour liquid separators"
+        ],
+        "context_keywords": [
+          "tank relief valve"
+        ],
+        "parameters": [
+          {
+            "item": "fuel tank volume",
+            "constraint": "±",
+            "value": "0.10",
+            "relative_to": null,
+            "unit": "times"
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "7.2.1.3.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Evaporative emissions (Type IV test)]",
+        "topic_keywords": [
+          "fuel vapour storage",
+          "trap form",
+          "storage medium"
+        ],
+        "context_keywords": [
+          "air cleaner"
+        ]
+      },
+      {
+        "chapter_id": "7.2.1.4.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Evaporative emissions (Type IV test)]",
+        "topic_keywords": [
+          "carburetor bowl",
+          "fuel volume"
+        ],
+        "context_keywords": [],
+        "parameters": [
+          {
+            "item": "carburetor bowl fuel volume",
+            "constraint": "±",
+            "value": "10",
+            "relative_to": null,
+            "unit": "ml"
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "7.2.1.5.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Evaporative emissions (Type IV test)]",
+        "topic_keywords": [
+          "vapour purging",
+          "purge method"
+        ],
+        "context_keywords": [
+          "air flow",
+          "purge volume"
+        ]
+      },
+      {
+        "chapter_id": "7.2.1.6.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Evaporative emissions (Type IV test)]",
+        "topic_keywords": [
+          "fuel metering system",
+          "sealing",
+          "venting"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.2.2.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Evaporative emissions (Type IV test)]",
+        "topic_keywords": [
+          "approval extension notes",
+          "vehicle characteristics"
+        ],
+        "context_keywords": [
+          "engine size",
+          "engine power",
+          "gearbox",
+          "body styles"
+        ]
+      },
+      {
+        "chapter_id": "7.3.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Durability of anti-pollution devices (Type V test)]",
+        "topic_keywords": [
+          "durability test",
+          "anti-pollution devices",
+          "Type V test",
+          "approval extension"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.3.1.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Durability of anti-pollution devices (Type V test)]",
+        "topic_keywords": [
+          "engine pollution control system",
+          "approval extension",
+          "vehicle types"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.3.1.1.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Durability of anti-pollution devices (Type V test)]",
+        "topic_keywords": [
+          "engine parameters",
+          "cylinder number",
+          "engine capacity",
+          "fuel system"
+        ],
+        "context_keywords": [
+          "cooling system",
+          "combustion process"
+        ],
+        "parameters": [
+          {
+            "item": "engine capacity",
+            "constraint": "±",
+            "value": "0.15",
+            "relative_to": null,
+            "unit": "times"
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "7.3.1.2.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Durability of anti-pollution devices (Type V test)]",
+        "topic_keywords": [
+          "pollution control system",
+          "catalytic converters",
+          "air injection",
+          "exhaust gas recirculation"
+        ],
+        "context_keywords": [
+          "precious metal load",
+          "substrate",
+          "casing"
+        ],
+        "parameters": [
+          {
+            "item": "catalytic converter volume",
+            "constraint": "±",
+            "value": "0.10",
+            "relative_to": null,
+            "unit": "times"
+          },
+          {
+            "item": "precious metal ratio",
+            "constraint": "±",
+            "value": "0.15",
+            "relative_to": null,
+            "unit": "times"
+          },
+          {
+            "item": "temperature variation at catalytic converter inlet",
+            "constraint": ">",
+            "value": "50",
+            "relative_to": null,
+            "unit": "K"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Type I test",
+            "anchor_text": "load setting"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "7.3.1.3.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Durability of anti-pollution devices (Type V test)]",
+        "topic_keywords": [
+          "inertia category",
+          "durability test"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.3.1.4.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [Durability of anti-pollution devices (Type V test)]",
+        "topic_keywords": [
+          "durability test vehicle",
+          "body style",
+          "gearbox",
+          "wheels tyres"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.4.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [On-board diagnostics]",
+        "topic_keywords": [
+          "on-board diagnostics",
+          "OBD",
+          "approval extension"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "7.4.1.",
+        "scope": "[Vehicle emission control systems]-[EXTENSION OF APPROVAL] - [On-board diagnostics]",
+        "topic_keywords": [
+          "OBD system",
+          "approval extension",
+          "vehicle OBD family"
+        ],
+        "context_keywords": [
+          "engine emission control system",
+          "vehicle characteristics"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": "Regulation No.83",
+            "target_id": "Annex 11, Appendix 2",
+            "anchor_text": "Annex 11, Appendix 2"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.",
+        "scope": "[Vehicle emission control systems]-[Conformity of Production]",
+        "topic_keywords": [
+          "Conformity of Production"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.1.",
+        "scope": "[Vehicle emission control systems]-[Conformity of Production] - [Basic Requirements]",
+        "topic_keywords": [
+          "Production Conformity",
+          "Vehicle Type Approval"
+        ],
+        "context_keywords": [
+          "Gaseous Pollutants",
+          "Particulate Pollutants",
+          "Crankcase Emissions",
+          "Evaporative Emissions"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": "E/ECE/324- E/ECE/TRANS/505/Rev.2",
+            "target_id": "Appendix 2",
+            "anchor_text": "conformity of production procedures"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.",
+        "scope": "[Vehicle emission control systems]-[Conformity of Production] - [Checking Procedures]",
+        "topic_keywords": [
+          "Production Conformity Checking",
+          "In-service Conformity"
+        ],
+        "context_keywords": [
+          "Emission Tests",
+          "Type I Test",
+          "Type II Test",
+          "Type III Test",
+          "Type IV Test"
+        ],
+        "parameters": [
+          {
+            "item": "vehicle age for conformity check",
+            "constraint": "<=",
+            "value": "5",
+            "unit": "years",
+            "source_text": ""
+          },
+          {
+            "item": "vehicle distance for conformity check",
+            "constraint": "<=",
+            "value": "80000",
+            "unit": "km",
+            "source_text": ""
+          },
+          {
+            "item": "vehicle age for conformity check from 2005",
+            "constraint": "<=",
+            "value": "5",
+            "unit": "years",
+            "source_text": ""
+          },
+          {
+            "item": "vehicle distance for conformity check from 2005",
+            "constraint": "<=",
+            "value": "100000",
+            "unit": "km",
+            "source_text": ""
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.1.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity] - [Audit]",
+        "topic_keywords": [
+          "In-service Conformity Audit"
+        ],
+        "context_keywords": [
+          "Administrative Department",
+          "Manufacturer Information"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": "E/ECE/324-E/ECE/TRANS/505/Rev.2",
+            "target_id": "Appendix 2",
+            "anchor_text": "procedures for audit"
+          },
+          {
+            "ref_type": "graph",
+            "doc_id": null,
+            "target_id": "Figure 4/1",
+            "anchor_text": "procedure for in-service conformity checking"
+          },
+          {
+            "ref_type": "graph",
+            "doc_id": null,
+            "target_id": "Figure 4/2",
+            "anchor_text": "procedure for in-service conformity checking"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.1.2.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements]",
+        "topic_keywords": [
+          "Audit Information Requirements"
+        ],
+        "context_keywords": [
+          "Manufacturer Data"
+        ],
+        "parameters": [],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.1.2.1.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Manufacturer Identification]",
+        "topic_keywords": [
+          "Manufacturer Name",
+          "Address"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.2.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Representative Contact]",
+        "topic_keywords": [
+          "Authorized Representative",
+          "Contact Details"
+        ],
+        "context_keywords": [
+          "Telephone",
+          "Fax",
+          "Email"
+        ]
+      },
+      {
+        "chapter_id": "8.2.1.2.3.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Vehicle Models]",
+        "topic_keywords": [
+          "Vehicle Model Names"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.4.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Vehicle Types List]",
+        "topic_keywords": [
+          "Vehicle Types",
+          "In-service Family"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.5.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Vehicle Identification]",
+        "topic_keywords": [
+          "Vehicle Identification Number",
+          "VIN Prefix"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.6.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Type Approval Numbers]",
+        "topic_keywords": [
+          "Type Approval Numbers",
+          "Extensions",
+          "Recalls"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.7.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Approval Details]",
+        "topic_keywords": [
+          "Type Approval Extensions",
+          "Field Fixes",
+          "Recalls"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.8.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Data Collection Period]",
+        "topic_keywords": [
+          "Data Collection Period"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.9.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Vehicle Build Period]",
+        "topic_keywords": [
+          "Vehicle Build Period"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.10.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Checking Procedure]",
+        "topic_keywords": [
+          "In-service Conformity Procedure"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.10.1.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Checking Procedure] - [Vehicle Location]",
+        "topic_keywords": [
+          "Vehicle Location Method"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.10.2.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Checking Procedure] - [Vehicle Selection]",
+        "topic_keywords": [
+          "Vehicle Selection Criteria",
+          "Rejection Criteria"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.10.3.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Checking Procedure] - [Test Types]",
+        "topic_keywords": [
+          "Test Types",
+          "Test Procedures"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.10.4.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Checking Procedure] - [Acceptance Criteria]",
+        "topic_keywords": [
+          "Acceptance Criteria",
+          "Rejection Criteria"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.10.5.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Checking Procedure] - [Geographical Area]",
+        "topic_keywords": [
+          "Geographical Area",
+          "Data Collection"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.10.6.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Checking Procedure] - [Sampling Plan]",
+        "topic_keywords": [
+          "Sample Size",
+          "Sampling Plan"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.11.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Test Results]",
+        "topic_keywords": [
+          "Test Results",
+          "Vehicle Identification"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.11.2.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Test Results] - [Rejection Reasons]",
+        "topic_keywords": [
+          "Vehicle Rejection Reasons"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.11.3.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Test Results] - [Service History]",
+        "topic_keywords": [
+          "Service History"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.11.4.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Test Results] - [Repair History]",
+        "topic_keywords": [
+          "Repair History"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.1.2.11.5.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [Test Results] - [Test Data]",
+        "topic_keywords": [
+          "Test Data",
+          "Emission Results"
+        ],
+        "context_keywords": [
+          "Test Conditions",
+          "Dynamometer Settings"
+        ]
+      },
+      {
+        "chapter_id": "8.2.1.2.12.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity Audit] - [Information Requirements] - [OBD Records]",
+        "topic_keywords": [
+          "OBD System Records"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "8.2.2.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity] - [Audit Exemption]",
+        "topic_keywords": [
+          "Audit Exemption",
+          "Sales Threshold"
+        ],
+        "context_keywords": [
+          "Annual Sales",
+          "Geographic Penetration"
+        ],
+        "parameters": [
+          {
+            "item": "annual worldwide sales of vehicle type",
+            "constraint": "<",
+            "value": "10000",
+            "unit": "vehicles per annum",
+            "source_text": ""
+          },
+          {
+            "item": "annual sales within European Union",
+            "constraint": "<",
+            "value": "5000",
+            "unit": "vehicles per annum",
+            "source_text": ""
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.3.",
+        "scope": "[Vehicle emission control systems]-[Conformity of Production] - [Type I Test]",
+        "topic_keywords": [
+          "Type I Test",
+          "Production Conformity"
+        ],
+        "context_keywords": [
+          "Vehicle Selection",
+          "Testing Conditions"
+        ],
+        "parameters": [],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.3.1.",
+        "scope": "[Vehicle emission control systems]-[Type I Test] - [Conformity Checking]",
+        "topic_keywords": [
+          "Type I Test Conformity"
+        ],
+        "context_keywords": [
+          "Hybrid Electric Vehicles",
+          "OVC",
+          "NOVC"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 14",
+            "anchor_text": "conditions for hybrid electric vehicles"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.3.1.1.",
+        "scope": "[Vehicle emission control systems]-[Type I Test] - [Conformity Checking] - [Vehicle Testing]",
+        "topic_keywords": [
+          "Vehicle Sampling",
+          "Emission Testing"
+        ],
+        "context_keywords": [
+          "Deterioration Factors",
+          "Limit Values"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.",
+            "anchor_text": "test procedure and limit values"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.3.1.1.1.",
+        "scope": "[Vehicle emission control systems]-[Type I Test] - [Conformity Checking] - [Vehicle Testing] - [Periodically Regenerating Systems]",
+        "topic_keywords": [
+          "Periodically Regenerating Systems",
+          "Emission Results"
+        ],
+        "context_keywords": [
+          "Regeneration Factors",
+          "Test after Regeneration"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 13",
+            "anchor_text": "procedure for periodically regenerating systems"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.3.1.2.",
+        "scope": "[Vehicle emission control systems]-[Type I Test] - [Conformity Checking] - [Standard Deviation]",
+        "topic_keywords": [
+          "Production Standard Deviation"
+        ],
+        "context_keywords": [
+          "Appendix 1",
+          "Appendix 2"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Appendix 1",
+            "anchor_text": "test procedure with production standard deviation"
+          },
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Appendix 2",
+            "anchor_text": "test procedure without production standard deviation"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.3.1.3.",
+        "scope": "[Vehicle emission control systems]-[Type I Test] - [Conformity Checking] - [Sampling Decision]",
+        "topic_keywords": [
+          "Sampling Test Decision"
+        ],
+        "context_keywords": [
+          "Pass Decision",
+          "Fail Decision"
+        ],
+        "parameters": [],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.3.2.",
+        "scope": "[Vehicle emission control systems]-[Type I Test] - [Vehicle Condition]",
+        "topic_keywords": [
+          "Vehicle Testing Condition"
+        ],
+        "context_keywords": [
+          "Production Line",
+          "Running-in"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 4",
+            "anchor_text": "test conditions"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.3.2.1.",
+        "scope": "[Vehicle emission control systems]-[Type I Test] - [Vehicle Condition] - [Running-in Allowance]",
+        "topic_keywords": [
+          "Running-in Procedure"
+        ],
+        "context_keywords": [
+          "Positive-Ignition Engine",
+          "Compression-Ignition Engine"
+        ],
+        "parameters": [
+          {
+            "item": "running-in distance for positive-ignition engine vehicles",
+            "constraint": "<=",
+            "value": "3000",
+            "unit": "km",
+            "source_text": ""
+          },
+          {
+            "item": "running-in distance for compression-ignition engine vehicles",
+            "constraint": "<=",
+            "value": "15000",
+            "unit": "km",
+            "source_text": ""
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.3.2.2.",
+        "scope": "[Vehicle emission control systems]-[Type I Test] - [Vehicle Condition] - [Evolution Coefficient]",
+        "topic_keywords": [
+          "Emission Evolution Coefficient"
+        ],
+        "context_keywords": [
+          "Zero km Emissions",
+          "X km Emissions"
+        ],
+        "parameters": [
+          {
+            "item": "running-in distance for positive-ignition engine vehicles",
+            "constraint": "<=",
+            "value": "3000",
+            "unit": "km",
+            "source_text": ""
+          },
+          {
+            "item": "running-in distance for compression-ignition engine vehicles",
+            "constraint": "<=",
+            "value": "15000",
+            "unit": "km",
+            "source_text": ""
+          }
+        ],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.3.2.3.",
+        "scope": "[Vehicle emission control systems]-[Type I Test] - [Vehicle Condition] - [Test Fuel]",
+        "topic_keywords": [
+          "Test Fuel",
+          "Additional Tests"
+        ],
+        "context_keywords": [
+          "Commercial Fuel",
+          "Reference Fuels",
+          "Type III Test",
+          "Type IV Test"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 10",
+            "anchor_text": "reference fuels"
+          },
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 14",
+            "anchor_text": "conditions for hybrid electric vehicles"
+          },
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 7",
+            "anchor_text": "Type IV test procedure"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.4.",
+        "scope": "[Vehicle emission control systems]-[Conformity of Production] - [Evaporative Emissions]",
+        "topic_keywords": [
+          "Evaporative Emissions Conformity"
+        ],
+        "context_keywords": [
+          "Average Emissions",
+          "Limit Value"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 7",
+            "anchor_text": "test procedure for evaporative emissions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.4.2.",
+            "anchor_text": "limit value for evaporative emissions"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.5.",
+        "scope": "[Vehicle emission control systems]-[Conformity of Production] - [End-of-Line Testing]",
+        "topic_keywords": [
+          "End-of-Production-Line Testing"
+        ],
+        "context_keywords": [
+          "Routine Testing"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 7",
+            "anchor_text": "requirements for end-of-production-line testing"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.6.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostics] - [Conformity Checking]",
+        "topic_keywords": [
+          "OBD Conformity"
+        ],
+        "context_keywords": [],
+        "parameters": [],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.6.1.",
+        "scope": "[Vehicle emission control systems]-[OBD Conformity] - [Vehicle Selection]",
+        "topic_keywords": [
+          "OBD Test Vehicle Selection"
+        ],
+        "context_keywords": [
+          "Random Sampling",
+          "Annex 11"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 11, Appendix 1",
+            "anchor_text": "OBD test procedure"
+          },
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 14",
+            "anchor_text": "conditions for hybrid electric vehicles"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.6.2.",
+        "scope": "[Vehicle emission control systems]-[OBD Conformity] - [Test Compliance]",
+        "topic_keywords": [
+          "OBD Test Compliance"
+        ],
+        "context_keywords": [],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 11, Appendix 1",
+            "anchor_text": "OBD test requirements"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.6.3.",
+        "scope": "[Vehicle emission control systems]-[OBD Conformity] - [Additional Sampling]",
+        "topic_keywords": [
+          "OBD Additional Sampling"
+        ],
+        "context_keywords": [
+          "Four Vehicles",
+          "Running-in Limit"
+        ],
+        "parameters": [
+          {
+            "item": "running-in distance for OBD test vehicles",
+            "constraint": "<=",
+            "value": "15000",
+            "unit": "km",
+            "source_text": ""
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 11, Appendix 1",
+            "anchor_text": "OBD test procedure"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.6.4.",
+        "scope": "[Vehicle emission control systems]-[OBD Conformity] - [Compliance Decision]",
+        "topic_keywords": [
+          "OBD Compliance Decision"
+        ],
+        "context_keywords": [
+          "Majority Rule"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Annex 11, Appendix 1",
+            "anchor_text": "OBD test requirements"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.7.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity] - [Audit Decision]",
+        "topic_keywords": [
+          "In-service Conformity Decision"
+        ],
+        "context_keywords": [
+          "Administrative Department",
+          "Remedial Measures"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Appendix 3",
+            "anchor_text": "in-service conformity testing"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.7.1",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity] - [Audit Decision] - [Type I Test Check]",
+        "topic_keywords": [
+          "Type I Test Check",
+          "Statistical Criteria"
+        ],
+        "context_keywords": [],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Appendix 4",
+            "anchor_text": "statistical criteria for Type I tests"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.7.2.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity] - [Audit Decision] - [Vehicle Sample Selection]",
+        "topic_keywords": [
+          "Vehicle Sample Selection"
+        ],
+        "context_keywords": [
+          "Sufficient Mileage",
+          "Normal Conditions"
+        ],
+        "parameters": [],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.7.3.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity] - [Audit Decision] - [Defect Investigation]",
+        "topic_keywords": [
+          "Defect Investigation",
+          "Test Result Exclusion"
+        ],
+        "context_keywords": [
+          "Leaded Petrol",
+          "Sulphur Level"
+        ],
+        "parameters": [],
+        "refs": [],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.7.3.1.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity] - [Audit Decision] - [Defect Investigation] - [Exclusion Conditions]",
+        "topic_keywords": [
+          "Test Result Exclusion Conditions"
+        ],
+        "context_keywords": [
+          "Approval Certificate",
+          "Sulphur Level Exceedance"
+        ],
+        "parameters": [
+          {
+            "item": "sulphur level in petrol fuel for category A vehicles",
+            "constraint": ">",
+            "value": "150",
+            "unit": "mg/kg",
+            "source_text": ""
+          },
+          {
+            "item": "sulphur level in diesel fuel for category A vehicles",
+            "constraint": ">",
+            "value": "350",
+            "unit": "mg/kg",
+            "source_text": ""
+          },
+          {
+            "item": "sulphur level in petrol or diesel fuel for category B vehicles",
+            "constraint": ">",
+            "value": "50",
+            "unit": "mg/kg",
+            "source_text": ""
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.4.",
+            "anchor_text": "emission limits categories"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.7.4.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity] - [Audit Decision] - [Remedial Measures]",
+        "topic_keywords": [
+          "Remedial Measures",
+          "Vehicle Recall"
+        ],
+        "context_keywords": [
+          "Type Approval Authority",
+          "Agreement Parties"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": "E/ECE/324- E/ECE/TRANS/505/Rev.2",
+            "target_id": "Appendix 2",
+            "anchor_text": "remedial measures"
+          },
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Appendix 3",
+            "anchor_text": "procedures for in-service conformity"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "8.2.7.5.",
+        "scope": "[Vehicle emission control systems]-[In-service Conformity] - [Audit Decision] - [Non-Conformity Notification]",
+        "topic_keywords": [
+          "Non-Conformity Notification",
+          "Remedial Plan"
+        ],
+        "context_keywords": [
+          "Original Type Approval",
+          "Manufacturer Consultation"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "external",
+            "doc_id": null,
+            "target_id": "Appendix 3",
+            "anchor_text": "requirements for remedial measures"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "9.",
+        "scope": "[Vehicle emission control systems]-[penalties for non-conformity of production]",
+        "topic_keywords": [
+          "penalties",
+          "non-conformity of production"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "9.1.",
+        "scope": "[Vehicle emission control systems]-[penalties for non-conformity of production]-[approval withdrawal conditions]",
+        "topic_keywords": [
+          "approval withdrawal",
+          "non-conformity"
+        ],
+        "context_keywords": [
+          "compliance failure",
+          "test failure"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "8.1.",
+            "anchor_text": "requirements"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "8.2.",
+            "anchor_text": "tests"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "9.2.",
+        "scope": "[Vehicle emission control systems]-[penalties for non-conformity of production]-[notification of withdrawal]",
+        "topic_keywords": [
+          "notification",
+          "approval withdrawal"
+        ],
+        "context_keywords": [
+          "contracting parties",
+          "communication form"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Annex 2",
+            "anchor_text": "communication form"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "10.",
+        "scope": "[Vehicle emission control systems]-[Production Discontinuation] - [Notification Procedure]",
+        "topic_keywords": [
+          "production discontinuation",
+          "notification requirements",
+          "approval holder obligations"
+        ],
+        "context_keywords": [
+          "authority",
+          "1958 Agreement",
+          "communication"
+        ],
+        "parameters": [],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Annex 2",
+            "anchor_text": "communication form model"
+          }
+        ],
+        "table_headers": []
+      },
+      {
+        "chapter_id": "11.",
+        "scope": "[Vehicle emission control systems]-[Transitional Provisions]",
+        "topic_keywords": [
+          "transitional provisions"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.",
+        "scope": "[Vehicle emission control systems]-[Transitional Provisions]-[General]",
+        "topic_keywords": [
+          "general transitional provisions"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.1.",
+        "scope": "[Vehicle emission control systems]-[Transitional Provisions]-[General]-[Approval Grant Condition]",
+        "topic_keywords": [
+          "approval grant",
+          "05 series amendments"
+        ],
+        "context_keywords": [
+          "contracting parties"
+        ]
+      },
+      {
+        "chapter_id": "11.1.2.",
+        "scope": "[Vehicle emission control systems]-[Transitional Provisions]-[General]-[New Type Approvals]",
+        "topic_keywords": [
+          "new type approvals"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.2.1.",
+        "scope": "[Vehicle emission control systems]-[New Type Approvals]-[Implementation Requirements]",
+        "topic_keywords": [
+          "new type approval requirements",
+          "emission limits compliance",
+          "vehicle categories"
+        ],
+        "context_keywords": [
+          "Type I test",
+          "vehicle category M",
+          "vehicle category N1"
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.4",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.5",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.6",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.4",
+            "anchor_text": "Type I test limits"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.2.2.",
+        "scope": "[Vehicle emission control systems]-[New Type Approvals]-[Implementation Requirements]",
+        "topic_keywords": [
+          "new type approval requirements",
+          "emission limits compliance",
+          "vehicle categories"
+        ],
+        "context_keywords": [
+          "Type I test",
+          "vehicle category M",
+          "vehicle category N1",
+          "class I",
+          "class II",
+          "class III"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": "<=",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          },
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.4",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.5",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.6",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.7",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.4",
+            "anchor_text": "Type I test limits"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.3.",
+        "scope": "[Vehicle emission control systems]-[Transitional Provisions]-[General]-[Existing Type Approvals Validity]",
+        "topic_keywords": [
+          "existing type approvals validity"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.3.1.",
+        "scope": "[Vehicle emission control systems]-[Existing Type Approvals Validity]-[Cessation Conditions]",
+        "topic_keywords": [
+          "approval validity cessation",
+          "04 series amendments"
+        ],
+        "context_keywords": [
+          "vehicle category M",
+          "vehicle category N1",
+          "class I",
+          "class II",
+          "class III"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": "<=",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          },
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.4",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.5",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.6",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.2.1",
+            "anchor_text": "requirements"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.3.2.",
+        "scope": "[Vehicle emission control systems]-[Existing Type Approvals Validity]-[Cessation Conditions]",
+        "topic_keywords": [
+          "approval validity cessation",
+          "05 series amendments",
+          "emission limits"
+        ],
+        "context_keywords": [
+          "vehicle category M",
+          "vehicle category N1",
+          "class I",
+          "class II",
+          "class III"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": "<=",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          },
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.4",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.5",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.6",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.7",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.4",
+            "anchor_text": "emission limits"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.2.2",
+            "anchor_text": "requirements"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.4.",
+        "scope": "[Vehicle emission control systems]-[Transitional Provisions]-[General]-[Special Provisions]",
+        "topic_keywords": [
+          "special provisions"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.4.1.",
+        "scope": "[Vehicle emission control systems]-[Special Provisions]-[Vehicle Category Treatment]",
+        "topic_keywords": [
+          "vehicle category treatment",
+          "compression ignition engines"
+        ],
+        "context_keywords": [
+          "vehicle category M1",
+          "off-road vehicles",
+          "occupants"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2000",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.3.1",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.3.2",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "external",
+            "doc_id": "R.E.3",
+            "target_id": "Annex 7",
+            "anchor_text": "Consolidated Resolution on the Construction of Vehicles"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.4.2.",
+        "scope": "[Vehicle emission control systems]-[Special Provisions]-[Approval Validity Extension]",
+        "topic_keywords": [
+          "approval validity extension",
+          "direct injection engines"
+        ],
+        "context_keywords": [
+          "compression ignition engines",
+          "occupants"
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.4.1",
+            "anchor_text": "requirements"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.4.3.",
+        "scope": "[Vehicle emission control systems]-[Special Provisions]-[Type Approval and Conformity Provisions]",
+        "topic_keywords": [
+          "type approval provisions",
+          "conformity of production"
+        ],
+        "context_keywords": [
+          "04 series amendments"
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.2.1",
+            "anchor_text": "provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.3.1",
+            "anchor_text": "provisions"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.4.4.",
+        "scope": "[Vehicle emission control systems]-[Special Provisions]-[Type VI Test Application]",
+        "topic_keywords": [
+          "Type VI test application",
+          "positive ignition engines"
+        ],
+        "context_keywords": [
+          "vehicle category M1",
+          "vehicle category N1",
+          "class 1",
+          "occupants",
+          "maximum mass"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Annex 8",
+            "anchor_text": "Type VI test"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.5.",
+        "scope": "[Vehicle emission control systems]-[Transitional Provisions]-[General]-[On-Board Diagnostic System]",
+        "topic_keywords": [
+          "on-board diagnostic system",
+          "OBD"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.5.1.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Positive Ignition Engines]",
+        "topic_keywords": [
+          "OBD system",
+          "positive ignition engines"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.5.1.1.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Positive Ignition Engines]-[Implementation Timeline]",
+        "topic_keywords": [
+          "OBD installation timeline",
+          "petrol fuelled vehicles"
+        ],
+        "context_keywords": [
+          "vehicle category M1",
+          "vehicle category N1"
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "3.1",
+            "anchor_text": "on-board diagnostic systems"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Annex 11",
+            "anchor_text": "on-board diagnostic systems"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.2",
+            "anchor_text": "dates"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.5.1.2.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Positive Ignition Engines]-[Implementation Timeline]",
+        "topic_keywords": [
+          "OBD installation timeline",
+          "LPG NG fuelled vehicles"
+        ],
+        "context_keywords": [
+          "vehicle category M1",
+          "vehicle category N1",
+          "class I",
+          "class II",
+          "class III"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.5.2.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Compression Ignition Engines]",
+        "topic_keywords": [
+          "OBD system",
+          "compression ignition engines"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.5.2.1.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Compression Ignition Engines]-[Implementation Timeline]",
+        "topic_keywords": [
+          "OBD installation timeline",
+          "vehicle categories"
+        ],
+        "context_keywords": [
+          "vehicle category M1",
+          "occupants",
+          "maximum mass"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.5.2.2.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Compression Ignition Engines]-[Implementation Timeline]",
+        "topic_keywords": [
+          "OBD installation timeline",
+          "vehicle categories"
+        ],
+        "context_keywords": [
+          "vehicle category M1",
+          "vehicle category N1",
+          "class I"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.5.2.3.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Compression Ignition Engines]-[Implementation Timeline]",
+        "topic_keywords": [
+          "OBD installation timeline",
+          "vehicle categories"
+        ],
+        "context_keywords": [
+          "vehicle category N1",
+          "class II",
+          "class III",
+          "vehicle category M1",
+          "maximum mass"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.5.2.4.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Compression Ignition Engines]-[Existing Vehicles OBD Provisions]",
+        "topic_keywords": [
+          "OBD provisions",
+          "existing vehicles"
+        ],
+        "context_keywords": [
+          "compression ignition engines"
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "6.5.3",
+            "anchor_text": "on-board diagnostic systems provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "6.5.3.6",
+            "anchor_text": "on-board diagnostic systems provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Annex 11",
+            "anchor_text": "Appendix 1"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.5.3.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Hybrid Electric Vehicles]",
+        "topic_keywords": [
+          "OBD system",
+          "hybrid electric vehicles",
+          "HEV"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.5.3.1.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Hybrid Electric Vehicles]-[Implementation Timeline]",
+        "topic_keywords": [
+          "OBD installation timeline",
+          "HEV categories"
+        ],
+        "context_keywords": [
+          "positive ignition engines",
+          "compression ignition engines",
+          "vehicle category M1",
+          "vehicle category N1",
+          "class I"
+        ]
+      },
+      {
+        "chapter_id": "11.1.5.3.2.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Hybrid Electric Vehicles]-[Implementation Timeline]",
+        "topic_keywords": [
+          "OBD installation timeline",
+          "HEV categories"
+        ],
+        "context_keywords": [
+          "compression ignition engines",
+          "vehicle category N1",
+          "class II",
+          "class III",
+          "vehicle category M1",
+          "maximum mass"
+        ]
+      },
+      {
+        "chapter_id": "11.1.5.4.",
+        "scope": "[Vehicle emission control systems]-[On-Board Diagnostic System]-[Other Vehicles]",
+        "topic_keywords": [
+          "OBD provisions",
+          "other vehicle categories"
+        ],
+        "context_keywords": [
+          "vehicle category M1",
+          "vehicle category N1"
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "6.5.3",
+            "anchor_text": "on-board diagnostic systems provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "6.5.3.6",
+            "anchor_text": "on-board diagnostic systems provisions"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "Annex 11",
+            "anchor_text": "Appendix 1"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.6.",
+        "scope": "[Vehicle emission control systems]-[Transitional Provisions]-[General]-[04 Series Amendments Approvals]",
+        "topic_keywords": [
+          "04 series amendments approvals"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.6.1.",
+        "scope": "[Vehicle emission control systems]-[04 Series Amendments Approvals]-[Exception Conditions]",
+        "topic_keywords": [
+          "approval exception",
+          "export countries"
+        ],
+        "context_keywords": [
+          "unleaded petrol availability",
+          "diesel fuel sulphur level"
+        ],
+        "parameters": [
+          {
+            "item": "sulphur level",
+            "constraint": "=",
+            "value": "50",
+            "relative_to": null,
+            "unit": "mg/kg"
+          },
+          {
+            "item": "sulphur level",
+            "constraint": "=",
+            "value": "350",
+            "relative_to": null,
+            "unit": "mg/kg"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.2",
+            "anchor_text": "requirements"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.3",
+            "anchor_text": "requirements"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.4.1",
+            "anchor_text": "requirements for unleaded petrol"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.4.2",
+            "anchor_text": "requirements for unleaded petrol sulphur level"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.4.3",
+            "anchor_text": "requirements for diesel fuel sulphur level"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.6.2.",
+        "scope": "[Vehicle emission control systems]-[04 Series Amendments Approvals]-[Validity Cessation in European Community]",
+        "topic_keywords": [
+          "approval validity cessation",
+          "European Community"
+        ],
+        "context_keywords": [
+          "vehicle category M",
+          "vehicle category N1",
+          "class I",
+          "class II",
+          "class III"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": "<=",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          },
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.2.1",
+            "anchor_text": "requirements"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.7.",
+        "scope": "[Vehicle emission control systems]-[Transitional Provisions]-[General]-[05 Series Amendments Approvals]",
+        "topic_keywords": [
+          "05 series amendments approvals"
+        ],
+        "context_keywords": []
+      },
+      {
+        "chapter_id": "11.1.7.1.",
+        "scope": "[Vehicle emission control systems]-[05 Series Amendments Approvals]-[Exception Conditions]",
+        "topic_keywords": [
+          "approval exception",
+          "export countries"
+        ],
+        "context_keywords": [
+          "unleaded petrol availability",
+          "diesel fuel sulphur level"
+        ],
+        "parameters": [
+          {
+            "item": "sulphur level",
+            "constraint": "=",
+            "value": "50",
+            "relative_to": null,
+            "unit": "mg/kg"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.2.2",
+            "anchor_text": "requirements"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.3.2",
+            "anchor_text": "requirements"
+          },
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "5.3.1.4",
+            "anchor_text": "emission limits"
+          }
+        ]
+      },
+      {
+        "chapter_id": "11.1.7.2.",
+        "scope": "[Vehicle emission control systems]-[05 Series Amendments Approvals]-[Validity Cessation in European Community]",
+        "topic_keywords": [
+          "approval validity cessation",
+          "European Community"
+        ],
+        "context_keywords": [
+          "vehicle category M",
+          "vehicle category N1",
+          "class I",
+          "class II",
+          "class III"
+        ],
+        "parameters": [
+          {
+            "item": "maximum mass",
+            "constraint": "<=",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          },
+          {
+            "item": "maximum mass",
+            "constraint": ">",
+            "value": "2500",
+            "relative_to": null,
+            "unit": "kg"
+          }
+        ],
+        "refs": [
+          {
+            "ref_type": "clause",
+            "doc_id": null,
+            "target_id": "11.1.2.2",
+            "anchor_text": "requirements"
+          }
+        ]
+      },
+      {
+        "chapter_id": "12.",
+        "scope": "[Vehicle emission control systems]-[technical services and administrative departments]",
+        "topic_keywords": [
+          "technical services",
+          "administrative departments",
+          "names and addresses",
+          "communication requirement"
+        ],
+        "context_keywords": []
+      }
+    ]
+  }
+]
