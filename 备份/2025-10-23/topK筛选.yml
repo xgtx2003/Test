@@ -1,0 +1,746 @@
+app:
+  description: ''
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: advanced-chat
+  name: 10.23 topk筛选 引入上下文
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/deepseek:0.0.6@dd589dc093c8084925858034ab5ec1fdf0d33819f43226c2f8c4a749a9acbbb2
+kind: app
+version: 0.4.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        audio_file_size_limit: 50
+        batch_count_limit: 5
+        file_size_limit: 15
+        image_file_size_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 10
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: start
+        targetType: code
+      id: 1759462105654-source-1759462328767-target
+      selected: false
+      source: '1759462105654'
+      sourceHandle: source
+      target: '1759462328767'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: iteration
+      id: 1759462328767-source-1759467601110-target
+      selected: false
+      source: '1759462328767'
+      sourceHandle: source
+      target: '1759467601110'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1759467601110'
+        sourceType: iteration-start
+        targetType: llm
+      id: 1759467601110start-source-1759467629444-target
+      selected: false
+      source: 1759467601110start
+      sourceHandle: source
+      target: '1759467629444'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1759467601110'
+        sourceType: llm
+        targetType: code
+      id: 1759467629444-source-1759467659348-target
+      selected: false
+      source: '1759467629444'
+      sourceHandle: source
+      target: '1759467659348'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: iteration
+        targetType: iteration
+      id: 1759467601110-source-1761146628628-target
+      source: '1759467601110'
+      sourceHandle: source
+      target: '1761146628628'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1761146628628'
+        sourceType: iteration-start
+        targetType: code
+      id: 1761146628628start-source-1761146637925-target
+      source: 1761146628628start
+      sourceHandle: source
+      target: '1761146637925'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1761146628628'
+        sourceType: code
+        targetType: llm
+      id: 1761146637925-source-1761146640444-target
+      source: '1761146637925'
+      sourceHandle: source
+      target: '1761146640444'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1761146628628'
+        sourceType: llm
+        targetType: code
+      id: 1761146640444-source-1761146644616-target
+      source: '1761146640444'
+      sourceHandle: source
+      target: '1761146644616'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: iteration
+        targetType: code
+      id: 1761146628628-source-1761146651735-target
+      source: '1761146628628'
+      sourceHandle: source
+      target: '1761146651735'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: answer
+      id: 1761146651735-source-1761146711281-target
+      source: '1761146651735'
+      sourceHandle: source
+      target: '1761146711281'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables:
+        - label: temp
+          max_length: 10000000
+          options:
+          - CELEX_42006X1227(06)_EN_TXT
+          - R048r12e
+          required: true
+          type: select
+          variable: base_dir
+      height: 89
+      id: '1759462105654'
+      position:
+        x: 30
+        y: 306.5
+      positionAbsolute:
+        x: 30
+        y: 306.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        code: "import json\nimport os\n\ndef estimate_tokens(text: str) -> int:\n\
+          \    \"\"\"估算文本的token数量\"\"\"\n    # 如果tiktoken不可用，使用粗略估算：1个token约4个字符\n\
+          \    return len(text) // 4\n\ndef main(base_dir: str) -> dict:    \n   \
+          \ file_path = f\"/tmp/mydata/{base_dir}/comparison_results.json\"\n\n  \
+          \  with open(file_path, 'r', encoding='utf-8') as f:\n        data = json.load(f)\n\
+          \    \n    # 每个分组的项目数量\n    items_per_chunk = 15\n    \n    chunks = []\n\
+          \    for i in range(0, len(data), items_per_chunk):\n        chunk_data\
+          \ = data[i:i + items_per_chunk]\n        chunk_json = json.dumps(chunk_data,\
+          \ ensure_ascii=False)\n        chunks.append(chunk_json)\n    \n    # 输出分块信息用于调试\n\
+          \    print(f\"总共分为 {len(chunks)} 个分块\")\n    for i, chunk in enumerate(chunks):\n\
+          \        tokens = estimate_tokens(chunk)\n        chunk_data = json.loads(chunk)\n\
+          \        start_id = chunk_data[0].get('chapter_id', '') if chunk_data else\
+          \ ''\n        end_id = chunk_data[-1].get('chapter_id', '') if chunk_data\
+          \ else ''\n        print(f\"分块 {i+1}: {len(chunk_data)} 个项目, ~{tokens} tokens,\
+          \ 从 {start_id} 到 {end_id}\")\n    \n    return {\n        \"chunks\": chunks,\n\
+          \        \"total_chunks\": len(chunks)\n    }"
+        code_language: python3
+        desc: ''
+        outputs:
+          chunks:
+            children: null
+            type: array[string]
+          total_chunks:
+            children: null
+            type: number
+        selected: false
+        title: 代码执行
+        type: code
+        variables:
+        - value_selector:
+          - '1759462105654'
+          - base_dir
+          value_type: string
+          variable: base_dir
+      height: 53
+      id: '1759462328767'
+      position:
+        x: 334
+        y: 306.5
+      positionAbsolute:
+        x: 334
+        y: 306.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        error_handle_mode: continue-on-error
+        height: 213
+        is_parallel: true
+        iterator_input_type: array[string]
+        iterator_selector:
+        - '1759462328767'
+        - chunks
+        output_selector:
+        - '1759467659348'
+        - result
+        output_type: array[string]
+        parallel_nums: 10
+        selected: false
+        start_node_id: 1759467601110start
+        title: 迭代
+        type: iteration
+        width: 1072
+      height: 213
+      id: '1759467601110'
+      position:
+        x: 612.6514285714286
+        y: 306.5
+      positionAbsolute:
+        x: 612.6514285714286
+        y: 306.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 1072
+      zIndex: 1
+    - data:
+        desc: ''
+        isInIteration: true
+        selected: false
+        title: ''
+        type: iteration-start
+      draggable: false
+      height: 48
+      id: 1759467601110start
+      parentId: '1759467601110'
+      position:
+        x: 60
+        y: 80.5
+      positionAbsolute:
+        x: 672.6514285714286
+        y: 387
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-iteration-start
+      width: 44
+      zIndex: 1002
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1759467601110'
+        model:
+          completion_params: {}
+          mode: chat
+          name: deepseek-reasoner
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: b13d17ca-b83f-43f7-9e7e-b8794867394f
+          role: system
+          text: "# 角色\n\n你是一个汽车检测领域的法规/标准条款匹配专家，任务是在`json`数据中，为每个章节找到最合适的候选章节，确保它们谈论同一主题或涉及高度相似的内容，便于后续进行差异化分析。\n\
+            \n# 输出格式\n\n输出必须是纯净、完整的`json`对象，确保可以被`json.loads()`直接解析，结构如下：\n\n```\n\
+            [\n  \"file\": \"string\",\n  \"section\": \"string\",\n  \"chapter_id\"\
+            : \"string\",\n  \"choices\":[] // 列表，包含所有匹配的候选章节路径，如[\"regulation\",\"\
+            MAIN\",\"3.1\"]\n]\n```\n\n# 指导原则\n\n- 不要仅依赖分数：分数是通过`scope`、`parameters`、`topic_keywords`、`context_keywords`、和`parameters`字段分别进行向量化和召回操作，然后加权得到，可能无法捕捉语义细节，请确保始终以内容理解为主。\n\
+            - 原始文本分析：请利用`raw_text`和`chapter_title`字段以便更好地理解内容。\n- 表头相似或参数相似，通常是强匹配信号\n\
+            - 范围优先：scope字段是高层主题，应首先考虑是否一致。\n- 层级一致性：即层级不可能相差巨大，选择时要格外注意（比如当前章节是最外层3，不太可能匹配候选章节中的8.2.1.10.2等，反之亦然）。\n\
+            - 空间一致性：相近的当前章节（比如7.2.1，7.2.2，7.2.3，但不包括2和3这种外层章节跨越的情况），选出来的最匹配候选章节在空间上不应相隔太远（比如5.3.1.5.1，7.3，12.3.1.5等），选择时要格外注意\n\
+            - 大胆地不选择：不是每个项都必须输出匹配内容，在充分理解语义后认为不匹配的项应该大胆地不进行选择。"
+        - id: 91c473ce-d57a-4bb7-be52-7f995238c1a7
+          role: user
+          text: '{{#1759467601110.item#}}'
+        selected: false
+        title: LLM 2
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1759467629444'
+      parentId: '1759467601110'
+      position:
+        x: 202.45150117500214
+        y: 78.96000000000004
+      positionAbsolute:
+        x: 815.1029297464307
+        y: 385.46000000000004
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "import json\nimport ast\nimport re\nfrom typing import Dict, List,\
+          \ Any\n\ndef parse_input(src: str) -> List[Dict[str, Any]]:\n    \"\"\"\
+          预处理并解析输入字符串为列表字典结构\"\"\"\n    try:\n        # 1. 按 </think> 切分并取后半段\n  \
+          \      src = src.rsplit('</think>', 1)[-1].strip()\n\n        # 2. 先干掉 deepseek\
+          \ V3 可能插入的“极速”或单独的“极”\n        src = re.sub(r'极速\\s*', '', src)   # 去掉“极速”及其后可能的多余空白\n\
+          \        src = re.sub(r'(?<!\\w)极(?!\\w)', '', src)  # 去掉孤立出现的“极”\n\n  \
+          \      # 3. 尝试多种解析路径\n        try:\n            data = json.loads(src)\n\
+          \        except json.JSONDecodeError:\n            try:\n              \
+          \  if src.startswith('\\ufeff'):\n                    src = src[1:]\n  \
+          \              data = ast.literal_eval(src)\n            except (SyntaxError,\
+          \ ValueError):\n                try:\n                    processed = src.replace('\\\
+          \\\"', '\"').replace('\\\\n', '\\n')\n                    data = json.loads(processed)\n\
+          \                except Exception as e:\n                    raise ValueError(f\"\
+          无法解析：{str(e)}\")\n\n        # 4. 保证返回 list\n        if isinstance(data,\
+          \ dict):\n            return [data]\n        elif isinstance(data, list):\n\
+          \            return data\n        else:\n            return []\n    except\
+          \ Exception as e:\n        raise ValueError(f\"预处理失败: {str(e)}\")\n\n\n\
+          def main(arg1: str) -> dict:\n    data = parse_input(arg1)\n    # data =\
+          \ json.dumps(data,ensure_ascii=False)\n    json_data = [json.dumps(item,\
+          \ ensure_ascii=False) for item in data]\n    \n    return {\n        \"\
+          result\":json_data\n    }"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1759467601110'
+        outputs:
+          result:
+            children: null
+            type: array[string]
+        selected: false
+        title: 代码执行 2
+        type: code
+        variables:
+        - value_selector:
+          - '1759467629444'
+          - text
+          value_type: string
+          variable: arg1
+      height: 53
+      id: '1759467659348'
+      parentId: '1759467601110'
+      position:
+        x: 506.3590023500042
+        y: 77.95999999999998
+      positionAbsolute:
+        x: 1119.0104309214328
+        y: 384.46
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        error_handle_mode: continue-on-error
+        height: 177
+        is_parallel: true
+        iterator_input_type: array[string]
+        iterator_selector:
+        - '1759467601110'
+        - output
+        output_selector:
+        - '1761146644616'
+        - result
+        output_type: array[string]
+        parallel_nums: 10
+        selected: false
+        start_node_id: 1761146628628start
+        title: 迭代 2
+        type: iteration
+        width: 996
+      height: 177
+      id: '1761146628628'
+      position:
+        x: 1768.6844988249977
+        y: 306.5
+      positionAbsolute:
+        x: 1768.6844988249977
+        y: 306.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 996
+      zIndex: 1
+    - data:
+        desc: ''
+        isInIteration: true
+        selected: false
+        title: ''
+        type: iteration-start
+      draggable: false
+      height: 48
+      id: 1761146628628start
+      parentId: '1761146628628'
+      position:
+        x: 24
+        y: 68
+      positionAbsolute:
+        x: 1792.6844988249977
+        y: 374.5
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-iteration-start
+      width: 44
+      zIndex: 1002
+    - data:
+        code: "import json\nimport copy\nfrom typing import List, Dict, Any, Optional,\
+          \ Tuple\n\ndef find_path(chapters: List[Dict[str, Any]], target_id: str)\
+          \ -> Optional[List[Dict[str, Any]]]:\n    \"\"\"\n    在任意层级 chapters 中深度优先搜索，找到\
+          \ chapter_id == target_id 的节点路径（列表）。\n    若找到则返回从顶至目标节点的节点列表；找不到返回 None。\n\
+          \    \"\"\"\n    stack = []\n\n    def dfs(nodes):\n        for node in\
+          \ nodes:\n            stack.append(node)\n            if node.get(\"chapter_id\"\
+          ) == target_id:\n                return True\n            children = node.get(\"\
+          children\") or [] # 这里想获得孩子该怎么改？\n            if dfs(children):\n      \
+          \          return True\n            stack.pop()\n        return False\n\n\
+          \    if dfs(chapters):\n        return stack.copy()\n    return None\n\n\
+          \ndef prune_to_path(path_nodes: List[Dict[str, Any]]) -> Dict[str, Any]:\n\
+          \    \"\"\"\n    根据路径节点列表，构造一棵只包含路径分支的子树。\n    输出为路径首节点（通常是第一级目录，如 '1.'）的深拷贝，\n\
+          \    且其 children 只保留路径上的下一个节点（其他同级全部裁掉）。\n    \"\"\"\n    # 从根到叶逐层构建\n \
+          \   def build(i: int) -> Dict[str, Any]:\n        # 深拷贝以避免修改原数据\n      \
+          \  node_copy = copy.deepcopy(path_nodes[i])\n        # 末端节点：children 清空\n\
+          \        if i == len(path_nodes) - 1:\n            node_copy[\"children\"\
+          ] = []\n            return node_copy\n        # 非末端：children 只保留路径上的下一个节点\n\
+          \        next_child = build(i + 1)\n        node_copy[\"children\"] = [next_child]\n\
+          \        return node_copy\n\n    return build(0)\n\n\ndef keep_section_with_pruned_chapters(section:\
+          \ Dict[str, Any], pruned_root: Dict[str, Any]) -> Dict[str, Any]:\n    \"\
+          \"\"\n    仅保留找到目标章节所在的 section，并将其中 chapters 替换为仅包含裁剪后的根节点。\n    其他 section（若有）将不保留（调用方决定）。\n\
+          \    \"\"\"\n    kept = copy.deepcopy(section)\n    kept[\"chapters\"] =\
+          \ [pruned_root]\n    return kept\n\n\ndef extract_chain(data: List[Dict[str,\
+          \ Any]], target_id: str) -> Tuple[List[Dict[str, Any]], bool]:\n    \"\"\
+          \"\n    在整个数据中查找 target_id，若找到：\n      - 仅保留命中的那个 section\n      - section.chapters\
+          \ 只保留“第一级目录 → … → target_id”这条链\n    返回 (new_data, found)\n    \"\"\"\n\
+          \    new_data = []\n    found_any = False\n\n    for f in data:\n      \
+          \  file_obj = copy.deepcopy(f)\n        sections = f.get(\"sections\") or\
+          \ []\n\n        if sections:\n            sec = sections[0] # 只找第一个\n  \
+          \          chapters = sec.get(\"chapters\") or []\n            path = find_path(chapters,\
+          \ target_id)\n            if path:\n                # path[0] 即该目标所属的“第一级目录”节点（如\
+          \ '1.' 或 '5.'）\n                pruned_root = prune_to_path(path)\n    \
+          \            file_obj[\"sections\"]=[keep_section_with_pruned_chapters(sec,\
+          \ pruned_root)]\n                new_data.append(file_obj)\n           \
+          \     found_any = True\n                # 只保留命中的那个 section，通常一个 target 只会命中一个\
+          \ section\n                break\n\n    return new_data, found_any\n\ndef\
+          \ fix_format(item):\n    \"\"\"修正错误的格式\"\"\"\n    # 如果是长度为3的列表，且第三个元素符合格式要求，则返回重新封装后的列表\n\
+          \    if len(item) == 3 and isinstance(item[2], str):\n        return [item]\
+          \  # 将其封装在一个新的列表中\n    return item\n\ndef process_choices(input_data: Dict[str,\
+          \ Any], right_data: List[Dict[str, Any]],left_data: List[Dict[str, Any]])\
+          \ -> Dict[str, Any]:\n    \"\"\"\n    根据 'choices' 中的每个 chapter_id 查找章节内容，并将所有找到的\
+          \ context 合并到一个字段中\n    \"\"\"\n    context_combined = []\n\n    # 处理每个\
+          \ choice\n    for choice in input_data.get(\"choices\", []):\n        fix_format(choice)\n\
+          \        chapter_id = choice[2]  # 获取 chapter_id（第三项）\n        pruned_data,\
+          \ found = extract_chain(right_data, chapter_id)\n\n        if found:\n \
+          \           context_combined.append(pruned_data[0])\n    \n    chapter_id\
+          \ = input_data.get(\"chapter_id\",\"\")\n    pruned_data,found = extract_chain(left_data,chapter_id)\n\
+          \n    if found:\n        input_data[\"chapter_context\"] = pruned_data\n\
+          \    \n    input_data[\"choice_context\"] = context_combined\n    return\
+          \ input_data\n\ndef main(base_dir:str,text:str) -> dict:\n\n    right_path\
+          \ = f\"/tmp/mydata/{base_dir}/ECE.json\"\n    left_path = f\"/tmp/mydata/{base_dir}/GSO.json\"\
+          \n\n    with open(right_path, \"r\", encoding=\"utf-8\") as f:\n       \
+          \ right_data = json.load(f)\n\n    with open(left_path, \"r\", encoding=\"\
+          utf-8\") as f:\n        left_data = json.load(f)\n\n    input_data = json.loads(text)\n\
+          \n    result_data = process_choices(input_data, right_data,left_data)\n\
+          \    res = json.dumps(result_data,ensure_ascii=False,)\n\n    return {\n\
+          \        \"result\":res\n    }"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1761146628628'
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 4
+        type: code
+        variables:
+        - value_selector:
+          - '1759462105654'
+          - base_dir
+          value_type: string
+          variable: base_dir
+        - value_selector:
+          - '1761146628628'
+          - item
+          value_type: string
+          variable: text
+      height: 53
+      id: '1761146637925'
+      parentId: '1761146628628'
+      position:
+        x: 129
+        y: 68
+      positionAbsolute:
+        x: 1897.6844988249977
+        y: 374.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1761146628628'
+        model:
+          completion_params:
+            temperature: 0.7
+          mode: chat
+          name: deepseek-reasoner
+          provider: langgenius/deepseek/deepseek
+        prompt_template:
+        - id: b3cd657f-e91c-4548-89aa-b17806231ef3
+          role: system
+          text: "# 角色\n\n你是一个汽车检测领域的法规/标准条款匹配专家，任务是在`json`数据中，对现有的选择结果进行二次筛选，判断当前选择章节是否匹配，确保它们谈论同一主题或涉及高度相似的内容，便于后续进行差异化分析。\n\
+            # 输入格式\n你将收到一个 JSON 字符串，其中包含若干元素，元素结构如下：\n\n```\n[\n  \"file\": \"string\"\
+            ,\n  \"section\": \"string\",\n  \"chapter_id\": \"string\",\n  \"choices\"\
+            :[] // 列表，包含所有匹配的候选章节路径，如 \"regulation\",\"MAIN\",\"3.1\"],\n  \"chapter_context\"\
+            :[] // 列表，包含了当前章节的上下文内容,\n  \"choice_context\":[] // 列表，分别对应了每个choice章节的上下文内容\n\
+            ]\n```\n\n# 输出格式\n\n输出必须是纯净、完整的`json`对象，确保可以被`json.loads()`直接解析，结构如下：\n\
+            \n```\n[\n  \"file\": \"string\",\n  \"section\": \"string\",\n  \"chapter_id\"\
+            : \"string\",\n  \"choices\":[] // 列表，包含所有匹配的候选章节路径，如[\"regulation\",\"\
+            MAIN\",\"3.1\"]\n]\n```\n\n# 指导原则\n\n- 不进行添加：只进行过滤，无匹配项的章节绝对不添加匹配项。\n\n\
+            - 原始文本分析：请根据已选择匹配项，利用给出的上下文进行分析，请妥善利用提供的两种`context`字段，始终保持语义理解为主。\n\n\
+            - 上下文说明：提供的两钟`context`字段中，包含了其所在大章节的一级目录到其对应章节的上下文信息。\n\n- 大胆地不进行选择：不是每个项都必须输出匹配内容，在充分理解语义之后认为不匹配的项应该大胆地不进行选择。"
+        - id: 8b5df4ad-dc1a-4869-bd21-15361a395cd7
+          role: user
+          text: '{{#1761146637925.result#}}'
+        selected: true
+        title: LLM 2
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 89
+      id: '1761146640444'
+      parentId: '1761146628628'
+      position:
+        x: 431
+        y: 66
+      positionAbsolute:
+        x: 2199.6844988249977
+        y: 372.5
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "import json\nimport ast\nimport re\nfrom typing import Dict, List,\
+          \ Any\n\ndef parse_input(src: str) -> List[Dict[str, Any]]:\n    \"\"\"\
+          预处理并解析输入字符串为列表字典结构\"\"\"\n    try:\n        # 1. 按 </think> 切分并取后半段\n  \
+          \      src = src.rsplit('</think>', 1)[-1].strip()\n\n        # 2. 先干掉 deepseek\
+          \ V3 可能插入的“极速”或单独的“极”\n        src = re.sub(r'极速\\s*', '', src)   # 去掉“极速”及其后可能的多余空白\n\
+          \        src = re.sub(r'(?<!\\w)极(?!\\w)', '', src)  # 去掉孤立出现的“极”\n\n  \
+          \      # 3. 尝试多种解析路径\n        try:\n            data = json.loads(src)\n\
+          \        except json.JSONDecodeError:\n            try:\n              \
+          \  if src.startswith('\\ufeff'):\n                    src = src[1:]\n  \
+          \              data = ast.literal_eval(src)\n            except (SyntaxError,\
+          \ ValueError):\n                try:\n                    processed = src.replace('\\\
+          \\\"', '\"').replace('\\\\n', '\\n')\n                    data = json.loads(processed)\n\
+          \                except Exception as e:\n                    raise ValueError(f\"\
+          无法解析：{str(e)}\")\n\n        # 4. 保证返回 list\n        if isinstance(data,\
+          \ dict):\n            return [data]\n        elif isinstance(data, list):\n\
+          \            return data\n        else:\n            return []\n    except\
+          \ Exception as e:\n        raise ValueError(f\"预处理失败: {str(e)}\")\n\n\n\
+          def main(arg1: str) -> dict:\n    data = parse_input(arg1)\n    return {\n\
+          \        \"result\": json.dumps(data, ensure_ascii=False),\n    }"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1761146628628'
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 5
+        type: code
+        variables:
+        - value_selector:
+          - '1761146640444'
+          - text
+          value_type: string
+          variable: arg1
+      height: 53
+      id: '1761146644616'
+      parentId: '1761146628628'
+      position:
+        x: 736
+        y: 68
+      positionAbsolute:
+        x: 2504.6844988249977
+        y: 374.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "\nimport json\nimport os\ndef main(arg1: list[str], base_dir: str)\
+          \ -> dict:\n    result = []\n    for temp in arg1:\n        data = json.loads(temp)\n\
+          \        result.extend(data)\n    path = f\"/tmp/mydata/{base_dir}/selected_results.json\"\
+          \n    os.makedirs(os.path.dirname(path), exist_ok=True)\n    with open(path,\
+          \ \"w\", encoding=\"utf-8\") as f:\n        json.dump(result, f, ensure_ascii=False,\
+          \ indent=2)\n    return {\n        \"result\": path,\n    }"
+        code_language: python3
+        desc: ''
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 6
+        type: code
+        variables:
+        - value_selector:
+          - '1761146628628'
+          - output
+          value_type: array[string]
+          variable: arg1
+        - value_selector:
+          - '1759462105654'
+          - base_dir
+          value_type: string
+          variable: base_dir
+      height: 53
+      id: '1761146651735'
+      position:
+        x: 2823.6844988249977
+        y: 306.5
+      positionAbsolute:
+        x: 2823.6844988249977
+        y: 306.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        answer: '{{#1761146628628.output#}}'
+        desc: ''
+        selected: false
+        title: 直接回复
+        type: answer
+        variables: []
+      height: 104
+      id: '1761146711281'
+      position:
+        x: 3129.6844988249977
+        y: 306.5
+      positionAbsolute:
+        x: 3129.6844988249977
+        y: 306.5
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    viewport:
+      x: -1804.1844988249977
+      y: 152
+      zoom: 1
